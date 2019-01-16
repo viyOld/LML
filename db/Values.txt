@@ -1,3 +1,5 @@
+// it is commrnt
+# also comment
 State:
 	0:	Dead
 	1:	Inactive 
@@ -33,7 +35,7 @@ Target:
 	25:	Bioinformatics
 	26:	Astronomy
 	27:	Hobby
-Operating System:
+OS:
 	1:	Linux
 	2:	FreeBSD
 	3:	Windows7
@@ -42,20 +44,18 @@ Operating System:
 	6:	KolibriOS
 	7:	DOS
 Media:
-	1:FDD
-	2:HDD
-	3:CD
-	4:DVD
-	6:USB
+	1:	FDD
+	2:	HDD
+	3:	CD
+	4:	DVD
+	6:	USB
 Architecture:
-
-
-x86:
-x86-64:
-PPC: 
-PPC64: 
-Eden:
-Xbox:
-Sparc64:
-Mips:
-HPPA: 
+	01:	x86
+	02:	x86-64
+	03:	PPC 
+	04:	PPC64
+	05:	Eden
+	06:	Xbox
+	07:	Sparc64
+	08:	Mips
+	09:	HPPA

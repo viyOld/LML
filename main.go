@@ -14,19 +14,24 @@ import (
 	"os"
 	"strconv"
 	"strings"
+	//"gopkg.in/yaml.v2"
 )
 
 func init() {
 	log.Println("Start Init func: ")
 	readStartDb()
+	readValueDb()
+
 }
 
 func main() {
+	log.Println(" ")
 	log.Println("Start Main func: ")
+	log.Println(" ")
 }
 
 func readStartDb() {
-	file, err := os.Open("./DB/StartDB.txt")
+	file, err := os.Open("./db/StartDB.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
