@@ -3,6 +3,8 @@
 // Roadmap
 // 1 - Pattern
 // 2 - Read start data from file and write to DB
+// 3 - Read config file
+// 4 - Read file variable
 package main
 
 import (
@@ -39,6 +41,7 @@ func readStartDb() {
 		}
 		if strings.HasPrefix(s, "Number: ") {
 			//s = strings.TrimLeft(s, "Number:")
+			fmt.Println("----------------------------")
 			s = strings.TrimPrefix(s, "Number: ")
 			//i, err := strconv.Parse (s, 10, 64)
 			if n, err := strconv.Atoi(s); err == nil {
@@ -81,7 +84,52 @@ func readStartDb() {
 			fmt.Println(mapStr)
 			continue
 		}
-		//fmt.Println("----------------------------")
+		if strings.HasPrefix(s, "Last Stable Version: ") {
+			s = strings.TrimPrefix(s, "Last Stable Version: ")
+			fmt.Println(s)
+			continue
+		}
+		if strings.HasPrefix(s, "Last Release: ") {
+			s = strings.TrimPrefix(s, "Last Release: ")
+			fmt.Println(s)
+			continue
+		}
+		if strings.HasPrefix(s, "Purpose: ") {
+			s = strings.TrimPrefix(s, "Purpose: ")
+			fmt.Println(s)
+			continue
+		}
+		if strings.HasPrefix(s, "Operating System: ") {
+			s = strings.TrimPrefix(s, "Operating System: ")
+			fmt.Println(s)
+			continue
+		}
+		if strings.HasPrefix(s, "Primary Language(s): ") {
+			s = strings.TrimPrefix(s, "Primary Language(s): ")
+			fmt.Println(s)
+			continue
+		}
+		if strings.HasPrefix(s, "State: ") {
+			s = strings.TrimPrefix(s, "State: ")
+			fmt.Println(s)
+			continue
+		}
+		if strings.HasPrefix(s, "Media: ") {
+			s = strings.TrimPrefix(s, "Media: ")
+			fmt.Println(s)
+			continue
+		}
+		if strings.HasPrefix(s, "Architecture: ") {
+			s = strings.TrimPrefix(s, "Architecture: ")
+			fmt.Println(s)
+			continue
+		}
+		if strings.HasPrefix(s, "Note: ") {
+			s = strings.TrimPrefix(s, "Note: ")
+			fmt.Println(s)
+			continue
+		}
+
 	}
 
 	if err := scanner.Err(); err != nil {

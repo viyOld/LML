@@ -1,0 +1,61 @@
+State:
+	0:	Dead
+	1:	Inactive 
+	2:	Zombie
+	3:	Phantom
+	4:	Active
+Target:
+	00:	System Administration
+	01:	Desktop
+	02:	OS Installation
+	03:	Education
+	04:	Rescue
+	05:	Clustering
+	06:	Security
+	07:	Home Entertainment
+	08:	Gaming
+	09:	Medical
+	10:	Diagnostics
+	11:	Firewall
+	12:	Forensics
+	13:	Server
+	14:	Media Production
+	15:	Secure Desktop
+	16:	Robotics
+	17:	Science
+	18:	Kiosk
+	19:	Windows Antivirus
+	20:	Development
+	21:	Thin Client
+	22:	VoIP
+	23:	GIS
+	24:	CNC Metalworking
+	25:	Bioinformatics
+	26:	Astronomy
+	27:	Hobby
+Operating System:
+	1:	Linux
+	2:	FreeBSD
+	3:	Windows7
+	4:	Windows8
+	5:	Windows10
+	6:	KolibriOS
+	7:	DOS
+Media:
+	1:FDD
+	2:HDD
+	3:CD
+	4:DVD
+	6:USB
+Architecture:
+
+
+x86:
+x86-64:
+PPC: 
+PPC64: 
+Eden:
+Xbox:
+Sparc64:
+Mips:
+HPPA: 
