@@ -447,7 +447,7 @@ Media: CD
 Architecture: x86 
 
 Number: 029
-BDI-Live
+Name: BDI-Live
 Homepage: http://bdi4emc.ourproject.org/BDI-4_info.html
 Download: http://bdi4emc.ourproject.org/Where_to_get_it.html
 Wikipedia: 
@@ -958,7 +958,7 @@ Media: DVD
 Architecture: x86 x86-64 
 
 Number: 061
-Damn Small Linux
+Name: Damn Small Linux
 Homepage: http://www.damnsmalllinux.org/
 Download: http://www.damnsmalllinux.org/download.html
 Wikipedia: http://en.wikipedia.org/wiki/Damn_Small_Linux
@@ -1036,7 +1036,7 @@ Primary Language(s): English
 State: Active 
 Media: CD DVD USB Flash Drive 
 Architecture: x86 x86-64 
-Debian Live images are avilable for multiple desktop environments, including Gnome, KDE, XFCE, LXDE, MATE, and Cinnamon. The “standard” image does not contain a desktop, its interface is command line only.
+Note: Debian Live images are avilable for multiple desktop environments, including Gnome, KDE, XFCE, LXDE, MATE, and Cinnamon. The “standard” image does not contain a desktop, its interface is command line only.
 
 Number: 066
 Name: Debox Live CD
@@ -1133,7 +1133,7 @@ Media: CD
 Architecture: x86 
 
 Number: 072
-DoudouLinux
+Name: DoudouLinux
 Homepage: http://www.doudoulinux.org/web/english/index.html
 Download: http://download.doudoulinux.org/?lang=en
 Wikipedia: http://fr.wikipedia.org/wiki/DoudouLinux
@@ -1307,7 +1307,7 @@ Primary Language(s): English
 State: Active 
 Media: DVD USB Flash Drive 
 Architecture: x86 
-Emmabuntüs 2 and 3 are out simultaneously.
+Note: Emmabuntüs 2 and 3 are out simultaneously.
 
 Number: 083
 Name: eMoviX
@@ -1646,7 +1646,7 @@ Media: business card CD MiniCD CD
 Architecture: x86 
 
 Number: 104
-Forensic Hard Copy
+Name: Forensic Hard Copy
 Homepage: http://fhclive.sourceforge.net/ENGLISH.html
 Download: http://www.fhclive.org/
 Wikipedia: 
@@ -1662,7 +1662,7 @@ Media: business card CD MiniCD
 Architecture: x86 
 
 Number: 105
-Formilux
+Name: Formilux
 Homepage: http://formilux.ant-computing.com/
 Download: http://formilux.ant-computing.com/
 Wikipedia: 
@@ -1678,7 +1678,7 @@ Media: CD
 Architecture: x86 
 
 Number: 106
-FreeBSD LiveCD
+Name: FreeBSD LiveCD
 Homepage: http://livecd.sourceforge.net/
 Download: http://livecd.sourceforge.net/download.php
 Wikipedia: 
@@ -1694,7 +1694,7 @@ Media: CD
 Architecture: x86 
 
 Number: 107
-Freeduc
+Name: Freeduc
 Homepage: http://www.ofset.org/freeduc-cd/
 Download: http://sourceforge.net/project/showfiles.php?group_id=13320&package_id=62548
 Wikipedia: 
@@ -1868,7 +1868,7 @@ Media: MiniCD CD
 Architecture: x86 
 
 Number: 118
-GIS-Knoppix
+Name: GIS-Knoppix
 Homepage: http://www.sourcepole.com/sources/software/gis-knoppix/
 Download: ftp://mirror.switch.ch/mirror/gis-knoppix/current/
 Wikipedia: 
@@ -2012,7 +2012,7 @@ Media: DVD USB Flash Drive
 Architecture: x86 
 
 Number: 127
-Helix
+Name: Helix
 Homepage: http://www.e-fense.com/helix/
 Download: https://www.e-fense.com/store/index.php?_a=viewProd&productId=11
 Wikipedia: 
@@ -2412,7 +2412,7 @@ Media: DVD
 Architecture: x86  
 
 Number: 152
-Knoppix Japanese Edition
+Name: Knoppix Japanese Edition
 Homepage: http://www.rcis.aist.go.jp/project/knoppix/index-en.html
 Download: http://www.rcis.aist.go.jp/project/knoppix/index-en.html
 Wikipedia: 
@@ -2538,7 +2538,7 @@ Primary Language(s): English
 State: Active 
 Media: DVD USB Flash Drive 
 Architecture: ARM PPC x86 x86-64 
-Multiple versions are available concurrently, including 14.04 LTS, 15.10, and 16.04 LTS.
+Note: Multiple versions are available concurrently, including 14.04 LTS, 15.10, and 16.04 LTS.
 
 Number: 160
 Name: LAMPPIX
@@ -3194,7 +3194,7 @@ Primary Language(s):
 State: Inactive 
 Media: MiniCD 
 Architecture: x86 
-A later unstable version is available at http://node3.nimblex.net/Download/NimbleX-2012-Beta.iso.
+Note: A later unstable version is available at http://node3.nimblex.net/Download/NimbleX-2012-Beta.iso.
 
 Number: 201
 Name: NIOde
@@ -4644,7 +4644,6 @@ Distrowatch: http://distrowatch.com/table.php?distribution=turnkey
 Size (mebibytes): 156-514
 Last Stable Version: 11.3
 Last Release: 2011-12-06
-
 Purpose: Development Server System Administration 
 Operating System: Linux 
 Primary Language(s): English 
@@ -4739,7 +4738,6 @@ Homepage: https://www.privacy-cd.org/
 Download: https://www.privacy-cd.org/en/using-upr/download
 Wikipedia: 
 Distrowatch: http://distrowatch.com/table.php?distribution=ubuntupr
-
 Size (mebibytes): 1370-1370
 Last Stable Version: 12.04r1
 Last Release: 2014-05-07
@@ -4787,7 +4785,6 @@ Name: Ultimate Boot CD
 Homepage: http://ubcd.sourceforge.net/
 Download: http://ubcd.sourceforge.net/download.html
 Wikipedia: https://en.wikipedia.org/wiki/Ultimate_Boot_CD
-
 Size (mebibytes): 598-598
 Last Stable Version: 5.3.5
 Last Release: 2015-05-24

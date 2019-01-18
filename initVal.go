@@ -9,21 +9,12 @@ import (
 	"strings"
 )
 
-//	State: Target: OS: Media: Architecture:
-var (
-	State        map[string]byte
-	Target       map[string]byte
-	OS           map[string]byte
-	Media        map[string]byte
-	Architecture map[string]byte
-)
-
 func readValueDb() {
-	State := make(map[string]byte)
-	Target := make(map[string]byte)
-	OS := make(map[string]byte)
-	Media := make(map[string]byte)
-	Architecture := make(map[string]byte)
+	// State := make(map[string]byte)
+	// Target := make(map[string]byte)
+	// OS := make(map[string]byte)
+	// Media := make(map[string]byte)
+	// Architecture := make(map[string]byte)
 	// відкриваємо файл з значеннями
 	file, err := os.Open("./db/Values.txt")
 	if err != nil {
@@ -72,6 +63,7 @@ func readValueDb() {
 		}
 		// розділяємо строку на дві
 		st := strings.Split(s, ":")
+		st[1] = strings.TrimSpace(st[1])
 		n, _ := strconv.ParseUint(st[0], 10, 8)
 		//fmt.Println(st)
 		switch flag {
@@ -95,22 +87,17 @@ func readValueDb() {
 	}
 	// fmt.Println(State)
 	// fmt.Println(Target)
-	// fmt.Println(OS)
+	fmt.Println(OS)
 	// fmt.Println(Media)
 	// fmt.Println(Architecture)
 }
 
 // --------------------------------------------------------------------------------------------------
 func readStartDb() {
-	lmlDB := []listMediaLive{listMediaLive{}}
-	lmlDB[0].name = "test1"
-	//lmlDB[1] = listMediaLive{listMediaLive{}}
-	//numbers = append(numbers, 6)
-	lmlDB = append(lmlDB, listMediaLive{})
-	lmlDB[1].name = "test2"
-	//lmlDB[1].name = "test3"
-	fmt.Println(lmlDB[0].name)
-	fmt.Println(lmlDB[1].name)
+	var (
+		n uint64
+		i = -1
+	)
 
 	file, err := os.Open("./db/StartDB.txt")
 	if err != nil {
@@ -126,61 +113,78 @@ func readStartDb() {
 			continue
 		}
 		if strings.HasPrefix(s, "Number: ") {
-			//s = strings.TrimLeft(s, "Number:")
-			fmt.Println("----------------------------")
 			s = strings.TrimPrefix(s, "Number: ")
-			//i, err := strconv.Parse (s, 10, 64)
-			if n, err := strconv.Atoi(s); err == nil {
-				fmt.Printf("%T, %v\n", n, n)
-				//lmlDB[0].name = "xx"
-			} else {
-				fmt.Println(err)
+			s := strings.TrimSpace(s)
+			n, err = strconv.ParseUint(s, 10, 32)
+			if err != nil {
+				panic(err)
 			}
-
+			i++
+			lmlDB = append(lmlDB, listMediaLive{})
+			lmlDB[i].number = int(n)
 			continue
 		}
 		if strings.HasPrefix(s, "Name: ") {
 			s = strings.TrimPrefix(s, "Name: ")
-			//lmlDB[0].name = "nlknc"
-			fmt.Println(s)
+			s := strings.TrimSpace(s)
+			lmlDB[i].name = s
 			continue
 		}
 		if strings.HasPrefix(s, "Homepage: ") {
 			s = strings.TrimPrefix(s, "Homepage: ")
-			fmt.Println(s)
+			s := strings.TrimSpace(s)
+			lmlDB[i].homepage = s
 			continue
 		}
 		if strings.HasPrefix(s, "Download: ") {
 			s = strings.TrimPrefix(s, "Download: ")
-			fmt.Println(s)
+			s := strings.TrimSpace(s)
+			lmlDB[i].download = s
 			continue
 		}
 		if strings.HasPrefix(s, "Wikipedia: ") {
 			s = strings.TrimPrefix(s, "Wikipedia: ")
-			fmt.Println(s)
+			s := strings.TrimSpace(s)
+			lmlDB[i].wikipedia = s
 			continue
 		}
 		if strings.HasPrefix(s, "Distrowatch: ") {
 			s = strings.TrimPrefix(s, "Distrowatch: ")
-			fmt.Println(s)
+			s := strings.TrimSpace(s)
+			lmlDB[i].distrowatch = s
 			continue
 		}
 		if strings.HasPrefix(s, "Size (mebibytes):") {
+			if strings.Contains(s, "-") != true {
+				continue
+			}
 			s = strings.TrimPrefix(s, "Size (mebibytes):")
 			s = strings.TrimSpace(s)
-			// s = split  strings.Split("a,b,c", ",")
-			mapStr := strings.Split(s, "-")
-			fmt.Println(mapStr)
+			st := strings.Split(s, "-")
+			n, err = strconv.ParseUint(st[0], 10, 32)
+			lmlDB[i].sizeMin = int(n)
+			if err != nil {
+				panic(err)
+			}
+			n, err = strconv.ParseUint(st[1], 10, 32)
+			lmlDB[i].sizeMax = int(n)
+			if err != nil {
+				panic(err)
+			}
 			continue
 		}
 		if strings.HasPrefix(s, "Last Stable Version: ") {
 			s = strings.TrimPrefix(s, "Last Stable Version: ")
-			fmt.Println(s)
+			s := strings.TrimSpace(s)
+			lmlDB[i].stableVer = s
+			//fmt.Println(s)
 			continue
 		}
 		if strings.HasPrefix(s, "Last Release: ") {
 			s = strings.TrimPrefix(s, "Last Release: ")
-			fmt.Println(s)
+			s := strings.TrimSpace(s)
+			lmlDB[i].lastRelease = s
+			//fmt.Println(s)
 			continue
 		}
 		if strings.HasPrefix(s, "Purpose: ") {
@@ -190,7 +194,9 @@ func readStartDb() {
 		}
 		if strings.HasPrefix(s, "Operating System: ") {
 			s = strings.TrimPrefix(s, "Operating System: ")
-			fmt.Println(s)
+			s = strings.TrimSpace(s)
+			lmlDB[i].os = OS[s]
+			//fmt.Println(s)
 			continue
 		}
 		if strings.HasPrefix(s, "Primary Language(s): ") {
@@ -215,7 +221,9 @@ func readStartDb() {
 		}
 		if strings.HasPrefix(s, "Note: ") {
 			s = strings.TrimPrefix(s, "Note: ")
-			fmt.Println(s)
+			//fmt.Println(s)
+			//s = strings.TrimPrefix(s, "Wikipedia: ")
+			lmlDB[i].note = s
 			continue
 		}
 
@@ -224,6 +232,23 @@ func readStartDb() {
 	if err := scanner.Err(); err != nil {
 		log.Fatal(err)
 	}
-	fmt.Println(lmlDB[0].name)
-	fmt.Println(lmlDB[1].name)
+	//fmt.Println(lmlDB[0].name)
+	//fmt.Println(lmlDB[1].name)
+	for _, value := range lmlDB {
+		fmt.Println("")
+		fmt.Println(value.number)
+		fmt.Println(value.name)
+		fmt.Println(value.homepage)
+		fmt.Println(value.download)
+		fmt.Println(value.wikipedia)
+		fmt.Println(value.distrowatch)
+		fmt.Println(value.sizeMin)
+		fmt.Println(value.sizeMax)
+		fmt.Println(value.stableVer)
+		fmt.Println(value.lastRelease)
+		fmt.Println(value.os)
+		fmt.Println(value.note)
+		fmt.Println("___________________________________________________")
+	}
+	fmt.Println(OS)
 }
