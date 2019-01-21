@@ -86,8 +86,8 @@ func readValueDb() {
 		log.Fatal(err)
 	}
 	// fmt.Println(State)
-	// fmt.Println(Target)
-	fmt.Println(OS)
+	//fmt.Println(Target)
+	//fmt.Println(OS)
 	// fmt.Println(Media)
 	// fmt.Println(Architecture)
 }
@@ -112,8 +112,8 @@ func readStartDb() {
 		if s == "" {
 			continue
 		}
-		if strings.HasPrefix(s, "Number: ") {
-			s = strings.TrimPrefix(s, "Number: ")
+		if strings.HasPrefix(s, "Number:") {
+			s = strings.TrimPrefix(s, "Number:")
 			s := strings.TrimSpace(s)
 			n, err = strconv.ParseUint(s, 10, 32)
 			if err != nil {
@@ -124,32 +124,32 @@ func readStartDb() {
 			lmlDB[i].number = int(n)
 			continue
 		}
-		if strings.HasPrefix(s, "Name: ") {
-			s = strings.TrimPrefix(s, "Name: ")
+		if strings.HasPrefix(s, "Name:") {
+			s = strings.TrimPrefix(s, "Name:")
 			s := strings.TrimSpace(s)
 			lmlDB[i].name = s
 			continue
 		}
-		if strings.HasPrefix(s, "Homepage: ") {
-			s = strings.TrimPrefix(s, "Homepage: ")
+		if strings.HasPrefix(s, "Homepage:") {
+			s = strings.TrimPrefix(s, "Homepage:")
 			s := strings.TrimSpace(s)
 			lmlDB[i].homepage = s
 			continue
 		}
-		if strings.HasPrefix(s, "Download: ") {
-			s = strings.TrimPrefix(s, "Download: ")
+		if strings.HasPrefix(s, "Download:") {
+			s = strings.TrimPrefix(s, "Download:")
 			s := strings.TrimSpace(s)
 			lmlDB[i].download = s
 			continue
 		}
-		if strings.HasPrefix(s, "Wikipedia: ") {
-			s = strings.TrimPrefix(s, "Wikipedia: ")
+		if strings.HasPrefix(s, "Wikipedia:") {
+			s = strings.TrimPrefix(s, "Wikipedia:")
 			s := strings.TrimSpace(s)
 			lmlDB[i].wikipedia = s
 			continue
 		}
-		if strings.HasPrefix(s, "Distrowatch: ") {
-			s = strings.TrimPrefix(s, "Distrowatch: ")
+		if strings.HasPrefix(s, "Distrowatch:") {
+			s = strings.TrimPrefix(s, "Distrowatch:")
 			s := strings.TrimSpace(s)
 			lmlDB[i].distrowatch = s
 			continue
@@ -173,56 +173,85 @@ func readStartDb() {
 			}
 			continue
 		}
-		if strings.HasPrefix(s, "Last Stable Version: ") {
-			s = strings.TrimPrefix(s, "Last Stable Version: ")
+		if strings.HasPrefix(s, "Last Stable Version:") {
+			s = strings.TrimPrefix(s, "Last Stable Version:")
 			s := strings.TrimSpace(s)
 			lmlDB[i].stableVer = s
 			//fmt.Println(s)
 			continue
 		}
-		if strings.HasPrefix(s, "Last Release: ") {
-			s = strings.TrimPrefix(s, "Last Release: ")
+		if strings.HasPrefix(s, "Last Release:") {
+			s = strings.TrimPrefix(s, "Last Release:")
 			s := strings.TrimSpace(s)
 			lmlDB[i].lastRelease = s
 			//fmt.Println(s)
 			continue
 		}
-		if strings.HasPrefix(s, "Purpose: ") {
-			s = strings.TrimPrefix(s, "Purpose: ")
-			fmt.Println(s)
+		if strings.HasPrefix(s, "Purpose:") {
+			s = strings.TrimPrefix(s, "Purpose:")
+			s := strings.TrimSpace(s)
+			lmlDB[i].target = []int{}
+			k := 0
+			for j, v := range Target {
+				if strings.Contains(s, j) {
+					lmlDB[i].target = append(lmlDB[i].target, int(v))
+					k++
+				}
+
+			}
 			continue
 		}
-		if strings.HasPrefix(s, "Operating System: ") {
-			s = strings.TrimPrefix(s, "Operating System: ")
+		if strings.HasPrefix(s, "Operating System:") {
+			s = strings.TrimPrefix(s, "Operating System:")
 			s = strings.TrimSpace(s)
 			lmlDB[i].os = OS[s]
-			//fmt.Println(s)
 			continue
 		}
 		if strings.HasPrefix(s, "Primary Language(s): ") {
 			s = strings.TrimPrefix(s, "Primary Language(s): ")
-			fmt.Println(s)
-			continue
-		}
-		if strings.HasPrefix(s, "State: ") {
-			s = strings.TrimPrefix(s, "State: ")
-			fmt.Println(s)
-			continue
-		}
-		if strings.HasPrefix(s, "Media: ") {
-			s = strings.TrimPrefix(s, "Media: ")
-			fmt.Println(s)
-			continue
-		}
-		if strings.HasPrefix(s, "Architecture: ") {
-			s = strings.TrimPrefix(s, "Architecture: ")
-			fmt.Println(s)
-			continue
-		}
-		if strings.HasPrefix(s, "Note: ") {
-			s = strings.TrimPrefix(s, "Note: ")
 			//fmt.Println(s)
-			//s = strings.TrimPrefix(s, "Wikipedia: ")
+			continue
+		}
+		if strings.HasPrefix(s, "State:") {
+			s = strings.TrimPrefix(s, "State:")
+			s = strings.TrimSpace(s)
+			lmlDB[i].state = State[s]
+			//fmt.Println(s)
+			continue
+		}
+		if strings.HasPrefix(s, "Media:") {
+			s = strings.TrimPrefix(s, "Media:")
+			s := strings.TrimSpace(s)
+			lmlDB[i].media = []int{}
+			k := 0
+			for j, v := range Media {
+				if strings.Contains(s, j) {
+					lmlDB[i].media = append(lmlDB[i].media, int(v))
+					k++
+				}
+
+			}
+			//fmt.Println(s)
+			continue
+		}
+		if strings.HasPrefix(s, "Architecture:") {
+			s = strings.TrimPrefix(s, "Architecture:") //architecture
+			s := strings.TrimSpace(s)
+			lmlDB[i].architecture = []int{}
+			k := 0
+			for j, v := range Architecture {
+				if strings.Contains(s, j) {
+					lmlDB[i].architecture = append(lmlDB[i].architecture, int(v))
+					k++
+				}
+
+			}
+			//fmt.Println(s)
+			continue
+		}
+		if strings.HasPrefix(s, "Note:") {
+			s = strings.TrimPrefix(s, "Note:")
+			s := strings.TrimSpace(s)
 			lmlDB[i].note = s
 			continue
 		}
@@ -232,8 +261,7 @@ func readStartDb() {
 	if err := scanner.Err(); err != nil {
 		log.Fatal(err)
 	}
-	//fmt.Println(lmlDB[0].name)
-	//fmt.Println(lmlDB[1].name)
+
 	for _, value := range lmlDB {
 		fmt.Println("")
 		fmt.Println(value.number)
@@ -247,8 +275,12 @@ func readStartDb() {
 		fmt.Println(value.stableVer)
 		fmt.Println(value.lastRelease)
 		fmt.Println(value.os)
+		fmt.Println(value.target)
+		fmt.Println(value.state)
+		fmt.Println(value.media)
+		fmt.Println(value.architecture)
 		fmt.Println(value.note)
 		fmt.Println("___________________________________________________")
 	}
-	fmt.Println(OS)
+	// fmt.Println(OS)
 }
