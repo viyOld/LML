@@ -17,8 +17,8 @@ import (
 )
 
 type listMediaLive struct {
-	number       int
-	name         string
+	Number       int
+	Name         string
 	homepage     string
 	download     string
 	wikipedia    string
@@ -29,7 +29,7 @@ type listMediaLive struct {
 	lastRelease  string
 	target       []int
 	os           byte
-	state        byte
+	State        byte
 	media        []int
 	architecture []int
 	note         string
@@ -98,7 +98,9 @@ func httpHandler(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		log.Println("I don`t parse static files assets/http/index.html")
 	}
-	err = parsedTemplate.Execute(w, nil)
+	//err = parsedTemplate.Execute(w, nil)
+
+	err = parsedTemplate.Execute(w, lmlDB)
 	if err != nil {
 		log.Println("Error arsedTemplate.Execute in StartPage : ", err)
 		return

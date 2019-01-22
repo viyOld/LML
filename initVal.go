@@ -121,13 +121,13 @@ func readStartDb() {
 			}
 			i++
 			lmlDB = append(lmlDB, listMediaLive{})
-			lmlDB[i].number = int(n)
+			lmlDB[i].Number = int(n)
 			continue
 		}
 		if strings.HasPrefix(s, "Name:") {
 			s = strings.TrimPrefix(s, "Name:")
 			s := strings.TrimSpace(s)
-			lmlDB[i].name = s
+			lmlDB[i].Name = s
 			continue
 		}
 		if strings.HasPrefix(s, "Homepage:") {
@@ -215,7 +215,7 @@ func readStartDb() {
 		if strings.HasPrefix(s, "State:") {
 			s = strings.TrimPrefix(s, "State:")
 			s = strings.TrimSpace(s)
-			lmlDB[i].state = State[s]
+			lmlDB[i].State = State[s]
 			//fmt.Println(s)
 			continue
 		}
@@ -264,8 +264,8 @@ func readStartDb() {
 
 	for _, value := range lmlDB {
 		fmt.Println("")
-		fmt.Println(value.number)
-		fmt.Println(value.name)
+		fmt.Println(value.Number)
+		fmt.Println(value.Name)
 		fmt.Println(value.homepage)
 		fmt.Println(value.download)
 		fmt.Println(value.wikipedia)
@@ -276,7 +276,7 @@ func readStartDb() {
 		fmt.Println(value.lastRelease)
 		fmt.Println(value.os)
 		fmt.Println(value.target)
-		fmt.Println(value.state)
+		fmt.Println(value.State)
 		fmt.Println(value.media)
 		fmt.Println(value.architecture)
 		fmt.Println(value.note)

@@ -6,14 +6,39 @@
         <main>
           <div align="center">
             <h1>Live Media List</h1>
-            <h3>{{.Name}}!</h3>
-            <h3>Your Id is {{.Id}}</h3> 
-            <div class="row">
-  				<div class="col-sm-3">.col-sm-3</div>
-  				<div class="col-sm-2">.col-sm-2</div>
-  				<div class="col-sm-4">.col-sm-4</div>
- 				<div class="col-sm-3">.col-sm-3</div>
-			</div>          
+            <div class="container">
+            <div class="row" style="background-color: #f0f0f0;">
+              <div class="col-lg-1">№</div>
+              <div class="col-lg-4" align="left">Name</div>
+              <div class="col-lg-1">State</div>
+              <div class="col-lg-1">Home</div>
+              <div class="col-lg-5">Target</div>
+            </div> 
+
+            {{range .}}
+            <div class="row justify-content-center">
+  				    <div class="col-1">{{.Number}}</div>
+  				    <div class="col-4" align="left">{{.Name}}</div>
+
+  				    <div class="col-1">
+                <script id="template" >
+                var n = {{.State}} ;
+                var StateS = '';
+                if (n == 1) {
+                  StateS = "Active"
+                } 
+                if (n == 4) {
+                  StateS = "Dead"
+                }
+                document.write(StateS)
+              </script>{{.State}}
+            </div>
+
+ 				      <div class="col-1">.col-sm-1 </div>
+              <div class="col-5">.col-sm-5</div>
+			      </div>   
+            {{end}}   
+            </div> 
           </div>  
         </main>
 </body>
