@@ -17,27 +17,135 @@
 
             {{range .}}
             <div class="row justify-content-center">
-  				    <div class="col-1">{{.Number}}</div>
-  				    <div class="col-4" align="left">{{.Name}}</div>
+  				<div class="col-1">{{.Number}}</div>
+  				<div class="col-4" align="left">{{.Name}}</div>
+  				<div class="col-1">
+                	<script id="state" >
+                		switch({{.State}}) {
+                			case 0:
+  								document.write("Dead")
+  								break
+  							case 1:
+  								document.write("Inactive")
+								break
+							case 2:
+								document.write("Zombie")
+								break
+							case 3:
+								document.write("Phantom")
+								break
+							case 4:
+  								document.write("Active")
+								break
+							default:
+								document.write("-----")
+								break
+						}
+              		</script>
+            	</div>
+				<div class="col-1"><img src="/assets/img/home36.png" alt="link at home site"></div>
+            	<div class="col-5" align="left">
+            		<script id="target" >
+            			var arr = []
+            			arr = {{.Target}}
+            			var tergetv = ""
+            			for (var i = 0; i < arr.length; i++) {
+            				switch(arr[i]) {
+                			case 0:
+  								tergetv = tergetv + "[System Administration]"
+  								break
+  							case 1:
+  								tergetv = tergetv + "[Desktop]"
+								break
+							case 2:
+								tergetv = tergetv + "[OS Installation]"
+								break
+							case 3:
+								tergetv = tergetv + "[Education]"
+								break
+							case 4:
+  								tergetv = tergetv + "[Rescue]"
+								break
+							case 5:
+  								tergetv = tergetv + "[Clustering]"
+								break
+							case 6:
+  								tergetv = tergetv + "[Security]"
+								break
+							case 7:
+  								tergetv = tergetv + "[Home Entertainment]"
+								break
+							case 8:
+  								tergetv = tergetv + "[Gaming]"
+								break
+							case 9:
+  								tergetv = tergetv + "[Medical]"
+								break
+							case 10:
+  								tergetv = tergetv + "[Diagnostics]"
+								break
+							case 11:
+  								tergetv = tergetv + "[Firewall]"
+								break
+							case 12:
+  								tergetv = tergetv + "[Forensics]"
+								break
+							case 13:
+  								tergetv = tergetv + "[Server]"
+								break
+							case 14:
+  								tergetv = tergetv + "[Media Production]"
+								break
+							case 15:
+  								tergetv = tergetv + "[Secure Desktop]"
+								break
+							case 16:
+  								tergetv = tergetv + "[Robotics]"
+								break
+							case 17:
+  								tergetv = tergetv + "[Science]"
+								break
+							case 18:
+  								tergetv = tergetv + "[Kiosk]"
+								break
+							case 19:
+  								tergetv = tergetv + "[Windows Antivirus]"
+								break
+							case 20:
+  								tergetv = tergetv + "[Development]"
+								break
+							case 21:
+  								tergetv = tergetv + "[Thin Client]"
+								break
+							case 22:
+  								tergetv = tergetv + "[VoIP]"
+								break
+							case 23:
+  								tergetv = tergetv + "[GIS]"
+								break
+							case 24:
+  								tergetv = tergetv + "[CNC Metalworking]"
+								break
+							case 25:
+  								tergetv = tergetv + "[Bioinformatics]"
+								break
+							case 26:
+  								tergetv = tergetv + "[Astronomy]"
+								break
+							case 27:
+  								tergetv = tergetv + "[Hobby]"
+								break
+							default:
+								tergetv = tergetv + i
+								break
+							}
+            			}
+            			document.write(tergetv)
+              		</script>
+            	</div>
+			</div>   
+            {{end}}
 
-  				    <div class="col-1">
-                <script id="template" >
-                var n = {{.State}} ;
-                var StateS = '';
-                if (n == 1) {
-                  StateS = "Active"
-                } 
-                if (n == 4) {
-                  StateS = "Dead"
-                }
-                document.write(StateS)
-              </script>{{.State}}
-            </div>
-
- 				      <div class="col-1">.col-sm-1 </div>
-              <div class="col-5">.col-sm-5</div>
-			      </div>   
-            {{end}}   
             </div> 
           </div>  
         </main>

@@ -190,11 +190,11 @@ func readStartDb() {
 		if strings.HasPrefix(s, "Purpose:") {
 			s = strings.TrimPrefix(s, "Purpose:")
 			s := strings.TrimSpace(s)
-			lmlDB[i].target = []int{}
+			lmlDB[i].Target = []int{}
 			k := 0
 			for j, v := range Target {
 				if strings.Contains(s, j) {
-					lmlDB[i].target = append(lmlDB[i].target, int(v))
+					lmlDB[i].Target = append(lmlDB[i].Target, int(v))
 					k++
 				}
 
@@ -275,7 +275,7 @@ func readStartDb() {
 		fmt.Println(value.stableVer)
 		fmt.Println(value.lastRelease)
 		fmt.Println(value.os)
-		fmt.Println(value.target)
+		fmt.Println(value.Target)
 		fmt.Println(value.State)
 		fmt.Println(value.media)
 		fmt.Println(value.architecture)

@@ -11,7 +11,6 @@ package main
 import (
 	"fmt"
 	"html/template"
-	"log"
 	"net/http"
 	//"gopkg.in/yaml.v2"
 )
@@ -27,7 +26,7 @@ type listMediaLive struct {
 	sizeMax      int
 	stableVer    string
 	lastRelease  string
-	target       []int
+	Target       []int
 	os           byte
 	State        byte
 	media        []int
@@ -36,7 +35,8 @@ type listMediaLive struct {
 }
 
 var (
-	lmlDB        []listMediaLive
+	lmlDB []listMediaLive
+	// maps
 	State        = map[string]byte{}
 	Target       = map[string]byte{}
 	OS           = map[string]byte{}
@@ -62,12 +62,12 @@ func main() {
 	fmt.Println(" ")
 
 	// для отдачи сервером статичных файлов из папки public/static
-	//fs := http.FileServer(http.Dir("./public/static"))
-	//http.Handle("/static/", http.StripPrefix("/static/", fs))
 	fcss := http.FileServer(http.Dir("./assets/css"))
 	http.Handle("/assets/css/", http.StripPrefix("/assets/css/", fcss))
 	fjs := http.FileServer(http.Dir("./assets/js"))
 	http.Handle("/assets/js/", http.StripPrefix("/assets/js/", fjs))
+	fimg := http.FileServer(http.Dir("./assets/img"))
+	http.Handle("/assets/img/", http.StripPrefix("/assets/img/", fimg))
 
 	serveHTTP()
 	fmt.Println(" ")
@@ -75,38 +75,34 @@ func main() {
 
 func serveHTTP() {
 	http.HandleFunc("/", httpHandler)
+	http.HandleFunc("/lm", lmHandler)
 	http.ListenAndServe("127.0.0.1:8080", nil)
 }
 
 func httpHandler(w http.ResponseWriter, r *http.Request) {
 
-	//t := template.New("some template")              // Create a template.
-	//t, _ = t.ParseFiles("./assets/http/index.html") // Parse template file.
-	//user := GetUser()                             // Get current user infomration.
-	//t.Execute(w) // merge.
-	//t.Execute(os.Stdout, nil)
+	fmt.Println("StartPage GET start page +++")
 
-	//fmt.Fprintf(w, "Hello")
-	//log.Printf("request from %s: %s %q", r.RemoteAddr, r.Method, r.URL)
-	//fmt.Fprintf(w, "go-daemon: %q", html.EscapeString(r.URL.Path))
-
-	//logrus.Println("StartPage GET start page +++")
-	log.Println("StartPage GET start page +++")
-	// person := Person{ID: "1", Name: "Foo"}
 	parsedTemplate, err := template.ParseFiles("assets/http/index.html", "assets/http/header.html",
 		"assets/http/footer.html", "assets/http/nav.html")
 	if err != nil {
-		log.Println("I don`t parse static files assets/http/index.html")
+		fmt.Println("I don`t parse static files assets/http/index.html")
 	}
-	//err = parsedTemplate.Execute(w, nil)
-
 	err = parsedTemplate.Execute(w, lmlDB)
 	if err != nil {
-		log.Println("Error arsedTemplate.Execute in StartPage : ", err)
+		fmt.Println("Error arsedTemplate.Execute in StartPage : ", err)
 		return
 	}
+}
 
-	//fmt.Println("Start Page: ")
-	//w.Write([]byte("hello"))
-
+func lmHandler(w http.ResponseWriter, r *http.Request) {
+	var htmlPage string
+	htmlPage = htmlPage + "<!DOCTYPE html> <html> <head> <meta charset=\"utf-8\" />"
+	htmlPage = htmlPage + "<meta name=\"Live Media List\" content=\"width=device-width, initial-scale=1.0\">"
+	htmlPage = htmlPage + "<title>LML</title>"
+	htmlPage = htmlPage + "<link href=\"/assets/css/bootstrap.min.css\" rel=\"stylesheet\">"
+	htmlPage = htmlPage + "<link rel=\"shortcut icon\" href=\"/assets/img/home36.png\" type=\"image\">"
+	htmlPage = htmlPage + "<script src=\"./assets/js/bootstrap.min.js\"></script></head>"
+	htmlPage = htmlPage + "<body> <p>Привет, мир</p> </body> </html>"
+	fmt.Fprintf(w, htmlPage)
 }
