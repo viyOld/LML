@@ -133,25 +133,25 @@ func readStartDb() {
 		if strings.HasPrefix(s, "Homepage:") {
 			s = strings.TrimPrefix(s, "Homepage:")
 			s := strings.TrimSpace(s)
-			lmlDB[i].homepage = s
+			lmlDB[i].Homepage = s
 			continue
 		}
 		if strings.HasPrefix(s, "Download:") {
 			s = strings.TrimPrefix(s, "Download:")
 			s := strings.TrimSpace(s)
-			lmlDB[i].download = s
+			lmlDB[i].Download = s
 			continue
 		}
 		if strings.HasPrefix(s, "Wikipedia:") {
 			s = strings.TrimPrefix(s, "Wikipedia:")
 			s := strings.TrimSpace(s)
-			lmlDB[i].wikipedia = s
+			lmlDB[i].Wikipedia = s
 			continue
 		}
 		if strings.HasPrefix(s, "Distrowatch:") {
 			s = strings.TrimPrefix(s, "Distrowatch:")
 			s := strings.TrimSpace(s)
-			lmlDB[i].distrowatch = s
+			lmlDB[i].Distrowatch = s
 			continue
 		}
 		if strings.HasPrefix(s, "Size (mebibytes):") {
@@ -266,10 +266,10 @@ func readStartDb() {
 		fmt.Println("")
 		fmt.Println(value.Number)
 		fmt.Println(value.Name)
-		fmt.Println(value.homepage)
-		fmt.Println(value.download)
-		fmt.Println(value.wikipedia)
-		fmt.Println(value.distrowatch)
+		fmt.Println(value.Homepage)
+		fmt.Println(value.Download)
+		fmt.Println(value.Wikipedia)
+		fmt.Println(value.Distrowatch)
 		fmt.Println(value.sizeMin)
 		fmt.Println(value.sizeMax)
 		fmt.Println(value.stableVer)

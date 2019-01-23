@@ -12,16 +12,18 @@ import (
 	"fmt"
 	"html/template"
 	"net/http"
+	"os"
+	"strconv"
 	//"gopkg.in/yaml.v2"
 )
 
 type listMediaLive struct {
 	Number       int
 	Name         string
-	homepage     string
-	download     string
-	wikipedia    string
-	distrowatch  string
+	Homepage     string
+	Download     string
+	Wikipedia    string
+	Distrowatch  string
 	sizeMin      int
 	sizeMax      int
 	stableVer    string
@@ -52,6 +54,7 @@ func init() {
 	fmt.Println(" ")
 	readValueDb()
 	readStartDb()
+	writeLMLdb()
 
 }
 
@@ -121,14 +124,83 @@ func lmHandler(w http.ResponseWriter, r *http.Request) {
 	htmlPage = htmlPage + "<a class=\"nav-item nav-link\" href=\"../auth/login\">Login</a>"
 	htmlPage = htmlPage + "<a class=\"nav-item nav-link disabled\" alifn=\"left\" href=\"#\">Disabled</a>"
 	htmlPage = htmlPage + "</div> </div> </nav>"
-	htmlPage = htmlPage + "<h1 class=\"display-1\">" + lmlDB[0].Name + "</h1>\" "
-	htmlPage = htmlPage + "<p>Привет, мир</p>"
+	htmlPage = htmlPage + "<h1 class=\"display-3\">" + lmlDB[0].Name + "</h1>"
+	htmlPage = htmlPage + "<div class=\"card\" >" //style=\"width: 18rem;\"
+	htmlPage = htmlPage + "<ul class=\"list-group list-group-flush\">"
+	htmlPage = htmlPage + "<li class=\"list-group-item\">" + "Homepage: " + lmlDB[0].Homepage + "</li>"
+	htmlPage = htmlPage + "<li class=\"list-group-item\">" + "Download: " + lmlDB[0].Download + "</li>"
+	htmlPage = htmlPage + "<li class=\"list-group-item\">" + "Wikipedia: " + lmlDB[0].Wikipedia + "</li>"
+	htmlPage = htmlPage + "<li class=\"list-group-item\">" + "Distrowatch: " + lmlDB[0].Distrowatch + "</li>"
+	htmlPage = htmlPage + "</ul> </div>"
+	//htmlPage = htmlPage +
+
+	//htmlPage = htmlPage + "<p>Привет, мир</p>"
 	htmlPage = htmlPage + "</body>"
-	htmlPage = htmlPage + "<footer class=\"page-footer font-small gray pt-4\">"
+	htmlPage = htmlPage + "<footer class=\"footer footer-fixed-bottom font-small gray pt-4\">"
+	//footer mt-auto py-3 page-   navbar-fixed-bottom
 	htmlPage = htmlPage + "<div class=\"footer-copyright text-center py-3\">© 2019 Copyright:"
 	htmlPage = htmlPage + "<a href=\"https://www.orbis.com.ua/\"> Trident</a>"
 	htmlPage = htmlPage + "</div> </footer> </html>"
 
 	//</html>"
 	fmt.Fprintf(w, htmlPage)
+}
+
+func writeLMLdb() {
+
+	filename := "./db/DB.txt"
+	if _, err := os.Stat(filename); os.IsNotExist(err) {
+		_, err := os.Create(filename)
+		if err != nil {
+			panic(err)
+		}
+	} else {
+		if err := os.Rename(filename, "./db/DB.bak"); err != nil {
+			panic(err)
+		}
+		if _, err = os.Create(filename); err != nil {
+			panic(err)
+		}
+	}
+
+	fileDB, err := os.OpenFile(filename, os.O_RDWR, 0644)
+	if err != nil {
+		panic(err)
+	}
+	defer fileDB.Close()
+
+	fileDB.WriteString("#comments time" + "\n")
+	for _, v := range lmlDB {
+		if _, err = fileDB.WriteString("Number: " + strconv.Itoa(v.Number) + "\n"); err != nil {
+			panic(err)
+		}
+		if _, err = fileDB.WriteString("Name: " + v.Name + "\n"); err != nil {
+			panic(err)
+		}
+		if _, err = fileDB.WriteString("Homepage: " + v.Homepage + "\n"); err != nil {
+			panic(err)
+		}
+		if _, err = fileDB.WriteString("Download: " + v.Download + "\n"); err != nil {
+			panic(err)
+		}
+		//fmt.Println(v)
+	}
+
+	// Number       int
+	// Name         string
+	// homepage     string
+	// download     string
+	// wikipedia    string
+	// distrowatch  string
+	// sizeMin      int
+	// sizeMax      int
+	// stableVer    string
+	// lastRelease  string
+	// Target       []int
+	// os           byte
+	// State        byte
+	// media        []int
+	// architecture []int
+	// note         string
+
 }
