@@ -24,16 +24,16 @@ type listMediaLive struct {
 	Download     string
 	Wikipedia    string
 	Distrowatch  string
-	sizeMin      int
-	sizeMax      int
-	stableVer    string
-	lastRelease  string
+	SizeMin      int
+	SizeMax      int
+	StableVer    string
+	LastRelease  string
 	Target       []int
-	os           byte
+	OS           byte
 	State        byte
-	media        []int
-	architecture []int
-	note         string
+	Media        []int
+	Architecture []int
+	Note         string
 }
 
 var (
@@ -55,6 +55,7 @@ func init() {
 	readValueDb()
 	readStartDb()
 	writeLMLdb()
+	checkLMLdb()
 
 }
 
@@ -169,8 +170,8 @@ func writeLMLdb() {
 	}
 	defer fileDB.Close()
 
-	fileDB.WriteString("#comments time" + "\n")
-	for _, v := range lmlDB {
+	fileDB.WriteString("#comments time" + "\n" + "\n")
+	for i, v := range lmlDB {
 		if _, err = fileDB.WriteString("Number: " + strconv.Itoa(v.Number) + "\n"); err != nil {
 			panic(err)
 		}
@@ -183,24 +184,86 @@ func writeLMLdb() {
 		if _, err = fileDB.WriteString("Download: " + v.Download + "\n"); err != nil {
 			panic(err)
 		}
-		//fmt.Println(v)
+		if _, err = fileDB.WriteString("Wikipedia: " + v.Wikipedia + "\n"); err != nil {
+			panic(err)
+		}
+		if _, err = fileDB.WriteString("Distrowatch: " + v.Distrowatch + "\n"); err != nil {
+			panic(err)
+		}
+		if _, err = fileDB.WriteString("SizeMin: " + strconv.Itoa(v.SizeMin) + "\n"); err != nil {
+			panic(err)
+		}
+		if _, err = fileDB.WriteString("SizeMax: " + strconv.Itoa(v.SizeMax) + "\n"); err != nil {
+			panic(err)
+		}
+		if _, err = fileDB.WriteString("StableVer: " + v.StableVer + "\n"); err != nil {
+			panic(err)
+		}
+		if _, err = fileDB.WriteString("LastRelease: " + v.LastRelease + "\n"); err != nil {
+			panic(err)
+		}
+		str := ""
+		for _, val := range lmlDB[i].Target {
+			str = str + " " + strconv.Itoa(val)
+		}
+		if _, err = fileDB.WriteString("Target: " + str + "\n"); err != nil {
+			panic(err)
+		}
+		if _, err = fileDB.WriteString("OS: " + strconv.Itoa(int(v.OS)) + "\n"); err != nil {
+			panic(err)
+		}
+		if _, err = fileDB.WriteString("State: " + strconv.Itoa(int(v.State)) + "\n"); err != nil {
+			panic(err)
+		}
+		str = ""
+		for _, val := range lmlDB[i].Media {
+			str = str + " " + strconv.Itoa(val)
+		}
+		if _, err = fileDB.WriteString("Media: " + str + "\n"); err != nil {
+			panic(err)
+		}
+		str = ""
+		for _, val := range lmlDB[i].Architecture {
+			str = str + " " + strconv.Itoa(val)
+		}
+		if _, err = fileDB.WriteString("Architecture: " + str + "\n"); err != nil {
+			panic(err)
+		}
+		if _, err = fileDB.WriteString("Note: " + v.Note + "\n"); err != nil {
+			panic(err)
+		}
+		fileDB.WriteString("\n")
+	}
+}
+
+func checkLMLdb() {
+	for _, v := range lmlDB {
+		if v.Homepage == "" {
+			fmt.Println("For distributiva: " + v.Name + " homepage = nill")
+			continue
+		}
+		go checkURL(v.Name, v.Homepage)
 	}
 
-	// Number       int
-	// Name         string
-	// homepage     string
-	// download     string
-	// wikipedia    string
-	// distrowatch  string
-	// sizeMin      int
-	// sizeMax      int
-	// stableVer    string
-	// lastRelease  string
-	// Target       []int
-	// os           byte
-	// State        byte
-	// media        []int
-	// architecture []int
-	// note         string
+}
+
+func checkURL(name string, urllml string) {
+	fmt.Println("Проверяем адрес: " + urllml)
+	resp, err := http.Get(urllml)
+
+	if err != nil {
+		fmt.Println("For distributiva: "+name+" error connect with homepage", err)
+		//continue
+		return
+	}
+	defer resp.Body.Close()
+
+	if resp.StatusCode != 200 {
+		fmt.Println("For distributiva: "+name+" error. http-статус: ", resp.StatusCode)
+		//continue
+		return
+	}
+
+	fmt.Println("For distributiva: "+name+" homepage online. http-статус: ", resp.StatusCode)
 
 }

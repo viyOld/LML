@@ -2,7 +2,6 @@ package main
 
 import (
 	"bufio"
-	"fmt"
 	"log"
 	"os"
 	"strconv"
@@ -162,12 +161,12 @@ func readStartDb() {
 			s = strings.TrimSpace(s)
 			st := strings.Split(s, "-")
 			n, err = strconv.ParseUint(st[0], 10, 32)
-			lmlDB[i].sizeMin = int(n)
+			lmlDB[i].SizeMin = int(n)
 			if err != nil {
 				panic(err)
 			}
 			n, err = strconv.ParseUint(st[1], 10, 32)
-			lmlDB[i].sizeMax = int(n)
+			lmlDB[i].SizeMax = int(n)
 			if err != nil {
 				panic(err)
 			}
@@ -176,14 +175,14 @@ func readStartDb() {
 		if strings.HasPrefix(s, "Last Stable Version:") {
 			s = strings.TrimPrefix(s, "Last Stable Version:")
 			s := strings.TrimSpace(s)
-			lmlDB[i].stableVer = s
+			lmlDB[i].StableVer = s
 			//fmt.Println(s)
 			continue
 		}
 		if strings.HasPrefix(s, "Last Release:") {
 			s = strings.TrimPrefix(s, "Last Release:")
 			s := strings.TrimSpace(s)
-			lmlDB[i].lastRelease = s
+			lmlDB[i].LastRelease = s
 			//fmt.Println(s)
 			continue
 		}
@@ -204,7 +203,7 @@ func readStartDb() {
 		if strings.HasPrefix(s, "Operating System:") {
 			s = strings.TrimPrefix(s, "Operating System:")
 			s = strings.TrimSpace(s)
-			lmlDB[i].os = OS[s]
+			lmlDB[i].OS = OS[s]
 			continue
 		}
 		if strings.HasPrefix(s, "Primary Language(s): ") {
@@ -222,11 +221,11 @@ func readStartDb() {
 		if strings.HasPrefix(s, "Media:") {
 			s = strings.TrimPrefix(s, "Media:")
 			s := strings.TrimSpace(s)
-			lmlDB[i].media = []int{}
+			lmlDB[i].Media = []int{}
 			k := 0
 			for j, v := range Media {
 				if strings.Contains(s, j) {
-					lmlDB[i].media = append(lmlDB[i].media, int(v))
+					lmlDB[i].Media = append(lmlDB[i].Media, int(v))
 					k++
 				}
 
@@ -237,11 +236,11 @@ func readStartDb() {
 		if strings.HasPrefix(s, "Architecture:") {
 			s = strings.TrimPrefix(s, "Architecture:") //architecture
 			s := strings.TrimSpace(s)
-			lmlDB[i].architecture = []int{}
+			lmlDB[i].Architecture = []int{}
 			k := 0
 			for j, v := range Architecture {
 				if strings.Contains(s, j) {
-					lmlDB[i].architecture = append(lmlDB[i].architecture, int(v))
+					lmlDB[i].Architecture = append(lmlDB[i].Architecture, int(v))
 					k++
 				}
 
@@ -252,7 +251,7 @@ func readStartDb() {
 		if strings.HasPrefix(s, "Note:") {
 			s = strings.TrimPrefix(s, "Note:")
 			s := strings.TrimSpace(s)
-			lmlDB[i].note = s
+			lmlDB[i].Note = s
 			continue
 		}
 
@@ -262,25 +261,25 @@ func readStartDb() {
 		log.Fatal(err)
 	}
 
-	for _, value := range lmlDB {
-		fmt.Println("")
-		fmt.Println(value.Number)
-		fmt.Println(value.Name)
-		fmt.Println(value.Homepage)
-		fmt.Println(value.Download)
-		fmt.Println(value.Wikipedia)
-		fmt.Println(value.Distrowatch)
-		fmt.Println(value.sizeMin)
-		fmt.Println(value.sizeMax)
-		fmt.Println(value.stableVer)
-		fmt.Println(value.lastRelease)
-		fmt.Println(value.os)
-		fmt.Println(value.Target)
-		fmt.Println(value.State)
-		fmt.Println(value.media)
-		fmt.Println(value.architecture)
-		fmt.Println(value.note)
-		fmt.Println("___________________________________________________")
-	}
+	// for _, value := range lmlDB {
+	// 	fmt.Println("")
+	// 	fmt.Println(value.Number)
+	// 	fmt.Println(value.Name)
+	// 	fmt.Println(value.Homepage)
+	// 	fmt.Println(value.Download)
+	// 	fmt.Println(value.Wikipedia)
+	// 	fmt.Println(value.Distrowatch)
+	// 	fmt.Println(value.SizeMin)
+	// 	fmt.Println(value.SizeMax)
+	// 	fmt.Println(value.StableVer)
+	// 	fmt.Println(value.LastRelease)
+	// 	fmt.Println(value.OS)
+	// 	fmt.Println(value.Target)
+	// 	fmt.Println(value.State)
+	// 	fmt.Println(value.Media)
+	// 	fmt.Println(value.Architecture)
+	// 	fmt.Println(value.Note)
+	// 	fmt.Println("___________________________________________________")
+	// }
 	// fmt.Println(OS)
 }
