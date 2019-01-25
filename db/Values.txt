@@ -2,9 +2,9 @@
 # also comment
 State:
 	0:	Dead
-	1:	Inactive 
+	1:      Phantom
 	2:	Zombie
-	3:	Phantom
+	3:	Inactive
 	4:	Active
 Target:
 	00:	System Administration
@@ -59,3 +59,17 @@ Architecture:
 	07:	Sparc64
 	08:	Mips
 	09:	HPPA
+License:
+        01:     Freeware
+        02:     Shareware
+        03:     Public domain
+        04:     Open Source
+        05:     GNU GPL
+        06:     Adware
+        07:     Donateware
+        08:     Registerware
+        09:     Trial
+        10:     Commercial
+        11:     Proprietary
+        12:     Apache
+End:

@@ -1,11 +1,5 @@
-// LML - LiveMediaList
-// Service for choice LiveMedia
-// Roadmap
-// 1 - message at start programm
-// 1 - Pattern
-// 2 - Read start data from file and write to DB
-// 3 - Read config file
-// 4 - Read file variable
+// LML - LiveMediaList - Service for choice LiveMedia
+
 package main
 
 import (
@@ -30,6 +24,8 @@ type listMediaLive struct {
 	LastRelease  string
 	Target       []int
 	OS           byte
+	License      byte
+	Language     string // Primary Language(s):
 	State        byte
 	Media        []int
 	Architecture []int
@@ -38,12 +34,14 @@ type listMediaLive struct {
 
 var (
 	lmlDB []listMediaLive
-	// maps
-	State        = map[string]byte{}
+	// State is map livecikle distrib
+	State = map[string]byte{}
+	// Target is map pupose distrib
 	Target       = map[string]byte{}
 	OS           = map[string]byte{}
 	Media        = map[string]byte{}
 	Architecture = map[string]byte{}
+	License      = map[string]byte{}
 )
 
 //	State: Target: OS: Media: Architecture:
@@ -52,10 +50,12 @@ func init() {
 	fmt.Println(" ")
 	fmt.Println("Start Init func: ")
 	fmt.Println(" ")
-	readValueDb()
-	readStartDb()
-	writeLMLdb()
-	checkLMLdb()
+	// readConf() читає конфігурацію з файлу
+	readValueDb() // читає з файлу можливі значення полей в мапи
+	readStartDb() // читає з файлу БД яка була на http://livecdlist.com/
+	writeLMLdb()  // пише БД в файл та робить копію попередньої
+	// readDB() читає БД з файла
+	// checkLMLdb()  //перевірка посилань дистрибутивів
 
 }
 
@@ -212,6 +212,12 @@ func writeLMLdb() {
 		if _, err = fileDB.WriteString("OS: " + strconv.Itoa(int(v.OS)) + "\n"); err != nil {
 			panic(err)
 		}
+		if _, err = fileDB.WriteString("License: " + strconv.Itoa(int(v.License)) + "\n"); err != nil {
+			panic(err)
+		}
+		if _, err = fileDB.WriteString("Language: " + v.Language + "\n"); err != nil {
+			panic(err)
+		}
 		if _, err = fileDB.WriteString("State: " + strconv.Itoa(int(v.State)) + "\n"); err != nil {
 			panic(err)
 		}
@@ -237,33 +243,36 @@ func writeLMLdb() {
 }
 
 func checkLMLdb() {
-	for _, v := range lmlDB {
-		if v.Homepage == "" {
-			fmt.Println("For distributiva: " + v.Name + " homepage = nill")
+	for ii, v := range lmlDB {
+		if v.State == 0 { // Dead is dead
 			continue
 		}
-		go checkURL(v.Name, v.Homepage)
+		// if v.Homepage == "" {
+		// 	fmt.Println("For distributiva: " + v.Name + " homepage = nill")
+		// 	continue
+		// }
+		go checkURL(ii)
 	}
 
 }
 
-func checkURL(name string, urllml string) {
-	fmt.Println("Проверяем адрес: " + urllml)
-	resp, err := http.Get(urllml)
+func checkURL(ii int) {
+	fmt.Println("Check: " + lmlDB[ii].Name)
+	resp, err := http.Get(lmlDB[ii].Homepage)
 
 	if err != nil {
-		fmt.Println("For distributiva: "+name+" error connect with homepage", err)
+		fmt.Println("For distributiva: "+lmlDB[ii].Name+" error connect with homepage", err)
 		//continue
 		return
 	}
 	defer resp.Body.Close()
 
 	if resp.StatusCode != 200 {
-		fmt.Println("For distributiva: "+name+" error. http-статус: ", resp.StatusCode)
+		fmt.Println("For distributiva: "+lmlDB[ii].Name+" error. http-статус: ", resp.StatusCode)
 		//continue
 		return
 	}
 
-	fmt.Println("For distributiva: "+name+" homepage online. http-статус: ", resp.StatusCode)
+	fmt.Println("For distributiva: "+lmlDB[ii].Name+" homepage online. http-статус: ", resp.StatusCode)
 
 }

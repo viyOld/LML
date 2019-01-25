@@ -12,6 +12,8 @@ StableVer: 20030704
 LastRelease: 2003-07-04
 Target:  1
 OS: 1
+License: 0
+Language: Chinese
 State: 1
 Media:  3
 Architecture:  1
@@ -21,7 +23,7 @@ Number: 2
 Name: 4MLinux
 Homepage: http://www.4mlinux.com/
 Download: http://sourceforge.net/projects/linux4m/files/
-Wikipedia: 
+Wikipedia: https://en.wikipedia.org/wiki/4MLinux
 Distrowatch: 
 SizeMin: 5
 SizeMax: 216
@@ -29,6 +31,8 @@ StableVer: 8
 LastRelease: 2014-02-09
 Target:  13 1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -46,6 +50,8 @@ StableVer:
 LastRelease: 2005-11-11
 Target:  1
 OS: 1
+License: 0
+Language: Czech
 State: 1
 Media:  3
 Architecture:  1
@@ -63,6 +69,8 @@ StableVer: 2.6.2
 LastRelease: 2005-04-18
 Target:  8
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -80,8 +88,10 @@ StableVer: rolling
 LastRelease: 2014-09-12
 Target:  2 1
 OS: 1
+License: 0
+Language: English
 State: 4
-Media:  3 4 6
+Media:  6 3 4
 Architecture:  1 2
 Note: 
 
@@ -97,6 +107,8 @@ StableVer: rolling
 LastRelease: 2014-07-09
 Target:  4 0
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3 6
 Architecture:  1 2
@@ -114,6 +126,8 @@ StableVer: 1.2.1
 LastRelease: 2005-10-03
 Target:  7
 OS: 1
+License: 0
+Language: 
 State: 1
 Media:  3
 Architecture:  1
@@ -131,6 +145,8 @@ StableVer: 0.9-1
 LastRelease: 2007-01-30
 Target:  22
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -148,6 +164,8 @@ StableVer: 1
 LastRelease: 2003-12-20
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -163,8 +181,10 @@ SizeMin: 575
 SizeMax: 575
 StableVer: 2006
 LastRelease: 2006-01-14
-Target:  1 15
+Target:  15 1
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -180,8 +200,10 @@ SizeMin: 135
 SizeMax: 690
 StableVer: 13
 LastRelease: 2013-06-02
-Target:  1 2
+Target:  2 1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1 2
@@ -197,8 +219,10 @@ SizeMin: 510
 SizeMax: 1982
 StableVer: 2013-01
 LastRelease: 2013-05-05
-Target:  1 2
+Target:  2 1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3 4
 Architecture:  1 2
@@ -216,6 +240,8 @@ StableVer: 0.4
 LastRelease: 2006-09-05
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -233,6 +259,8 @@ StableVer: 0.8
 LastRelease: 2004-06-21
 Target:  1
 OS: 1
+License: 0
+Language: Arabic
 State: 1
 Media:  3
 Architecture:  1
@@ -248,8 +276,10 @@ SizeMin: 742
 SizeMax: 742
 StableVer: 2016.08.01
 LastRelease: 2016-08-01
-Target:  4 2
+Target:  2 4
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3 6
 Architecture:  1 2
@@ -267,6 +297,8 @@ StableVer: 2014.07.04
 LastRelease: 2014-07-04
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  6 3
 Architecture:  1 2
@@ -284,6 +316,8 @@ StableVer: 0.4.1
 LastRelease: 2005-04-15
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -301,6 +335,8 @@ StableVer: 1.4
 LastRelease: 2013-03-13
 Target:  14
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4
 Architecture:  1
@@ -318,6 +354,8 @@ StableVer: 300
 LastRelease: 2011-10-02
 Target:  3
 OS: 1
+License: 0
+Language: French
 State: 4
 Media:  3 6
 Architecture:  1
@@ -335,6 +373,8 @@ StableVer: 2.0-01
 LastRelease: 2005-09-26
 Target:  13 1
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -352,6 +392,8 @@ StableVer: 3.0.8
 LastRelease: 2014-12-31
 Target:  1
 OS: 1
+License: 0
+Language: Latvian
 State: 4
 Media:  3
 Architecture:  1
@@ -367,8 +409,10 @@ SizeMin: 2523
 SizeMax: 2523
 StableVer: 6
 LastRelease: 2012-08-16
-Target:  14 2
+Target:  2 14
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4 6
 Architecture:  1
@@ -386,6 +430,8 @@ StableVer: 3
 LastRelease: 2008-09-15
 Target:  19
 OS: 0
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -403,6 +449,8 @@ StableVer: 120.120823
 LastRelease: 2012-11-22
 Target:  19
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3 6
 Architecture:  1
@@ -420,6 +468,8 @@ StableVer: 2013-04-03
 LastRelease: 2013-04-03
 Target:  19
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -437,6 +487,8 @@ StableVer: 3
 LastRelease: 2012-10-24
 Target:  6
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2
@@ -454,6 +506,8 @@ StableVer: 5 R3
 LastRelease: 2012-08-13
 Target:  6
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  4 6
 Architecture:  1 2
@@ -471,6 +525,8 @@ StableVer: 11.04
 LastRelease: 2011-09-22
 Target:  1
 OS: 1
+License: 0
+Language: Lithuanian
 State: 4
 Media:  3
 Architecture:  1
@@ -488,6 +544,8 @@ StableVer: 4.51
 LastRelease: 2006-10-23
 Target:  24
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -505,6 +563,8 @@ StableVer: 0.7.1
 LastRelease: 2008-07-18
 Target:  1
 OS: 0
+License: 0
+Language: English
 State: 1
 Media:  3 6
 Architecture:  1
@@ -522,6 +582,8 @@ StableVer: 2005-02.1
 LastRelease: 2005-06-08
 Target:  1
 OS: 1
+License: 0
+Language: 
 State: 1
 Media:  3
 Architecture:  1
@@ -539,6 +601,8 @@ StableVer: 1.0rc3
 LastRelease: 2003-03-17
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -556,6 +620,8 @@ StableVer: 1.12
 LastRelease: 2011-10-30
 Target:  1
 OS: 1
+License: 0
+Language: English Japanese
 State: 4
 Media:  3
 Architecture:  1
@@ -573,8 +639,10 @@ StableVer: 7.0.4
 LastRelease: 2013-01-17
 Target:  2 17
 OS: 1
+License: 0
+Language: English
 State: 4
-Media:  6 4
+Media:  4 6
 Architecture:  1 2
 Note: 
 
@@ -588,8 +656,10 @@ SizeMin: 681
 SizeMax: 681
 StableVer: 0.2 beta
 LastRelease: 2004-08-13
-Target:  25 3
+Target:  3 25
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -607,6 +677,8 @@ StableVer: 2013
 LastRelease: 2012-07-06
 Target:  19
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -624,6 +696,8 @@ StableVer: 2
 LastRelease: 2005-01-31
 Target:  1
 OS: 1
+License: 0
+Language: Russian
 State: 1
 Media:  3
 Architecture:  1
@@ -641,6 +715,8 @@ StableVer: 2.1.0
 LastRelease: 2012-09-13
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3 6
 Architecture:  1 2
@@ -658,6 +734,8 @@ StableVer: 3.0.3
 LastRelease: 2011-04-14
 Target:  5
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1 2
@@ -675,6 +753,8 @@ StableVer: 5.0.0
 LastRelease: 2013-12-23
 Target:  6
 OS: 1
+License: 0
+Language: German
 State: 4
 Media:  4 6
 Architecture:  1
@@ -692,6 +772,8 @@ StableVer: 2012.8
 LastRelease: 2012-08-03
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3 4
 Architecture:  1 2
@@ -709,6 +791,8 @@ StableVer: 4.6
 LastRelease: 2009-11-04
 Target:  1
 OS: 0
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1 2
@@ -726,6 +810,8 @@ StableVer: 1
 LastRelease: 2011-10-05
 Target:  11
 OS: 0
+License: 0
+Language: English
 State: 4
 Media:  6
 Architecture:  1 2
@@ -743,6 +829,8 @@ StableVer: 20040404
 LastRelease: 2004-04-04
 Target:  7
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -760,6 +848,8 @@ StableVer: 3
 LastRelease: 2012-10-03
 Target:  12
 OS: 1
+License: 0
+Language: English Italian
 State: 4
 Media:  4 6
 Architecture:  1
@@ -775,11 +865,13 @@ SizeMin: 406
 SizeMax: 2245
 StableVer: 14
 LastRelease: 2014-09-04
-Target:  13 1 2 7
+Target:  13 2 1 7
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3 4 6
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 
 Number: 47
@@ -794,6 +886,8 @@ StableVer: 0.9.7
 LastRelease: 2011-11-07
 Target:  1 4
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3 6
 Architecture:  1
@@ -811,6 +905,8 @@ StableVer: 1
 LastRelease: 2007-09-09
 Target:  1
 OS: 1
+License: 0
+Language: Polish
 State: 1
 Media:  3
 Architecture:  1
@@ -828,6 +924,8 @@ StableVer: 6.2
 LastRelease: 2005-08-08
 Target:  9
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -843,8 +941,10 @@ SizeMin: 687
 SizeMax: 1238
 StableVer: 7
 LastRelease: 2014-07-07
-Target:  1 4
+Target:  4 1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3 4 6
 Architecture:  1 2
@@ -862,6 +962,8 @@ StableVer: 2012.05
 LastRelease: 2012-05-14
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2
@@ -879,6 +981,8 @@ StableVer: 0.7
 LastRelease: 2005-04-01
 Target:  5
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -896,6 +1000,8 @@ StableVer: 2.3.2-22
 LastRelease: 2015-02-17
 Target:  0
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3 6
 Architecture:  1 2
@@ -913,6 +1019,8 @@ StableVer: 3.6
 LastRelease: 2004-08-31
 Target:  5
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -930,6 +1038,8 @@ StableVer: 2.3
 LastRelease: 2003-07-14
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -947,6 +1057,8 @@ StableVer: 2.4.37.5-rh73
 LastRelease: 2009-09-01
 Target:  4
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -964,8 +1076,10 @@ StableVer: 0.90
 LastRelease: 2015-01-06
 Target:  14
 OS: 1
+License: 0
+Language: English
 State: 4
-Media:  6 4
+Media:  4 6
 Architecture:  1
 Note: 
 
@@ -979,8 +1093,10 @@ SizeMin: 739
 SizeMax: 771
 StableVer: 11
 LastRelease: 2013-05-06
-Target:  1 2
+Target:  2 1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3 6
 Architecture:  1 2
@@ -998,8 +1114,10 @@ StableVer: 3
 LastRelease: 2013-01-28
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 4
-Media:  3 6
+Media:  6 3
 Architecture:  1 2
 Note: 
 
@@ -1015,9 +1133,11 @@ StableVer: 2
 LastRelease: 2012-02-29
 Target:  1
 OS: 1
+License: 0
+Language: Catalan
 State: 4
 Media:  4
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 
 Number: 61
@@ -1030,8 +1150,10 @@ SizeMin: 51
 SizeMax: 51
 StableVer: 4.4.11 rc1
 LastRelease: 2012-08-03
-Target:  1 2
+Target:  2 1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -1049,6 +1171,8 @@ StableVer: 5.0.1
 LastRelease: 2006-09-25
 Target:  1
 OS: 1
+License: 0
+Language: Danish
 State: 1
 Media:  3
 Architecture:  1
@@ -1066,6 +1190,8 @@ StableVer: 2.2.8
 LastRelease: 2013-11-22
 Target:  0
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3 6
 Architecture:  1
@@ -1083,6 +1209,8 @@ StableVer: 3.14.1-6
 LastRelease: 2014-04-16
 Target:  0
 OS: 1
+License: 0
+Language: French
 State: 4
 Media:  3
 Architecture:  1
@@ -1098,8 +1226,10 @@ SizeMin: 417
 SizeMax: 1463
 StableVer: 8.4
 LastRelease: 2016-04-02
-Target:  4 2 1
+Target:  2 4 1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3 4 6
 Architecture:  1 2
@@ -1117,8 +1247,10 @@ StableVer: 1.7
 LastRelease: 2015-02-02
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 4
-Media:  3 6
+Media:  6 3
 Architecture:  1
 Note: 
 
@@ -1134,6 +1266,8 @@ StableVer: 7
 LastRelease: 2012-01-31
 Target:  6
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4
 Architecture:  1 2
@@ -1151,6 +1285,8 @@ StableVer: 3.01pl5
 LastRelease: 2002-07-28
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -1168,6 +1304,8 @@ StableVer: 1.6.4
 LastRelease: 2013-10-19
 Target:  11
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -1185,6 +1323,8 @@ StableVer: 2
 LastRelease: 2014-06-29
 Target:  14
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  6
 Architecture:  1
@@ -1202,6 +1342,8 @@ StableVer: M2
 LastRelease: 2011-02-07
 Target:  1
 OS: 7
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -1219,6 +1361,8 @@ StableVer: 2
 LastRelease: 2013-06-28
 Target:  3
 OS: 1
+License: 0
+Language: English French
 State: 4
 Media:  4 6
 Architecture:  1
@@ -1236,6 +1380,8 @@ StableVer: 6.0.2
 LastRelease: 2014-03-09
 Target:  19
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3 6
 Architecture:  1
@@ -1253,6 +1399,8 @@ StableVer: 4.0.1
 LastRelease: 2014-11-25
 Target:  1 2
 OS: 0
+License: 0
+Language: English
 State: 4
 Media:  3 6
 Architecture:  2 1
@@ -1270,8 +1418,10 @@ StableVer: 5
 LastRelease: 2012-01-01
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 1
-Media:  4 6
+Media:  6 4
 Architecture:  1
 Note: 
 
@@ -1285,8 +1435,10 @@ SizeMin: 1671
 SizeMax: 1671
 StableVer: 3.0.0
 LastRelease: 2011-09-08
-Target:  14 1
+Target:  1 14
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4
 Architecture:  1
@@ -1304,6 +1456,8 @@ StableVer: 1.9.2
 LastRelease: 2015-05-29
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4
 Architecture:  1
@@ -1319,8 +1473,10 @@ SizeMin: 3015
 SizeMax: 3034
 StableVer: 14.04.4
 LastRelease: 2016-02-18
-Target:  2 3
+Target:  3 2
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2
@@ -1338,6 +1494,8 @@ StableVer: 2.6.6
 LastRelease: 2004-05-17
 Target:  3
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -1355,6 +1513,8 @@ StableVer: 2
 LastRelease: 2010-03-04
 Target:  1
 OS: 1
+License: 0
+Language: 
 State: 4
 Media:  3
 Architecture:  1
@@ -1372,6 +1532,8 @@ StableVer: 3
 LastRelease: 2003-10-31
 Target:  4
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -1389,6 +1551,8 @@ StableVer: 3 1.01
 LastRelease: 2015-03-11
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4 6
 Architecture:  1
@@ -1406,6 +1570,8 @@ StableVer: 0.9
 LastRelease: 2005-07-01
 Target:  7
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -1423,6 +1589,8 @@ StableVer: 3.16
 LastRelease: 2012-06-06
 Target:  19
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -1440,6 +1608,8 @@ StableVer: 10
 LastRelease: 2006-01-30
 Target:  12
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -1457,6 +1627,8 @@ StableVer: 0.7.5
 LastRelease: 2005-07-04
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -1474,9 +1646,11 @@ StableVer: 23
 LastRelease: 2015-11-03
 Target:  14
 OS: 1
+License: 0
+Language: English
 State: 4
-Media:  3 6
-Architecture:  1 2
+Media:  6 3
+Architecture:  2 1
 Note: 
 
 Number: 88
@@ -1489,8 +1663,10 @@ SizeMin: 3806
 SizeMax: 3955
 StableVer: 23
 LastRelease: 2015-11-03
-Target:  2 8
+Target:  8 2
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2
@@ -1508,6 +1684,8 @@ StableVer: 23
 LastRelease: 2015-11-03
 Target:  14
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2
@@ -1523,8 +1701,10 @@ SizeMin: 1200
 SizeMax: 1232
 StableVer: 23
 LastRelease: 2015-11-03
-Target:  1 2
+Target:  2 1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2
@@ -1542,9 +1722,11 @@ StableVer: 23
 LastRelease: 2015-11-03
 Target:  1 2
 OS: 1
+License: 0
+Language: English
 State: 4
-Media:  6 3
-Architecture:  1 2
+Media:  3 6
+Architecture:  2 1
 Note: 
 
 Number: 92
@@ -1557,10 +1739,12 @@ SizeMin: 1141
 SizeMax: 1295
 StableVer: 23
 LastRelease: 2015-11-03
-Target:  1 2
+Target:  2 1
 OS: 1
+License: 0
+Language: English
 State: 4
-Media:  6 3
+Media:  3 6
 Architecture:  1 2
 Note: 
 
@@ -1576,9 +1760,11 @@ StableVer: 23
 LastRelease: 2015-11-03
 Target:  16
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4 6
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 
 Number: 94
@@ -1593,6 +1779,8 @@ StableVer: 23
 LastRelease: 2015-11-03
 Target:  17
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2
@@ -1610,6 +1798,8 @@ StableVer: 23
 LastRelease: 2015-11-03
 Target:  6
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  6 4
 Architecture:  1 2
@@ -1625,8 +1815,10 @@ SizeMin: 1124
 SizeMax: 1401
 StableVer: 23
 LastRelease: 2015-11-03
-Target:  1 2
+Target:  2 1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2
@@ -1644,6 +1836,8 @@ StableVer: 23
 LastRelease: 2015-11-03
 Target:  1 2
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  6 4
 Architecture:  1 2
@@ -1661,6 +1855,8 @@ StableVer: 0.3
 LastRelease: 2005-10-10
 Target:  13
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -1678,6 +1874,8 @@ StableVer: 111
 LastRelease: 2015-06-04
 Target:  0
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1 2 3
@@ -1695,6 +1893,8 @@ StableVer: 0.4a
 LastRelease: 2003-05-14
 Target:  12
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -1712,8 +1912,10 @@ StableVer: 0.3.4
 LastRelease: 2005-03-09
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 1
-Media:  3 6
+Media:  6 3
 Architecture:  1
 Note: 
 
@@ -1729,6 +1931,8 @@ StableVer:
 LastRelease: 2004-05-07
 Target:  5
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -1746,6 +1950,8 @@ StableVer: 3.0.15
 LastRelease: 2011-06-21
 Target:  11
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -1763,6 +1969,8 @@ StableVer: 5.3 Beta
 LastRelease: 2012-11-14
 Target:  12
 OS: 1
+License: 0
+Language: Italian
 State: 4
 Media:  3
 Architecture:  1
@@ -1780,6 +1988,8 @@ StableVer:
 LastRelease: 2006-10-15
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -1795,8 +2005,10 @@ SizeMin: 413
 SizeMax: 413
 StableVer: 4.6
 LastRelease: 2003-11-24
-Target:  4 1 2
+Target:  2 4 1
 OS: 0
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -1812,8 +2024,10 @@ SizeMin: 699
 SizeMax: 699
 StableVer: 1.7
 LastRelease: 2007-07-19
-Target:  1 3 23
+Target:  3 23 1
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -1831,6 +2045,8 @@ StableVer: 2.0.1
 LastRelease: 2007-02-11
 Target:  1
 OS: 0
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -1848,6 +2064,8 @@ StableVer: 1.3
 LastRelease: 2010-07-26
 Target:  6 4
 OS: 0
+License: 0
+Language: English Russian
 State: 4
 Media:  3
 Architecture:  1
@@ -1863,10 +2081,12 @@ SizeMin: 819
 SizeMax: 1009
 StableVer: 2013.2
 LastRelease: 2013-04-08
-Target:  1 2
+Target:  2 1
 OS: 1
+License: 0
+Language: English
 State: 4
-Media:  4 6
+Media:  6 4
 Architecture:  1 2
 Note: 
 
@@ -1882,6 +2102,8 @@ StableVer: 4.9
 LastRelease: 2011-05-07
 Target:  1
 OS: 0
+License: 0
+Language: Japanese
 State: 4
 Media:  3 6
 Architecture:  1
@@ -1899,9 +2121,11 @@ StableVer: 2015.02.28
 LastRelease: 2015-02-28
 Target:  1
 OS: 1
+License: 0
+Language: English Russian
 State: 4
-Media:  4 6
-Architecture:  2 1
+Media:  6 4
+Architecture:  1 2
 Note: 
 
 Number: 113
@@ -1916,6 +2140,8 @@ StableVer: 3
 LastRelease: 2012-09-18
 Target:  7
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1 2
@@ -1931,11 +2157,13 @@ SizeMin: 2808
 SizeMax: 2823
 StableVer: 20140826
 LastRelease: 2014-08-26
-Target:  2 4
+Target:  4 2
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4 6
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 
 Number: 115
@@ -1950,6 +2178,8 @@ StableVer: 7.1
 LastRelease: 2003-08-23
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  6
@@ -1967,6 +2197,8 @@ StableVer: 2.5
 LastRelease: 2012-01-24
 Target:  1
 OS: 0
+License: 0
+Language: English
 State: 4
 Media:  3 4 6
 Architecture:  1 2
@@ -1984,6 +2216,8 @@ StableVer: 0.1.0
 LastRelease: 2005-11-03
 Target:  1
 OS: 0
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -2001,6 +2235,8 @@ StableVer: 1.2
 LastRelease: 2006-04-01
 Target:  23
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -2018,6 +2254,8 @@ StableVer: 3.4
 LastRelease: 2012-03-30
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4
 Architecture:  1 2
@@ -2035,6 +2273,8 @@ StableVer: 0.7.3
 LastRelease: 2004-08-08
 Target:  3
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -2052,6 +2292,8 @@ StableVer: 2
 LastRelease: 2009-12-10
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1 2 3 7
@@ -2069,6 +2311,8 @@ StableVer: 14.01
 LastRelease: 2008-04-02
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -2086,6 +2330,8 @@ StableVer: 0.23.0-1
 LastRelease: 2015-08-07
 Target:  0
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3 6
 Architecture:  1
@@ -2101,8 +2347,10 @@ SizeMin: 230
 SizeMax: 913
 StableVer: 2014.11
 LastRelease: 2014-11-17
-Target:  4 0
+Target:  0 4
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3 6
 Architecture:  1 2
@@ -2120,6 +2368,8 @@ StableVer: 8
 LastRelease: 2012-10-30
 Target:  1
 OS: 1
+License: 0
+Language: Spanish
 State: 4
 Media:  4
 Architecture:  1
@@ -2135,8 +2385,10 @@ SizeMin: 1192
 SizeMax: 1194
 StableVer: 1.8
 LastRelease: 2015-01-17
-Target:  1 2
+Target:  2 1
 OS: 1
+License: 0
+Language: English French
 State: 4
 Media:  4 6
 Architecture:  1
@@ -2154,6 +2406,8 @@ StableVer: 2009R1
 LastRelease: 2009-12-23
 Target:  12
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -2171,6 +2425,8 @@ StableVer: 0.4
 LastRelease: 2005-08-20
 Target:  8
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -2186,8 +2442,10 @@ SizeMin: 525
 SizeMax: 525
 StableVer: 15.1
 LastRelease: 2011-10-26
-Target:  4 10 19 0
+Target:  19 4 10 0
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3 6
 Architecture:  1
@@ -2205,8 +2463,10 @@ StableVer: 1.5
 LastRelease: 2013-01-03
 Target:  1
 OS: 0
+License: 0
+Language: English
 State: 4
-Media:  6 3 4
+Media:  4 6 3
 Architecture: 
 Note: 
 
@@ -2220,8 +2480,10 @@ SizeMin: 60
 SizeMax: 60
 StableVer: 1.3.9b
 LastRelease: 2007-02-27
-Target:  4 6
+Target:  6 4
 OS: 1
+License: 0
+Language: English German
 State: 1
 Media:  3
 Architecture:  1
@@ -2239,9 +2501,11 @@ StableVer: 5
 LastRelease: 2011-11-01
 Target:  1
 OS: 0
+License: 0
+Language: English
 State: 4
 Media:  3 4
-Architecture:  2 1
+Architecture:  1 2
 Note: 
 
 Number: 133
@@ -2256,6 +2520,8 @@ StableVer: 6
 LastRelease: 2012-12-23
 Target:  1
 OS: 0
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1 2
@@ -2271,8 +2537,10 @@ SizeMin: 506
 SizeMax: 506
 StableVer: 0.3
 LastRelease: 2004-07-05
-Target:  8 7
+Target:  7 8
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -2290,6 +2558,8 @@ StableVer: 0.9.49
 LastRelease: 2013-12-16
 Target:  15 1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3 4 6
 Architecture:  1
@@ -2307,6 +2577,8 @@ StableVer: 0.5.2.26
 LastRelease: 2005-06-06
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -2324,6 +2596,8 @@ StableVer: 2014-08-08
 LastRelease: 2014-08-08
 Target:  18
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3 6
 Architecture:  1
@@ -2341,6 +2615,8 @@ StableVer: 0.1.1.1
 LastRelease: 2006-02-11
 Target:  4 1 17
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -2358,6 +2634,8 @@ StableVer: 3.2
 LastRelease: 2007-09-19
 Target:  3
 OS: 1
+License: 0
+Language: French
 State: 1
 Media:  3
 Architecture:  1
@@ -2375,6 +2653,8 @@ StableVer: 20212
 LastRelease: 2012-02-04
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4
 Architecture:  1
@@ -2390,10 +2670,12 @@ SizeMin: 1093
 SizeMax: 2934
 StableVer: 2016.2
 LastRelease: 2016-08-31
-Target:  2 6
+Target:  6 2
 OS: 1
+License: 0
+Language: English
 State: 4
-Media:  4 6
+Media:  6 4
 Architecture:  1 2
 Note: 
 
@@ -2407,11 +2689,13 @@ SizeMin: 836
 SizeMax: 3075
 StableVer: 2012-05
 LastRelease: 2012-05-24
-Target:  1 2
+Target:  2 1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4 6
-Architecture:  2 1
+Architecture:  1 2
 Note: 
 
 Number: 143
@@ -2426,6 +2710,8 @@ StableVer: 2005.04
 LastRelease: 2005-09-05
 Target:  2 1
 OS: 1
+License: 0
+Language: German
 State: 1
 Media:  3
 Architecture:  1
@@ -2443,8 +2729,10 @@ StableVer: 10.0.32.17
 LastRelease: 2013-03-20
 Target:  19
 OS: 1
+License: 0
+Language: English
 State: 4
-Media:  6 3
+Media:  3 6
 Architecture:  1 2
 Note: 
 
@@ -2460,6 +2748,8 @@ StableVer: 3.6
 LastRelease: 2007-09-17
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -2477,6 +2767,8 @@ StableVer: 3
 LastRelease: 2006-11-11
 Target:  1
 OS: 1
+License: 0
+Language: Hebrew
 State: 1
 Media:  3
 Architecture:  1
@@ -2494,6 +2786,8 @@ StableVer: 2
 LastRelease: 2007-04-01
 Target:  6
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -2511,6 +2805,8 @@ StableVer: 0.95
 LastRelease: 2003-10-20
 Target:  1
 OS: 1
+License: 0
+Language: Slovenian
 State: 1
 Media:  3
 Architecture:  1
@@ -2528,6 +2824,8 @@ StableVer: 2010-02-20
 LastRelease: 2010-02-20
 Target:  0
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -2545,6 +2843,8 @@ StableVer: 0.9beta4
 LastRelease: 2011-02-26
 Target:  1
 OS: 1
+License: 0
+Language: Greek
 State: 1
 Media:  3
 Architecture:  1
@@ -2560,8 +2860,10 @@ SizeMin: 701
 SizeMax: 4029
 StableVer: 7.4.1
 LastRelease: 2014-09-14
-Target:  1 2
+Target:  2 1
 OS: 1
+License: 0
+Language: English German
 State: 4
 Media:  4
 Architecture:  1
@@ -2579,6 +2881,8 @@ StableVer: 6.7.1
 LastRelease: 2011-10-19
 Target:  1
 OS: 1
+License: 0
+Language: Japanese
 State: 4
 Media:  3
 Architecture:  1
@@ -2596,6 +2900,8 @@ StableVer: 0.1
 LastRelease: 2004-01-21
 Target:  6
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -2613,6 +2919,8 @@ StableVer: 1.3b19
 LastRelease: 2004-05-11
 Target:  8
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -2630,6 +2938,8 @@ StableVer:
 LastRelease: 2003-12-27
 Target:  13
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -2647,6 +2957,8 @@ StableVer: 5.5
 LastRelease: 2008-07-06
 Target:  7
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -2664,6 +2976,8 @@ StableVer: 1
 LastRelease: 2006-02-06
 Target:  3
 OS: 1
+License: 0
+Language: 
 State: 1
 Media:  3
 Architecture:  1
@@ -2681,9 +2995,11 @@ StableVer: 20
 LastRelease: 2014-01-10
 Target:  1 2
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4 6
-Architecture:  2 1
+Architecture:  1 2
 Note: 
 
 Number: 159
@@ -2696,8 +3012,10 @@ SizeMin: 1450
 SizeMax: 1469
 StableVer: 16.04
 LastRelease: 2016-04-21
-Target:  1 2
+Target:  2 1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2 3
@@ -2715,6 +3033,8 @@ StableVer: 1.1
 LastRelease: 2004-08-31
 Target:  13
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -2732,6 +3052,8 @@ StableVer: 0.3
 LastRelease: 2006-05-10
 Target:  16
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -2749,6 +3071,8 @@ StableVer: 6.3
 LastRelease: 2007-11-30
 Target:  2 4
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1 2
@@ -2766,6 +3090,8 @@ StableVer: 3
 LastRelease: 2007-01-04
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -2781,10 +3107,12 @@ SizeMin: 213
 SizeMax: 213
 StableVer: 2012.3
 LastRelease: 2012-09-01
-Target:  1 15
+Target:  15 1
 OS: 1
+License: 0
+Language: English
 State: 4
-Media:  6 3
+Media:  3 6
 Architecture:  1
 Note: 
 
@@ -2800,6 +3128,8 @@ StableVer: 1.5.1
 LastRelease: 2014-04-11
 Target:  15 1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -2817,6 +3147,8 @@ StableVer: 1
 LastRelease: 2003-08-27
 Target:  26
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -2832,8 +3164,10 @@ SizeMin: 1347
 SizeMax: 1557
 StableVer: 17.1
 LastRelease: 2014-11-29
-Target:  1 2
+Target:  2 1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2
@@ -2851,6 +3185,8 @@ StableVer: 1
 LastRelease: 2009-06-12
 Target:  3
 OS: 1
+License: 0
+Language: Polish
 State: 1
 Media:  3
 Architecture:  1
@@ -2868,6 +3204,8 @@ StableVer:
 LastRelease: 2011-05-09
 Target:  8
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4
 Architecture:  1
@@ -2885,6 +3223,8 @@ StableVer: 2.4
 LastRelease: 2015-06-10
 Target:  8
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3 4
 Architecture:  1
@@ -2902,6 +3242,8 @@ StableVer: 2004-12-23
 LastRelease: 2004-12-23
 Target:  20 3
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -2919,6 +3261,8 @@ StableVer: 5.2
 LastRelease: 2012-12-06
 Target:  0
 OS: 0
+License: 0
+Language: English
 State: 4
 Media:  3 4
 Architecture:  1
@@ -2936,6 +3280,8 @@ StableVer: 1.0.9
 LastRelease: 2004-03-27
 Target:  9
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -2953,6 +3299,8 @@ StableVer: 5.4
 LastRelease: 2014-06-11
 Target:  0
 OS: 0
+License: 0
+Language: English
 State: 4
 Media:  6
 Architecture:  1
@@ -2970,6 +3318,8 @@ StableVer: 0.1pre0
 LastRelease: 2005-01-13
 Target:  8
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -2987,6 +3337,8 @@ StableVer: 2.1
 LastRelease: 2003-05-01
 Target:  1 4
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -3002,8 +3354,10 @@ SizeMin: 185
 SizeMax: 210
 StableVer: 0.5
 LastRelease: 2004-03-06
-Target:  1 6
+Target:  6 1
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -3021,6 +3375,8 @@ StableVer: 1.0rc5
 LastRelease: 2002-10-27
 Target:  4
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -3038,6 +3394,8 @@ StableVer: 2.0beta1
 LastRelease: 2005-09-30
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -3053,8 +3411,10 @@ SizeMin: 840
 SizeMax: 908
 StableVer: 16.04
 LastRelease: 2016-04-21
-Target:  1 2
+Target:  2 1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3 4 6
 Architecture:  3 1 2
@@ -3072,6 +3432,8 @@ StableVer:
 LastRelease: 2008-07-17
 Target:  1
 OS: 1
+License: 0
+Language: Spanish
 State: 1
 Media:  3
 Architecture:  1
@@ -3089,6 +3451,8 @@ StableVer:
 LastRelease: 2004-07-27
 Target:  1
 OS: 1
+License: 0
+Language: 
 State: 1
 Media:  3
 Architecture:  1
@@ -3106,6 +3470,8 @@ StableVer: 1.34
 LastRelease: 2012-11-12
 Target:  11
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -3121,8 +3487,10 @@ SizeMin: 654
 SizeMax: 1534
 StableVer: 4
 LastRelease: 2014-02-01
-Target:  1 2
+Target:  2 1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2
@@ -3140,9 +3508,11 @@ StableVer: 5.2
 LastRelease: 2013-01-01
 Target:  1
 OS: 0
+License: 0
+Language: English
 State: 4
 Media:  3
-Architecture:  3 4 1 2
+Architecture:  4 1 2 3
 Note: 
 
 Number: 186
@@ -3155,10 +3525,12 @@ SizeMin: 683
 SizeMax: 1337
 StableVer: 11
 LastRelease: 2011-05-05
-Target:  2 1
+Target:  1 2
 OS: 1
+License: 0
+Language: English
 State: 4
-Media:  4 6 3
+Media:  3 4 6
 Architecture:  2 1
 Note: 
 
@@ -3172,8 +3544,10 @@ SizeMin: 180
 SizeMax: 180
 StableVer: 1
 LastRelease: 2004-07-22
-Target:  1 2
+Target:  2 1
 OS: 1
+License: 0
+Language: 
 State: 1
 Media:  3
 Architecture:  1
@@ -3191,6 +3565,8 @@ StableVer: 1-beta
 LastRelease: 2003-01-24
 Target:  1
 OS: 1
+License: 0
+Language: Portuguese
 State: 1
 Media:  3
 Architecture:  1
@@ -3208,6 +3584,8 @@ StableVer: #10
 LastRelease: 2008-03-16
 Target:  13
 OS: 0
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -3225,6 +3603,8 @@ StableVer: 1.0.1
 LastRelease: 2007-10-17
 Target:  1
 OS: 1
+License: 0
+Language: Dutch
 State: 1
 Media:  3
 Architecture:  1
@@ -3242,6 +3622,8 @@ StableVer: 1.1
 LastRelease: 2003-12-17
 Target:  17
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -3259,6 +3641,8 @@ StableVer: 0.8.3
 LastRelease: 2004-04-03
 Target:  7
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -3276,6 +3660,8 @@ StableVer: 0.3.1rc2
 LastRelease: 2004-08-13
 Target:  7
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -3293,6 +3679,8 @@ StableVer: 0.5
 LastRelease: 2004-06-01
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -3310,6 +3698,8 @@ StableVer: 2.1
 LastRelease: 2010-04-27
 Target:  14
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -3325,8 +3715,10 @@ SizeMin: 142
 SizeMax: 686
 StableVer: 2.6.18.6-2
 LastRelease: 2007-08-16
-Target:  1 2 4 10
+Target:  10 2 4 1
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -3344,9 +3736,11 @@ StableVer: 14.04
 LastRelease: 2014-04-17
 Target:  2 7
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4 6
-Architecture:  2 1
+Architecture:  1 2
 Note: 
 
 Number: 198
@@ -3361,8 +3755,10 @@ StableVer: 1.2
 LastRelease: 2014-01-14
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 4
-Media:  3 6
+Media:  6 3
 Architecture:  1
 Note: 
 
@@ -3378,6 +3774,8 @@ StableVer: 18 SVN:4509
 LastRelease: 2013-04-13
 Target:  6
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4
 Architecture:  1
@@ -3395,6 +3793,8 @@ StableVer: 2008
 LastRelease: 2008-07-22
 Target:  1
 OS: 1
+License: 0
+Language: 
 State: 1
 Media:  3
 Architecture:  1
@@ -3412,6 +3812,8 @@ StableVer: 20040930
 LastRelease: 2004-09-30
 Target:  20
 OS: 1
+License: 0
+Language: Dutch
 State: 1
 Media:  3
 Architecture:  1
@@ -3427,8 +3829,10 @@ SizeMin: 392
 SizeMax: 392
 StableVer: 2011-05-21
 LastRelease: 2011-05-21
-Target:  10 19
+Target:  19 10
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -3446,6 +3850,8 @@ StableVer: 1
 LastRelease: 2003-07-22
 Target:  13
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -3461,8 +3867,10 @@ SizeMin: 1369
 SizeMax: 1643
 StableVer: 2016.04
 LastRelease: 2016-04-21
-Target:  13 2 1
+Target:  2 13 1
 OS: 0
+License: 0
+Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2
@@ -3478,8 +3886,10 @@ SizeMin: 1562
 SizeMax: 1582
 StableVer: 2014.1
 LastRelease: 2014-09-26
-Target:  1 2
+Target:  2 1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2
@@ -3495,8 +3905,10 @@ SizeMin: 525
 SizeMax: 909
 StableVer: 13.2
 LastRelease: 2014-11-04
-Target:  4 1 2
+Target:  2 4 1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3 6
 Architecture:  1 2
@@ -3514,9 +3926,11 @@ StableVer: 3
 LastRelease: 2010-12-16
 Target:  13
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 
 Number: 208
@@ -3531,6 +3945,8 @@ StableVer: 3.3.20
 LastRelease: 2005-12-25
 Target:  6
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -3548,6 +3964,8 @@ StableVer: 3.6.0
 LastRelease: 2013-06-05
 Target:  6
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -3565,8 +3983,10 @@ StableVer: 0.018
 LastRelease: 2013-10-12
 Target:  0
 OS: 1
+License: 0
+Language: English
 State: 4
-Media:  6 3
+Media:  3 6
 Architecture:  1 2
 Note: 
 
@@ -3582,6 +4002,8 @@ StableVer: 10.2.19
 LastRelease: 2010-02-19
 Target:  17
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  4
 Architecture:  1 2
@@ -3599,6 +4021,8 @@ StableVer: rolling
 LastRelease: 2012-02-07
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1 2
@@ -3616,6 +4040,8 @@ StableVer: 4.4.3.0
 LastRelease: 2010-06-07
 Target:  19
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -3633,9 +4059,11 @@ StableVer: 2013
 LastRelease: 2013-03-25
 Target:  1
 OS: 1
+License: 0
+Language: English Turkish
 State: 4
 Media:  4
-Architecture:  2 1
+Architecture:  1 2
 Note: 
 
 Number: 215
@@ -3650,8 +4078,10 @@ StableVer: 3.7r2
 LastRelease: 2012-02-21
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 4
-Media:  4 3
+Media:  3 4
 Architecture:  1 2
 Note: 
 
@@ -3667,6 +4097,8 @@ StableVer: 2013_09_26
 LastRelease: 2013-09-26
 Target:  0
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3 6
 Architecture:  1 2
@@ -3684,6 +4116,8 @@ StableVer: 2.0.5
 LastRelease: 2010-12-09
 Target:  19
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -3701,9 +4135,11 @@ StableVer: 10.0.2
 LastRelease: 2014-06-24
 Target:  2 1
 OS: 0
+License: 0
+Language: English
 State: 4
-Media:  4 6
-Architecture:  1 2
+Media:  6 4
+Architecture:  2 1
 Note: 
 
 Number: 219
@@ -3718,6 +4154,8 @@ StableVer: 0.01
 LastRelease: 2002-10-19
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -3733,10 +4171,12 @@ SizeMin: 574
 SizeMax: 4052
 StableVer: 2014.12
 LastRelease: 2014-12-19
-Target:  1 2
+Target:  2 1
 OS: 1
+License: 0
+Language: English
 State: 4
-Media:  6 3 4
+Media:  3 4 6
 Architecture:  1
 Note: 
 
@@ -3752,9 +4192,11 @@ StableVer: 2.9
 LastRelease: 2013-01-09
 Target:  5
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 
 Number: 222
@@ -3769,9 +4211,11 @@ StableVer: 2009
 LastRelease: 2009-12-04
 Target:  6
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
-Architecture:  2 1
+Architecture:  1 2
 Note: 
 
 Number: 223
@@ -3784,8 +4228,10 @@ SizeMin: 587
 SizeMax: 596
 StableVer: Five
 LastRelease: 2014-06-23
-Target:  1 2
+Target:  2 1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2
@@ -3803,6 +4249,8 @@ StableVer:
 LastRelease: 2005-05-07
 Target:  6
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -3820,6 +4268,8 @@ StableVer: 0.96
 LastRelease: 2004-01-29
 Target:  0
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -3837,6 +4287,8 @@ StableVer: 2.9.5
 LastRelease: 2001-10-10
 Target:  4 12
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -3854,6 +4306,8 @@ StableVer: 0.95
 LastRelease: 2004-11-11
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -3871,8 +4325,10 @@ StableVer: 11.02
 LastRelease: 2011-02-12
 Target:  4
 OS: 1
+License: 0
+Language: English
 State: 4
-Media:  6 3
+Media:  3 6
 Architecture:  1 2
 Note: 
 
@@ -3888,6 +4344,8 @@ StableVer: 4.1.2
 LastRelease: 2011-08-16
 Target:  4
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1 2
@@ -3905,6 +4363,8 @@ StableVer: 7.0pre2
 LastRelease: 2004-03-09
 Target:  5
 OS: 1
+License: 0
+Language: 
 State: 1
 Media:  3
 Architecture:  1
@@ -3922,6 +4382,8 @@ StableVer:
 LastRelease: 2004-02-24
 Target:  20
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -3939,8 +4401,10 @@ StableVer: 1.2
 LastRelease: 2012-07-04
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 4
-Media:  6 3
+Media:  3 6
 Architecture:  1 2
 Note: 
 
@@ -3954,8 +4418,10 @@ SizeMin: 3052
 SizeMax: 3052
 StableVer: 2015-10-20
 LastRelease: 2015-10-20
-Target:  2 3
+Target:  3 2
 OS: 1
+License: 0
+Language: French
 State: 4
 Media:  4 6
 Architecture:  1 2
@@ -3973,6 +4439,8 @@ StableVer: 2010.1
 LastRelease: 2010-02-25
 Target:  10
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2
@@ -3990,6 +4458,8 @@ StableVer: 10
 LastRelease: 2010-12-02
 Target:  8
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -4007,6 +4477,8 @@ StableVer: 5.7
 LastRelease: 2014-03-09
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -4024,6 +4496,8 @@ StableVer: 9.11
 LastRelease: 2010-03-26
 Target:  14
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3 4
 Architecture:  1 2
@@ -4041,6 +4515,8 @@ StableVer: 1.0-15
 LastRelease: 2005-09-19
 Target:  21
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -4058,6 +4534,8 @@ StableVer: 0.7.9.2
 LastRelease: 2006-02-26
 Target:  17 23
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3 4
 Architecture:  1
@@ -4075,6 +4553,8 @@ StableVer: 0.3.14
 LastRelease: 2012-02-07
 Target:  1
 OS: 0
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -4092,6 +4572,8 @@ StableVer: 1.0.4
 LastRelease: 2012-11-20
 Target:  0
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -4109,6 +4591,8 @@ StableVer: 2.6.2
 LastRelease: 2011-02-02
 Target:  11
 OS: 1
+License: 0
+Language: 
 State: 4
 Media:  4 6
 Architecture:  1
@@ -4126,6 +4610,8 @@ StableVer: 3
 LastRelease: 2011-12-15
 Target:  6
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4
 Architecture:  1
@@ -4143,6 +4629,8 @@ StableVer: 20000924
 LastRelease: 2000-09-25
 Target:  4
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -4160,8 +4648,10 @@ StableVer: 0.30.2
 LastRelease: 2012-11-20
 Target:  4
 OS: 1
+License: 0
+Language: English
 State: 4
-Media:  6 3
+Media:  3 6
 Architecture:  1 2
 Note: 
 
@@ -4177,6 +4667,8 @@ StableVer: 13.5
 LastRelease: 2011-06-24
 Target:  4
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -4194,9 +4686,11 @@ StableVer: rev6454
 LastRelease: 2008-10-31
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
-Architecture:  1 3
+Architecture:  3 1
 Note: 
 
 Number: 248
@@ -4209,8 +4703,10 @@ SizeMin: 912
 SizeMax: 2396
 StableVer: 16.02
 LastRelease: 2016-01-29
-Target:  1 2 8
+Target:  8 2 1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3 4 6
 Architecture:  1 2
@@ -4228,6 +4724,8 @@ StableVer: 0.1.5
 LastRelease: 2004-10-31
 Target:  4
 OS: 1
+License: 0
+Language: 
 State: 1
 Media:  3
 Architecture:  1
@@ -4245,6 +4743,8 @@ StableVer: 0.8
 LastRelease: 2012-08-25
 Target:  2
 OS: 0
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -4260,8 +4760,10 @@ SizeMin: 487
 SizeMax: 2499
 StableVer: 6.5
 LastRelease: 2014-02-03
-Target:  4 1 2
+Target:  2 4 1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3 4 6
 Architecture:  1 2
@@ -4279,6 +4781,8 @@ StableVer: 1.5.0-rc16
 LastRelease: 2005-01-13
 Target:  11
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -4296,6 +4800,8 @@ StableVer: 0.9
 LastRelease: 2005-02-26
 Target:  3
 OS: 1
+License: 0
+Language: Persian
 State: 1
 Media:  3
 Architecture:  1
@@ -4311,8 +4817,10 @@ SizeMin: 619
 SizeMax: 1004
 StableVer: 2013.1
 LastRelease: 2013-05-20
-Target:  1 2
+Target:  2 1
 OS: 1
+License: 0
+Language: English German
 State: 4
 Media:  3 4 6
 Architecture:  1 2
@@ -4330,6 +4838,8 @@ StableVer: 5
 LastRelease: 2010-02-10
 Target:  1 3
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -4347,6 +4857,8 @@ StableVer: 14
 LastRelease: 2012-09-19
 Target:  4
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3 4
 Architecture:  1 2
@@ -4364,6 +4876,8 @@ StableVer: 2.0.2
 LastRelease: 2009-10-30
 Target:  13
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -4381,6 +4895,8 @@ StableVer: 1.4.18.1-2
 LastRelease: 2008-03-26
 Target:  22
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -4396,11 +4912,13 @@ SizeMin: 212
 SizeMax: 219
 StableVer: 7.0.8
 LastRelease: 2013-03-16
-Target:  1 2
+Target:  2 1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3 6
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 
 Number: 260
@@ -4415,6 +4933,8 @@ StableVer: 4
 LastRelease: 2012-04-10
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3 6
 Architecture:  1
@@ -4432,6 +4952,8 @@ StableVer: 0.8
 LastRelease: 2005-06-29
 Target:  20
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -4447,8 +4969,10 @@ SizeMin: 637
 SizeMax: 702
 StableVer: 2
 LastRelease: 2012-04-21
-Target:  1 2
+Target:  2 1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  2 1
@@ -4466,6 +4990,8 @@ StableVer: 2005-06-19
 LastRelease: 2005-06-19
 Target:  3
 OS: 1
+License: 0
+Language: Catalan English French German Italian
 State: 1
 Media:  3
 Architecture:  1
@@ -4483,6 +5009,8 @@ StableVer: 1.2
 LastRelease: 2012-08-15
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2
@@ -4500,6 +5028,8 @@ StableVer: 1.05
 LastRelease: 2012-11-27
 Target:  8
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3 6
 Architecture:  1
@@ -4517,6 +5047,8 @@ StableVer: RC4
 LastRelease: 2007-03-15
 Target:  1
 OS: 1
+License: 0
+Language: Chinese
 State: 1
 Media:  3
 Architecture:  1
@@ -4534,6 +5066,8 @@ StableVer: v1.3.10
 LastRelease: 2004-04-05
 Target:  14
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -4551,6 +5085,8 @@ StableVer: 0.7.106
 LastRelease: 2011-07-31
 Target:  10
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1 2
@@ -4568,6 +5104,8 @@ StableVer: 2
 LastRelease: 2008-09-07
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -4585,6 +5123,8 @@ StableVer: 21
 LastRelease: 2014-12-09
 Target:  3
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  6
 Architecture:  2 1
@@ -4600,8 +5140,10 @@ SizeMin: 2728
 SizeMax: 2728
 StableVer: 7
 LastRelease: 2012-12-07
-Target:  2 3
+Target:  3 2
 OS: 1
+License: 0
+Language: Hungarian
 State: 4
 Media:  4
 Architecture:  1
@@ -4619,6 +5161,8 @@ StableVer: v2
 LastRelease: 2002-11-09
 Target:  4
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -4636,6 +5180,8 @@ StableVer: 0.2.0
 LastRelease: 2012-04-24
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -4651,8 +5197,10 @@ SizeMin: 568
 SizeMax: 568
 StableVer: 2011.7511
 LastRelease: 2011-07-05
-Target:  1 2
+Target:  2 1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -4668,8 +5216,10 @@ SizeMin: 645
 SizeMax: 645
 StableVer: 3
 LastRelease: 2012-08-08
-Target:  1 2
+Target:  2 1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1 2
@@ -4687,6 +5237,8 @@ StableVer: 4.8.0
 LastRelease: 2016-07-01
 Target:  4 0
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1 2
@@ -4704,9 +5256,11 @@ StableVer: 8
 LastRelease: 2010-07-14
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
-Architecture:  3 1 2 4
+Architecture:  1 2 3 4
 Note: 
 
 Number: 278
@@ -4721,6 +5275,8 @@ StableVer: 3.0.1
 LastRelease: 2017-07-05
 Target:  15 1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4 6
 Architecture:  1
@@ -4738,6 +5294,8 @@ StableVer: 2.2.2
 LastRelease: 2011-05-10
 Target:  21
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -4755,6 +5313,8 @@ StableVer: 0.9.12r2
 LastRelease: 2004-12-30
 Target:  4
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -4772,6 +5332,8 @@ StableVer: 3.0.0
 LastRelease: 2011-02-09
 Target:  17
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -4789,6 +5351,8 @@ StableVer: 6
 LastRelease: 2015-01-05
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -4806,6 +5370,8 @@ StableVer: 0.9.21
 LastRelease: 2004-01-17
 Target:  27
 OS: 1
+License: 0
+Language: 
 State: 1
 Media:  3
 Architecture:  1
@@ -4823,6 +5389,8 @@ StableVer: 2.0.103
 LastRelease: 2002-05-04
 Target:  4
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -4840,8 +5408,10 @@ StableVer: 8.2011
 LastRelease: 2011-08-10
 Target:  1
 OS: 1
+License: 0
+Language: German
 State: 4
-Media:  6 4
+Media:  4 6
 Architecture:  1 2
 Note: 
 
@@ -4857,6 +5427,8 @@ StableVer: 412
 LastRelease: 2004-12-01
 Target:  9
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -4874,6 +5446,8 @@ StableVer: 1.2.1
 LastRelease: 2004-01-30
 Target:  6 12
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -4891,6 +5465,8 @@ StableVer: 3.4 build 372
 LastRelease: 2011-04-29
 Target:  4
 OS: 1
+License: 0
+Language: Dutch English
 State: 4
 Media:  3
 Architecture:  1
@@ -4908,6 +5484,8 @@ StableVer: 0.1
 LastRelease: 2007-04-19
 Target:  6
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -4923,11 +5501,13 @@ SizeMin: 514
 SizeMax: 1521
 StableVer: 7
 LastRelease: 2014-11-03
-Target:  1 2
+Target:  2 1
 OS: 1
+License: 0
+Language: English
 State: 4
-Media:  6 3 4
-Architecture:  2 1
+Media:  3 4 6
+Architecture:  1 2
 Note: 
 
 Number: 291
@@ -4942,6 +5522,8 @@ StableVer: 11.3
 LastRelease: 2011-12-06
 Target:  20 13 0
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -4957,8 +5539,10 @@ SizeMin: 1417
 SizeMax: 1434
 StableVer: 16.04
 LastRelease: 2016-04-21
-Target:  1 2
+Target:  2 1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2 3
@@ -4976,6 +5560,8 @@ StableVer: 12.04
 LastRelease: 2012-04-26
 Target:  0
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  6
 Architecture:  1 2
@@ -4993,6 +5579,8 @@ StableVer: 16.04
 LastRelease: 2016-04-21
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2
@@ -5010,9 +5598,11 @@ StableVer: 16.04
 LastRelease: 2016-04-21
 Target:  2
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4 6
-Architecture:  3 1 2
+Architecture:  1 2 3
 Note: 
 
 Number: 296
@@ -5027,6 +5617,8 @@ StableVer: 15.10
 LastRelease: 2015-10-25
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1 2
@@ -5044,8 +5636,10 @@ StableVer: 12.04r1
 LastRelease: 2014-05-07
 Target:  1 15
 OS: 1
+License: 0
+Language: English German
 State: 4
-Media:  4 6
+Media:  6 4
 Architecture:  1
 Note: 
 
@@ -5061,9 +5655,11 @@ StableVer: 16.04
 LastRelease: 2016-04-21
 Target:  14
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4 6
-Architecture:  2 1
+Architecture:  1 2
 Note: 
 
 Number: 299
@@ -5076,8 +5672,10 @@ SizeMin: 697
 SizeMax: 697
 StableVer: 10.8
 LastRelease: 2010-08-07
-Target:  4 0 1
+Target:  4 1 0
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -5095,6 +5693,8 @@ StableVer: 5.3.5
 LastRelease: 2015-05-24
 Target:  4 10 0
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -5112,6 +5712,8 @@ StableVer: 3
 LastRelease: 2011-12-06
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  4
 Architecture:  1
@@ -5127,8 +5729,10 @@ SizeMin: 699
 SizeMax: 699
 StableVer: 7
 LastRelease: 2012-05-31
-Target:  1 2
+Target:  2 1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -5144,8 +5748,10 @@ SizeMin: 647
 SizeMax: 647
 StableVer: 1
 LastRelease: 2005-09-07
-Target:  25 3
+Target:  3 25
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -5163,6 +5769,8 @@ StableVer: 1
 LastRelease: 2002-05-03
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -5180,6 +5788,8 @@ StableVer: 6.5
 LastRelease: 2012-10-01
 Target:  11
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -5197,6 +5807,8 @@ StableVer: 0.5
 LastRelease: 2002-09-18
 Target:  6
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -5214,8 +5826,10 @@ StableVer: 21
 LastRelease: 2013-07-16
 Target:  18
 OS: 1
+License: 0
+Language: English
 State: 4
-Media:  6 3
+Media:  3 6
 Architecture:  1
 Note: 
 
@@ -5231,6 +5845,8 @@ StableVer: 4.4
 LastRelease: 2013-05-16
 Target:  6
 OS: 1
+License: 0
+Language: Spanish
 State: 4
 Media:  3 6
 Architecture:  1 2
@@ -5246,8 +5862,10 @@ SizeMin: 700
 SizeMax: 2048
 StableVer: 4
 LastRelease: 2012-07-31
-Target:  4 0 2
+Target:  0 2 4
 OS: 0
+License: 0
+Language: English
 State: 4
 Media:  3 4
 Architecture:  1 2
@@ -5265,6 +5883,8 @@ StableVer: 8.1
 LastRelease: 2013-10-17
 Target:  1
 OS: 0
+License: 0
+Language: English
 State: 4
 Media:  6
 Architecture:  1 2
@@ -5282,6 +5902,8 @@ StableVer: 0.6beta3
 LastRelease: 2005-03-21
 Target:  7
 OS: 1
+License: 0
+Language: 
 State: 1
 Media:  3
 Architecture:  1
@@ -5299,6 +5921,8 @@ StableVer: 2
 LastRelease: 2007-07-11
 Target:  14
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -5316,8 +5940,10 @@ StableVer: 13
 LastRelease: 2014-05-04
 Target:  7
 OS: 1
+License: 0
+Language: English
 State: 4
-Media:  6 3
+Media:  3 6
 Architecture:  1
 Note: 
 
@@ -5333,6 +5959,8 @@ StableVer:
 LastRelease: 2005-06-28
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  6
@@ -5350,6 +5978,8 @@ StableVer: 0.3
 LastRelease: 2006-10-29
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 1
 Media:  3
 Architecture:  1
@@ -5367,8 +5997,10 @@ StableVer: 0.9.2
 LastRelease: 2010-01-18
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 1
-Media:  3 6
+Media:  6 3
 Architecture:  1
 Note: 
 
@@ -5382,8 +6014,10 @@ SizeMin: 1184
 SizeMax: 1187
 StableVer: 16.04
 LastRelease: 2016-04-21
-Target:  1 2
+Target:  2 1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  6 4
 Architecture:  1 2
@@ -5401,6 +6035,8 @@ StableVer: 7.2
 LastRelease: 2012-10-11
 Target:  1
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1
@@ -5418,6 +6054,8 @@ StableVer: 2.0.RC1
 LastRelease: 2012-07-25
 Target:  11
 OS: 1
+License: 0
+Language: English
 State: 4
 Media:  3
 Architecture:  1

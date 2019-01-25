@@ -56,6 +56,14 @@ func readValueDb() {
 			flag = 5
 			continue
 		}
+		if strings.HasPrefix(s, "License:") {
+			flag = 6
+			continue
+		}
+		if strings.HasPrefix(s, "End:") {
+			return
+		}
+
 		// ще одна контрольна перевірка
 		if strings.Contains(s, ":") == false {
 			continue
@@ -76,6 +84,8 @@ func readValueDb() {
 			Media[st[1]] = byte(n)
 		case 5:
 			Architecture[st[1]] = byte(n)
+		case 6:
+			License[st[1]] = byte(n)
 		default:
 			//fmt.Println(st)
 		}
@@ -208,7 +218,8 @@ func readStartDb() {
 		}
 		if strings.HasPrefix(s, "Primary Language(s): ") {
 			s = strings.TrimPrefix(s, "Primary Language(s): ")
-			//fmt.Println(s)
+			s = strings.TrimSpace(s)
+			lmlDB[i].Language = s
 			continue
 		}
 		if strings.HasPrefix(s, "State:") {
