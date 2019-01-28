@@ -24,12 +24,14 @@ type listMediaLive struct {
 	LastRelease  string
 	Target       []int
 	OS           byte
+	BasedOS      string
 	License      byte
 	Language     string // Primary Language(s):
 	State        byte
 	Media        []int
 	Architecture []int
 	Note         string
+	Rating       int
 }
 
 var (
@@ -212,6 +214,9 @@ func writeLMLdb() {
 		if _, err = fileDB.WriteString("OS: " + strconv.Itoa(int(v.OS)) + "\n"); err != nil {
 			panic(err)
 		}
+		if _, err = fileDB.WriteString("BasedOS: " + v.BasedOS + "\n"); err != nil {
+			panic(err)
+		}
 		if _, err = fileDB.WriteString("License: " + strconv.Itoa(int(v.License)) + "\n"); err != nil {
 			panic(err)
 		}
@@ -236,6 +241,9 @@ func writeLMLdb() {
 			panic(err)
 		}
 		if _, err = fileDB.WriteString("Note: " + v.Note + "\n"); err != nil {
+			panic(err)
+		}
+		if _, err = fileDB.WriteString("Rating: " + strconv.Itoa(v.Rating) + "\n"); err != nil {
 			panic(err)
 		}
 		fileDB.WriteString("\n")

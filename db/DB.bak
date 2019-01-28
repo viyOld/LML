@@ -12,12 +12,14 @@ StableVer: 20030704
 LastRelease: 2003-07-04
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: Chinese
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 2
 Name: 4MLinux
@@ -29,14 +31,16 @@ SizeMin: 5
 SizeMax: 216
 StableVer: 8
 LastRelease: 2014-02-09
-Target:  13 1
+Target:  1 13
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 3
 Name: ABC Linux
@@ -50,12 +54,14 @@ StableVer:
 LastRelease: 2005-11-11
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: Czech
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 4
 Name: AdvanceCD
@@ -69,12 +75,14 @@ StableVer: 2.6.2
 LastRelease: 2005-04-18
 Target:  8
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 5
 Name: ALT Linux
@@ -88,12 +96,14 @@ StableVer: rolling
 LastRelease: 2014-09-12
 Target:  2 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
-Media:  6 3 4
-Architecture:  1 2
+Media:  3 4 6
+Architecture:  2 1
 Note: 
+Rating: 0
 
 Number: 6
 Name: ALT Linux Rescue
@@ -105,14 +115,16 @@ SizeMin: 251
 SizeMax: 300
 StableVer: rolling
 LastRelease: 2014-07-09
-Target:  4 0
+Target:  0 4
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 7
 Name: AmaroK Live
@@ -126,12 +138,14 @@ StableVer: 1.2.1
 LastRelease: 2005-10-03
 Target:  7
 OS: 1
+BasedOS: 
 License: 0
 Language: 
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 8
 Name: Amatix InstantPBX
@@ -145,12 +159,14 @@ StableVer: 0.9-1
 LastRelease: 2007-01-30
 Target:  22
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 9
 Name: Ankur
@@ -164,12 +180,14 @@ StableVer: 1
 LastRelease: 2003-12-20
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 10
 Name: Anonym.OS
@@ -183,12 +201,14 @@ StableVer: 2006
 LastRelease: 2006-01-14
 Target:  15 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 11
 Name: antiX
@@ -202,12 +222,14 @@ StableVer: 13
 LastRelease: 2013-06-02
 Target:  2 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
-Architecture:  1 2
+Architecture:  2 1
 Note: 
+Rating: 0
 
 Number: 12
 Name: aptosid
@@ -221,12 +243,14 @@ StableVer: 2013-01
 LastRelease: 2013-05-05
 Target:  2 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 4
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 13
 Name: aquamorph
@@ -240,12 +264,14 @@ StableVer: 0.4
 LastRelease: 2006-09-05
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 14
 Name: Arabbix
@@ -259,12 +285,14 @@ StableVer: 0.8
 LastRelease: 2004-06-21
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: Arabic
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 15
 Name: Arch Linux
@@ -276,14 +304,16 @@ SizeMin: 742
 SizeMax: 742
 StableVer: 2016.08.01
 LastRelease: 2016-08-01
-Target:  2 4
+Target:  4 2
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 16
 Name: ArchBang
@@ -297,12 +327,14 @@ StableVer: 2014.07.04
 LastRelease: 2014-07-04
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
-Media:  6 3
+Media:  3 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 17
 Name: Archie
@@ -316,12 +348,14 @@ StableVer: 0.4.1
 LastRelease: 2005-04-15
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 18
 Name: ArtistX
@@ -335,12 +369,14 @@ StableVer: 1.4
 LastRelease: 2013-03-13
 Target:  14
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 19
 Name: ASRI Édu
@@ -354,12 +390,14 @@ StableVer: 300
 LastRelease: 2011-10-02
 Target:  3
 OS: 1
+BasedOS: 
 License: 0
 Language: French
 State: 4
 Media:  3 6
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 20
 Name: ATMission
@@ -373,12 +411,14 @@ StableVer: 2.0-01
 LastRelease: 2005-09-26
 Target:  13 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 21
 Name: AUSTRUMI
@@ -392,12 +432,14 @@ StableVer: 3.0.8
 LastRelease: 2014-12-31
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: Latvian
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 22
 Name: AV Linux
@@ -409,14 +451,16 @@ SizeMin: 2523
 SizeMax: 2523
 StableVer: 6
 LastRelease: 2012-08-16
-Target:  2 14
+Target:  14 2
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4 6
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 23
 Name: avast! BART CD
@@ -430,12 +474,14 @@ StableVer: 3
 LastRelease: 2008-09-15
 Target:  19
 OS: 0
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 24
 Name: AVG Rescue CD
@@ -449,12 +495,14 @@ StableVer: 120.120823
 LastRelease: 2012-11-22
 Target:  19
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 6
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 25
 Name: Avira AntiVir Rescue System
@@ -468,12 +516,14 @@ StableVer: 2013-04-03
 LastRelease: 2013-04-03
 Target:  19
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 26
 Name: BackBox
@@ -487,12 +537,14 @@ StableVer: 3
 LastRelease: 2012-10-24
 Target:  6
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
-Media:  4 6
+Media:  6 4
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 27
 Name: BackTrack
@@ -506,12 +558,14 @@ StableVer: 5 R3
 LastRelease: 2012-08-13
 Target:  6
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  4 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 28
 Name: Baltix
@@ -525,12 +579,14 @@ StableVer: 11.04
 LastRelease: 2011-09-22
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: Lithuanian
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 29
 Name: BDI-Live
@@ -544,12 +600,14 @@ StableVer: 4.51
 LastRelease: 2006-10-23
 Target:  24
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 30
 Name: BeleniX
@@ -563,12 +621,14 @@ StableVer: 0.7.1
 LastRelease: 2008-07-18
 Target:  1
 OS: 0
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3 6
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 31
 Name: Benix Kanotix
@@ -582,12 +642,14 @@ StableVer: 2005-02.1
 LastRelease: 2005-06-08
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: 
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 32
 Name: BerliOS MiniCD
@@ -601,12 +663,14 @@ StableVer: 1.0rc3
 LastRelease: 2003-03-17
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 33
 Name: Berry Linux
@@ -620,12 +684,14 @@ StableVer: 1.12
 LastRelease: 2011-10-30
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English Japanese
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 34
 Name: Bio-Linux
@@ -637,14 +703,16 @@ SizeMin: 2703
 SizeMax: 2703
 StableVer: 7.0.4
 LastRelease: 2013-01-17
-Target:  2 17
+Target:  17 2
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 35
 Name: bioknoppix
@@ -656,14 +724,16 @@ SizeMin: 681
 SizeMax: 681
 StableVer: 0.2 beta
 LastRelease: 2004-08-13
-Target:  3 25
+Target:  25 3
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 36
 Name: BitDefender Rescue CD
@@ -677,12 +747,14 @@ StableVer: 2013
 LastRelease: 2012-07-06
 Target:  19
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 37
 Name: Blin Linux
@@ -696,12 +768,14 @@ StableVer: 2
 LastRelease: 2005-01-31
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: Russian
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 38
 Name: Bodhi Linux
@@ -715,12 +789,14 @@ StableVer: 2.1.0
 LastRelease: 2012-09-13
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 39
 Name: Bootable Cluster CD
@@ -734,12 +810,14 @@ StableVer: 3.0.3
 LastRelease: 2011-04-14
 Target:  5
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 40
 Name: BOSSLive
@@ -753,12 +831,14 @@ StableVer: 5.0.0
 LastRelease: 2013-12-23
 Target:  6
 OS: 1
+BasedOS: 
 License: 0
 Language: German
 State: 4
 Media:  4 6
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 41
 Name: Bridge Linux
@@ -772,12 +852,14 @@ StableVer: 2012.8
 LastRelease: 2012-08-03
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 4
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 42
 Name: BSDanywhere
@@ -791,12 +873,14 @@ StableVer: 4.6
 LastRelease: 2009-11-04
 Target:  1
 OS: 0
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 43
 Name: BSDRP
@@ -810,12 +894,14 @@ StableVer: 1
 LastRelease: 2011-10-05
 Target:  11
 OS: 0
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 44
 Name: ByzantineOS
@@ -829,12 +915,14 @@ StableVer: 20040404
 LastRelease: 2004-04-04
 Target:  7
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 45
 Name: CAINE
@@ -848,12 +936,14 @@ StableVer: 3
 LastRelease: 2012-10-03
 Target:  12
 OS: 1
+BasedOS: 
 License: 0
 Language: English Italian
 State: 4
 Media:  4 6
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 46
 Name: Calculate Linux
@@ -865,14 +955,16 @@ SizeMin: 406
 SizeMax: 2245
 StableVer: 14
 LastRelease: 2014-09-04
-Target:  13 2 1 7
+Target:  2 7 1 13
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 4 6
-Architecture:  2 1
+Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 47
 Name: CDlinux
@@ -884,14 +976,16 @@ SizeMin: 84
 SizeMax: 84
 StableVer: 0.9.7
 LastRelease: 2011-11-07
-Target:  1 4
+Target:  4 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
-Media:  3 6
+Media:  6 3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 48
 Name: cdlinux.pl
@@ -905,12 +999,14 @@ StableVer: 1
 LastRelease: 2007-09-09
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: Polish
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 49
 Name: CDMEDICPACSWEB
@@ -924,12 +1020,14 @@ StableVer: 6.2
 LastRelease: 2005-08-08
 Target:  9
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 50
 Name: CentOS
@@ -941,14 +1039,16 @@ SizeMin: 687
 SizeMax: 1238
 StableVer: 7
 LastRelease: 2014-07-07
-Target:  4 1
+Target:  1 4
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
-Media:  3 4 6
+Media:  4 6 3
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 51
 Name: Chakra
@@ -962,12 +1062,14 @@ StableVer: 2012.05
 LastRelease: 2012-05-14
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 52
 Name: CHAOS
@@ -981,12 +1083,14 @@ StableVer: 0.7
 LastRelease: 2005-04-01
 Target:  5
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 53
 Name: Clonezilla
@@ -1000,12 +1104,14 @@ StableVer: 2.3.2-22
 LastRelease: 2015-02-17
 Target:  0
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 54
 Name: ClusterKnoppix
@@ -1019,12 +1125,14 @@ StableVer: 3.6
 LastRelease: 2004-08-31
 Target:  5
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 55
 Name: Cool Linux CD
@@ -1038,12 +1146,14 @@ StableVer: 2.3
 LastRelease: 2003-07-14
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 56
 Name: Crash Recovery Kit for Linux
@@ -1057,12 +1167,14 @@ StableVer: 2.4.37.5-rh73
 LastRelease: 2009-09-01
 Target:  4
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 57
 Name: Crossfade GNU/Linux
@@ -1076,12 +1188,14 @@ StableVer: 0.90
 LastRelease: 2015-01-06
 Target:  14
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
-Media:  4 6
+Media:  6 4
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 58
 Name: CrunchBang Linux
@@ -1095,12 +1209,14 @@ StableVer: 11
 LastRelease: 2013-05-06
 Target:  2 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 59
 Name: CruxEX
@@ -1114,12 +1230,14 @@ StableVer: 3
 LastRelease: 2013-01-28
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
-Media:  6 3
+Media:  3 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 60
 Name: Càtix
@@ -1133,12 +1251,14 @@ StableVer: 2
 LastRelease: 2012-02-29
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: Catalan
 State: 4
 Media:  4
 Architecture:  2 1
 Note: 
+Rating: 0
 
 Number: 61
 Name: Damn Small Linux
@@ -1152,12 +1272,14 @@ StableVer: 4.4.11 rc1
 LastRelease: 2012-08-03
 Target:  2 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 62
 Name: Dappix
@@ -1171,12 +1293,14 @@ StableVer: 5.0.1
 LastRelease: 2006-09-25
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: Danish
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 63
 Name: Darik's Boot And Nuke (DBAN)
@@ -1190,12 +1314,14 @@ StableVer: 2.2.8
 LastRelease: 2013-11-22
 Target:  0
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 6
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 64
 Name: ddblank
@@ -1209,12 +1335,14 @@ StableVer: 3.14.1-6
 LastRelease: 2014-04-16
 Target:  0
 OS: 1
+BasedOS: 
 License: 0
 Language: French
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 65
 Name: Debian
@@ -1226,14 +1354,16 @@ SizeMin: 417
 SizeMax: 1463
 StableVer: 8.4
 LastRelease: 2016-04-02
-Target:  2 4 1
+Target:  4 2 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 4 6
 Architecture:  1 2
 Note: Debian Live images are avilable for multiple desktop environments, including Gnome, KDE, XFCE, LXDE, MATE, and Cinnamon. The “standard” image does not contain a desktop, its interface is command line only.
+Rating: 0
 
 Number: 66
 Name: Debox Live CD
@@ -1247,12 +1377,14 @@ StableVer: 1.7
 LastRelease: 2015-02-02
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
-Media:  6 3
+Media:  3 6
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 67
 Name: DEFT Linux
@@ -1266,12 +1398,14 @@ StableVer: 7
 LastRelease: 2012-01-31
 Target:  6
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 68
 Name: DemoLinux
@@ -1285,12 +1419,14 @@ StableVer: 3.01pl5
 LastRelease: 2002-07-28
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 69
 Name: Devil-Linux
@@ -1304,12 +1440,14 @@ StableVer: 1.6.4
 LastRelease: 2013-10-19
 Target:  11
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 70
 Name: DidJiX
@@ -1323,12 +1461,14 @@ StableVer: 2
 LastRelease: 2014-06-29
 Target:  14
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  6
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 71
 Name: Doscore
@@ -1342,12 +1482,14 @@ StableVer: M2
 LastRelease: 2011-02-07
 Target:  1
 OS: 7
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 72
 Name: DoudouLinux
@@ -1361,12 +1503,14 @@ StableVer: 2
 LastRelease: 2013-06-28
 Target:  3
 OS: 1
+BasedOS: 
 License: 0
 Language: English French
 State: 4
 Media:  4 6
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 73
 Name: Dr.Web LiveCD
@@ -1380,12 +1524,14 @@ StableVer: 6.0.2
 LastRelease: 2014-03-09
 Target:  19
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
-Media:  3 6
+Media:  6 3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 74
 Name: DragonFly BSD
@@ -1397,14 +1543,16 @@ SizeMin: 565
 SizeMax: 1906
 StableVer: 4.0.1
 LastRelease: 2014-11-25
-Target:  1 2
+Target:  2 1
 OS: 0
+BasedOS: 
 License: 0
 Language: English
 State: 4
-Media:  3 6
-Architecture:  2 1
+Media:  6 3
+Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 75
 Name: Dreamlinux
@@ -1418,12 +1566,14 @@ StableVer: 5
 LastRelease: 2012-01-01
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
-Media:  6 4
+State: 3
+Media:  4 6
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 76
 Name: dyne:bolic
@@ -1435,14 +1585,16 @@ SizeMin: 1671
 SizeMax: 1671
 StableVer: 3.0.0
 LastRelease: 2011-09-08
-Target:  1 14
+Target:  14 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 77
 Name: EBOS Speed Edition
@@ -1456,12 +1608,14 @@ StableVer: 1.9.2
 LastRelease: 2015-05-29
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 78
 Name: Edubuntu
@@ -1473,14 +1627,16 @@ SizeMin: 3015
 SizeMax: 3034
 StableVer: 14.04.4
 LastRelease: 2016-02-18
-Target:  3 2
+Target:  2 3
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
-Media:  4 6
+Media:  6 4
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 79
 Name: eLearnix
@@ -1494,12 +1650,14 @@ StableVer: 2.6.6
 LastRelease: 2004-05-17
 Target:  3
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 80
 Name: Elive
@@ -1513,12 +1671,14 @@ StableVer: 2
 LastRelease: 2010-03-04
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: 
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 81
 Name: Emergency CD
@@ -1532,12 +1692,14 @@ StableVer: 3
 LastRelease: 2003-10-31
 Target:  4
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 82
 Name: Emmabuntüs
@@ -1551,12 +1713,14 @@ StableVer: 3 1.01
 LastRelease: 2015-03-11
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
-Media:  4 6
+Media:  6 4
 Architecture:  1
 Note: Emmabuntüs 2 and 3 are out simultaneously.
+Rating: 0
 
 Number: 83
 Name: eMoviX
@@ -1570,12 +1734,14 @@ StableVer: 0.9
 LastRelease: 2005-07-01
 Target:  7
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 84
 Name: F-Secure Rescue CD
@@ -1589,12 +1755,14 @@ StableVer: 3.16
 LastRelease: 2012-06-06
 Target:  19
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 85
 Name: FCCU GNU/Linux Forensic Boot CD
@@ -1608,12 +1776,14 @@ StableVer: 10
 LastRelease: 2006-01-30
 Target:  12
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 86
 Name: Feather Linux
@@ -1627,12 +1797,14 @@ StableVer: 0.7.5
 LastRelease: 2005-07-04
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 87
 Name: Fedora Design Suite
@@ -1646,12 +1818,14 @@ StableVer: 23
 LastRelease: 2015-11-03
 Target:  14
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
-Media:  6 3
+Media:  3 6
 Architecture:  2 1
 Note: 
+Rating: 0
 
 Number: 88
 Name: Fedora Games Spin
@@ -1663,14 +1837,16 @@ SizeMin: 3806
 SizeMax: 3955
 StableVer: 23
 LastRelease: 2015-11-03
-Target:  8 2
+Target:  2 8
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4 6
-Architecture:  1 2
+Architecture:  2 1
 Note: 
+Rating: 0
 
 Number: 89
 Name: Fedora Jam
@@ -1684,12 +1860,14 @@ StableVer: 23
 LastRelease: 2015-11-03
 Target:  14
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 90
 Name: Fedora KDE Plasma Desktop Edition
@@ -1701,14 +1879,16 @@ SizeMin: 1200
 SizeMax: 1232
 StableVer: 23
 LastRelease: 2015-11-03
-Target:  2 1
+Target:  1 2
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 91
 Name: Fedora LXDE Desktop
@@ -1720,14 +1900,16 @@ SizeMin: 787
 SizeMax: 964
 StableVer: 23
 LastRelease: 2015-11-03
-Target:  1 2
+Target:  2 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 6
-Architecture:  2 1
+Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 92
 Name: Fedora MATE Compiz spin
@@ -1741,12 +1923,14 @@ StableVer: 23
 LastRelease: 2015-11-03
 Target:  2 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 93
 Name: Fedora Robotics Suite
@@ -1760,12 +1944,14 @@ StableVer: 23
 LastRelease: 2015-11-03
 Target:  16
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4 6
-Architecture:  2 1
+Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 94
 Name: Fedora Scientific
@@ -1779,12 +1965,14 @@ StableVer: 23
 LastRelease: 2015-11-03
 Target:  17
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 95
 Name: Fedora Security Lab
@@ -1798,12 +1986,14 @@ StableVer: 23
 LastRelease: 2015-11-03
 Target:  6
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
-Media:  6 4
+Media:  4 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 96
 Name: Fedora Workstation
@@ -1815,14 +2005,16 @@ SizeMin: 1124
 SizeMax: 1401
 StableVer: 23
 LastRelease: 2015-11-03
-Target:  2 1
+Target:  1 2
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 97
 Name: Fedora Xfce Spin
@@ -1836,12 +2028,14 @@ StableVer: 23
 LastRelease: 2015-11-03
 Target:  1 2
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
-Media:  6 4
+Media:  4 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 98
 Name: ffsearch-LiveCD
@@ -1855,12 +2049,14 @@ StableVer: 0.3
 LastRelease: 2005-10-10
 Target:  13
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 99
 Name: Finnix
@@ -1874,12 +2070,14 @@ StableVer: 111
 LastRelease: 2015-06-04
 Target:  0
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
-Architecture:  1 2 3
+Architecture:  3 1 2
 Note: 
+Rating: 0
 
 Number: 100
 Name: FIRE
@@ -1893,12 +2091,14 @@ StableVer: 0.4a
 LastRelease: 2003-05-14
 Target:  12
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 101
 Name: Flash Linux
@@ -1912,12 +2112,14 @@ StableVer: 0.3.4
 LastRelease: 2005-03-09
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
-Media:  6 3
+State: 3
+Media:  3 6
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 102
 Name: FlashMob ISO
@@ -1931,12 +2133,14 @@ StableVer:
 LastRelease: 2004-05-07
 Target:  5
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 103
 Name: floppyfw
@@ -1950,12 +2154,14 @@ StableVer: 3.0.15
 LastRelease: 2011-06-21
 Target:  11
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 104
 Name: Forensic Hard Copy
@@ -1969,12 +2175,14 @@ StableVer: 5.3 Beta
 LastRelease: 2012-11-14
 Target:  12
 OS: 1
+BasedOS: 
 License: 0
 Language: Italian
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 105
 Name: Formilux
@@ -1988,12 +2196,14 @@ StableVer:
 LastRelease: 2006-10-15
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 106
 Name: FreeBSD LiveCD
@@ -2005,14 +2215,16 @@ SizeMin: 413
 SizeMax: 413
 StableVer: 4.6
 LastRelease: 2003-11-24
-Target:  2 4 1
+Target:  4 2 1
 OS: 0
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 107
 Name: Freeduc
@@ -2024,14 +2236,16 @@ SizeMin: 699
 SizeMax: 699
 StableVer: 1.7
 LastRelease: 2007-07-19
-Target:  3 23 1
+Target:  1 3 23
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 108
 Name: FreeSBIE
@@ -2045,12 +2259,14 @@ StableVer: 2.0.1
 LastRelease: 2007-02-11
 Target:  1
 OS: 0
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 109
 Name: Frenzy
@@ -2064,12 +2280,14 @@ StableVer: 1.3
 LastRelease: 2010-07-26
 Target:  6 4
 OS: 0
+BasedOS: 
 License: 0
 Language: English Russian
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 110
 Name: Fuduntu
@@ -2083,12 +2301,14 @@ StableVer: 2013.2
 LastRelease: 2013-04-08
 Target:  2 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
-Media:  6 4
+Media:  4 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 111
 Name: FuguIta
@@ -2102,12 +2322,14 @@ StableVer: 4.9
 LastRelease: 2011-05-07
 Target:  1
 OS: 0
+BasedOS: 
 License: 0
 Language: Japanese
 State: 4
 Media:  3 6
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 112
 Name: Gears on Gallium
@@ -2121,12 +2343,14 @@ StableVer: 2015.02.28
 LastRelease: 2015-02-28
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English Russian
 State: 4
-Media:  6 4
+Media:  4 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 113
 Name: GeeXboX
@@ -2140,12 +2364,14 @@ StableVer: 3
 LastRelease: 2012-09-18
 Target:  7
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 114
 Name: Gentoo
@@ -2159,12 +2385,14 @@ StableVer: 20140826
 LastRelease: 2014-08-26
 Target:  4 2
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4 6
-Architecture:  2 1
+Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 115
 Name: Gentoox
@@ -2178,12 +2406,14 @@ StableVer: 7.1
 LastRelease: 2003-08-23
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  6
 Note: 
+Rating: 0
 
 Number: 116
 Name: GhostBSD
@@ -2197,12 +2427,14 @@ StableVer: 2.5
 LastRelease: 2012-01-24
 Target:  1
 OS: 0
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 4 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 117
 Name: Ging
@@ -2216,12 +2448,14 @@ StableVer: 0.1.0
 LastRelease: 2005-11-03
 Target:  1
 OS: 0
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 118
 Name: GIS-Knoppix
@@ -2235,12 +2469,14 @@ StableVer: 1.2
 LastRelease: 2006-04-01
 Target:  23
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 119
 Name: GNOME Live Media
@@ -2254,12 +2490,14 @@ StableVer: 3.4
 LastRelease: 2012-03-30
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 120
 Name: GNU/Linux Kinneret
@@ -2273,12 +2511,14 @@ StableVer: 0.7.3
 LastRelease: 2004-08-08
 Target:  3
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 121
 Name: GNUstep live CD
@@ -2292,12 +2532,14 @@ StableVer: 2
 LastRelease: 2009-12-10
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
-Architecture:  1 2 3 7
+Architecture:  3 7 1 2
 Note: 
+Rating: 0
 
 Number: 122
 Name: GoboLinux
@@ -2311,12 +2553,14 @@ StableVer: 14.01
 LastRelease: 2008-04-02
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 123
 Name: GParted LiveCD
@@ -2330,12 +2574,14 @@ StableVer: 0.23.0-1
 LastRelease: 2015-08-07
 Target:  0
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 6
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 124
 Name: Grml
@@ -2349,12 +2595,14 @@ StableVer: 2014.11
 LastRelease: 2014-11-17
 Target:  0 4
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 125
 Name: Guadalinex
@@ -2368,12 +2616,14 @@ StableVer: 8
 LastRelease: 2012-10-30
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: Spanish
 State: 4
 Media:  4
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 126
 Name: HandyLinux
@@ -2387,12 +2637,14 @@ StableVer: 1.8
 LastRelease: 2015-01-17
 Target:  2 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English French
 State: 4
 Media:  4 6
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 127
 Name: Helix
@@ -2406,12 +2658,14 @@ StableVer: 2009R1
 LastRelease: 2009-12-23
 Target:  12
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 128
 Name: Hikarunix
@@ -2425,12 +2679,14 @@ StableVer: 0.4
 LastRelease: 2005-08-20
 Target:  8
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 129
 Name: Hiren's BootCD
@@ -2442,14 +2698,16 @@ SizeMin: 525
 SizeMax: 525
 StableVer: 15.1
 LastRelease: 2011-10-26
-Target:  19 4 10 0
+Target:  0 4 10 19
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 6
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 130
 Name: Icaros Desktop
@@ -2463,12 +2721,14 @@ StableVer: 1.5
 LastRelease: 2013-01-03
 Target:  1
 OS: 0
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4 6 3
 Architecture: 
 Note: 
+Rating: 0
 
 Number: 131
 Name: INSERT
@@ -2482,12 +2742,14 @@ StableVer: 1.3.9b
 LastRelease: 2007-02-27
 Target:  6 4
 OS: 1
+BasedOS: 
 License: 0
 Language: English German
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 132
 Name: jggimi
@@ -2501,12 +2763,14 @@ StableVer: 5
 LastRelease: 2011-11-01
 Target:  1
 OS: 0
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 4
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 133
 Name: Jibbed
@@ -2520,12 +2784,14 @@ StableVer: 6
 LastRelease: 2012-12-23
 Target:  1
 OS: 0
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 134
 Name: jollix
@@ -2539,12 +2805,14 @@ StableVer: 0.3
 LastRelease: 2004-07-05
 Target:  7 8
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 135
 Name: Jondo Live-CD
@@ -2556,14 +2824,16 @@ SizeMin: 695
 SizeMax: 994
 StableVer: 0.9.49
 LastRelease: 2013-12-16
-Target:  15 1
+Target:  1 15
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
-Media:  3 4 6
+Media:  4 6 3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 136
 Name: Julex
@@ -2577,12 +2847,14 @@ StableVer: 0.5.2.26
 LastRelease: 2005-06-06
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 137
 Name: JustBrowsing
@@ -2596,12 +2868,14 @@ StableVer: 2014-08-08
 LastRelease: 2014-08-08
 Target:  18
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 6
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 138
 Name: Kaboot
@@ -2613,14 +2887,16 @@ SizeMin: 87
 SizeMax: 349
 StableVer: 0.1.1.1
 LastRelease: 2006-02-11
-Target:  4 1 17
+Target:  17 1 4
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 139
 Name: Kaella
@@ -2634,12 +2910,14 @@ StableVer: 3.2
 LastRelease: 2007-09-19
 Target:  3
 OS: 1
+BasedOS: 
 License: 0
 Language: French
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 140
 Name: KahelOS
@@ -2653,12 +2931,14 @@ StableVer: 20212
 LastRelease: 2012-02-04
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 141
 Name: Kali Linux
@@ -2672,12 +2952,14 @@ StableVer: 2016.2
 LastRelease: 2016-08-31
 Target:  6 2
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
-Media:  6 4
+Media:  4 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 142
 Name: Kanotix
@@ -2689,14 +2971,16 @@ SizeMin: 836
 SizeMax: 3075
 StableVer: 2012-05
 LastRelease: 2012-05-24
-Target:  2 1
+Target:  1 2
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 143
 Name: KANOTIX CPX-MINI
@@ -2708,14 +2992,16 @@ SizeMin: 230
 SizeMax: 230
 StableVer: 2005.04
 LastRelease: 2005-09-05
-Target:  2 1
+Target:  1 2
 OS: 1
+BasedOS: 
 License: 0
 Language: German
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 144
 Name: Kaspersky Rescue Disk
@@ -2729,12 +3015,14 @@ StableVer: 10.0.32.17
 LastRelease: 2013-03-20
 Target:  19
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
-Media:  3 6
+Media:  6 3
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 145
 Name: Kate OS LIVE
@@ -2748,12 +3036,14 @@ StableVer: 3.6
 LastRelease: 2007-09-17
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 146
 Name: Kazit
@@ -2767,12 +3057,14 @@ StableVer: 3
 LastRelease: 2006-11-11
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: Hebrew
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 147
 Name: KCPenTrix
@@ -2786,12 +3078,14 @@ StableVer: 2
 LastRelease: 2007-04-01
 Target:  6
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 148
 Name: KibZiLLa
@@ -2805,12 +3099,14 @@ StableVer: 0.95
 LastRelease: 2003-10-20
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: Slovenian
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 149
 Name: Kleo
@@ -2824,12 +3120,14 @@ StableVer: 2010-02-20
 LastRelease: 2010-02-20
 Target:  0
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 150
 Name: Knoppel
@@ -2843,12 +3141,14 @@ StableVer: 0.9beta4
 LastRelease: 2011-02-26
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: Greek
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 151
 Name: Knoppix
@@ -2860,14 +3160,16 @@ SizeMin: 701
 SizeMax: 4029
 StableVer: 7.4.1
 LastRelease: 2014-09-14
-Target:  2 1
+Target:  1 2
 OS: 1
+BasedOS: 
 License: 0
 Language: English German
 State: 4
 Media:  4
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 152
 Name: Knoppix Japanese Edition
@@ -2881,12 +3183,14 @@ StableVer: 6.7.1
 LastRelease: 2011-10-19
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: Japanese
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 153
 Name: Knoppix STD
@@ -2900,12 +3204,14 @@ StableVer: 0.1
 LastRelease: 2004-01-21
 Target:  6
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 154
 Name: KnoppiXMAME
@@ -2919,12 +3225,14 @@ StableVer: 1.3b19
 LastRelease: 2004-05-11
 Target:  8
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 155
 Name: KnoppixQuake
@@ -2938,12 +3246,14 @@ StableVer:
 LastRelease: 2003-12-27
 Target:  13
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 156
 Name: KnoppMyth
@@ -2957,12 +3267,14 @@ StableVer: 5.5
 LastRelease: 2008-07-06
 Target:  7
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 157
 Name: KnoSciences
@@ -2976,12 +3288,14 @@ StableVer: 1
 LastRelease: 2006-02-06
 Target:  3
 OS: 1
+BasedOS: 
 License: 0
 Language: 
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 158
 Name: Kororaa
@@ -2993,14 +3307,16 @@ SizeMin: 1636
 SizeMax: 2375
 StableVer: 20
 LastRelease: 2014-01-10
-Target:  1 2
+Target:  2 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 159
 Name: Kubuntu
@@ -3014,12 +3330,14 @@ StableVer: 16.04
 LastRelease: 2016-04-21
 Target:  2 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4 6
-Architecture:  1 2 3
+Architecture:  3 1 2
 Note: Multiple versions are available concurrently, including 14.04 LTS, 15.10, and 16.04 LTS.
+Rating: 0
 
 Number: 160
 Name: LAMPPIX
@@ -3033,12 +3351,14 @@ StableVer: 1.1
 LastRelease: 2004-08-31
 Target:  13
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 161
 Name: Legnoppix
@@ -3052,12 +3372,14 @@ StableVer: 0.3
 LastRelease: 2006-05-10
 Target:  16
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 162
 Name: LFS LiveCD
@@ -3069,14 +3391,16 @@ SizeMin: 218
 SizeMax: 633
 StableVer: 6.3
 LastRelease: 2007-11-30
-Target:  2 4
+Target:  4 2
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 163
 Name: LG3D LiveCD
@@ -3090,12 +3414,14 @@ StableVer: 3
 LastRelease: 2007-01-04
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 164
 Name: Liberté Linux
@@ -3107,14 +3433,16 @@ SizeMin: 213
 SizeMax: 213
 StableVer: 2012.3
 LastRelease: 2012-09-01
-Target:  15 1
+Target:  1 15
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
-Media:  3 6
+Media:  6 3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 165
 Name: Lightweight Portable Security
@@ -3128,12 +3456,14 @@ StableVer: 1.5.1
 LastRelease: 2014-04-11
 Target:  15 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 166
 Name: Lin4Astro
@@ -3147,12 +3477,14 @@ StableVer: 1
 LastRelease: 2003-08-27
 Target:  26
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 167
 Name: Linux Mint
@@ -3166,12 +3498,14 @@ StableVer: 17.1
 LastRelease: 2014-11-29
 Target:  2 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4 6
-Architecture:  1 2
+Architecture:  2 1
 Note: 
+Rating: 0
 
 Number: 168
 Name: Linux-EduCD
@@ -3185,12 +3519,14 @@ StableVer: 1
 LastRelease: 2009-06-12
 Target:  3
 OS: 1
+BasedOS: 
 License: 0
 Language: Polish
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 169
 Name: linuX-gamers.net live
@@ -3204,12 +3540,14 @@ StableVer:
 LastRelease: 2011-05-09
 Target:  8
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 170
 Name: LinuxConsole
@@ -3223,12 +3561,14 @@ StableVer: 2.4
 LastRelease: 2015-06-10
 Target:  8
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 4
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 171
 Name: Lisp Resource Kit
@@ -3240,14 +3580,16 @@ SizeMin: 612
 SizeMax: 612
 StableVer: 2004-12-23
 LastRelease: 2004-12-23
-Target:  20 3
+Target:  3 20
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 172
 Name: LiveCD-OpenBSD
@@ -3261,12 +3603,14 @@ StableVer: 5.2
 LastRelease: 2012-12-06
 Target:  0
 OS: 0
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 4
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 173
 Name: LiveOIO
@@ -3280,12 +3624,14 @@ StableVer: 1.0.9
 LastRelease: 2004-03-27
 Target:  9
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 174
 Name: LiveUSB-OpenBSD
@@ -3299,12 +3645,14 @@ StableVer: 5.4
 LastRelease: 2014-06-11
 Target:  0
 OS: 0
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  6
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 175
 Name: LLGP
@@ -3318,12 +3666,14 @@ StableVer: 0.1pre0
 LastRelease: 2005-01-13
 Target:  8
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 176
 Name: LNX-BBC
@@ -3337,12 +3687,14 @@ StableVer: 2.1
 LastRelease: 2003-05-01
 Target:  1 4
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 177
 Name: Local Area Security Linux
@@ -3356,12 +3708,14 @@ StableVer: 0.5
 LastRelease: 2004-03-06
 Target:  6 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 178
 Name: Lonix
@@ -3375,12 +3729,14 @@ StableVer: 1.0rc5
 LastRelease: 2002-10-27
 Target:  4
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 179
 Name: loonix-live
@@ -3394,12 +3750,14 @@ StableVer: 2.0beta1
 LastRelease: 2005-09-30
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 180
 Name: Lubuntu
@@ -3411,14 +3769,16 @@ SizeMin: 840
 SizeMax: 908
 StableVer: 16.04
 LastRelease: 2016-04-21
-Target:  2 1
+Target:  1 2
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 4 6
-Architecture:  3 1 2
+Architecture:  1 2 3
 Note: 
+Rating: 0
 
 Number: 181
 Name: LUC3M
@@ -3432,12 +3792,14 @@ StableVer:
 LastRelease: 2008-07-17
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: Spanish
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 182
 Name: Luit Linux
@@ -3451,12 +3813,14 @@ StableVer:
 LastRelease: 2004-07-27
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: 
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 183
 Name: m0n0wall
@@ -3470,12 +3834,14 @@ StableVer: 1.34
 LastRelease: 2012-11-12
 Target:  11
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 184
 Name: Mageia
@@ -3489,12 +3855,14 @@ StableVer: 4
 LastRelease: 2014-02-01
 Target:  2 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 185
 Name: MarBSD
@@ -3508,12 +3876,14 @@ StableVer: 5.2
 LastRelease: 2013-01-01
 Target:  1
 OS: 0
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
-Architecture:  4 1 2 3
+Architecture:  3 4 1 2
 Note: 
+Rating: 0
 
 Number: 186
 Name: MEPIS
@@ -3525,14 +3895,16 @@ SizeMin: 683
 SizeMax: 1337
 StableVer: 11
 LastRelease: 2011-05-05
-Target:  1 2
+Target:  2 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 4 6
-Architecture:  2 1
+Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 187
 Name: MiniKazit
@@ -3544,14 +3916,16 @@ SizeMin: 180
 SizeMax: 180
 StableVer: 1
 LastRelease: 2004-07-22
-Target:  2 1
+Target:  1 2
 OS: 1
+BasedOS: 
 License: 0
 Language: 
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 188
 Name: MIOLUX
@@ -3565,12 +3939,14 @@ StableVer: 1-beta
 LastRelease: 2003-01-24
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: Portuguese
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 189
 Name: MirOS BSD
@@ -3584,12 +3960,14 @@ StableVer: #10
 LastRelease: 2008-03-16
 Target:  13
 OS: 0
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 190
 Name: MitraX
@@ -3603,12 +3981,14 @@ StableVer: 1.0.1
 LastRelease: 2007-10-17
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: Dutch
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 191
 Name: Morphix-NLP
@@ -3622,12 +4002,14 @@ StableVer: 1.1
 LastRelease: 2003-12-17
 Target:  17
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 192
 Name: MoviX
@@ -3641,12 +4023,14 @@ StableVer: 0.8.3
 LastRelease: 2004-04-03
 Target:  7
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 193
 Name: MoviX2
@@ -3660,12 +4044,14 @@ StableVer: 0.3.1rc2
 LastRelease: 2004-08-13
 Target:  7
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 194
 Name: muLinux
@@ -3679,12 +4065,14 @@ StableVer: 0.5
 LastRelease: 2004-06-01
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 195
 Name: Musix GNU+Linux
@@ -3698,12 +4086,14 @@ StableVer: 2.1
 LastRelease: 2010-04-27
 Target:  14
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 196
 Name: Mutagenix
@@ -3715,14 +4105,16 @@ SizeMin: 142
 SizeMax: 686
 StableVer: 2.6.18.6-2
 LastRelease: 2007-08-16
-Target:  10 2 4 1
+Target:  2 1 4 10
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 197
 Name: Mythbuntu
@@ -3736,12 +4128,14 @@ StableVer: 14.04
 LastRelease: 2014-04-17
 Target:  2 7
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 198
 Name: Nanolinux
@@ -3755,12 +4149,14 @@ StableVer: 1.2
 LastRelease: 2014-01-14
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
-Media:  6 3
+Media:  3 6
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 199
 Name: Network Security Toolkit
@@ -3774,12 +4170,14 @@ StableVer: 18 SVN:4509
 LastRelease: 2013-04-13
 Target:  6
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 200
 Name: NimbleX
@@ -3793,12 +4191,14 @@ StableVer: 2008
 LastRelease: 2008-07-22
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: 
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: A later unstable version is available at http://node3.nimblex.net/Download/NimbleX-2012-Beta.iso.
+Rating: 0
 
 Number: 201
 Name: NIOde
@@ -3812,12 +4212,14 @@ StableVer: 20040930
 LastRelease: 2004-09-30
 Target:  20
 OS: 1
+BasedOS: 
 License: 0
 Language: Dutch
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 202
 Name: OpenDiagnostics Live CD
@@ -3831,12 +4233,14 @@ StableVer: 2011-05-21
 LastRelease: 2011-05-21
 Target:  19 10
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 203
 Name: OpenGroupware Knoppix CD
@@ -3850,12 +4254,14 @@ StableVer: 1
 LastRelease: 2003-07-22
 Target:  13
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 204
 Name: OpenIndiana
@@ -3867,14 +4273,16 @@ SizeMin: 1369
 SizeMax: 1643
 StableVer: 2016.04
 LastRelease: 2016-04-21
-Target:  2 13 1
+Target:  2 1 13
 OS: 0
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 205
 Name: OpenMandriva Lx
@@ -3886,14 +4294,16 @@ SizeMin: 1562
 SizeMax: 1582
 StableVer: 2014.1
 LastRelease: 2014-09-26
-Target:  2 1
+Target:  1 2
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 206
 Name: openSUSE
@@ -3905,14 +4315,16 @@ SizeMin: 525
 SizeMax: 909
 StableVer: 13.2
 LastRelease: 2014-11-04
-Target:  2 4 1
+Target:  4 2 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
-Media:  3 6
+Media:  6 3
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 207
 Name: Openwall GNU/*/Linux
@@ -3926,12 +4338,14 @@ StableVer: 3
 LastRelease: 2010-12-16
 Target:  13
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
-Architecture:  2 1
+Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 208
 Name: Operator
@@ -3945,12 +4359,14 @@ StableVer: 3.3.20
 LastRelease: 2005-12-25
 Target:  6
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 209
 Name: Ophcrack LiveCD
@@ -3964,12 +4380,14 @@ StableVer: 3.6.0
 LastRelease: 2013-06-05
 Target:  6
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 210
 Name: Overclockix
@@ -3983,12 +4401,14 @@ StableVer: 0.018
 LastRelease: 2013-10-12
 Target:  0
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 211
 Name: PaiPix
@@ -4002,12 +4422,14 @@ StableVer: 10.2.19
 LastRelease: 2010-02-19
 Target:  17
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  4
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 212
 Name: paldo
@@ -4021,12 +4443,14 @@ StableVer: rolling
 LastRelease: 2012-02-07
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 213
 Name: Panda SafeCD
@@ -4040,12 +4464,14 @@ StableVer: 4.4.3.0
 LastRelease: 2010-06-07
 Target:  19
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 214
 Name: Pardus Live CD
@@ -4059,12 +4485,14 @@ StableVer: 2013
 LastRelease: 2013-03-25
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English Turkish
 State: 4
 Media:  4
-Architecture:  1 2
+Architecture:  2 1
 Note: 
+Rating: 0
 
 Number: 215
 Name: Parsix
@@ -4078,12 +4506,14 @@ StableVer: 3.7r2
 LastRelease: 2012-02-21
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 4
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 216
 Name: Parted Magic
@@ -4097,12 +4527,14 @@ StableVer: 2013_09_26
 LastRelease: 2013-09-26
 Target:  0
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 217
 Name: PC Tools Alternate Operating System Scanner
@@ -4116,12 +4548,14 @@ StableVer: 2.0.5
 LastRelease: 2010-12-09
 Target:  19
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 218
 Name: PC-BSD
@@ -4133,14 +4567,16 @@ SizeMin: 3706
 SizeMax: 3706
 StableVer: 10.0.2
 LastRelease: 2014-06-24
-Target:  2 1
+Target:  1 2
 OS: 0
+BasedOS: 
 License: 0
 Language: English
 State: 4
-Media:  6 4
-Architecture:  2 1
+Media:  4 6
+Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 219
 Name: PCG-C1VN Live CD
@@ -4154,12 +4590,14 @@ StableVer: 0.01
 LastRelease: 2002-10-19
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 220
 Name: PCLinuxOS
@@ -4173,12 +4611,14 @@ StableVer: 2014.12
 LastRelease: 2014-12-19
 Target:  2 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
-Media:  3 4 6
+Media:  6 3 4
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 221
 Name: PelicanHPC
@@ -4192,12 +4632,14 @@ StableVer: 2.9
 LastRelease: 2013-01-09
 Target:  5
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
-Architecture:  2 1
+Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 222
 Name: Pentoo
@@ -4211,12 +4653,14 @@ StableVer: 2009
 LastRelease: 2009-12-04
 Target:  6
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 223
 Name: Peppermint
@@ -4230,12 +4674,14 @@ StableVer: Five
 LastRelease: 2014-06-23
 Target:  2 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 224
 Name: PHLAK
@@ -4249,12 +4695,14 @@ StableVer:
 LastRelease: 2005-05-07
 Target:  6
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 225
 Name: Phrealon
@@ -4268,12 +4716,14 @@ StableVer: 0.96
 LastRelease: 2004-01-29
 Target:  0
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 226
 Name: PLAC
@@ -4287,12 +4737,14 @@ StableVer: 2.9.5
 LastRelease: 2001-10-10
 Target:  4 12
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 227
 Name: PLD Live CD
@@ -4306,12 +4758,14 @@ StableVer: 0.95
 LastRelease: 2004-11-11
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 228
 Name: PLD RescueCD
@@ -4325,12 +4779,14 @@ StableVer: 11.02
 LastRelease: 2011-02-12
 Target:  4
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 229
 Name: Plop Linux
@@ -4344,12 +4800,14 @@ StableVer: 4.1.2
 LastRelease: 2011-08-16
 Target:  4
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 230
 Name: PlumpOS
@@ -4363,12 +4821,14 @@ StableVer: 7.0pre2
 LastRelease: 2004-03-09
 Target:  5
 OS: 1
+BasedOS: 
 License: 0
 Language: 
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 231
 Name: Pollix
@@ -4382,12 +4842,14 @@ StableVer:
 LastRelease: 2004-02-24
 Target:  20
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 232
 Name: Porteus
@@ -4401,12 +4863,14 @@ StableVer: 1.2
 LastRelease: 2012-07-04
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
-Media:  3 6
+Media:  6 3
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 233
 Name: PrimTux
@@ -4420,12 +4884,14 @@ StableVer: 2015-10-20
 LastRelease: 2015-10-20
 Target:  3 2
 OS: 1
+BasedOS: 
 License: 0
 Language: French
 State: 4
 Media:  4 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 234
 Name: PTS Desktop Live
@@ -4439,12 +4905,14 @@ StableVer: 2010.1
 LastRelease: 2010-02-25
 Target:  10
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4 6
-Architecture:  1 2
+Architecture:  2 1
 Note: 
+Rating: 0
 
 Number: 235
 Name: Puppy Arcade
@@ -4458,12 +4926,14 @@ StableVer: 10
 LastRelease: 2010-12-02
 Target:  8
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 236
 Name: Puppy Linux
@@ -4477,12 +4947,14 @@ StableVer: 5.7
 LastRelease: 2014-03-09
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 237
 Name: puredyne
@@ -4496,12 +4968,14 @@ StableVer: 9.11
 LastRelease: 2010-03-26
 Target:  14
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
-Media:  3 4
+Media:  4 3
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 238
 Name: PXES
@@ -4515,12 +4989,14 @@ StableVer: 1.0-15
 LastRelease: 2005-09-19
 Target:  21
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 239
 Name: Quantian
@@ -4532,14 +5008,16 @@ SizeMin: 691
 SizeMax: 1961
 StableVer: 0.7.9.2
 LastRelease: 2006-02-26
-Target:  17 23
+Target:  23 17
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3 4
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 240
 Name: ReactOS
@@ -4553,12 +5031,14 @@ StableVer: 0.3.14
 LastRelease: 2012-02-07
 Target:  1
 OS: 0
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 241
 Name: Redo Backup and Recovery
@@ -4572,12 +5052,14 @@ StableVer: 1.0.4
 LastRelease: 2012-11-20
 Target:  0
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 242
 Name: redWall Firewall
@@ -4591,12 +5073,14 @@ StableVer: 2.6.2
 LastRelease: 2011-02-02
 Target:  11
 OS: 1
+BasedOS: 
 License: 0
 Language: 
 State: 4
 Media:  4 6
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 243
 Name: REMnux
@@ -4610,12 +5094,14 @@ StableVer: 3
 LastRelease: 2011-12-15
 Target:  6
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 244
 Name: Repairlix
@@ -4629,12 +5115,14 @@ StableVer: 20000924
 LastRelease: 2000-09-25
 Target:  4
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 245
 Name: Rescatux
@@ -4648,12 +5136,14 @@ StableVer: 0.30.2
 LastRelease: 2012-11-20
 Target:  4
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 246
 Name: RIPLinuX
@@ -4667,12 +5157,14 @@ StableVer: 13.5
 LastRelease: 2011-06-24
 Target:  4
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 247
 Name: ROCK Linux
@@ -4686,12 +5178,14 @@ StableVer: rev6454
 LastRelease: 2008-10-31
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  3 1
 Note: 
+Rating: 0
 
 Number: 248
 Name: Sabayon
@@ -4703,14 +5197,16 @@ SizeMin: 912
 SizeMax: 2396
 StableVer: 16.02
 LastRelease: 2016-01-29
-Target:  8 2 1
+Target:  2 8 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 4 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 249
 Name: Name: Salvare
@@ -4724,12 +5220,14 @@ StableVer: 0.1.5
 LastRelease: 2004-10-31
 Target:  4
 OS: 1
+BasedOS: 
 License: 0
 Language: 
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 250
 Name: SchilliX
@@ -4743,12 +5241,14 @@ StableVer: 0.8
 LastRelease: 2012-08-25
 Target:  2
 OS: 0
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 251
 Name: Scientific Linux
@@ -4760,14 +5260,16 @@ SizeMin: 487
 SizeMax: 2499
 StableVer: 6.5
 LastRelease: 2014-02-03
-Target:  2 4 1
+Target:  4 2 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 4 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 252
 Name: Sentry Firewall CD
@@ -4781,12 +5283,14 @@ StableVer: 1.5.0-rc16
 LastRelease: 2005-01-13
 Target:  11
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 253
 Name: Shabdix
@@ -4800,12 +5304,14 @@ StableVer: 0.9
 LastRelease: 2005-02-26
 Target:  3
 OS: 1
+BasedOS: 
 License: 0
 Language: Persian
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 254
 Name: Siduction
@@ -4819,12 +5325,14 @@ StableVer: 2013.1
 LastRelease: 2013-05-20
 Target:  2 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English German
 State: 4
 Media:  3 4 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 255
 Name: Skolelinux
@@ -4838,12 +5346,14 @@ StableVer: 5
 LastRelease: 2010-02-10
 Target:  1 3
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 256
 Name: Slackware (Disc 1)
@@ -4857,12 +5367,14 @@ StableVer: 14
 LastRelease: 2012-09-19
 Target:  4
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 4
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 257
 Name: SLAMPP
@@ -4876,12 +5388,14 @@ StableVer: 2.0.2
 LastRelease: 2009-10-30
 Target:  13
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 258
 Name: Slast Linux
@@ -4895,12 +5409,14 @@ StableVer: 1.4.18.1-2
 LastRelease: 2008-03-26
 Target:  22
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 259
 Name: Slax
@@ -4914,12 +5430,14 @@ StableVer: 7.0.8
 LastRelease: 2013-03-16
 Target:  2 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 6
-Architecture:  2 1
+Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 260
 Name: SliTaz
@@ -4933,12 +5451,14 @@ StableVer: 4
 LastRelease: 2012-04-10
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 6
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 261
 Name: SNAPPIX
@@ -4952,12 +5472,14 @@ StableVer: 0.8
 LastRelease: 2005-06-29
 Target:  20
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 262
 Name: Snowlinux
@@ -4969,14 +5491,16 @@ SizeMin: 637
 SizeMax: 702
 StableVer: 2
 LastRelease: 2012-04-21
-Target:  2 1
+Target:  1 2
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
-Architecture:  2 1
+Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 263
 Name: Snøfrix
@@ -4990,12 +5514,14 @@ StableVer: 2005-06-19
 LastRelease: 2005-06-19
 Target:  3
 OS: 1
+BasedOS: 
 License: 0
 Language: Catalan English French German Italian
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 264
 Name: SolusOS
@@ -5009,12 +5535,14 @@ StableVer: 1.2
 LastRelease: 2012-08-15
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 265
 Name: sposkpat
@@ -5028,12 +5556,14 @@ StableVer: 1.05
 LastRelease: 2012-11-27
 Target:  8
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3 6
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 266
 Name: Stanix Professional
@@ -5047,12 +5577,14 @@ StableVer: RC4
 LastRelease: 2007-03-15
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: Chinese
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 267
 Name: StreamBOX-LiveCD
@@ -5066,12 +5598,14 @@ StableVer: v1.3.10
 LastRelease: 2004-04-05
 Target:  14
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 268
 Name: stresslinux
@@ -5085,12 +5619,14 @@ StableVer: 0.7.106
 LastRelease: 2011-07-31
 Target:  10
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 269
 Name: STUX
@@ -5104,12 +5640,14 @@ StableVer: 2
 LastRelease: 2008-09-07
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 270
 Name: Sugar on a Stick
@@ -5123,12 +5661,14 @@ StableVer: 21
 LastRelease: 2014-12-09
 Target:  3
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  6
-Architecture:  2 1
+Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 271
 Name: SuliX
@@ -5142,12 +5682,14 @@ StableVer: 7
 LastRelease: 2012-12-07
 Target:  3 2
 OS: 1
+BasedOS: 
 License: 0
 Language: Hungarian
 State: 4
 Media:  4
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 272
 Name: SuperRescue
@@ -5161,12 +5703,14 @@ StableVer: v2
 LastRelease: 2002-11-09
 Target:  4
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 273
 Name: Swift Linux
@@ -5180,12 +5724,14 @@ StableVer: 0.2.0
 LastRelease: 2012-04-24
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 274
 Name: Symphony OS
@@ -5199,12 +5745,14 @@ StableVer: 2011.7511
 LastRelease: 2011-07-05
 Target:  2 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 275
 Name: Synergy Linux
@@ -5218,12 +5766,14 @@ StableVer: 3
 LastRelease: 2012-08-08
 Target:  2 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 276
 Name: SystemRescueCD
@@ -5237,12 +5787,14 @@ StableVer: 4.8.0
 LastRelease: 2016-07-01
 Target:  4 0
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 277
 Name: T2 @Live
@@ -5256,12 +5808,14 @@ StableVer: 8
 LastRelease: 2010-07-14
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
-Architecture:  1 2 3 4
+Architecture:  3 4 1 2
 Note: 
+Rating: 0
 
 Number: 278
 Name: Tails
@@ -5275,12 +5829,14 @@ StableVer: 3.0.1
 LastRelease: 2017-07-05
 Target:  15 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4 6
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 279
 Name: Thinstation
@@ -5294,12 +5850,14 @@ StableVer: 2.2.2
 LastRelease: 2011-05-10
 Target:  21
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 280
 Name: Timo's Rescue CD
@@ -5313,12 +5871,14 @@ StableVer: 0.9.12r2
 LastRelease: 2004-12-30
 Target:  4
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 281
 Name: TiNA Knoppix
@@ -5332,12 +5892,14 @@ StableVer: 3.0.0
 LastRelease: 2011-02-09
 Target:  17
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 282
 Name: Tiny Core Linux
@@ -5351,12 +5913,14 @@ StableVer: 6
 LastRelease: 2015-01-05
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 283
 Name: tlf-morphix
@@ -5370,12 +5934,14 @@ StableVer: 0.9.21
 LastRelease: 2004-01-17
 Target:  27
 OS: 1
+BasedOS: 
 License: 0
 Language: 
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 284
 Name: tomsrtbt
@@ -5389,12 +5955,14 @@ StableVer: 2.0.103
 LastRelease: 2002-05-04
 Target:  4
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 285
 Name: Toorox
@@ -5408,12 +5976,14 @@ StableVer: 8.2011
 LastRelease: 2011-08-10
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: German
 State: 4
 Media:  4 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 286
 Name: Toothpix
@@ -5427,12 +5997,14 @@ StableVer: 412
 LastRelease: 2004-12-01
 Target:  9
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 287
 Name: TPM Security Server
@@ -5444,14 +6016,16 @@ SizeMin: 294
 SizeMax: 294
 StableVer: 1.2.1
 LastRelease: 2004-01-30
-Target:  6 12
+Target:  12 6
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 288
 Name: Trinity Rescue Kit
@@ -5465,12 +6039,14 @@ StableVer: 3.4 build 372
 LastRelease: 2011-04-29
 Target:  4
 OS: 1
+BasedOS: 
 License: 0
 Language: Dutch English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 289
 Name: Trinux
@@ -5484,12 +6060,14 @@ StableVer: 0.1
 LastRelease: 2007-04-19
 Target:  6
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 290
 Name: Trisquel
@@ -5503,12 +6081,14 @@ StableVer: 7
 LastRelease: 2014-11-03
 Target:  2 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 4 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 291
 Name: TurnKey Linux
@@ -5520,14 +6100,16 @@ SizeMin: 156
 SizeMax: 514
 StableVer: 11.3
 LastRelease: 2011-12-06
-Target:  20 13 0
+Target:  13 20 0
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 292
 Name: Ubuntu
@@ -5539,14 +6121,16 @@ SizeMin: 1417
 SizeMax: 1434
 StableVer: 16.04
 LastRelease: 2016-04-21
-Target:  2 1
+Target:  1 2
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2 3
 Note: Multiple stable versions of Ubuntu are out concurrently. Versions 12.04 LTS, 14.04 LTS, 15.10, and 16.04 LTS are curently available.
+Rating: 0
 
 Number: 293
 Name: Ubuntu Cloud Live
@@ -5560,12 +6144,14 @@ StableVer: 12.04
 LastRelease: 2012-04-26
 Target:  0
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 294
 Name: Ubuntu GNOME
@@ -5579,12 +6165,14 @@ StableVer: 16.04
 LastRelease: 2016-04-21
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 295
 Name: Ubuntu Mate
@@ -5598,12 +6186,14 @@ StableVer: 16.04
 LastRelease: 2016-04-21
 Target:  2
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4 6
-Architecture:  1 2 3
+Architecture:  2 1 3
 Note: 
+Rating: 0
 
 Number: 296
 Name: Ubuntu Mini Remix
@@ -5617,12 +6207,14 @@ StableVer: 15.10
 LastRelease: 2015-10-25
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 297
 Name: Ubuntu Privacy Remix
@@ -5636,12 +6228,14 @@ StableVer: 12.04r1
 LastRelease: 2014-05-07
 Target:  1 15
 OS: 1
+BasedOS: 
 License: 0
 Language: English German
 State: 4
-Media:  6 4
+Media:  4 6
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 298
 Name: Ubuntu Studio
@@ -5655,12 +6249,14 @@ StableVer: 16.04
 LastRelease: 2016-04-21
 Target:  14
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4 6
-Architecture:  1 2
+Architecture:  2 1
 Note: 
+Rating: 0
 
 Number: 299
 Name: ULTILEX
@@ -5672,14 +6268,16 @@ SizeMin: 697
 SizeMax: 697
 StableVer: 10.8
 LastRelease: 2010-08-07
-Target:  4 1 0
+Target:  0 4 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 300
 Name: Ultimate Boot CD
@@ -5691,14 +6289,16 @@ SizeMin: 598
 SizeMax: 598
 StableVer: 5.3.5
 LastRelease: 2015-05-24
-Target:  4 10 0
+Target:  0 4 10
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 301
 Name: Ultimate Edition
@@ -5712,12 +6312,14 @@ StableVer: 3
 LastRelease: 2011-12-06
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 302
 Name: VectorLinux
@@ -5731,12 +6333,14 @@ StableVer: 7
 LastRelease: 2012-05-31
 Target:  2 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 303
 Name: VigyaanCD
@@ -5750,12 +6354,14 @@ StableVer: 1
 LastRelease: 2005-09-07
 Target:  3 25
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 304
 Name: Virtual Linux
@@ -5769,12 +6375,14 @@ StableVer: 1
 LastRelease: 2002-05-03
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 305
 Name: Vyatta Core
@@ -5788,12 +6396,14 @@ StableVer: 6.5
 LastRelease: 2012-10-01
 Target:  11
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 306
 Name: WarLinux
@@ -5807,12 +6417,14 @@ StableVer: 0.5
 LastRelease: 2002-09-18
 Target:  6
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 307
 Name: Webconverger
@@ -5826,12 +6438,14 @@ StableVer: 21
 LastRelease: 2013-07-16
 Target:  18
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 6
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 308
 Name: Wifislax
@@ -5845,12 +6459,14 @@ StableVer: 4.4
 LastRelease: 2013-05-16
 Target:  6
 OS: 1
+BasedOS: 
 License: 0
 Language: Spanish
 State: 4
 Media:  3 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 309
 Name: Windows PE
@@ -5862,14 +6478,16 @@ SizeMin: 700
 SizeMax: 2048
 StableVer: 4
 LastRelease: 2012-07-31
-Target:  0 2 4
+Target:  0 4 2
 OS: 0
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 4
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 310
 Name: Windows To Go
@@ -5883,12 +6501,14 @@ StableVer: 8.1
 LastRelease: 2013-10-17
 Target:  1
 OS: 0
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 311
 Name: WOMP!
@@ -5902,12 +6522,14 @@ StableVer: 0.6beta3
 LastRelease: 2005-03-21
 Target:  7
 OS: 1
+BasedOS: 
 License: 0
 Language: 
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 312
 Name: X-Evian
@@ -5921,12 +6543,14 @@ StableVer: 2
 LastRelease: 2007-07-11
 Target:  14
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 313
 Name: XBMCbuntu
@@ -5940,12 +6564,14 @@ StableVer: 13
 LastRelease: 2014-05-04
 Target:  7
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 6
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 314
 Name: Xebian
@@ -5959,12 +6585,14 @@ StableVer:
 LastRelease: 2005-06-28
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  6
 Note: 
+Rating: 0
 
 Number: 315
 Name: Xfld
@@ -5978,12 +6606,14 @@ StableVer: 0.3
 LastRelease: 2006-10-29
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 316
 Name: xPUD
@@ -5997,12 +6627,14 @@ StableVer: 0.9.2
 LastRelease: 2010-01-18
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
-State: 1
+State: 3
 Media:  6 3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 317
 Name: Xubuntu
@@ -6016,12 +6648,14 @@ StableVer: 16.04
 LastRelease: 2016-04-21
 Target:  2 1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
-Media:  6 4
+Media:  4 6
 Architecture:  1 2
 Note: 
+Rating: 0
 
 Number: 318
 Name: Zenwalk Live
@@ -6035,12 +6669,14 @@ StableVer: 7.2
 LastRelease: 2012-10-11
 Target:  1
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
 Number: 319
 Name: Zeroshell
@@ -6054,10 +6690,12 @@ StableVer: 2.0.RC1
 LastRelease: 2012-07-25
 Target:  11
 OS: 1
+BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
 Architecture:  1
 Note: 
+Rating: 0
 
