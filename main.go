@@ -89,8 +89,13 @@ func httpHandler(w http.ResponseWriter, r *http.Request) {
 
 	fmt.Println("StartPage GET start page +++")
 
-	parsedTemplate, err := template.ParseFiles("assets/http/index.html", "assets/http/header.html",
-		"assets/http/footer.html", "assets/http/nav.html")
+	parsedTemplate, err := template.ParseFiles(
+		"assets/http/index.html",
+		"assets/http/header.html",
+		"assets/http/footer.html",
+		"assets/http/body.html",
+		"assets/http/nav.html",
+	)
 	if err != nil {
 		fmt.Println("I don`t parse static files assets/http/index.html")
 	}
