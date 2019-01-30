@@ -100,8 +100,8 @@ BasedOS:
 License: 0
 Language: English
 State: 4
-Media:  3 4 6
-Architecture:  1 2
+Media:  6 3 4
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -115,14 +115,14 @@ SizeMin: 251
 SizeMax: 300
 StableVer: rolling
 LastRelease: 2014-07-09
-Target:  0 4
+Target:  4 0
 OS: 1
 BasedOS: 
 License: 0
 Language: English
 State: 4
-Media:  3 6
-Architecture:  1 2
+Media:  6 3
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -199,7 +199,7 @@ SizeMin: 575
 SizeMax: 575
 StableVer: 2006
 LastRelease: 2006-01-14
-Target:  1 15
+Target:  15 1
 OS: 1
 BasedOS: 
 License: 0
@@ -220,14 +220,14 @@ SizeMin: 135
 SizeMax: 690
 StableVer: 13
 LastRelease: 2013-06-02
-Target:  1 2
+Target:  2 1
 OS: 1
 BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -241,14 +241,14 @@ SizeMin: 510
 SizeMax: 1982
 StableVer: 2013-01
 LastRelease: 2013-05-05
-Target:  2 1
+Target:  1 2
 OS: 1
 BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 4
-Architecture:  2 1
+Architecture:  1 2
 Note: 
 Rating: 0
 
@@ -304,14 +304,14 @@ SizeMin: 742
 SizeMax: 742
 StableVer: 2016.08.01
 LastRelease: 2016-08-01
-Target:  4 2
+Target:  2 4
 OS: 1
 BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 6
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -332,7 +332,7 @@ License: 0
 Language: English
 State: 4
 Media:  3 6
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -394,7 +394,7 @@ BasedOS:
 License: 0
 Language: French
 State: 4
-Media:  3 6
+Media:  6 3
 Architecture:  1
 Note: 
 Rating: 0
@@ -499,7 +499,7 @@ BasedOS:
 License: 0
 Language: English
 State: 4
-Media:  6 3
+Media:  3 6
 Architecture:  1
 Note: 
 Rating: 0
@@ -562,7 +562,7 @@ BasedOS:
 License: 0
 Language: English
 State: 3
-Media:  6 4
+Media:  4 6
 Architecture:  1 2
 Note: 
 Rating: 0
@@ -625,7 +625,7 @@ BasedOS:
 License: 0
 Language: English
 State: 3
-Media:  3 6
+Media:  6 3
 Architecture:  1
 Note: 
 Rating: 0
@@ -703,13 +703,13 @@ SizeMin: 2703
 SizeMax: 2703
 StableVer: 7.0.4
 LastRelease: 2013-01-17
-Target:  2 17
+Target:  17 2
 OS: 1
 BasedOS: 
 License: 0
 Language: English
 State: 4
-Media:  6 4
+Media:  4 6
 Architecture:  1 2
 Note: 
 Rating: 0
@@ -724,7 +724,7 @@ SizeMin: 681
 SizeMax: 681
 StableVer: 0.2 beta
 LastRelease: 2004-08-13
-Target:  3 25
+Target:  25 3
 OS: 1
 BasedOS: 
 License: 0
@@ -793,8 +793,8 @@ BasedOS:
 License: 0
 Language: English
 State: 4
-Media:  3 6
-Architecture:  1 2
+Media:  6 3
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -815,7 +815,7 @@ License: 0
 Language: English
 State: 4
 Media:  3
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -857,7 +857,7 @@ License: 0
 Language: English
 State: 4
 Media:  3 4
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -899,7 +899,7 @@ License: 0
 Language: English
 State: 4
 Media:  6
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -955,14 +955,14 @@ SizeMin: 406
 SizeMax: 2245
 StableVer: 14
 LastRelease: 2014-09-04
-Target:  2 1 13 7
+Target:  7 13 2 1
 OS: 1
 BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 4 6
-Architecture:  2 1
+Architecture:  1 2
 Note: 
 Rating: 0
 
@@ -1046,7 +1046,7 @@ License: 0
 Language: English
 State: 4
 Media:  3 4 6
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -1192,7 +1192,7 @@ BasedOS:
 License: 0
 Language: English
 State: 4
-Media:  4 6
+Media:  6 4
 Architecture:  1
 Note: 
 Rating: 0
@@ -1207,7 +1207,7 @@ SizeMin: 739
 SizeMax: 771
 StableVer: 11
 LastRelease: 2013-05-06
-Target:  2 1
+Target:  1 2
 OS: 1
 BasedOS: 
 License: 0
@@ -1235,7 +1235,7 @@ License: 0
 Language: English
 State: 4
 Media:  3 6
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -1270,7 +1270,7 @@ SizeMin: 51
 SizeMax: 51
 StableVer: 4.4.11 rc1
 LastRelease: 2012-08-03
-Target:  2 1
+Target:  1 2
 OS: 1
 BasedOS: 
 License: 0
@@ -1361,7 +1361,7 @@ License: 0
 Language: English
 State: 4
 Media:  3 4 6
-Architecture:  1 2
+Architecture:  2 1
 Note: Debian Live images are avilable for multiple desktop environments, including Gnome, KDE, XFCE, LXDE, MATE, and Cinnamon. The “standard” image does not contain a desktop, its interface is command line only.
 Rating: 0
 
@@ -1403,7 +1403,7 @@ License: 0
 Language: English
 State: 4
 Media:  4
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -1585,7 +1585,7 @@ SizeMin: 1671
 SizeMax: 1671
 StableVer: 3.0.0
 LastRelease: 2011-09-08
-Target:  1 14
+Target:  14 1
 OS: 1
 BasedOS: 
 License: 0
@@ -1822,7 +1822,7 @@ BasedOS:
 License: 0
 Language: English
 State: 4
-Media:  3 6
+Media:  6 3
 Architecture:  1 2
 Note: 
 Rating: 0
@@ -1844,7 +1844,7 @@ License: 0
 Language: English
 State: 4
 Media:  4 6
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -1879,7 +1879,7 @@ SizeMin: 1200
 SizeMax: 1232
 StableVer: 23
 LastRelease: 2015-11-03
-Target:  2 1
+Target:  1 2
 OS: 1
 BasedOS: 
 License: 0
@@ -1906,8 +1906,8 @@ BasedOS:
 License: 0
 Language: English
 State: 4
-Media:  3 6
-Architecture:  1 2
+Media:  6 3
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -1921,14 +1921,14 @@ SizeMin: 1141
 SizeMax: 1295
 StableVer: 23
 LastRelease: 2015-11-03
-Target:  2 1
+Target:  1 2
 OS: 1
 BasedOS: 
 License: 0
 Language: English
 State: 4
-Media:  6 3
-Architecture:  1 2
+Media:  3 6
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -1970,7 +1970,7 @@ License: 0
 Language: English
 State: 4
 Media:  4 6
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -2005,14 +2005,14 @@ SizeMin: 1124
 SizeMax: 1401
 StableVer: 23
 LastRelease: 2015-11-03
-Target:  1 2
+Target:  2 1
 OS: 1
 BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4 6
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -2026,14 +2026,14 @@ SizeMin: 844
 SizeMax: 916
 StableVer: 23
 LastRelease: 2015-11-03
-Target:  2 1
+Target:  1 2
 OS: 1
 BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4 6
-Architecture:  2 1
+Architecture:  1 2
 Note: 
 Rating: 0
 
@@ -2215,7 +2215,7 @@ SizeMin: 413
 SizeMax: 413
 StableVer: 4.6
 LastRelease: 2003-11-24
-Target:  2 1 4
+Target:  1 4 2
 OS: 0
 BasedOS: 
 License: 0
@@ -2236,7 +2236,7 @@ SizeMin: 699
 SizeMax: 699
 StableVer: 1.7
 LastRelease: 2007-07-19
-Target:  3 1 23
+Target:  1 3 23
 OS: 1
 BasedOS: 
 License: 0
@@ -2299,7 +2299,7 @@ SizeMin: 819
 SizeMax: 1009
 StableVer: 2013.2
 LastRelease: 2013-04-08
-Target:  2 1
+Target:  1 2
 OS: 1
 BasedOS: 
 License: 0
@@ -2348,7 +2348,7 @@ License: 0
 Language: English Russian
 State: 4
 Media:  4 6
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -2369,7 +2369,7 @@ License: 0
 Language: English
 State: 4
 Media:  3
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -2390,7 +2390,7 @@ License: 0
 Language: English
 State: 4
 Media:  4 6
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -2537,7 +2537,7 @@ License: 0
 Language: English
 State: 3
 Media:  3
-Architecture:  1 2 3 7
+Architecture:  1 3 7 2
 Note: 
 Rating: 0
 
@@ -2593,14 +2593,14 @@ SizeMin: 230
 SizeMax: 913
 StableVer: 2014.11
 LastRelease: 2014-11-17
-Target:  4 0
+Target:  0 4
 OS: 1
 BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  3 6
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -2698,7 +2698,7 @@ SizeMin: 525
 SizeMax: 525
 StableVer: 15.1
 LastRelease: 2011-10-26
-Target:  4 0 10 19
+Target:  19 4 10 0
 OS: 1
 BasedOS: 
 License: 0
@@ -2740,7 +2740,7 @@ SizeMin: 60
 SizeMax: 60
 StableVer: 1.3.9b
 LastRelease: 2007-02-27
-Target:  4 6
+Target:  6 4
 OS: 1
 BasedOS: 
 License: 0
@@ -2767,8 +2767,8 @@ BasedOS:
 License: 0
 Language: English
 State: 4
-Media:  4 3
-Architecture:  1 2
+Media:  3 4
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -2789,7 +2789,7 @@ License: 0
 Language: English
 State: 4
 Media:  3
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -2872,7 +2872,7 @@ BasedOS:
 License: 0
 Language: English
 State: 4
-Media:  6 3
+Media:  3 6
 Architecture:  1
 Note: 
 Rating: 0
@@ -2887,7 +2887,7 @@ SizeMin: 87
 SizeMax: 349
 StableVer: 0.1.1.1
 LastRelease: 2006-02-11
-Target:  17 1 4
+Target:  17 4 1
 OS: 1
 BasedOS: 
 License: 0
@@ -2957,7 +2957,7 @@ License: 0
 Language: English
 State: 4
 Media:  4 6
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -3020,7 +3020,7 @@ License: 0
 Language: English
 State: 4
 Media:  3 6
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -3160,7 +3160,7 @@ SizeMin: 701
 SizeMax: 4029
 StableVer: 7.4.1
 LastRelease: 2014-09-14
-Target:  2 1
+Target:  1 2
 OS: 1
 BasedOS: 
 License: 0
@@ -3314,7 +3314,7 @@ License: 0
 Language: English
 State: 4
 Media:  4 6
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -3328,14 +3328,14 @@ SizeMin: 1450
 SizeMax: 1469
 StableVer: 16.04
 LastRelease: 2016-04-21
-Target:  2 1
+Target:  1 2
 OS: 1
 BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4 6
-Architecture:  1 2 3
+Architecture:  2 3 1
 Note: Multiple versions are available concurrently, including 14.04 LTS, 15.10, and 16.04 LTS.
 Rating: 0
 
@@ -3398,7 +3398,7 @@ License: 0
 Language: English
 State: 3
 Media:  3
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -3439,7 +3439,7 @@ BasedOS:
 License: 0
 Language: English
 State: 4
-Media:  3 6
+Media:  6 3
 Architecture:  1
 Note: 
 Rating: 0
@@ -3454,7 +3454,7 @@ SizeMin: 282
 SizeMax: 440
 StableVer: 1.5.1
 LastRelease: 2014-04-11
-Target:  1 15
+Target:  15 1
 OS: 1
 BasedOS: 
 License: 0
@@ -3496,7 +3496,7 @@ SizeMin: 1347
 SizeMax: 1557
 StableVer: 17.1
 LastRelease: 2014-11-29
-Target:  1 2
+Target:  2 1
 OS: 1
 BasedOS: 
 License: 0
@@ -3685,7 +3685,7 @@ SizeMin: 48
 SizeMax: 48
 StableVer: 2.1
 LastRelease: 2003-05-01
-Target:  4 1
+Target:  1 4
 OS: 1
 BasedOS: 
 License: 0
@@ -3776,7 +3776,7 @@ License: 0
 Language: English
 State: 4
 Media:  3 4 6
-Architecture:  1 2 3
+Architecture:  2 3 1
 Note: 
 Rating: 0
 
@@ -3859,7 +3859,7 @@ BasedOS:
 License: 0
 Language: English
 State: 4
-Media:  4 6
+Media:  6 4
 Architecture:  1 2
 Note: 
 Rating: 0
@@ -3881,7 +3881,7 @@ License: 0
 Language: English
 State: 4
 Media:  3
-Architecture:  4 1 2 3
+Architecture:  2 3 1 4
 Note: 
 Rating: 0
 
@@ -4105,7 +4105,7 @@ SizeMin: 142
 SizeMax: 686
 StableVer: 2.6.18.6-2
 LastRelease: 2007-08-16
-Target:  4 2 1 10
+Target:  2 1 4 10
 OS: 1
 BasedOS: 
 License: 0
@@ -4126,14 +4126,14 @@ SizeMin: 958
 SizeMax: 1012
 StableVer: 14.04
 LastRelease: 2014-04-17
-Target:  2 7
+Target:  7 2
 OS: 1
 BasedOS: 
 License: 0
 Language: English
 State: 4
 Media:  4 6
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -4273,7 +4273,7 @@ SizeMin: 1369
 SizeMax: 1643
 StableVer: 2016.04
 LastRelease: 2016-04-21
-Target:  2 1 13
+Target:  13 2 1
 OS: 0
 BasedOS: 
 License: 0
@@ -4301,7 +4301,7 @@ License: 0
 Language: English
 State: 4
 Media:  4 6
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -4315,13 +4315,13 @@ SizeMin: 525
 SizeMax: 909
 StableVer: 13.2
 LastRelease: 2014-11-04
-Target:  4 2 1
+Target:  2 1 4
 OS: 1
 BasedOS: 
 License: 0
 Language: English
 State: 4
-Media:  3 6
+Media:  6 3
 Architecture:  1 2
 Note: 
 Rating: 0
@@ -4343,7 +4343,7 @@ License: 0
 Language: English
 State: 4
 Media:  3
-Architecture:  2 1
+Architecture:  1 2
 Note: 
 Rating: 0
 
@@ -4448,7 +4448,7 @@ License: 0
 Language: English
 State: 4
 Media:  3
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -4490,7 +4490,7 @@ License: 0
 Language: English Turkish
 State: 4
 Media:  4
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -4511,7 +4511,7 @@ License: 0
 Language: English
 State: 4
 Media:  3 4
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -4574,7 +4574,7 @@ License: 0
 Language: English
 State: 4
 Media:  4 6
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -4609,7 +4609,7 @@ SizeMin: 574
 SizeMax: 4052
 StableVer: 2014.12
 LastRelease: 2014-12-19
-Target:  2 1
+Target:  1 2
 OS: 1
 BasedOS: 
 License: 0
@@ -4658,7 +4658,7 @@ License: 0
 Language: English
 State: 3
 Media:  3
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -4783,8 +4783,8 @@ BasedOS:
 License: 0
 Language: English
 State: 4
-Media:  3 6
-Architecture:  1 2
+Media:  6 3
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -4805,7 +4805,7 @@ License: 0
 Language: English
 State: 4
 Media:  3
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -4888,8 +4888,8 @@ BasedOS:
 License: 0
 Language: French
 State: 4
-Media:  6 4
-Architecture:  1 2
+Media:  4 6
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -4909,7 +4909,7 @@ BasedOS:
 License: 0
 Language: English
 State: 4
-Media:  4 6
+Media:  6 4
 Architecture:  1 2
 Note: 
 Rating: 0
@@ -4972,7 +4972,7 @@ BasedOS:
 License: 0
 Language: English
 State: 4
-Media:  4 3
+Media:  3 4
 Architecture:  1 2
 Note: 
 Rating: 0
@@ -5141,7 +5141,7 @@ License: 0
 Language: English
 State: 4
 Media:  3 6
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -5183,7 +5183,7 @@ License: 0
 Language: English
 State: 3
 Media:  3
-Architecture:  1 3
+Architecture:  3 1
 Note: 
 Rating: 0
 
@@ -5204,7 +5204,7 @@ License: 0
 Language: English
 State: 4
 Media:  3 4 6
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -5266,8 +5266,8 @@ BasedOS:
 License: 0
 Language: English
 State: 4
-Media:  4 6 3
-Architecture:  1 2
+Media:  3 4 6
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -5372,7 +5372,7 @@ License: 0
 Language: English
 State: 4
 Media:  3 4
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -5540,7 +5540,7 @@ License: 0
 Language: English
 State: 4
 Media:  4 6
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -5624,7 +5624,7 @@ License: 0
 Language: English
 State: 4
 Media:  3
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -5680,7 +5680,7 @@ SizeMin: 2728
 SizeMax: 2728
 StableVer: 7
 LastRelease: 2012-12-07
-Target:  3 2
+Target:  2 3
 OS: 1
 BasedOS: 
 License: 0
@@ -5764,7 +5764,7 @@ SizeMin: 645
 SizeMax: 645
 StableVer: 3
 LastRelease: 2012-08-08
-Target:  2 1
+Target:  1 2
 OS: 1
 BasedOS: 
 License: 0
@@ -5785,7 +5785,7 @@ SizeMin: 83
 SizeMax: 466
 StableVer: 4.8.0
 LastRelease: 2016-07-01
-Target:  4 0
+Target:  0 4
 OS: 1
 BasedOS: 
 License: 0
@@ -5813,7 +5813,7 @@ License: 0
 Language: English
 State: 3
 Media:  3
-Architecture:  4 1 2 3
+Architecture:  2 3 1 4
 Note: 
 Rating: 0
 
@@ -5827,7 +5827,7 @@ SizeMin: 1153
 SizeMax: 1153
 StableVer: 3.0.1
 LastRelease: 2017-07-05
-Target:  1 15
+Target:  15 1
 OS: 1
 BasedOS: 
 License: 0
@@ -5981,7 +5981,7 @@ License: 0
 Language: German
 State: 4
 Media:  4 6
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -6085,8 +6085,8 @@ BasedOS:
 License: 0
 Language: English
 State: 4
-Media:  4 6 3
-Architecture:  2 1
+Media:  3 4 6
+Architecture:  1 2
 Note: 
 Rating: 0
 
@@ -6100,7 +6100,7 @@ SizeMin: 156
 SizeMax: 514
 StableVer: 11.3
 LastRelease: 2011-12-06
-Target:  13 0 20
+Target:  13 20 0
 OS: 1
 BasedOS: 
 License: 0
@@ -6128,7 +6128,7 @@ License: 0
 Language: English
 State: 4
 Media:  4 6
-Architecture:  1 2 3
+Architecture:  2 3 1
 Note: Multiple stable versions of Ubuntu are out concurrently. Versions 12.04 LTS, 14.04 LTS, 15.10, and 16.04 LTS are curently available.
 Rating: 0
 
@@ -6226,7 +6226,7 @@ SizeMin: 1370
 SizeMax: 1370
 StableVer: 12.04r1
 LastRelease: 2014-05-07
-Target:  15 1
+Target:  1 15
 OS: 1
 BasedOS: 
 License: 0
@@ -6254,7 +6254,7 @@ License: 0
 Language: English
 State: 4
 Media:  4 6
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -6268,7 +6268,7 @@ SizeMin: 697
 SizeMax: 697
 StableVer: 10.8
 LastRelease: 2010-08-07
-Target:  1 0 4
+Target:  4 0 1
 OS: 1
 BasedOS: 
 License: 0
@@ -6289,7 +6289,7 @@ SizeMin: 598
 SizeMax: 598
 StableVer: 5.3.5
 LastRelease: 2015-05-24
-Target:  0 10 4
+Target:  4 10 0
 OS: 1
 BasedOS: 
 License: 0
@@ -6331,7 +6331,7 @@ SizeMin: 699
 SizeMax: 699
 StableVer: 7
 LastRelease: 2012-05-31
-Target:  2 1
+Target:  1 2
 OS: 1
 BasedOS: 
 License: 0
@@ -6464,7 +6464,7 @@ License: 0
 Language: Spanish
 State: 4
 Media:  3 6
-Architecture:  2 1
+Architecture:  1 2
 Note: 
 Rating: 0
 
@@ -6478,13 +6478,13 @@ SizeMin: 700
 SizeMax: 2048
 StableVer: 4
 LastRelease: 2012-07-31
-Target:  2 0 4
+Target:  4 2 0
 OS: 0
 BasedOS: 
 License: 0
 Language: English
 State: 4
-Media:  3 4
+Media:  4 3
 Architecture:  1 2
 Note: 
 Rating: 0
@@ -6506,7 +6506,7 @@ License: 0
 Language: English
 State: 4
 Media:  6
-Architecture:  1 2
+Architecture:  2 1
 Note: 
 Rating: 0
 
@@ -6568,7 +6568,7 @@ BasedOS:
 License: 0
 Language: English
 State: 4
-Media:  3 6
+Media:  6 3
 Architecture:  1
 Note: 
 Rating: 0
@@ -6646,14 +6646,14 @@ SizeMin: 1184
 SizeMax: 1187
 StableVer: 16.04
 LastRelease: 2016-04-21
-Target:  2 1
+Target:  1 2
 OS: 1
 BasedOS: 
 License: 0
 Language: English
 State: 4
-Media:  4 6
-Architecture:  1 2
+Media:  6 4
+Architecture:  2 1
 Note: 
 Rating: 0
 

@@ -226,7 +226,6 @@ func readStartDb() {
 			s = strings.TrimPrefix(s, "State:")
 			s = strings.TrimSpace(s)
 			lmlDB[i].State = State[s]
-			//fmt.Println(s)
 			continue
 		}
 		if strings.HasPrefix(s, "Media:") {

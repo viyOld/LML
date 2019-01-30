@@ -9,6 +9,8 @@ import (
 	"os"
 	"strconv"
 	//"gopkg.in/yaml.v2"
+	"github.com/go-chi/chi"
+	"github.com/go-chi/chi/middleware"
 )
 
 type listMediaLive struct {
@@ -80,6 +82,13 @@ func main() {
 }
 
 func serveHTTP() {
+	r := chi.NewRouter()
+	r.Use(middleware.RequestID)
+	r.Use(middleware.Logger)
+	// r.Get("/", func(w http.ResponseWriter, r *http.Request) {
+	// 	w.Write([]byte("hello world"))
+	// })
+
 	http.HandleFunc("/", httpHandler)
 	http.HandleFunc("/lm", lmHandler)
 	http.ListenAndServe("127.0.0.1:8080", nil)

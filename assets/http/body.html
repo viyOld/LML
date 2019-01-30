@@ -4,7 +4,7 @@
       <br>
         <main>
           <div align="center">
-            <h1>Live Media List</h1>
+            <h3>Live Media List</h3>
             <div class="container">
             <div class="row" style="background-color: #f0f0f0;">
               <div class="col-lg-1">№</div>
@@ -17,7 +17,7 @@
             {{range .}}
             <div class="row justify-content-center">
   				<div class="col-1">{{.Number}}</div>
-  				<div class="col-4" align="left"><a href="#" style="color:grey">{{.Name}}</a></div>
+  				<div class="col-4" align="left"><a href={{.Homepage}} style="color:black">{{.Name}}</a></div>
   				<div class="col-1">
                 	<script id="state" >
                 		switch({{.State}}) {
@@ -25,19 +25,19 @@
   								document.write("Dead")
   								break
   							case 1:
-  								document.write("Inactive")
+  								document.write("Phantom")
 								break
 							case 2:
 								document.write("Zombie")
 								break
 							case 3:
-								document.write("Phantom")
+								document.write("Inactive")
 								break
 							case 4:
   								document.write("Active")
 								break
 							default:
-								document.write("-----")
+								document.write("unknown")
 								break
 						}
               		</script>
