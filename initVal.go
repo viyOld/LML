@@ -389,3 +389,218 @@ func writeLMLdb() {
 		fileDB.WriteString("\n")
 	}
 }
+
+func readDB() {
+	var (
+		n   uint64
+		num int
+	)
+
+	file, err := os.Open("./db/DB.txt")
+	if err != nil {
+		panic(err)
+	}
+	defer file.Close()
+
+	scanner := bufio.NewScanner(file)
+	for scanner.Scan() {
+		//читаємо строку з файла
+		s := strings.TrimSpace(scanner.Text())
+		if s == "" {
+			continue
+		}
+		if strings.HasPrefix(s, "//") {
+			continue
+		}
+		if strings.HasPrefix(s, "#") {
+			continue
+		}
+		if strings.HasPrefix(s, "Number:") {
+			s = strings.TrimPrefix(s, "Number:")
+			s := strings.TrimSpace(s)
+			n, err = strconv.ParseUint(s, 10, 32)
+			if err != nil {
+				panic(err)
+			}
+			lmlDB = append(lmlDB, listMediaLive{})
+			num = len(lmlDB) - 1
+			lmlDB[num].Number = int(n)
+			continue
+		}
+		if strings.HasPrefix(s, "Name:") {
+			s = strings.TrimPrefix(s, "Name:")
+			s := strings.TrimSpace(s)
+			lmlDB[num].Name = s
+			continue
+		}
+		if strings.HasPrefix(s, "Homepage:") {
+			s = strings.TrimPrefix(s, "Homepage:")
+			s := strings.TrimSpace(s)
+			lmlDB[num].Homepage = s
+			continue
+		}
+		if strings.HasPrefix(s, "Download:") {
+			s = strings.TrimPrefix(s, "Download:")
+			s := strings.TrimSpace(s)
+			lmlDB[num].Download = s
+			continue
+		}
+		if strings.HasPrefix(s, "Wikipedia:") {
+			s = strings.TrimPrefix(s, "Wikipedia:")
+			s := strings.TrimSpace(s)
+			lmlDB[num].Wikipedia = s
+			continue
+		}
+		if strings.HasPrefix(s, "Distrowatch:") {
+			s = strings.TrimPrefix(s, "Distrowatch:")
+			s := strings.TrimSpace(s)
+			lmlDB[num].Distrowatch = s
+			continue
+		}
+		if strings.HasPrefix(s, "SizeMin:") {
+			s = strings.TrimPrefix(s, "SizeMin:")
+			s := strings.TrimSpace(s)
+			n, err = strconv.ParseUint(s, 10, 32)
+			if err != nil {
+				panic(err)
+			}
+			lmlDB[num].SizeMin = int(n)
+			continue
+		}
+		if strings.HasPrefix(s, "SizeMax:") {
+			s = strings.TrimPrefix(s, "SizeMax:")
+			s := strings.TrimSpace(s)
+			n, err = strconv.ParseUint(s, 10, 32)
+			if err != nil {
+				panic(err)
+			}
+			lmlDB[num].SizeMax = int(n)
+			continue
+		}
+		if strings.HasPrefix(s, "StableVer:") {
+			s = strings.TrimPrefix(s, "StableVer:")
+			s := strings.TrimSpace(s)
+			lmlDB[num].StableVer = s
+			continue
+		}
+		if strings.HasPrefix(s, "LastRelease:") {
+			s = strings.TrimPrefix(s, "LastRelease:")
+			s := strings.TrimSpace(s)
+			lmlDB[num].LastRelease = s
+			continue
+		}
+
+		if strings.HasPrefix(s, "Target:") {
+			s = strings.TrimPrefix(s, "Target:")
+			s := strings.TrimSpace(s)
+			lmlDB[num].Target = []int{}
+			//split
+			st := strings.Split(s, " ")
+			for _, val := range st {
+				x, err := strconv.Atoi(val)
+				if err != nil {
+					panic(err)
+				}
+				lmlDB[num].Target = append(lmlDB[num].Target, x)
+			}
+			continue
+		}
+
+		if strings.HasPrefix(s, "OS:") {
+			s = strings.TrimPrefix(s, "OS:")
+			s = strings.TrimSpace(s)
+			x, err := strconv.Atoi(s)
+			if err != nil {
+				panic(err)
+			}
+			lmlDB[num].OS = byte(x)
+			continue
+		}
+
+		if strings.HasPrefix(s, "BasedOS:") {
+			s = strings.TrimPrefix(s, "BasedOS:")
+			s := strings.TrimSpace(s)
+			lmlDB[num].BasedOS = s
+			continue
+		}
+
+		if strings.HasPrefix(s, "License:") {
+			s = strings.TrimPrefix(s, "License:")
+			s = strings.TrimSpace(s)
+			x, err := strconv.Atoi(s)
+			if err != nil {
+				panic(err)
+			}
+			lmlDB[num].License = byte(x)
+			continue
+		}
+
+		if strings.HasPrefix(s, "Language:") {
+			s = strings.TrimPrefix(s, "Language:")
+			s := strings.TrimSpace(s)
+			lmlDB[num].Language = s
+			continue
+		}
+
+		if strings.HasPrefix(s, "State:") {
+			s = strings.TrimPrefix(s, "State:")
+			s = strings.TrimSpace(s)
+			x, err := strconv.Atoi(s)
+			if err != nil {
+				panic(err)
+			}
+			lmlDB[num].State = byte(x)
+			continue
+		}
+
+		if strings.HasPrefix(s, "Media:") {
+			s = strings.TrimPrefix(s, "Media:")
+			s := strings.TrimSpace(s)
+			lmlDB[num].Media = []int{}
+			st := strings.Split(s, " ")
+			for _, val := range st {
+				x, err := strconv.Atoi(val)
+				if err != nil {
+					panic(err)
+				}
+				lmlDB[num].Media = append(lmlDB[num].Media, x)
+			}
+			continue
+		}
+
+		if strings.HasPrefix(s, "Architecture: ") {
+			s = strings.TrimPrefix(s, "Architecture: ")
+			s := strings.TrimSpace(s)
+			lmlDB[num].Architecture = []int{}
+			st := strings.Split(s, " ")
+			for _, val := range st {
+				x, err := strconv.Atoi(val)
+				if err != nil {
+					panic(err)
+				}
+				lmlDB[num].Architecture = append(lmlDB[num].Architecture, x)
+			}
+			continue
+		}
+
+		if strings.HasPrefix(s, "Note:") {
+			s = strings.TrimPrefix(s, "Note:")
+			s := strings.TrimSpace(s)
+			lmlDB[num].Note = s
+			continue
+		}
+
+		if strings.HasPrefix(s, "Rating:") {
+			s = strings.TrimPrefix(s, "Rating:")
+			s := strings.TrimSpace(s)
+			n, err = strconv.ParseUint(s, 10, 32)
+			if err != nil {
+				panic(err)
+			}
+			lmlDB[num].Rating = int(n)
+			continue
+		}
+
+	}
+
+}

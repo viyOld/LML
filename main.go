@@ -3,12 +3,11 @@
 package main
 
 import (
-	"bufio"
 	"fmt"
 	"html/template"
+	"log"
 	"net/http"
 	"os"
-	"strings"
 	//"gopkg.in/yaml.v2"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
@@ -49,17 +48,21 @@ var (
 	License      = map[string]byte{}
 )
 
-//	State: Target: OS: Media: Architecture:
-
 func init() {
 	fmt.Println(" ")
 	fmt.Println("Start Init func: ")
 	fmt.Println(" ")
 	// readConf() читає конфігурацію з файлу
 	readValueDb() // читає з файлу можливі значення полей в мапи
-	readStartDb() // читає з файлу БД яка була на http://livecdlist.com/
-	writeLMLdb()  // пише БД в файл та робить копію попередньої
-	// readDB() читає БД з файла
+	//filename := "./db/DB.txt"
+	if _, err := os.Stat("./db/DB.txt"); os.IsNotExist(err) {
+		readStartDb() // читає з файлу БД яка була на http://livecdlist.com/
+	} else {
+		readDB() // читає БД з файла
+	}
+
+	// writeLMLdb()  // пише БД в файл та робить копію попередньої
+
 	// checkLMLdb()  //перевірка посилань дистрибутивів
 
 }
@@ -86,13 +89,34 @@ func serveHTTP() {
 	r := chi.NewRouter()
 	r.Use(middleware.RequestID)
 	r.Use(middleware.Logger)
+	r.Get("/ping", func(w http.ResponseWriter, r *http.Request) {
+		w.Write([]byte("pong"))
+	})
+	r.Get("/", httpHandler)
 	// r.Get("/", func(w http.ResponseWriter, r *http.Request) {
 	// 	w.Write([]byte("hello world"))
 	// })
 
-	http.HandleFunc("/", httpHandler)
-	http.HandleFunc("/lm", lmHandler)
-	http.ListenAndServe("127.0.0.1:8080", nil)
+	// r.Route("/lml", func(r chi.Router) {
+	// 	r.With(paginate).Get("/", ListArticles)
+	// 	r.Post("/", CreateArticle)       // POST /articles
+	// 	r.Get("/search", SearchArticles) // GET /articles/search
+
+	// 	r.Route("/{articleID}", func(r chi.Router) {
+	// 		r.Use(ArticleCtx)            // Load the *Article on the request context
+	// 		r.Get("/", GetArticle)       // GET /articles/123
+	// 		r.Put("/", UpdateArticle)    // PUT /articles/123
+	// 		r.Delete("/", DeleteArticle) // DELETE /articles/123
+	// 	})
+
+	// 	// GET /articles/whats-up
+	// 	r.With(ArticleCtx).Get("/{articleSlug:[a-z-]+}", GetArticle)
+	// })
+
+	//http.HandleFunc("/", httpHandler)
+	//http.HandleFunc("/lm", lmHandler)
+	//http.ListenAndServe("127.0.0.1:8080", r)
+	log.Fatal(http.ListenAndServe("127.0.0.1:8080", r))
 }
 
 func httpHandler(w http.ResponseWriter, r *http.Request) {
@@ -196,29 +220,5 @@ func checkURL(ii int) {
 	}
 
 	fmt.Println("For distributiva: "+lmlDB[ii].Name+" homepage online. http-статус: ", resp.StatusCode)
-
-}
-
-func readDB() {
-	file, err := os.Open("./db/DB.txt")
-	if err != nil {
-		panic(err)
-	}
-	defer file.Close()
-
-	scanner := bufio.NewScanner(file)
-	for scanner.Scan() {
-		//читаємо строку з файла
-		s := strings.TrimSpace(scanner.Text())
-		if s == "" {
-			continue
-		}
-		if strings.HasPrefix(s, "//") {
-			continue
-		}
-		if strings.HasPrefix(s, "#") {
-			continue
-		}
-	}
 
 }
