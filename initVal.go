@@ -94,11 +94,6 @@ func readValueDb() {
 	if err := scanner.Err(); err != nil {
 		log.Fatal(err)
 	}
-	// fmt.Println(State)
-	//fmt.Println(Target)
-	//fmt.Println(OS)
-	// fmt.Println(Media)
-	// fmt.Println(Architecture)
 }
 
 // --------------------------------------------------------------------------------------------------
@@ -110,7 +105,7 @@ func readStartDb() {
 
 	file, err := os.Open("./db/StartDB.txt")
 	if err != nil {
-		log.Fatal(err)
+		panic(err)
 	}
 	defer file.Close()
 
@@ -292,4 +287,105 @@ func readStartDb() {
 	// 	fmt.Println("___________________________________________________")
 	// }
 	// fmt.Println(OS)
+}
+
+func writeLMLdb() {
+
+	filename := "./db/DB.txt"
+	if _, err := os.Stat(filename); os.IsNotExist(err) {
+		_, err := os.Create(filename)
+		if err != nil {
+			panic(err)
+		}
+	} else {
+		if err := os.Rename(filename, "./db/DB.bak"); err != nil {
+			panic(err)
+		}
+		if _, err = os.Create(filename); err != nil {
+			panic(err)
+		}
+	}
+
+	fileDB, err := os.OpenFile(filename, os.O_RDWR, 0644)
+	if err != nil {
+		panic(err)
+	}
+	defer fileDB.Close()
+
+	fileDB.WriteString("#comments time" + "\n" + "\n")
+	for i, v := range lmlDB {
+		if _, err = fileDB.WriteString("Number: " + strconv.Itoa(v.Number) + "\n"); err != nil {
+			panic(err)
+		}
+		if _, err = fileDB.WriteString("Name: " + v.Name + "\n"); err != nil {
+			panic(err)
+		}
+		if _, err = fileDB.WriteString("Homepage: " + v.Homepage + "\n"); err != nil {
+			panic(err)
+		}
+		if _, err = fileDB.WriteString("Download: " + v.Download + "\n"); err != nil {
+			panic(err)
+		}
+		if _, err = fileDB.WriteString("Wikipedia: " + v.Wikipedia + "\n"); err != nil {
+			panic(err)
+		}
+		if _, err = fileDB.WriteString("Distrowatch: " + v.Distrowatch + "\n"); err != nil {
+			panic(err)
+		}
+		if _, err = fileDB.WriteString("SizeMin: " + strconv.Itoa(v.SizeMin) + "\n"); err != nil {
+			panic(err)
+		}
+		if _, err = fileDB.WriteString("SizeMax: " + strconv.Itoa(v.SizeMax) + "\n"); err != nil {
+			panic(err)
+		}
+		if _, err = fileDB.WriteString("StableVer: " + v.StableVer + "\n"); err != nil {
+			panic(err)
+		}
+		if _, err = fileDB.WriteString("LastRelease: " + v.LastRelease + "\n"); err != nil {
+			panic(err)
+		}
+		str := ""
+		for _, val := range lmlDB[i].Target {
+			str = str + " " + strconv.Itoa(val)
+		}
+		if _, err = fileDB.WriteString("Target: " + str + "\n"); err != nil {
+			panic(err)
+		}
+		if _, err = fileDB.WriteString("OS: " + strconv.Itoa(int(v.OS)) + "\n"); err != nil {
+			panic(err)
+		}
+		if _, err = fileDB.WriteString("BasedOS: " + v.BasedOS + "\n"); err != nil {
+			panic(err)
+		}
+		if _, err = fileDB.WriteString("License: " + strconv.Itoa(int(v.License)) + "\n"); err != nil {
+			panic(err)
+		}
+		if _, err = fileDB.WriteString("Language: " + v.Language + "\n"); err != nil {
+			panic(err)
+		}
+		if _, err = fileDB.WriteString("State: " + strconv.Itoa(int(v.State)) + "\n"); err != nil {
+			panic(err)
+		}
+		str = ""
+		for _, val := range lmlDB[i].Media {
+			str = str + " " + strconv.Itoa(val)
+		}
+		if _, err = fileDB.WriteString("Media: " + str + "\n"); err != nil {
+			panic(err)
+		}
+		str = ""
+		for _, val := range lmlDB[i].Architecture {
+			str = str + " " + strconv.Itoa(val)
+		}
+		if _, err = fileDB.WriteString("Architecture: " + str + "\n"); err != nil {
+			panic(err)
+		}
+		if _, err = fileDB.WriteString("Note: " + v.Note + "\n"); err != nil {
+			panic(err)
+		}
+		if _, err = fileDB.WriteString("Rating: " + strconv.Itoa(v.Rating) + "\n"); err != nil {
+			panic(err)
+		}
+		fileDB.WriteString("\n")
+	}
 }
