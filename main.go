@@ -8,6 +8,8 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"path/filepath"
+	"strings"
 	//"gopkg.in/yaml.v2"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
@@ -74,15 +76,34 @@ func main() {
 	fmt.Println(" ")
 
 	// для отдачи сервером статичных файлов из папки public/static
-	fcss := http.FileServer(http.Dir("./assets/css"))
-	http.Handle("/assets/css/", http.StripPrefix("/assets/css/", fcss))
-	fjs := http.FileServer(http.Dir("./assets/js"))
-	http.Handle("/assets/js/", http.StripPrefix("/assets/js/", fjs))
-	fimg := http.FileServer(http.Dir("./assets/img"))
-	http.Handle("/assets/img/", http.StripPrefix("/assets/img/", fimg))
+	// fcss := http.FileServer(http.Dir("./assets/css"))
+	// http.Handle("/assets/css/", http.StripPrefix("/assets/css/", fcss))
+	// fjs := http.FileServer(http.Dir("./assets/js"))
+	// http.Handle("/assets/js/", http.StripPrefix("/assets/js/", fjs))
+	// fimg := http.FileServer(http.Dir("./assets/img"))
+	// http.Handle("/assets/img/", http.StripPrefix("/assets/img/", fimg))
+	//
 
 	serveHTTP()
 	fmt.Println(" ")
+}
+
+func fileServer(r chi.Router, path string, root http.FileSystem) {
+	if strings.ContainsAny(path, "{}*") {
+		panic("FileServer does not permit URL parameters.")
+	}
+
+	fs := http.StripPrefix(path, http.FileServer(root))
+
+	if path != "/" && path[len(path)-1] != '/' {
+		r.Get(path, http.RedirectHandler(path+"/", 301).ServeHTTP)
+		path += "/"
+	}
+	path += "*"
+
+	r.Get(path, http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		fs.ServeHTTP(w, r)
+	}))
 }
 
 func serveHTTP() {
@@ -91,6 +112,13 @@ func serveHTTP() {
 	r.Use(middleware.Logger)
 	//r.Use(middleware.Recoverer)
 	//r.Use(middleware.URLFormat)
+	workDir, _ := os.Getwd()
+	filesDir := filepath.Join(workDir, "assets/js")
+	fileServer(r, "/js/", http.Dir(filesDir))
+	filesDir = filepath.Join(workDir, "assets/css")
+	fileServer(r, "/css/", http.Dir(filesDir))
+	filesDir = filepath.Join(workDir, "assets/img")
+	fileServer(r, "/img", http.Dir(filesDir))
 
 	r.Get("/ping", func(w http.ResponseWriter, r *http.Request) {
 		w.Write([]byte("pong"))
@@ -133,7 +161,7 @@ func GetLML(w http.ResponseWriter, r *http.Request) {
 	parsedTemplate, err := template.ParseFiles(
 		"assets/http/index.html",
 		"assets/http/nav.html",
-		"assets/http/header.html",
+		"assets/http/header_d.html",
 		"assets/http/body_d.html",
 		"assets/http/footer.html",
 	)

@@ -17,9 +17,9 @@
             {{range .}}
             <div class="row justify-content-center">
   				<div class="col-1">{{.Number}}</div>
-  				<div class="col-4" align="left">
-  					<a href=\"./lml/{{.Number}}\" style=\"color:black\">
-  					<!-- <script id="distr" > document.write("<a href=\"./lml/{{.Number}}\""+ " style=\"color:black\">") 	</script> -->
+  				<div class="col-4" align="left"> 
+  					<!--<a href=\"./lml/{{.Number}}\" style=\"color:black\"> -->
+  					 <script id="distr" > document.write("<a href=\"./lml/{{.Number}}\""+ " style=\"color:black\">") 	</script> 
 
   					{{.Name}}</a></div>
   				<div class="col-1">
@@ -46,7 +46,7 @@
 						}
               		</script>
             	</div>
-				<div class="col-1"><a href={{.Homepage}}><img src="/assets/img/home.png" alt="link at home site"></a></div>
+				<div class="col-1"><a href={{.Homepage}}><img src="/img/home.png" alt="link at home site"></a></div>
             	<div class="col-5" align="left">
             		<script id="target" >
             			var arr = []
