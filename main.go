@@ -89,6 +89,9 @@ func serveHTTP() {
 	r := chi.NewRouter()
 	r.Use(middleware.RequestID)
 	r.Use(middleware.Logger)
+	//r.Use(middleware.Recoverer)
+	//r.Use(middleware.URLFormat)
+
 	r.Get("/ping", func(w http.ResponseWriter, r *http.Request) {
 		w.Write([]byte("pong"))
 	})
@@ -97,26 +100,53 @@ func serveHTTP() {
 	// 	w.Write([]byte("hello world"))
 	// })
 
-	// r.Route("/lml", func(r chi.Router) {
-	// 	r.With(paginate).Get("/", ListArticles)
-	// 	r.Post("/", CreateArticle)       // POST /articles
-	// 	r.Get("/search", SearchArticles) // GET /articles/search
+	r.Route("/lml", func(r chi.Router) {
+		//r.With(paginate).Get("/", ListArticles)
+		//r.Post("/", CreateArticle)       // POST /articles
+		//r.Get("/search", SearchArticles) // GET /articles/search
+		//r.Get("/{id}", GetLML)
 
-	// 	r.Route("/{articleID}", func(r chi.Router) {
-	// 		r.Use(ArticleCtx)            // Load the *Article on the request context
-	// 		r.Get("/", GetArticle)       // GET /articles/123
-	// 		r.Put("/", UpdateArticle)    // PUT /articles/123
-	// 		r.Delete("/", DeleteArticle) // DELETE /articles/123
-	// 	})
+		r.Route("/{id}", func(r chi.Router) {
+			//r.Use(ArticleCtx)            // Load the *Article on the request context
+			r.Get("/", GetLML) // GET /articles/123
+			//r.Put("/", UpdateArticle)    // PUT /articles/123
+			//r.Delete("/", DeleteArticle) // DELETE /articles/123
+		})
 
-	// 	// GET /articles/whats-up
-	// 	r.With(ArticleCtx).Get("/{articleSlug:[a-z-]+}", GetArticle)
-	// })
+		// GET /articles/whats-up
+		//r.With(ArticleCtx).Get("/{articleSlug:[a-z-]+}", GetArticle)
+	})
 
 	//http.HandleFunc("/", httpHandler)
 	//http.HandleFunc("/lm", lmHandler)
 	//http.ListenAndServe("127.0.0.1:8080", r)
 	log.Fatal(http.ListenAndServe("127.0.0.1:8080", r))
+}
+
+// GetLML is
+func GetLML(w http.ResponseWriter, r *http.Request) {
+	fmt.Println("DistribPage GET page ****")
+	ID := chi.URLParam(r, "id")
+	// ctx := r.Context()
+	// key := ctx.Value("key").(string)
+	fmt.Println(ID)
+	parsedTemplate, err := template.ParseFiles(
+		"assets/http/index.html",
+		"assets/http/nav.html",
+		"assets/http/header.html",
+		"assets/http/body_d.html",
+		"assets/http/footer.html",
+	)
+	if err != nil {
+		panic(err)
+	}
+	err = parsedTemplate.Execute(w, lmlDB)
+	if err != nil {
+		panic(err)
+	}
+
+	//w.Write([]byte("get lml " + val + id + " " + key + "\n"))
+	//w.Write([]byte("get lml " + " " + id + "\n"))
 }
 
 func httpHandler(w http.ResponseWriter, r *http.Request) {

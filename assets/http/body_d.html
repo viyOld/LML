@@ -17,11 +17,7 @@
             {{range .}}
             <div class="row justify-content-center">
   				<div class="col-1">{{.Number}}</div>
-  				<div class="col-4" align="left">
-  					<a href=\"./lml/{{.Number}}\" style=\"color:black\">
-  					<!-- <script id="distr" > document.write("<a href=\"./lml/{{.Number}}\""+ " style=\"color:black\">") 	</script> -->
-
-  					{{.Name}}</a></div>
+  				<div class="col-4" align="left"><a href={{.Homepage}} style="color:black">{{.Name}}</a></div>
   				<div class="col-1">
                 	<script id="state" >
                 		switch({{.State}}) {
