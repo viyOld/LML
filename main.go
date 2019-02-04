@@ -9,6 +9,7 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
+	"strconv"
 	"strings"
 	//"gopkg.in/yaml.v2"
 	"github.com/go-chi/chi"
@@ -37,6 +38,11 @@ type listMediaLive struct {
 	Note         string
 	Rating       int
 }
+
+// type maindb struct {
+// 	Distr  []listMediaLive
+// 	Target map[string]byte
+// }
 
 var (
 	lmlDB []listMediaLive
@@ -161,14 +167,18 @@ func GetLML(w http.ResponseWriter, r *http.Request) {
 	parsedTemplate, err := template.ParseFiles(
 		"assets/http/index.html",
 		"assets/http/nav.html",
-		"assets/http/header_d.html",
+		"assets/http/header.html",
 		"assets/http/body_d.html",
 		"assets/http/footer.html",
 	)
 	if err != nil {
 		panic(err)
 	}
-	err = parsedTemplate.Execute(w, lmlDB)
+	x, err := strconv.Atoi(ID)
+	if err != nil {
+		panic(err)
+	}
+	err = parsedTemplate.Execute(w, lmlDB[x])
 	if err != nil {
 		panic(err)
 	}
