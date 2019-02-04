@@ -3,6 +3,7 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
 	"html/template"
 	"log"
@@ -39,13 +40,40 @@ type listMediaLive struct {
 	Rating       int
 }
 
-// type maindb struct {
-// 	Distr  []listMediaLive
-// 	Target map[string]byte
-// }
+type structLML struct {
+	Number       string //int
+	Name         string //string
+	Homepage     string //string
+	Download     string //string
+	Wikipedia    string //string
+	Distrowatch  string //string
+	SizeMin      string //int
+	SizeMax      string //int
+	StableVer    string //string
+	LastRelease  string //string
+	Target       string //[]int
+	OS           string //byte
+	BasedOS      string //string
+	License      string //byte
+	Language     string //string // Primary Language(s):
+	State        string //byte
+	Media        string //[]int
+	Architecture string //[]int
+	Note         string //string
+	Rating       string //int
+}
+
+func (lml structLML) getNumber() int {
+	number, err := strconv.Atoi(lml.Number)
+	if err != nil {
+		panic(err)
+	}
+	return number
+}
 
 var (
-	lmlDB []listMediaLive
+	lmlDB  []listMediaLive
+	mainDB []structLML
 	// State is map livecikle distrib
 	State = map[string]byte{}
 	// Target is map pupose distrib
@@ -68,7 +96,8 @@ func init() {
 	} else {
 		readDB() // читає БД з файла
 	}
-
+	loadStartDB("./db/StartDB.txt") // db refactoring
+	unloadLMLdb()
 	// writeLMLdb()  // пише БД в файл та робить копію попередньої
 
 	// checkLMLdb()  //перевірка посилань дистрибутивів
@@ -289,4 +318,202 @@ func checkURL(ii int) {
 
 	fmt.Println("For distributiva: "+lmlDB[ii].Name+" homepage online. http-статус: ", resp.StatusCode)
 
+}
+
+func loadStartDB(path string) {
+	var (
+		fields []string
+		num    int
+	)
+
+	file, err := os.Open(path)
+	if err != nil {
+		panic(err)
+	}
+	defer file.Close()
+
+	scanner := bufio.NewScanner(file)
+	for scanner.Scan() {
+
+		s := strings.TrimSpace(scanner.Text())
+
+		if s == "" || strings.HasPrefix(s, "//") || strings.HasPrefix(s, "#") {
+			continue
+		}
+
+		if strings.Contains(s, ":") {
+			fields = strings.SplitN(s, ":", 2)
+			fields[0] = strings.TrimSpace(fields[0])
+			fields[1] = strings.TrimSpace(fields[1])
+		} else {
+			continue
+		}
+
+		switch fields[0] {
+		case "Number":
+			mainDB = append(mainDB, structLML{})
+			num = len(mainDB) - 1
+			mainDB[num].Number = fields[1]
+		case "Name":
+			mainDB[num].Name = fields[1]
+		case "Homepage":
+			mainDB[num].Homepage = fields[1]
+		case "Download":
+			mainDB[num].Download = fields[1]
+		case "Wikipedia":
+			mainDB[num].Wikipedia = fields[1]
+		case "Distrowatch":
+			mainDB[num].Distrowatch = fields[1]
+		case "Size (mebibytes)":
+			st := strings.Split(fields[1], "-")
+			mainDB[num].SizeMin = strings.TrimSpace(st[0])
+			mainDB[num].SizeMax = strings.TrimSpace(st[1])
+		case "SizeMin":
+			mainDB[num].SizeMin = fields[1]
+		case "SizeMax":
+			mainDB[num].SizeMax = fields[1]
+		case "Last Stable Version", "StableVer:":
+			mainDB[num].StableVer = fields[1]
+		// case "StableVer:":
+		// 	mainDB[num].StableVer = fields[1]
+		case "Last Release":
+			mainDB[num].LastRelease = fields[1]
+		case "Purpose", "Target":
+			mainDB[num].Target = fields[1]
+		case "Operating System", "OS":
+			mainDB[num].OS = fields[1]
+		case "OBasedOS":
+			mainDB[num].BasedOS = fields[1]
+		case "License":
+			mainDB[num].License = fields[1]
+		case "Primary Language(s)", "Language":
+			mainDB[num].Language = fields[1]
+		case "State":
+			mainDB[num].State = fields[1]
+		case "Media":
+			mainDB[num].Media = fields[1]
+		case "Architecture":
+			mainDB[num].Architecture = fields[1]
+		case "Rating":
+			mainDB[num].Rating = fields[1]
+		case "Note":
+			mainDB[num].Note = fields[1]
+		default:
+			//fmt.Println("It's after noon")
+		}
+	}
+
+	if err := scanner.Err(); err != nil {
+		log.Fatal(err)
+	}
+}
+
+func unloadLMLdb() {
+
+	filename := "./db/DBnew.txt"
+	if _, err := os.Stat(filename); os.IsNotExist(err) {
+		_, err := os.Create(filename)
+		if err != nil {
+			panic(err)
+		}
+	} else {
+		if err := os.Rename(filename, "./db/DBnew.bak"); err != nil {
+			panic(err)
+		}
+		if _, err = os.Create(filename); err != nil {
+			panic(err)
+		}
+	}
+
+	fileDB, err := os.OpenFile(filename, os.O_RDWR, 0644)
+	if err != nil {
+		panic(err)
+	}
+	defer fileDB.Close()
+	// fields := reflect.ValueOf(mainDB[0])
+	// values := make([]interface{}, fields.NumField())
+	// fileDB.WriteString("#comments time" + "\n" + "\n")
+
+	// for in := range mainDB {
+	// 	for fd, val := range mainDB[in] {
+	// 		fileDB.WriteString(fd + ": " + val)
+	// 	}
+
+	// }
+
+	// for i, v := range lmlDB {
+	// 	if _, err = fileDB.WriteString("Number: " + strconv.Itoa(v.Number) + "\n"); err != nil {
+	// 		panic(err)
+	// 	}
+	// 	if _, err = fileDB.WriteString("Name: " + v.Name + "\n"); err != nil {
+	// 		panic(err)
+	// 	}
+	// 	if _, err = fileDB.WriteString("Homepage: " + v.Homepage + "\n"); err != nil {
+	// 		panic(err)
+	// 	}
+	// 	if _, err = fileDB.WriteString("Download: " + v.Download + "\n"); err != nil {
+	// 		panic(err)
+	// 	}
+	// 	if _, err = fileDB.WriteString("Wikipedia: " + v.Wikipedia + "\n"); err != nil {
+	// 		panic(err)
+	// 	}
+	// 	if _, err = fileDB.WriteString("Distrowatch: " + v.Distrowatch + "\n"); err != nil {
+	// 		panic(err)
+	// 	}
+	// 	if _, err = fileDB.WriteString("SizeMin: " + strconv.Itoa(v.SizeMin) + "\n"); err != nil {
+	// 		panic(err)
+	// 	}
+	// 	if _, err = fileDB.WriteString("SizeMax: " + strconv.Itoa(v.SizeMax) + "\n"); err != nil {
+	// 		panic(err)
+	// 	}
+	// 	if _, err = fileDB.WriteString("StableVer: " + v.StableVer + "\n"); err != nil {
+	// 		panic(err)
+	// 	}
+	// 	if _, err = fileDB.WriteString("LastRelease: " + v.LastRelease + "\n"); err != nil {
+	// 		panic(err)
+	// 	}
+	// 	str := ""
+	// 	for _, val := range lmlDB[i].Target {
+	// 		str = str + " " + strconv.Itoa(val)
+	// 	}
+	// 	if _, err = fileDB.WriteString("Target: " + str + "\n"); err != nil {
+	// 		panic(err)
+	// 	}
+	// 	if _, err = fileDB.WriteString("OS: " + strconv.Itoa(int(v.OS)) + "\n"); err != nil {
+	// 		panic(err)
+	// 	}
+	// 	if _, err = fileDB.WriteString("BasedOS: " + v.BasedOS + "\n"); err != nil {
+	// 		panic(err)
+	// 	}
+	// 	if _, err = fileDB.WriteString("License: " + strconv.Itoa(int(v.License)) + "\n"); err != nil {
+	// 		panic(err)
+	// 	}
+	// 	if _, err = fileDB.WriteString("Language: " + v.Language + "\n"); err != nil {
+	// 		panic(err)
+	// 	}
+	// 	if _, err = fileDB.WriteString("State: " + strconv.Itoa(int(v.State)) + "\n"); err != nil {
+	// 		panic(err)
+	// 	}
+	// 	str = ""
+	// 	for _, val := range lmlDB[i].Media {
+	// 		str = str + " " + strconv.Itoa(val)
+	// 	}
+	// 	if _, err = fileDB.WriteString("Media: " + str + "\n"); err != nil {
+	// 		panic(err)
+	// 	}
+	// 	str = ""
+	// 	for _, val := range lmlDB[i].Architecture {
+	// 		str = str + " " + strconv.Itoa(val)
+	// 	}
+	// 	if _, err = fileDB.WriteString("Architecture: " + str + "\n"); err != nil {
+	// 		panic(err)
+	// 	}
+	// 	if _, err = fileDB.WriteString("Note: " + v.Note + "\n"); err != nil {
+	// 		panic(err)
+	// 	}
+	// 	if _, err = fileDB.WriteString("Rating: " + strconv.Itoa(v.Rating) + "\n"); err != nil {
+	// 		panic(err)
+	// 	}
+	// 	fileDB.WriteString("\n")
+	// }
 }
