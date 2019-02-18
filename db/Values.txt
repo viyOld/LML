@@ -1,5 +1,27 @@
-// it is commrnt
+// it is comment
 # also comment
+Field:
+	00:   Number
+	01:   Name
+        02:   Homepage
+	03:   Download
+	04:   Wikipedia
+	05:   Distrowatch
+	06:   SizeMin
+	07:   SizeMax
+	08:   StableVer
+	09:   LastRelease
+	10:   Target
+	11:   OS
+	12:   BasedOS
+	13:   License
+	14:   Language
+	15:   State
+	16:   Media
+	17:   Architecture
+	18:   Note
+	19:   Rating
+
 State:
 	0:	Dead
 	1:      Phantom
@@ -36,6 +58,7 @@ Target:
 	26:	Astronomy
 	27:	Hobby
 OS:
+        0:      Unix
 	1:	Linux
 	2:	FreeBSD
 	3:	Windows7
@@ -44,12 +67,14 @@ OS:
 	6:	KolibriOS
 	7:	DOS
 Media:
+        0:      PDD
 	1:	FDD
 	2:	HDD
 	3:	CD
 	4:	DVD
 	6:	USB
 Architecture:
+        00:     ARM
 	01:	x86
 	02:	x86-64
 	03:	PPC 
@@ -60,6 +85,7 @@ Architecture:
 	08:	Mips
 	09:	HPPA
 License:
+        00:     MIT
         01:     Freeware
         02:     Shareware
         03:     Public domain

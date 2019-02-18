@@ -9,11 +9,6 @@ import (
 )
 
 func readValueDb() {
-	// State := make(map[string]byte)
-	// Target := make(map[string]byte)
-	// OS := make(map[string]byte)
-	// Media := make(map[string]byte)
-	// Architecture := make(map[string]byte)
 	// відкриваємо файл з значеннями
 	file, err := os.Open("./db/Values.txt")
 	if err != nil {
@@ -60,6 +55,10 @@ func readValueDb() {
 			flag = 6
 			continue
 		}
+		if strings.HasPrefix(s, "Field:") {
+			flag = 7
+			continue
+		}
 		if strings.HasPrefix(s, "End:") {
 			return
 		}
@@ -71,21 +70,29 @@ func readValueDb() {
 		// розділяємо строку на дві
 		st := strings.Split(s, ":")
 		st[1] = strings.TrimSpace(st[1])
-		n, _ := strconv.ParseUint(st[0], 10, 8)
+		//n, _ := strconv.ParseUint(st[0], 10, 8)
 		//fmt.Println(st)
 		switch flag {
 		case 1:
-			State[st[1]] = byte(n)
+			//State[st[1]] = byte(n)
+			lml.State = append(lml.State, st[1])
 		case 2:
-			Target[st[1]] = byte(n)
+			//Target[st[1]] = byte(n)
+			lml.Target = append(lml.Target, st[1])
 		case 3:
-			OS[st[1]] = byte(n)
+			//OS[st[1]] = byte(n)
+			lml.OS = append(lml.OS, st[1])
 		case 4:
-			Media[st[1]] = byte(n)
+			//Media[st[1]] = byte(n)
+			lml.Media = append(lml.Media, st[1])
 		case 5:
-			Architecture[st[1]] = byte(n)
+			//Architecture[st[1]] = byte(n)
+			lml.Architecture = append(lml.Architecture, st[1])
 		case 6:
-			License[st[1]] = byte(n)
+			//License[st[1]] = byte(n)
+			lml.License = append(lml.License, st[1])
+		case 7:
+			lml.Field = append(lml.Field, st[1])
 		default:
 			//fmt.Println(st)
 		}
@@ -94,6 +101,7 @@ func readValueDb() {
 	if err := scanner.Err(); err != nil {
 		log.Fatal(err)
 	}
+
 }
 
 // --------------------------------------------------------------------------------------------------
@@ -116,6 +124,14 @@ func readStartDb() {
 		if s == "" {
 			continue
 		}
+		str := strings.SplitN(s, ":", 2)
+		str[0] = strings.TrimSpace(str[0])
+		str[1] = strings.TrimSpace(str[1])
+		if str[0] == "Number" {
+			//values = append(values, row2)
+			lml.db = append(lml.db, lml.Field)
+		}
+
 		if strings.HasPrefix(s, "Number:") {
 			s = strings.TrimPrefix(s, "Number:")
 			s := strings.TrimSpace(s)
@@ -128,6 +144,7 @@ func readStartDb() {
 			lmlDB[i].Number = int(n)
 			continue
 		}
+
 		if strings.HasPrefix(s, "Name:") {
 			s = strings.TrimPrefix(s, "Name:")
 			s := strings.TrimSpace(s)
@@ -193,22 +210,22 @@ func readStartDb() {
 		}
 		if strings.HasPrefix(s, "Purpose:") {
 			s = strings.TrimPrefix(s, "Purpose:")
-			s := strings.TrimSpace(s)
+			//s := strings.TrimSpace(s)
 			lmlDB[i].Target = []int{}
-			k := 0
-			for j, v := range Target {
-				if strings.Contains(s, j) {
-					lmlDB[i].Target = append(lmlDB[i].Target, int(v))
-					k++
-				}
+			//k := 0
+			// for j, v := range Target {
+			// 	if strings.Contains(s, j) {
+			// 		lmlDB[i].Target = append(lmlDB[i].Target, int(v))
+			// 		k++
+			// 	}
 
-			}
+			// }
 			continue
 		}
 		if strings.HasPrefix(s, "Operating System:") {
 			s = strings.TrimPrefix(s, "Operating System:")
 			s = strings.TrimSpace(s)
-			lmlDB[i].OS = OS[s]
+			//lmlDB[i].OS = OS[s]
 			continue
 		}
 		if strings.HasPrefix(s, "Primary Language(s): ") {
@@ -220,36 +237,36 @@ func readStartDb() {
 		if strings.HasPrefix(s, "State:") {
 			s = strings.TrimPrefix(s, "State:")
 			s = strings.TrimSpace(s)
-			lmlDB[i].State = State[s]
+			//lmlDB[i].State = State[s]
 			continue
 		}
 		if strings.HasPrefix(s, "Media:") {
 			s = strings.TrimPrefix(s, "Media:")
-			s := strings.TrimSpace(s)
+			//s := strings.TrimSpace(s)
 			lmlDB[i].Media = []int{}
-			k := 0
-			for j, v := range Media {
-				if strings.Contains(s, j) {
-					lmlDB[i].Media = append(lmlDB[i].Media, int(v))
-					k++
-				}
+			// k := 0
+			// for j, v := range Media {
+			// 	if strings.Contains(s, j) {
+			// 		lmlDB[i].Media = append(lmlDB[i].Media, int(v))
+			// 		k++
+			// 	}
 
-			}
+			// }
 			//fmt.Println(s)
 			continue
 		}
 		if strings.HasPrefix(s, "Architecture:") {
 			s = strings.TrimPrefix(s, "Architecture:") //architecture
-			s := strings.TrimSpace(s)
+			// s := strings.TrimSpace(s)
 			lmlDB[i].Architecture = []int{}
-			k := 0
-			for j, v := range Architecture {
-				if strings.Contains(s, j) {
-					lmlDB[i].Architecture = append(lmlDB[i].Architecture, int(v))
-					k++
-				}
+			// k := 0
+			// for j, v := range Architecture {
+			// 	if strings.Contains(s, j) {
+			// 		lmlDB[i].Architecture = append(lmlDB[i].Architecture, int(v))
+			// 		k++
+			// 	}
 
-			}
+			// }
 			//fmt.Println(s)
 			continue
 		}

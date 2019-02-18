@@ -42,24 +42,32 @@ type listMediaLive struct {
 var (
 	lmlDB []listMediaLive
 
-	// State is map livecikle distrib
-	State = map[string]byte{}
-	// Target is map pupose distrib
-	Target       = map[string]byte{}
-	OS           = map[string]byte{}
-	Media        = map[string]byte{}
-	Architecture = map[string]byte{}
-	License      = map[string]byte{}
+	lml struct {
+		Field        []string // is slice Fields database
+		State        []string // State is slice livecikle distrib
+		Target       []string // Target is slice pupose distrib
+		OS           []string // OS is slice OS
+		Media        []string // Media is slice units for distribution
+		Architecture []string // Architecture is slice processor architecture
+		License      []string // License is slice licenses
+		db           [][]string
+	}
 )
 
 func init() {
 	fmt.Println(" ")
 	fmt.Println("Start Init func: ")
 	fmt.Println(" ")
-	// readConf() читає конфігурацію з файлу
+
+	// readConf() читає конфігурацію з файлу //**************************
 	readValueDb() // читає з файлу можливі значення полей в мапи
+	// -----------------------------------------------------------------------
+	for ind, vol := range lml.License {
+		println("index = ", ind, " volume = ", vol)
+	}
+	// -----------------------------------------------------------------------
 	//filename := "./db/DB.txt"
-	readStartDb() // читає з файлу БД яка була на http://livecdlist.com/
+	////readStartDb() // читає з файлу БД яка була на http://livecdlist.com/
 
 	// if _, err := os.Stat("./db/DB.txt"); os.IsNotExist(err) {
 	// 	readStartDb() // читає з файлу БД яка була на http://livecdlist.com/
