@@ -65,10 +65,22 @@ func init() {
 	for ind, vol := range lml.License {
 		println("index = ", ind, " volume = ", vol)
 	}
+	fmt.Println(" ")
 	// -----------------------------------------------------------------------
 	//filename := "./db/DB.txt"
 	////readStartDb() // читає з файлу БД яка була на http://livecdlist.com/
+	readStartDb2()
 
+	for _, v := range lml.db {
+		for j, vv := range v {
+			println("number = ", j, "volume = ", vv)
+		}
+	}
+	fmt.Println(" ")
+	for i, v := range lml.db[1] {
+		println("number = ", i, "volume = ", v)
+	}
+	// -----------------------------------------------------------------------
 	// if _, err := os.Stat("./db/DB.txt"); os.IsNotExist(err) {
 	// 	readStartDb() // читає з файлу БД яка була на http://livecdlist.com/
 	// } else {

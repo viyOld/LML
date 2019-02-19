@@ -621,3 +621,109 @@ func readDB() {
 	}
 
 }
+
+// --------------------------------------------------------------------------------------------------
+func readStartDb2() {
+	var num int
+
+	file, err := os.Open("./db/StartDB.txt")
+	if err != nil {
+		panic(err)
+	}
+	defer file.Close()
+
+	scanner := bufio.NewScanner(file)
+	for scanner.Scan() {
+		s := strings.TrimSpace(scanner.Text()) //читаємо строку з файла
+		if s == "" {
+			continue
+		}
+		str := strings.SplitN(s, ":", 2)
+		str[0] = strings.TrimSpace(str[0])
+		str[1] = strings.TrimSpace(str[1])
+		if str[0] == "Number" {
+			// lml.db = append(lml.db, lml.Field)
+			ps := []string{}
+			for range lml.Field {
+				ps = append(ps, " ")
+			}
+			//lml.db = append(lml.db, []string{})
+			lml.db = append(lml.db, ps)
+			num = len(lml.db) - 1
+			lml.db[num][0] = str[1]
+			//lml.db[num] = append(lml.db[num], str[1])
+			continue
+		}
+		if str[0] == "Name" {
+			lml.db[num][1] = str[1]
+			//lml.db[num] = append(lml.db[num], str[1])
+			continue
+		}
+		if str[0] == "Homepage" {
+			lml.db[num][2] = str[1]
+			//lml.db[num] = append(lml.db[num], str[1])
+			continue
+		}
+		if str[0] == "Download" {
+			lml.db[num][3] = str[1]
+			//lml.db[num] = append(lml.db[num], str[1])
+			continue
+		}
+		if str[0] == "Wikipedia" {
+			lml.db[num][4] = str[1]
+			continue
+		}
+		if str[0] == "Distrowatch" {
+			lml.db[num][5] = str[1]
+			continue
+		}
+		if str[0] == "Size (mebibytes)" {
+			if strings.Contains(str[1], "-") != true {
+				continue
+			}
+			st := strings.Split(str[1], "-")
+			lml.db[num][6] = st[0]
+			lml.db[num][7] = st[1]
+			continue
+		}
+		if str[0] == "Last Stable Version" {
+			lml.db[num][8] = str[1]
+			continue
+		}
+		if str[0] == "Last Release" {
+			lml.db[num][9] = str[1]
+			continue
+		}
+		if str[0] == "Purpose" {
+			lml.db[num][10] = str[1]
+			continue
+		}
+		if str[0] == "Operating System" {
+			lml.db[num][11] = str[1]
+			continue
+		}
+		if str[0] == "Primary Language(s)" {
+			lml.db[num][14] = str[1]
+			continue
+		}
+		if str[0] == "State" {
+			lml.db[num][15] = str[1]
+			continue
+		}
+		if str[0] == "Media" {
+			lml.db[num][16] = str[1]
+			continue
+		}
+		if str[0] == "Architecture" {
+			lml.db[num][17] = str[1]
+			continue
+		}
+		if str[0] == "Note" {
+			lml.db[num][18] = str[1]
+			continue
+		}
+	}
+	if err := scanner.Err(); err != nil {
+		log.Fatal(err)
+	}
+}
