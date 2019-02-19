@@ -50,7 +50,7 @@ var (
 		Media        []string // Media is slice units for distribution
 		Architecture []string // Architecture is slice processor architecture
 		License      []string // License is slice licenses
-		db           [][]string
+		DB           [][]string
 	}
 )
 
@@ -62,32 +62,33 @@ func init() {
 	// readConf() читає конфігурацію з файлу //**************************
 	readValueDb() // читає з файлу можливі значення полей в мапи
 	// -----------------------------------------------------------------------
-	for ind, vol := range lml.License {
-		println("index = ", ind, " volume = ", vol)
-	}
-	fmt.Println(" ")
+	// for ind, vol := range lml.License {
+	// 	println("index = ", ind, " volume = ", vol)
+	// }
+	// fmt.Println(" ")
 	// -----------------------------------------------------------------------
 	//filename := "./db/DB.txt"
-	////readStartDb() // читає з файлу БД яка була на http://livecdlist.com/
-	readStartDb2()
+	//readStartDb() // читає з файлу БД яка була на http://livecdlist.com/
 
-	for _, v := range lml.db {
+	// for i, v := range lml.db[1] {
+	// 	println("number = ", i, "volume = ", v)
+	// }
+	// -----------------------------------------------------------------------
+	if _, err := os.Stat("./db/DB.txt"); os.IsNotExist(err) {
+		readStartDb() // читає з файлу БД яка була на http://livecdlist.com/
+	} else {
+		readDB() // читає БД з файла
+	}
+
+	for _, v := range lml.DB {
 		for j, vv := range v {
 			println("number = ", j, "volume = ", vv)
 		}
+		fmt.Println(" ")
 	}
 	fmt.Println(" ")
-	for i, v := range lml.db[1] {
-		println("number = ", i, "volume = ", v)
-	}
-	// -----------------------------------------------------------------------
-	// if _, err := os.Stat("./db/DB.txt"); os.IsNotExist(err) {
-	// 	readStartDb() // читає з файлу БД яка була на http://livecdlist.com/
-	// } else {
-	// 	readDB() // читає БД з файла
-	// }
 
-	// writeLMLdb()  // пише БД в файл та робить копію попередньої
+	writeLMLdb() // пише БД в файл та робить копію попередньої
 
 	// checkLMLdb()  //перевірка посилань дистрибутивів
 
@@ -219,7 +220,7 @@ func httpHandler(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		fmt.Println("I don`t parse static files assets/http/index.html")
 	}
-	err = parsedTemplate.Execute(w, lmlDB)
+	err = parsedTemplate.Execute(w, lml)
 	if err != nil {
 		fmt.Println("Error arsedTemplate.Execute in StartPage : ", err)
 		return

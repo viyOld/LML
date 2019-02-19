@@ -1,13 +1,17 @@
+// readValueDb()
+// readStartDb()
+// readDB()
+// writeLMLdb()
 package main
 
 import (
 	"bufio"
 	"log"
 	"os"
-	"strconv"
 	"strings"
 )
 
+// --------------------------------------------------------------------------------------------------
 func readValueDb() {
 	// відкриваємо файл з значеннями
 	file, err := os.Open("./db/Values.txt")
@@ -105,207 +109,6 @@ func readValueDb() {
 }
 
 // --------------------------------------------------------------------------------------------------
-func readStartDb() {
-	var (
-		n uint64
-		i = -1
-	)
-
-	file, err := os.Open("./db/StartDB.txt")
-	if err != nil {
-		panic(err)
-	}
-	defer file.Close()
-
-	scanner := bufio.NewScanner(file)
-	for scanner.Scan() {
-		//читаємо строку з файла
-		s := strings.TrimSpace(scanner.Text())
-		if s == "" {
-			continue
-		}
-		str := strings.SplitN(s, ":", 2)
-		str[0] = strings.TrimSpace(str[0])
-		str[1] = strings.TrimSpace(str[1])
-		if str[0] == "Number" {
-			//values = append(values, row2)
-			lml.db = append(lml.db, lml.Field)
-		}
-
-		if strings.HasPrefix(s, "Number:") {
-			s = strings.TrimPrefix(s, "Number:")
-			s := strings.TrimSpace(s)
-			n, err = strconv.ParseUint(s, 10, 32)
-			if err != nil {
-				panic(err)
-			}
-			i++
-			lmlDB = append(lmlDB, listMediaLive{})
-			lmlDB[i].Number = int(n)
-			continue
-		}
-
-		if strings.HasPrefix(s, "Name:") {
-			s = strings.TrimPrefix(s, "Name:")
-			s := strings.TrimSpace(s)
-			lmlDB[i].Name = s
-			continue
-		}
-		if strings.HasPrefix(s, "Homepage:") {
-			s = strings.TrimPrefix(s, "Homepage:")
-			s := strings.TrimSpace(s)
-			lmlDB[i].Homepage = s
-			continue
-		}
-		if strings.HasPrefix(s, "Download:") {
-			s = strings.TrimPrefix(s, "Download:")
-			s := strings.TrimSpace(s)
-			lmlDB[i].Download = s
-			continue
-		}
-		if strings.HasPrefix(s, "Wikipedia:") {
-			s = strings.TrimPrefix(s, "Wikipedia:")
-			s := strings.TrimSpace(s)
-			lmlDB[i].Wikipedia = s
-			continue
-		}
-		if strings.HasPrefix(s, "Distrowatch:") {
-			s = strings.TrimPrefix(s, "Distrowatch:")
-			s := strings.TrimSpace(s)
-			lmlDB[i].Distrowatch = s
-			continue
-		}
-		if strings.HasPrefix(s, "Size (mebibytes):") {
-			if strings.Contains(s, "-") != true {
-				continue
-			}
-			s = strings.TrimPrefix(s, "Size (mebibytes):")
-			s = strings.TrimSpace(s)
-			st := strings.Split(s, "-")
-			n, err = strconv.ParseUint(st[0], 10, 32)
-			lmlDB[i].SizeMin = int(n)
-			if err != nil {
-				panic(err)
-			}
-			n, err = strconv.ParseUint(st[1], 10, 32)
-			lmlDB[i].SizeMax = int(n)
-			if err != nil {
-				panic(err)
-			}
-			continue
-		}
-		if strings.HasPrefix(s, "Last Stable Version:") {
-			s = strings.TrimPrefix(s, "Last Stable Version:")
-			s := strings.TrimSpace(s)
-			lmlDB[i].StableVer = s
-			//fmt.Println(s)
-			continue
-		}
-		if strings.HasPrefix(s, "Last Release:") {
-			s = strings.TrimPrefix(s, "Last Release:")
-			s := strings.TrimSpace(s)
-			lmlDB[i].LastRelease = s
-			//fmt.Println(s)
-			continue
-		}
-		if strings.HasPrefix(s, "Purpose:") {
-			s = strings.TrimPrefix(s, "Purpose:")
-			//s := strings.TrimSpace(s)
-			lmlDB[i].Target = []int{}
-			//k := 0
-			// for j, v := range Target {
-			// 	if strings.Contains(s, j) {
-			// 		lmlDB[i].Target = append(lmlDB[i].Target, int(v))
-			// 		k++
-			// 	}
-
-			// }
-			continue
-		}
-		if strings.HasPrefix(s, "Operating System:") {
-			s = strings.TrimPrefix(s, "Operating System:")
-			s = strings.TrimSpace(s)
-			//lmlDB[i].OS = OS[s]
-			continue
-		}
-		if strings.HasPrefix(s, "Primary Language(s): ") {
-			s = strings.TrimPrefix(s, "Primary Language(s): ")
-			s = strings.TrimSpace(s)
-			lmlDB[i].Language = s
-			continue
-		}
-		if strings.HasPrefix(s, "State:") {
-			s = strings.TrimPrefix(s, "State:")
-			s = strings.TrimSpace(s)
-			//lmlDB[i].State = State[s]
-			continue
-		}
-		if strings.HasPrefix(s, "Media:") {
-			s = strings.TrimPrefix(s, "Media:")
-			//s := strings.TrimSpace(s)
-			lmlDB[i].Media = []int{}
-			// k := 0
-			// for j, v := range Media {
-			// 	if strings.Contains(s, j) {
-			// 		lmlDB[i].Media = append(lmlDB[i].Media, int(v))
-			// 		k++
-			// 	}
-
-			// }
-			//fmt.Println(s)
-			continue
-		}
-		if strings.HasPrefix(s, "Architecture:") {
-			s = strings.TrimPrefix(s, "Architecture:") //architecture
-			// s := strings.TrimSpace(s)
-			lmlDB[i].Architecture = []int{}
-			// k := 0
-			// for j, v := range Architecture {
-			// 	if strings.Contains(s, j) {
-			// 		lmlDB[i].Architecture = append(lmlDB[i].Architecture, int(v))
-			// 		k++
-			// 	}
-
-			// }
-			//fmt.Println(s)
-			continue
-		}
-		if strings.HasPrefix(s, "Note:") {
-			s = strings.TrimPrefix(s, "Note:")
-			s := strings.TrimSpace(s)
-			lmlDB[i].Note = s
-			continue
-		}
-
-	}
-
-	if err := scanner.Err(); err != nil {
-		log.Fatal(err)
-	}
-
-	// for _, value := range lmlDB {
-	// 	fmt.Println("")
-	// 	fmt.Println(value.Number)
-	// 	fmt.Println(value.Name)
-	// 	fmt.Println(value.Homepage)
-	// 	fmt.Println(value.Download)
-	// 	fmt.Println(value.Wikipedia)
-	// 	fmt.Println(value.Distrowatch)
-	// 	fmt.Println(value.SizeMin)
-	// 	fmt.Println(value.SizeMax)
-	// 	fmt.Println(value.StableVer)
-	// 	fmt.Println(value.LastRelease)
-	// 	fmt.Println(value.OS)
-	// 	fmt.Println(value.Target)
-	// 	fmt.Println(value.State)
-	// 	fmt.Println(value.Media)
-	// 	fmt.Println(value.Architecture)
-	// 	fmt.Println(value.Note)
-	// 	fmt.Println("___________________________________________________")
-	// }
-	// fmt.Println(OS)
-}
-
 func writeLMLdb() {
 
 	filename := "./db/DB.txt"
@@ -330,88 +133,19 @@ func writeLMLdb() {
 	defer fileDB.Close()
 
 	fileDB.WriteString("#comments time" + "\n" + "\n")
-	for i, v := range lmlDB {
-		if _, err = fileDB.WriteString("Number: " + strconv.Itoa(v.Number) + "\n"); err != nil {
-			panic(err)
-		}
-		if _, err = fileDB.WriteString("Name: " + v.Name + "\n"); err != nil {
-			panic(err)
-		}
-		if _, err = fileDB.WriteString("Homepage: " + v.Homepage + "\n"); err != nil {
-			panic(err)
-		}
-		if _, err = fileDB.WriteString("Download: " + v.Download + "\n"); err != nil {
-			panic(err)
-		}
-		if _, err = fileDB.WriteString("Wikipedia: " + v.Wikipedia + "\n"); err != nil {
-			panic(err)
-		}
-		if _, err = fileDB.WriteString("Distrowatch: " + v.Distrowatch + "\n"); err != nil {
-			panic(err)
-		}
-		if _, err = fileDB.WriteString("SizeMin: " + strconv.Itoa(v.SizeMin) + "\n"); err != nil {
-			panic(err)
-		}
-		if _, err = fileDB.WriteString("SizeMax: " + strconv.Itoa(v.SizeMax) + "\n"); err != nil {
-			panic(err)
-		}
-		if _, err = fileDB.WriteString("StableVer: " + v.StableVer + "\n"); err != nil {
-			panic(err)
-		}
-		if _, err = fileDB.WriteString("LastRelease: " + v.LastRelease + "\n"); err != nil {
-			panic(err)
-		}
-		str := ""
-		for _, val := range lmlDB[i].Target {
-			str = str + " " + strconv.Itoa(val)
-		}
-		if _, err = fileDB.WriteString("Target: " + str + "\n"); err != nil {
-			panic(err)
-		}
-		if _, err = fileDB.WriteString("OS: " + strconv.Itoa(int(v.OS)) + "\n"); err != nil {
-			panic(err)
-		}
-		if _, err = fileDB.WriteString("BasedOS: " + v.BasedOS + "\n"); err != nil {
-			panic(err)
-		}
-		if _, err = fileDB.WriteString("License: " + strconv.Itoa(int(v.License)) + "\n"); err != nil {
-			panic(err)
-		}
-		if _, err = fileDB.WriteString("Language: " + v.Language + "\n"); err != nil {
-			panic(err)
-		}
-		if _, err = fileDB.WriteString("State: " + strconv.Itoa(int(v.State)) + "\n"); err != nil {
-			panic(err)
-		}
-		str = ""
-		for _, val := range lmlDB[i].Media {
-			str = str + " " + strconv.Itoa(val)
-		}
-		if _, err = fileDB.WriteString("Media: " + str + "\n"); err != nil {
-			panic(err)
-		}
-		str = ""
-		for _, val := range lmlDB[i].Architecture {
-			str = str + " " + strconv.Itoa(val)
-		}
-		if _, err = fileDB.WriteString("Architecture: " + str + "\n"); err != nil {
-			panic(err)
-		}
-		if _, err = fileDB.WriteString("Note: " + v.Note + "\n"); err != nil {
-			panic(err)
-		}
-		if _, err = fileDB.WriteString("Rating: " + strconv.Itoa(v.Rating) + "\n"); err != nil {
-			panic(err)
+	for _, v := range lml.DB {
+		for j, vv := range v {
+			//println("number = ", j, "volume = ", vv)
+			fileDB.WriteString(lml.Field[j] + ": " + vv + "\n")
 		}
 		fileDB.WriteString("\n")
 	}
+
 }
 
+// --------------------------------------------------------------------------------------------------
 func readDB() {
-	var (
-		n   uint64
-		num int
-	)
+	var num int
 
 	file, err := os.Open("./db/DB.txt")
 	if err != nil {
@@ -432,190 +166,24 @@ func readDB() {
 		if strings.HasPrefix(s, "#") {
 			continue
 		}
-		if strings.HasPrefix(s, "Number:") {
-			s = strings.TrimPrefix(s, "Number:")
-			s := strings.TrimSpace(s)
-			n, err = strconv.ParseUint(s, 10, 32)
-			if err != nil {
-				panic(err)
-			}
-			lmlDB = append(lmlDB, listMediaLive{})
-			num = len(lmlDB) - 1
-			lmlDB[num].Number = int(n)
-			continue
-		}
-		if strings.HasPrefix(s, "Name:") {
-			s = strings.TrimPrefix(s, "Name:")
-			s := strings.TrimSpace(s)
-			lmlDB[num].Name = s
-			continue
-		}
-		if strings.HasPrefix(s, "Homepage:") {
-			s = strings.TrimPrefix(s, "Homepage:")
-			s := strings.TrimSpace(s)
-			lmlDB[num].Homepage = s
-			continue
-		}
-		if strings.HasPrefix(s, "Download:") {
-			s = strings.TrimPrefix(s, "Download:")
-			s := strings.TrimSpace(s)
-			lmlDB[num].Download = s
-			continue
-		}
-		if strings.HasPrefix(s, "Wikipedia:") {
-			s = strings.TrimPrefix(s, "Wikipedia:")
-			s := strings.TrimSpace(s)
-			lmlDB[num].Wikipedia = s
-			continue
-		}
-		if strings.HasPrefix(s, "Distrowatch:") {
-			s = strings.TrimPrefix(s, "Distrowatch:")
-			s := strings.TrimSpace(s)
-			lmlDB[num].Distrowatch = s
-			continue
-		}
-		if strings.HasPrefix(s, "SizeMin:") {
-			s = strings.TrimPrefix(s, "SizeMin:")
-			s := strings.TrimSpace(s)
-			n, err = strconv.ParseUint(s, 10, 32)
-			if err != nil {
-				panic(err)
-			}
-			lmlDB[num].SizeMin = int(n)
-			continue
-		}
-		if strings.HasPrefix(s, "SizeMax:") {
-			s = strings.TrimPrefix(s, "SizeMax:")
-			s := strings.TrimSpace(s)
-			n, err = strconv.ParseUint(s, 10, 32)
-			if err != nil {
-				panic(err)
-			}
-			lmlDB[num].SizeMax = int(n)
-			continue
-		}
-		if strings.HasPrefix(s, "StableVer:") {
-			s = strings.TrimPrefix(s, "StableVer:")
-			s := strings.TrimSpace(s)
-			lmlDB[num].StableVer = s
-			continue
-		}
-		if strings.HasPrefix(s, "LastRelease:") {
-			s = strings.TrimPrefix(s, "LastRelease:")
-			s := strings.TrimSpace(s)
-			lmlDB[num].LastRelease = s
-			continue
-		}
 
-		if strings.HasPrefix(s, "Target:") {
-			s = strings.TrimPrefix(s, "Target:")
-			s := strings.TrimSpace(s)
-			lmlDB[num].Target = []int{}
-			//split
-			st := strings.Split(s, " ")
-			for _, val := range st {
-				x, err := strconv.Atoi(val)
-				if err != nil {
-					panic(err)
-				}
-				lmlDB[num].Target = append(lmlDB[num].Target, x)
+		str := strings.SplitN(s, ":", 2)
+		str[0] = strings.TrimSpace(str[0])
+		str[1] = strings.TrimSpace(str[1])
+		if str[0] == "Number" {
+			ps := []string{}
+			for range lml.Field {
+				ps = append(ps, "")
 			}
+			lml.DB = append(lml.DB, ps)
+			num = len(lml.DB) - 1
+			lml.DB[num][0] = str[1]
 			continue
 		}
-
-		if strings.HasPrefix(s, "OS:") {
-			s = strings.TrimPrefix(s, "OS:")
-			s = strings.TrimSpace(s)
-			x, err := strconv.Atoi(s)
-			if err != nil {
-				panic(err)
+		for i, v := range lml.Field {
+			if v == str[0] {
+				lml.DB[num][i] = str[1]
 			}
-			lmlDB[num].OS = byte(x)
-			continue
-		}
-
-		if strings.HasPrefix(s, "BasedOS:") {
-			s = strings.TrimPrefix(s, "BasedOS:")
-			s := strings.TrimSpace(s)
-			lmlDB[num].BasedOS = s
-			continue
-		}
-
-		if strings.HasPrefix(s, "License:") {
-			s = strings.TrimPrefix(s, "License:")
-			s = strings.TrimSpace(s)
-			x, err := strconv.Atoi(s)
-			if err != nil {
-				panic(err)
-			}
-			lmlDB[num].License = byte(x)
-			continue
-		}
-
-		if strings.HasPrefix(s, "Language:") {
-			s = strings.TrimPrefix(s, "Language:")
-			s := strings.TrimSpace(s)
-			lmlDB[num].Language = s
-			continue
-		}
-
-		if strings.HasPrefix(s, "State:") {
-			s = strings.TrimPrefix(s, "State:")
-			s = strings.TrimSpace(s)
-			x, err := strconv.Atoi(s)
-			if err != nil {
-				panic(err)
-			}
-			lmlDB[num].State = byte(x)
-			continue
-		}
-
-		if strings.HasPrefix(s, "Media:") {
-			s = strings.TrimPrefix(s, "Media:")
-			s := strings.TrimSpace(s)
-			lmlDB[num].Media = []int{}
-			st := strings.Split(s, " ")
-			for _, val := range st {
-				x, err := strconv.Atoi(val)
-				if err != nil {
-					panic(err)
-				}
-				lmlDB[num].Media = append(lmlDB[num].Media, x)
-			}
-			continue
-		}
-
-		if strings.HasPrefix(s, "Architecture: ") {
-			s = strings.TrimPrefix(s, "Architecture: ")
-			s := strings.TrimSpace(s)
-			lmlDB[num].Architecture = []int{}
-			st := strings.Split(s, " ")
-			for _, val := range st {
-				x, err := strconv.Atoi(val)
-				if err != nil {
-					panic(err)
-				}
-				lmlDB[num].Architecture = append(lmlDB[num].Architecture, x)
-			}
-			continue
-		}
-
-		if strings.HasPrefix(s, "Note:") {
-			s = strings.TrimPrefix(s, "Note:")
-			s := strings.TrimSpace(s)
-			lmlDB[num].Note = s
-			continue
-		}
-
-		if strings.HasPrefix(s, "Rating:") {
-			s = strings.TrimPrefix(s, "Rating:")
-			s := strings.TrimSpace(s)
-			n, err = strconv.ParseUint(s, 10, 32)
-			if err != nil {
-				panic(err)
-			}
-			lmlDB[num].Rating = int(n)
-			continue
 		}
 
 	}
@@ -623,7 +191,7 @@ func readDB() {
 }
 
 // --------------------------------------------------------------------------------------------------
-func readStartDb2() {
+func readStartDb() {
 	var num int
 
 	file, err := os.Open("./db/StartDB.txt")
@@ -642,39 +210,33 @@ func readStartDb2() {
 		str[0] = strings.TrimSpace(str[0])
 		str[1] = strings.TrimSpace(str[1])
 		if str[0] == "Number" {
-			// lml.db = append(lml.db, lml.Field)
 			ps := []string{}
 			for range lml.Field {
-				ps = append(ps, " ")
+				ps = append(ps, "")
 			}
-			//lml.db = append(lml.db, []string{})
-			lml.db = append(lml.db, ps)
-			num = len(lml.db) - 1
-			lml.db[num][0] = str[1]
-			//lml.db[num] = append(lml.db[num], str[1])
+			lml.DB = append(lml.DB, ps)
+			num = len(lml.DB) - 1
+			lml.DB[num][0] = str[1]
 			continue
 		}
 		if str[0] == "Name" {
-			lml.db[num][1] = str[1]
-			//lml.db[num] = append(lml.db[num], str[1])
+			lml.DB[num][1] = str[1]
 			continue
 		}
 		if str[0] == "Homepage" {
-			lml.db[num][2] = str[1]
-			//lml.db[num] = append(lml.db[num], str[1])
+			lml.DB[num][2] = str[1]
 			continue
 		}
 		if str[0] == "Download" {
-			lml.db[num][3] = str[1]
-			//lml.db[num] = append(lml.db[num], str[1])
+			lml.DB[num][3] = str[1]
 			continue
 		}
 		if str[0] == "Wikipedia" {
-			lml.db[num][4] = str[1]
+			lml.DB[num][4] = str[1]
 			continue
 		}
 		if str[0] == "Distrowatch" {
-			lml.db[num][5] = str[1]
+			lml.DB[num][5] = str[1]
 			continue
 		}
 		if str[0] == "Size (mebibytes)" {
@@ -682,44 +244,44 @@ func readStartDb2() {
 				continue
 			}
 			st := strings.Split(str[1], "-")
-			lml.db[num][6] = st[0]
-			lml.db[num][7] = st[1]
+			lml.DB[num][6] = st[0]
+			lml.DB[num][7] = st[1]
 			continue
 		}
 		if str[0] == "Last Stable Version" {
-			lml.db[num][8] = str[1]
+			lml.DB[num][8] = str[1]
 			continue
 		}
 		if str[0] == "Last Release" {
-			lml.db[num][9] = str[1]
+			lml.DB[num][9] = str[1]
 			continue
 		}
 		if str[0] == "Purpose" {
-			lml.db[num][10] = str[1]
+			lml.DB[num][10] = str[1]
 			continue
 		}
 		if str[0] == "Operating System" {
-			lml.db[num][11] = str[1]
+			lml.DB[num][11] = str[1]
 			continue
 		}
 		if str[0] == "Primary Language(s)" {
-			lml.db[num][14] = str[1]
+			lml.DB[num][14] = str[1]
 			continue
 		}
 		if str[0] == "State" {
-			lml.db[num][15] = str[1]
+			lml.DB[num][15] = str[1]
 			continue
 		}
 		if str[0] == "Media" {
-			lml.db[num][16] = str[1]
+			lml.DB[num][16] = str[1]
 			continue
 		}
 		if str[0] == "Architecture" {
-			lml.db[num][17] = str[1]
+			lml.DB[num][17] = str[1]
 			continue
 		}
 		if str[0] == "Note" {
-			lml.db[num][18] = str[1]
+			lml.DB[num][18] = str[1]
 			continue
 		}
 	}
@@ -727,3 +289,493 @@ func readStartDb2() {
 		log.Fatal(err)
 	}
 }
+
+//func readStartDb2() {
+// 	var (
+// 		n uint64
+// 		i = -1
+// 	)
+
+// 	file, err := os.Open("./db/StartDB.txt")
+// 	if err != nil {
+// 		panic(err)
+// 	}
+// 	defer file.Close()
+
+// 	scanner := bufio.NewScanner(file)
+// 	for scanner.Scan() {
+// 		//читаємо строку з файла
+// 		s := strings.TrimSpace(scanner.Text())
+// 		if s == "" {
+// 			continue
+// 		}
+// 		str := strings.SplitN(s, ":", 2)
+// 		str[0] = strings.TrimSpace(str[0])
+// 		str[1] = strings.TrimSpace(str[1])
+// 		if str[0] == "Number" {
+// 			//values = append(values, row2)
+// 			lml.db = append(lml.db, lml.Field)
+// 		}
+
+// 		if strings.HasPrefix(s, "Number:") {
+// 			s = strings.TrimPrefix(s, "Number:")
+// 			s := strings.TrimSpace(s)
+// 			n, err = strconv.ParseUint(s, 10, 32)
+// 			if err != nil {
+// 				panic(err)
+// 			}
+// 			i++
+// 			lmlDB = append(lmlDB, listMediaLive{})
+// 			lmlDB[i].Number = int(n)
+// 			continue
+// 		}
+
+// 		if strings.HasPrefix(s, "Name:") {
+// 			s = strings.TrimPrefix(s, "Name:")
+// 			s := strings.TrimSpace(s)
+// 			lmlDB[i].Name = s
+// 			continue
+// 		}
+// 		if strings.HasPrefix(s, "Homepage:") {
+// 			s = strings.TrimPrefix(s, "Homepage:")
+// 			s := strings.TrimSpace(s)
+// 			lmlDB[i].Homepage = s
+// 			continue
+// 		}
+// 		if strings.HasPrefix(s, "Download:") {
+// 			s = strings.TrimPrefix(s, "Download:")
+// 			s := strings.TrimSpace(s)
+// 			lmlDB[i].Download = s
+// 			continue
+// 		}
+// 		if strings.HasPrefix(s, "Wikipedia:") {
+// 			s = strings.TrimPrefix(s, "Wikipedia:")
+// 			s := strings.TrimSpace(s)
+// 			lmlDB[i].Wikipedia = s
+// 			continue
+// 		}
+// 		if strings.HasPrefix(s, "Distrowatch:") {
+// 			s = strings.TrimPrefix(s, "Distrowatch:")
+// 			s := strings.TrimSpace(s)
+// 			lmlDB[i].Distrowatch = s
+// 			continue
+// 		}
+// 		if strings.HasPrefix(s, "Size (mebibytes):") {
+// 			if strings.Contains(s, "-") != true {
+// 				continue
+// 			}
+// 			s = strings.TrimPrefix(s, "Size (mebibytes):")
+// 			s = strings.TrimSpace(s)
+// 			st := strings.Split(s, "-")
+// 			n, err = strconv.ParseUint(st[0], 10, 32)
+// 			lmlDB[i].SizeMin = int(n)
+// 			if err != nil {
+// 				panic(err)
+// 			}
+// 			n, err = strconv.ParseUint(st[1], 10, 32)
+// 			lmlDB[i].SizeMax = int(n)
+// 			if err != nil {
+// 				panic(err)
+// 			}
+// 			continue
+// 		}
+// 		if strings.HasPrefix(s, "Last Stable Version:") {
+// 			s = strings.TrimPrefix(s, "Last Stable Version:")
+// 			s := strings.TrimSpace(s)
+// 			lmlDB[i].StableVer = s
+// 			//fmt.Println(s)
+// 			continue
+// 		}
+// 		if strings.HasPrefix(s, "Last Release:") {
+// 			s = strings.TrimPrefix(s, "Last Release:")
+// 			s := strings.TrimSpace(s)
+// 			lmlDB[i].LastRelease = s
+// 			//fmt.Println(s)
+// 			continue
+// 		}
+// 		if strings.HasPrefix(s, "Purpose:") {
+// 			s = strings.TrimPrefix(s, "Purpose:")
+// 			//s := strings.TrimSpace(s)
+// 			lmlDB[i].Target = []int{}
+// 			//k := 0
+// 			// for j, v := range Target {
+// 			// 	if strings.Contains(s, j) {
+// 			// 		lmlDB[i].Target = append(lmlDB[i].Target, int(v))
+// 			// 		k++
+// 			// 	}
+
+// 			// }
+// 			continue
+// 		}
+// 		if strings.HasPrefix(s, "Operating System:") {
+// 			s = strings.TrimPrefix(s, "Operating System:")
+// 			s = strings.TrimSpace(s)
+// 			//lmlDB[i].OS = OS[s]
+// 			continue
+// 		}
+// 		if strings.HasPrefix(s, "Primary Language(s): ") {
+// 			s = strings.TrimPrefix(s, "Primary Language(s): ")
+// 			s = strings.TrimSpace(s)
+// 			lmlDB[i].Language = s
+// 			continue
+// 		}
+// 		if strings.HasPrefix(s, "State:") {
+// 			s = strings.TrimPrefix(s, "State:")
+// 			s = strings.TrimSpace(s)
+// 			//lmlDB[i].State = State[s]
+// 			continue
+// 		}
+// 		if strings.HasPrefix(s, "Media:") {
+// 			s = strings.TrimPrefix(s, "Media:")
+// 			//s := strings.TrimSpace(s)
+// 			lmlDB[i].Media = []int{}
+// 			// k := 0
+// 			// for j, v := range Media {
+// 			// 	if strings.Contains(s, j) {
+// 			// 		lmlDB[i].Media = append(lmlDB[i].Media, int(v))
+// 			// 		k++
+// 			// 	}
+
+// 			// }
+// 			//fmt.Println(s)
+// 			continue
+// 		}
+// 		if strings.HasPrefix(s, "Architecture:") {
+// 			s = strings.TrimPrefix(s, "Architecture:") //architecture
+// 			// s := strings.TrimSpace(s)
+// 			lmlDB[i].Architecture = []int{}
+// 			// k := 0
+// 			// for j, v := range Architecture {
+// 			// 	if strings.Contains(s, j) {
+// 			// 		lmlDB[i].Architecture = append(lmlDB[i].Architecture, int(v))
+// 			// 		k++
+// 			// 	}
+
+// 			// }
+// 			//fmt.Println(s)
+// 			continue
+// 		}
+// 		if strings.HasPrefix(s, "Note:") {
+// 			s = strings.TrimPrefix(s, "Note:")
+// 			s := strings.TrimSpace(s)
+// 			lmlDB[i].Note = s
+// 			continue
+// 		}
+
+// 	}
+
+// 	if err := scanner.Err(); err != nil {
+// 		log.Fatal(err)
+// 	}
+
+// 	// for _, value := range lmlDB {
+// 	// 	fmt.Println("")
+// 	// 	fmt.Println(value.Number)
+// 	// 	fmt.Println(value.Name)
+// 	// 	fmt.Println(value.Homepage)
+// 	// 	fmt.Println(value.Download)
+// 	// 	fmt.Println(value.Wikipedia)
+// 	// 	fmt.Println(value.Distrowatch)
+// 	// 	fmt.Println(value.SizeMin)
+// 	// 	fmt.Println(value.SizeMax)
+// 	// 	fmt.Println(value.StableVer)
+// 	// 	fmt.Println(value.LastRelease)
+// 	// 	fmt.Println(value.OS)
+// 	// 	fmt.Println(value.Target)
+// 	// 	fmt.Println(value.State)
+// 	// 	fmt.Println(value.Media)
+// 	// 	fmt.Println(value.Architecture)
+// 	// 	fmt.Println(value.Note)
+// 	// 	fmt.Println("___________________________________________________")
+// 	// }
+// 	// fmt.Println(OS)
+// }
+
+//if _, err = fileDB.WriteString("Number: " + strconv.Itoa(v.Number) + "\n"); err != nil {
+// 	panic(err)
+// }
+// if _, err = fileDB.WriteString("Name: " + v.Name + "\n"); err != nil {
+// 	panic(err)
+// }
+// if _, err = fileDB.WriteString("Homepage: " + v.Homepage + "\n"); err != nil {
+// 	panic(err)
+// }
+// if _, err = fileDB.WriteString("Download: " + v.Download + "\n"); err != nil {
+// 	panic(err)
+// }
+// if _, err = fileDB.WriteString("Wikipedia: " + v.Wikipedia + "\n"); err != nil {
+// 	panic(err)
+// }
+// if _, err = fileDB.WriteString("Distrowatch: " + v.Distrowatch + "\n"); err != nil {
+// 	panic(err)
+// }
+// if _, err = fileDB.WriteString("SizeMin: " + strconv.Itoa(v.SizeMin) + "\n"); err != nil {
+// 	panic(err)
+// }
+// if _, err = fileDB.WriteString("SizeMax: " + strconv.Itoa(v.SizeMax) + "\n"); err != nil {
+// 	panic(err)
+// }
+// if _, err = fileDB.WriteString("StableVer: " + v.StableVer + "\n"); err != nil {
+// 	panic(err)
+// }
+// if _, err = fileDB.WriteString("LastRelease: " + v.LastRelease + "\n"); err != nil {
+// 	panic(err)
+// }
+// str := ""
+// for _, val := range lmlDB[i].Target {
+// 	str = str + " " + strconv.Itoa(val)
+// }
+// if _, err = fileDB.WriteString("Target: " + str + "\n"); err != nil {
+// 	panic(err)
+// }
+// if _, err = fileDB.WriteString("OS: " + strconv.Itoa(int(v.OS)) + "\n"); err != nil {
+// 	panic(err)
+// }
+// if _, err = fileDB.WriteString("BasedOS: " + v.BasedOS + "\n"); err != nil {
+// 	panic(err)
+// }
+// if _, err = fileDB.WriteString("License: " + strconv.Itoa(int(v.License)) + "\n"); err != nil {
+// 	panic(err)
+// }
+// if _, err = fileDB.WriteString("Language: " + v.Language + "\n"); err != nil {
+// 	panic(err)
+// }
+// if _, err = fileDB.WriteString("State: " + strconv.Itoa(int(v.State)) + "\n"); err != nil {
+// 	panic(err)
+// }
+// str = ""
+// for _, val := range lmlDB[i].Media {
+// 	str = str + " " + strconv.Itoa(val)
+// }
+// if _, err = fileDB.WriteString("Media: " + str + "\n"); err != nil {
+// 	panic(err)
+// }
+// str = ""
+// for _, val := range lmlDB[i].Architecture {
+// 	str = str + " " + strconv.Itoa(val)
+// }
+// if _, err = fileDB.WriteString("Architecture: " + str + "\n"); err != nil {
+// 	panic(err)
+// }
+// if _, err = fileDB.WriteString("Note: " + v.Note + "\n"); err != nil {
+// 	panic(err)
+// }
+// if _, err = fileDB.WriteString("Rating: " + strconv.Itoa(v.Rating) + "\n"); err != nil {
+// 	panic(err)
+// }
+
+// func readDB() {
+// 	var (
+// 		n   uint64
+// 		num int
+// 	)
+
+// 	file, err := os.Open("./db/DB.txt")
+// 	if err != nil {
+// 		panic(err)
+// 	}
+// 	defer file.Close()
+
+// 	scanner := bufio.NewScanner(file)
+// 	for scanner.Scan() {
+// 		//читаємо строку з файла
+// 		s := strings.TrimSpace(scanner.Text())
+// 		if s == "" {
+// 			continue
+// 		}
+// 		if strings.HasPrefix(s, "//") {
+// 			continue
+// 		}
+// 		if strings.HasPrefix(s, "#") {
+// 			continue
+// 		}
+
+// 		if strings.HasPrefix(s, "Number:") {
+// 			s = strings.TrimPrefix(s, "Number:")
+// 			s := strings.TrimSpace(s)
+// 			n, err = strconv.ParseUint(s, 10, 32)
+// 			if err != nil {
+// 				panic(err)
+// 			}
+// 			lmlDB = append(lmlDB, listMediaLive{})
+// 			num = len(lmlDB) - 1
+// 			lmlDB[num].Number = int(n)
+// 			continue
+// 		}
+// 		if strings.HasPrefix(s, "Name:") {
+// 			s = strings.TrimPrefix(s, "Name:")
+// 			s := strings.TrimSpace(s)
+// 			lmlDB[num].Name = s
+// 			continue
+// 		}
+// 		if strings.HasPrefix(s, "Homepage:") {
+// 			s = strings.TrimPrefix(s, "Homepage:")
+// 			s := strings.TrimSpace(s)
+// 			lmlDB[num].Homepage = s
+// 			continue
+// 		}
+// 		if strings.HasPrefix(s, "Download:") {
+// 			s = strings.TrimPrefix(s, "Download:")
+// 			s := strings.TrimSpace(s)
+// 			lmlDB[num].Download = s
+// 			continue
+// 		}
+// 		if strings.HasPrefix(s, "Wikipedia:") {
+// 			s = strings.TrimPrefix(s, "Wikipedia:")
+// 			s := strings.TrimSpace(s)
+// 			lmlDB[num].Wikipedia = s
+// 			continue
+// 		}
+// 		if strings.HasPrefix(s, "Distrowatch:") {
+// 			s = strings.TrimPrefix(s, "Distrowatch:")
+// 			s := strings.TrimSpace(s)
+// 			lmlDB[num].Distrowatch = s
+// 			continue
+// 		}
+// 		if strings.HasPrefix(s, "SizeMin:") {
+// 			s = strings.TrimPrefix(s, "SizeMin:")
+// 			s := strings.TrimSpace(s)
+// 			n, err = strconv.ParseUint(s, 10, 32)
+// 			if err != nil {
+// 				panic(err)
+// 			}
+// 			lmlDB[num].SizeMin = int(n)
+// 			continue
+// 		}
+// 		if strings.HasPrefix(s, "SizeMax:") {
+// 			s = strings.TrimPrefix(s, "SizeMax:")
+// 			s := strings.TrimSpace(s)
+// 			n, err = strconv.ParseUint(s, 10, 32)
+// 			if err != nil {
+// 				panic(err)
+// 			}
+// 			lmlDB[num].SizeMax = int(n)
+// 			continue
+// 		}
+// 		if strings.HasPrefix(s, "StableVer:") {
+// 			s = strings.TrimPrefix(s, "StableVer:")
+// 			s := strings.TrimSpace(s)
+// 			lmlDB[num].StableVer = s
+// 			continue
+// 		}
+// 		if strings.HasPrefix(s, "LastRelease:") {
+// 			s = strings.TrimPrefix(s, "LastRelease:")
+// 			s := strings.TrimSpace(s)
+// 			lmlDB[num].LastRelease = s
+// 			continue
+// 		}
+
+// 		if strings.HasPrefix(s, "Target:") {
+// 			s = strings.TrimPrefix(s, "Target:")
+// 			s := strings.TrimSpace(s)
+// 			lmlDB[num].Target = []int{}
+// 			//split
+// 			st := strings.Split(s, " ")
+// 			for _, val := range st {
+// 				x, err := strconv.Atoi(val)
+// 				if err != nil {
+// 					panic(err)
+// 				}
+// 				lmlDB[num].Target = append(lmlDB[num].Target, x)
+// 			}
+// 			continue
+// 		}
+
+// 		if strings.HasPrefix(s, "OS:") {
+// 			s = strings.TrimPrefix(s, "OS:")
+// 			s = strings.TrimSpace(s)
+// 			x, err := strconv.Atoi(s)
+// 			if err != nil {
+// 				panic(err)
+// 			}
+// 			lmlDB[num].OS = byte(x)
+// 			continue
+// 		}
+
+// 		if strings.HasPrefix(s, "BasedOS:") {
+// 			s = strings.TrimPrefix(s, "BasedOS:")
+// 			s := strings.TrimSpace(s)
+// 			lmlDB[num].BasedOS = s
+// 			continue
+// 		}
+
+// 		if strings.HasPrefix(s, "License:") {
+// 			s = strings.TrimPrefix(s, "License:")
+// 			s = strings.TrimSpace(s)
+// 			x, err := strconv.Atoi(s)
+// 			if err != nil {
+// 				panic(err)
+// 			}
+// 			lmlDB[num].License = byte(x)
+// 			continue
+// 		}
+
+// 		if strings.HasPrefix(s, "Language:") {
+// 			s = strings.TrimPrefix(s, "Language:")
+// 			s := strings.TrimSpace(s)
+// 			lmlDB[num].Language = s
+// 			continue
+// 		}
+
+// 		if strings.HasPrefix(s, "State:") {
+// 			s = strings.TrimPrefix(s, "State:")
+// 			s = strings.TrimSpace(s)
+// 			x, err := strconv.Atoi(s)
+// 			if err != nil {
+// 				panic(err)
+// 			}
+// 			lmlDB[num].State = byte(x)
+// 			continue
+// 		}
+
+// 		if strings.HasPrefix(s, "Media:") {
+// 			s = strings.TrimPrefix(s, "Media:")
+// 			s := strings.TrimSpace(s)
+// 			lmlDB[num].Media = []int{}
+// 			st := strings.Split(s, " ")
+// 			for _, val := range st {
+// 				x, err := strconv.Atoi(val)
+// 				if err != nil {
+// 					panic(err)
+// 				}
+// 				lmlDB[num].Media = append(lmlDB[num].Media, x)
+// 			}
+// 			continue
+// 		}
+
+// 		if strings.HasPrefix(s, "Architecture: ") {
+// 			s = strings.TrimPrefix(s, "Architecture: ")
+// 			s := strings.TrimSpace(s)
+// 			lmlDB[num].Architecture = []int{}
+// 			st := strings.Split(s, " ")
+// 			for _, val := range st {
+// 				x, err := strconv.Atoi(val)
+// 				if err != nil {
+// 					panic(err)
+// 				}
+// 				lmlDB[num].Architecture = append(lmlDB[num].Architecture, x)
+// 			}
+// 			continue
+// 		}
+
+// 		if strings.HasPrefix(s, "Note:") {
+// 			s = strings.TrimPrefix(s, "Note:")
+// 			s := strings.TrimSpace(s)
+// 			lmlDB[num].Note = s
+// 			continue
+// 		}
+
+// 		if strings.HasPrefix(s, "Rating:") {
+// 			s = strings.TrimPrefix(s, "Rating:")
+// 			s := strings.TrimSpace(s)
+// 			n, err = strconv.ParseUint(s, 10, 32)
+// 			if err != nil {
+// 				panic(err)
+// 			}
+// 			lmlDB[num].Rating = int(n)
+// 			continue
+// 		}
+
+// 	}
+
+// }

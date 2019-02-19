@@ -1,6 +1,6 @@
 #comments time
 
-Number: 1
+Number: 001
 Name: 3Anoppix
 Homepage: http://tavi.debian.org.tw/index.php?page=3Anoppix
 Download: http://debian.linux.org.tw/pub/3Anoppix/
@@ -10,18 +10,18 @@ SizeMin: 712
 SizeMax: 712
 StableVer: 20030704
 LastRelease: 2003-07-04
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: Chinese
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 2
+Number: 002
 Name: 4MLinux
 Homepage: http://www.4mlinux.com/
 Download: http://sourceforge.net/projects/linux4m/files/
@@ -31,18 +31,18 @@ SizeMin: 5
 SizeMax: 216
 StableVer: 8
 LastRelease: 2014-02-09
-Target:  13 1
-OS: 1
+Target: Desktop Server
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 3
+Number: 003
 Name: ABC Linux
 Homepage: http://www.abclinuxu.cz/Index
 Download: http://www.abclinuxu.cz/download/dists/AbcLinux/
@@ -52,18 +52,18 @@ SizeMin: 579
 SizeMax: 579
 StableVer: 
 LastRelease: 2005-11-11
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: Czech
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 4
+Number: 004
 Name: AdvanceCD
 Homepage: http://advancemame.sourceforge.net/cd-readme.html
 Download: http://advancemame.sourceforge.net/cd-download.html
@@ -73,18 +73,18 @@ SizeMin: 16
 SizeMax: 16
 StableVer: 2.6.2
 LastRelease: 2005-04-18
-Target:  8
-OS: 1
+Target: Gaming
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 5
+Number: 005
 Name: ALT Linux
 Homepage: http://en.altlinux.org/
 Download: http://en.altlinux.org/Starterkits
@@ -94,18 +94,18 @@ SizeMin: 316
 SizeMax: 1289
 StableVer: rolling
 LastRelease: 2014-09-12
-Target:  1 2
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 4 6
-Architecture:  2 1
+State: Active
+Media: CD DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 6
+Number: 006
 Name: ALT Linux Rescue
 Homepage: http://en.altlinux.org/Rescue
 Download: http://en.altlinux.org/Rescue
@@ -115,18 +115,18 @@ SizeMin: 251
 SizeMax: 300
 StableVer: rolling
 LastRelease: 2014-07-09
-Target:  4 0
-OS: 1
+Target: Rescue System Administration
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 6
-Architecture:  1 2
+State: Active
+Media: CD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 7
+Number: 007
 Name: AmaroK Live
 Homepage: http://amarok.kde.org/wiki/Amarok_Live
 Download: http://amarok.kde.org/wiki/Amarok_Live#How_To_Get
@@ -136,18 +136,18 @@ SizeMin: 289
 SizeMax: 289
 StableVer: 1.2.1
 LastRelease: 2005-10-03
-Target:  7
-OS: 1
+Target: Home Entertainment
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: 
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 8
+Number: 008
 Name: Amatix InstantPBX
 Homepage: http://amatisoft.com/egroupware/sitemgr/sitemgr-site/?page_name=AmatixInstantPBX
 Download: http://amatisoft.com/egroupware/sitemgr/sitemgr-site/?page_name=AmatixInstantPBX
@@ -157,18 +157,18 @@ SizeMin: 174
 SizeMax: 174
 StableVer: 0.9-1
 LastRelease: 2007-01-30
-Target:  22
-OS: 1
+Target: VoIP
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 9
+Number: 009
 Name: Ankur
 Homepage: http://www.bengalinux.org/
 Download: http://sourceforge.net/projects/bengalinux/files/ankur-live-linux/AnkurBangla%20LiveCD%201.0/
@@ -178,18 +178,18 @@ SizeMin: 418
 SizeMax: 418
 StableVer: 1
 LastRelease: 2003-12-20
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 10
+Number: 010
 Name: Anonym.OS
 Homepage: http://sourceforge.net/projects/anonym-os/
 Download: http://sourceforge.net/projects/anonym-os/files/
@@ -199,18 +199,18 @@ SizeMin: 575
 SizeMax: 575
 StableVer: 2006
 LastRelease: 2006-01-14
-Target:  15 1
-OS: 1
+Target: Secure Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 11
+Number: 011
 Name: antiX
 Homepage: http://antix.mepis.org/
 Download: http://antix.mepis.org/index.php?title=Main_Page#Downloads
@@ -220,18 +220,18 @@ SizeMin: 135
 SizeMax: 690
 StableVer: 13
 LastRelease: 2013-06-02
-Target:  2 1
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  2 1
+State: Active
+Media: MiniCD CD
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 12
+Number: 012
 Name: aptosid
 Homepage: http://aptosid.com/
 Download: http://aptosid.com/index.php?module=Content&func=view&pid=2
@@ -241,18 +241,18 @@ SizeMin: 510
 SizeMax: 1982
 StableVer: 2013-01
 LastRelease: 2013-05-05
-Target:  2 1
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 4
-Architecture:  1 2
+State: Active
+Media: CD DVD
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 13
+Number: 013
 Name: aquamorph
 Homepage: http://aquariusoft.org/page/linux/aquamorph/
 Download: http://aquariusoft.org/page/linux/aquamorph/#download
@@ -262,18 +262,18 @@ SizeMin: 382
 SizeMax: 382
 StableVer: 0.4
 LastRelease: 2006-09-05
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 14
+Number: 014
 Name: Arabbix
 Homepage: http://arabbix.org/
 Download: http://sourceforge.net/projects/arabeyes/files/Arabbix/
@@ -283,18 +283,18 @@ SizeMin: 550
 SizeMax: 550
 StableVer: 0.8
 LastRelease: 2004-06-21
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: Arabic
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 15
+Number: 015
 Name: Arch Linux
 Homepage: http://www.archlinux.org/
 Download: http://www.archlinux.org/download/
@@ -304,18 +304,18 @@ SizeMin: 742
 SizeMax: 742
 StableVer: 2016.08.01
 LastRelease: 2016-08-01
-Target:  4 2
-OS: 1
+Target: OS Installation Rescue
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 6
-Architecture:  2 1
+State: Active
+Media: CD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 16
+Number: 016
 Name: ArchBang
 Homepage: http://archbang.org/
 Download: http://sourceforge.net/projects/archbang/files/
@@ -325,18 +325,18 @@ SizeMin: 400
 SizeMax: 486
 StableVer: 2014.07.04
 LastRelease: 2014-07-04
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 6
-Architecture:  2 1
+State: Active
+Media: CD USB Flash Drive
+Architecture: x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 17
+Number: 017
 Name: Archie
 Homepage: http://user-contributions.org/archie.html
 Download: http://user-contributions.org/archie.html
@@ -346,18 +346,18 @@ SizeMin: 325
 SizeMax: 325
 StableVer: 0.4.1
 LastRelease: 2005-04-15
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 18
+Number: 018
 Name: ArtistX
 Homepage: http://www.artistx.org/
 Download: http://artistx.org/blog/download/
@@ -367,18 +367,18 @@ SizeMin: 3925
 SizeMax: 3925
 StableVer: 1.4
 LastRelease: 2013-03-13
-Target:  14
-OS: 1
+Target: Media Production
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4
-Architecture:  1
+State: Active
+Media: DVD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 19
+Number: 019
 Name: ASRI Édu
 Homepage: http://asri-education.org/
 Download: http://asri-education.org/asriedu-telechargeriso
@@ -388,18 +388,18 @@ SizeMin: 237
 SizeMax: 679
 StableVer: 300
 LastRelease: 2011-10-02
-Target:  3
-OS: 1
+Target: Education
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: French
-State: 4
-Media:  3 6
-Architecture:  1
+State: Active
+Media: CD USB Flash Drive
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 20
+Number: 020
 Name: ATMission
 Homepage: http://atmission.sourceforge.net/
 Download: http://www.atconsultancy.nl/atmission/download.html
@@ -409,18 +409,18 @@ SizeMin: 530
 SizeMax: 530
 StableVer: 2.0-01
 LastRelease: 2005-09-26
-Target:  13 1
-OS: 1
+Target: Desktop Server
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 21
+Number: 021
 Name: AUSTRUMI
 Homepage: http://cyti.latgola.lv/ruuni/
 Download: ftp://austrumi.ru.lv/
@@ -430,18 +430,18 @@ SizeMin: 238
 SizeMax: 238
 StableVer: 3.0.8
 LastRelease: 2014-12-31
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: Latvian
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 22
+Number: 022
 Name: AV Linux
 Homepage: http://www.bandshed.net/AVLinux.html
 Download: http://www.bandshed.net/DownloadInstall.html
@@ -451,18 +451,18 @@ SizeMin: 2523
 SizeMax: 2523
 StableVer: 6
 LastRelease: 2012-08-16
-Target:  14 2
-OS: 1
+Target: Media Production OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4 6
-Architecture:  1
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 23
+Number: 023
 Name: avast! BART CD
 Homepage: http://forum.avast.com/index.php?board=6.0
 Download: http://forum.avast.com/index.php?board=6.0
@@ -472,18 +472,18 @@ SizeMin: 155
 SizeMax: 155
 StableVer: 3
 LastRelease: 2008-09-15
-Target:  19
-OS: 0
+Target: Windows Antivirus
+OS: Windows
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 24
+Number: 024
 Name: AVG Rescue CD
 Homepage: http://www.avg.com/us-en/avg-rescue-cd
 Download: http://www.avg.com/us-en/avg-rescue-cd-download
@@ -493,18 +493,18 @@ SizeMin: 85
 SizeMax: 97
 StableVer: 120.120823
 LastRelease: 2012-11-22
-Target:  19
-OS: 1
+Target: Windows Antivirus
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 6
-Architecture:  1
+State: Active
+Media: CD USB Flash Drive
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 25
+Number: 025
 Name: Avira AntiVir Rescue System
 Homepage: http://www.avira.com/en/downloads#tools
 Download: http://www.avira.com/en/download/product/avira-antivir-rescue-system
@@ -514,18 +514,18 @@ SizeMin: 266
 SizeMax: 266
 StableVer: 2013-04-03
 LastRelease: 2013-04-03
-Target:  19
-OS: 1
+Target: Windows Antivirus
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 26
+Number: 026
 Name: BackBox
 Homepage: http://www.backbox.org/
 Download: http://www.backbox.org/content/download
@@ -535,18 +535,18 @@ SizeMin: 1099
 SizeMax: 1099
 StableVer: 3
 LastRelease: 2012-10-24
-Target:  6
-OS: 1
+Target: Security
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4 6
-Architecture:  2 1
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 27
+Number: 027
 Name: BackTrack
 Homepage: http://www.backtrack-linux.org/
 Download: http://www.backtrack-linux.org/downloads/
@@ -556,18 +556,18 @@ SizeMin: 3142
 SizeMax: 3194
 StableVer: 5 R3
 LastRelease: 2012-08-13
-Target:  6
-OS: 1
+Target: Security
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  4 6
-Architecture:  1 2
+State: Inactive
+Media: DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 28
+Number: 028
 Name: Baltix
 Homepage: http://baltix.akl.lt/
 Download: http://baltix.akl.lt/downloads
@@ -577,18 +577,18 @@ SizeMin: 700
 SizeMax: 700
 StableVer: 11.04
 LastRelease: 2011-09-22
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: Lithuanian
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 29
+Number: 029
 Name: BDI-Live
 Homepage: http://bdi4emc.ourproject.org/BDI-4_info.html
 Download: http://bdi4emc.ourproject.org/Where_to_get_it.html
@@ -598,18 +598,18 @@ SizeMin: 138
 SizeMax: 138
 StableVer: 4.51
 LastRelease: 2006-10-23
-Target:  24
-OS: 1
+Target: CNC Metalworking
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: MiniCD CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 30
+Number: 030
 Name: BeleniX
 Homepage: http://www.belenix.org/
 Download: http://www.belenix.org/content/Download
@@ -619,18 +619,18 @@ SizeMin: 680
 SizeMax: 680
 StableVer: 0.7.1
 LastRelease: 2008-07-18
-Target:  1
-OS: 0
+Target: Desktop
+OS: Solaris
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3 6
-Architecture:  1
+State: Inactive
+Media: CD USB Flash Drive
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 31
+Number: 031
 Name: Benix Kanotix
 Homepage: http://debian.tu-bs.de/project/benix/
 Download: http://debian.tu-bs.de/project/benix/
@@ -640,18 +640,18 @@ SizeMin: 189
 SizeMax: 189
 StableVer: 2005-02.1
 LastRelease: 2005-06-08
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: 
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 32
+Number: 032
 Name: BerliOS MiniCD
 Homepage: http://developer.berlios.de/projects/minicd/
 Download: http://developer.berlios.de/project/showfiles.php?group_id=697&release_id=691
@@ -661,18 +661,18 @@ SizeMin: 182
 SizeMax: 182
 StableVer: 1.0rc3
 LastRelease: 2003-03-17
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: MiniCD CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 33
+Number: 033
 Name: Berry Linux
 Homepage: http://yui.mine.nu/berry/
 Download: http://yui.mine.nu/berry/edownload.php
@@ -682,18 +682,18 @@ SizeMin: 539
 SizeMax: 539
 StableVer: 1.12
 LastRelease: 2011-10-30
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English Japanese
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 34
+Number: 034
 Name: Bio-Linux
 Homepage: http://nebc.nox.ac.uk/tools/bio-linux
 Download: http://nebc.nerc.ac.uk/tools/bio-linux/bl_download
@@ -703,18 +703,18 @@ SizeMin: 2703
 SizeMax: 2703
 StableVer: 7.0.4
 LastRelease: 2013-01-17
-Target:  2 17
-OS: 1
+Target: OS Installation Science
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  6 4
-Architecture:  2 1
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 35
+Number: 035
 Name: bioknoppix
 Homepage: http://bioknoppix.hpcf.upr.edu/
 Download: http://bioknoppix.hpcf.upr.edu/downloads/
@@ -724,18 +724,18 @@ SizeMin: 681
 SizeMax: 681
 StableVer: 0.2 beta
 LastRelease: 2004-08-13
-Target:  3 25
-OS: 1
+Target: Bioinformatics Education
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 36
+Number: 036
 Name: BitDefender Rescue CD
 Homepage: http://forum.bitdefender.com/index.php?showtopic=36646
 Download: http://download.bitdefender.com/rescue_cd/2013/
@@ -745,18 +745,18 @@ SizeMin: 379
 SizeMax: 379
 StableVer: 2013
 LastRelease: 2012-07-06
-Target:  19
-OS: 1
+Target: Windows Antivirus
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 37
+Number: 037
 Name: Blin Linux
 Homepage: http://blin.zp.ua/
 Download: http://blin.zp.ua/download.shtml
@@ -766,18 +766,18 @@ SizeMin: 36
 SizeMax: 160
 StableVer: 2
 LastRelease: 2005-01-31
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: Russian
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 38
+Number: 038
 Name: Bodhi Linux
 Homepage: http://www.bodhilinux.com/
 Download: http://www.bodhilinux.com/
@@ -787,18 +787,18 @@ SizeMin: 561
 SizeMax: 873
 StableVer: 2.1.0
 LastRelease: 2012-09-13
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  6 3
-Architecture:  2 1
+State: Active
+Media: CD USB Flash Drive
+Architecture: ARM x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 39
+Number: 039
 Name: Bootable Cluster CD
 Homepage: http://bccd.net/
 Download: http://bccd.net/downloads/
@@ -808,18 +808,18 @@ SizeMin: 590
 SizeMax: 696
 StableVer: 3.0.3
 LastRelease: 2011-04-14
-Target:  5
-OS: 1
+Target: Clustering
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  2 1
+State: Active
+Media: MiniCD CD
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 40
+Number: 040
 Name: BOSSLive
 Homepage: http://bosslinux.in/
 Download: http://bosslinux.in/downloads
@@ -829,18 +829,18 @@ SizeMin: 1797
 SizeMax: 3584
 StableVer: 5.0.0
 LastRelease: 2013-12-23
-Target:  6
-OS: 1
+Target: Security
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: German
-State: 4
-Media:  4 6
-Architecture:  1
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 41
+Number: 041
 Name: Bridge Linux
 Homepage: http://millertechnologies.net/
 Download: http://millertechnologies.net/downloads.html
@@ -850,18 +850,18 @@ SizeMin: 501
 SizeMax: 954
 StableVer: 2012.8
 LastRelease: 2012-08-03
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 4
-Architecture:  1 2
+State: Active
+Media: CD DVD
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 42
+Number: 042
 Name: BSDanywhere
 Homepage: http://bsdanywhere.org/
 Download: http://bsdanywhere.org/download
@@ -871,18 +871,18 @@ SizeMin: 632
 SizeMax: 700
 StableVer: 4.6
 LastRelease: 2009-11-04
-Target:  1
-OS: 0
+Target: Desktop
+OS: BSD
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  2 1
+State: Inactive
+Media: CD
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 43
+Number: 043
 Name: BSDRP
 Homepage: http://bsdrp.net/
 Download: http://bsdrp.net/downloads
@@ -892,18 +892,18 @@ SizeMin: 256
 SizeMax: 256
 StableVer: 1
 LastRelease: 2011-10-05
-Target:  11
-OS: 0
+Target: Firewall
+OS: BSD
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  6
-Architecture:  1 2
+State: Active
+Media: USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 44
+Number: 044
 Name: ByzantineOS
 Homepage: http://byzgl.sourceforge.net/old-index.html
 Download: http://sourceforge.net/project/showfiles.php?group_id=59958&package_id=58166
@@ -913,18 +913,18 @@ SizeMin: 45
 SizeMax: 45
 StableVer: 20040404
 LastRelease: 2004-04-04
-Target:  7
-OS: 1
+Target: Home Entertainment
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: business card CD MiniCD CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 45
+Number: 045
 Name: CAINE
 Homepage: http://www.caine-live.net/
 Download: http://www.caine-live.net/page5/page5.html
@@ -934,18 +934,18 @@ SizeMin: 1252
 SizeMax: 1252
 StableVer: 3
 LastRelease: 2012-10-03
-Target:  12
-OS: 1
+Target: Forensics
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English Italian
-State: 4
-Media:  4 6
-Architecture:  1
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 46
+Number: 046
 Name: Calculate Linux
 Homepage: http://www.calculate-linux.org/
 Download: http://www.calculate-linux.org/main/en/download
@@ -955,18 +955,18 @@ SizeMin: 406
 SizeMax: 2245
 StableVer: 14
 LastRelease: 2014-09-04
-Target:  7 13 2 1
-OS: 1
+Target: Desktop Home Entertainment OS Installation Server
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 4 6
-Architecture:  2 1
+State: Active
+Media: CD DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 47
+Number: 047
 Name: CDlinux
 Homepage: http://www.cdlinux.info/
 Download: http://www.cdlinux.info/wiki/doku.php/download/latest
@@ -976,18 +976,18 @@ SizeMin: 84
 SizeMax: 84
 StableVer: 0.9.7
 LastRelease: 2011-11-07
-Target:  1 4
-OS: 1
+Target: Desktop Rescue
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 6
-Architecture:  1
+State: Active
+Media: MiniCD CD USB Flash Drive
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 48
+Number: 048
 Name: cdlinux.pl
 Homepage: http://www.cdlinux.pl/
 Download: http://www.cdlinux.pl/?id=2
@@ -997,18 +997,18 @@ SizeMin: 207
 SizeMax: 1396
 StableVer: 1
 LastRelease: 2007-09-09
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: Polish
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 49
+Number: 049
 Name: CDMEDICPACSWEB
 Homepage: http://cdmedicpacsweb.sourceforge.net/cdmedic_en.html
 Download: http://sourceforge.net/project/showfiles.php?group_id=61662&package_id=63821
@@ -1018,18 +1018,18 @@ SizeMin: 195
 SizeMax: 587
 StableVer: 6.2
 LastRelease: 2005-08-08
-Target:  9
-OS: 1
+Target: Medical
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 50
+Number: 050
 Name: CentOS
 Homepage: http://www.centos.org/
 Download: http://wiki.centos.org/Download
@@ -1039,18 +1039,18 @@ SizeMin: 687
 SizeMax: 1238
 StableVer: 7
 LastRelease: 2014-07-07
-Target:  1 4
-OS: 1
+Target: Desktop Rescue
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  6 3 4
-Architecture:  1 2
+State: Active
+Media: CD DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 51
+Number: 051
 Name: Chakra
 Homepage: http://www.chakra-linux.org/
 Download: http://www.chakra-linux.org/get/
@@ -1060,18 +1060,18 @@ SizeMin: 732
 SizeMax: 1452
 StableVer: 2012.05
 LastRelease: 2012-05-14
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4 6
-Architecture:  1 2
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 52
+Number: 052
 Name: CHAOS
 Homepage: http://midnightcode.org/projects/chaos/
 Download: http://midnightcode.org/projects/chaos/
@@ -1081,18 +1081,18 @@ SizeMin: 8
 SizeMax: 8
 StableVer: 0.7
 LastRelease: 2005-04-01
-Target:  5
-OS: 1
+Target: Clustering
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: business card CD MiniCD CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 53
+Number: 053
 Name: Clonezilla
 Homepage: http://clonezilla.org/
 Download: http://clonezilla.org/downloads.php
@@ -1102,18 +1102,18 @@ SizeMin: 169
 SizeMax: 170
 StableVer: 2.3.2-22
 LastRelease: 2015-02-17
-Target:  0
-OS: 1
+Target: System Administration
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 6
-Architecture:  2 1
+State: Active
+Media: MiniCD CD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 54
+Number: 054
 Name: ClusterKnoppix
 Homepage: http://clusterknoppix.sw.be/
 Download: http://clusterknoppix.sw.be/download.htm
@@ -1123,18 +1123,18 @@ SizeMin: 600
 SizeMax: 600
 StableVer: 3.6
 LastRelease: 2004-08-31
-Target:  5
-OS: 1
+Target: Clustering
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 55
+Number: 055
 Name: Cool Linux CD
 Homepage: http://emergencycd2.sourceforge.net/
 Download: http://sourceforge.net/project/showfiles.php?group_id=55396&package_id=56233
@@ -1144,18 +1144,18 @@ SizeMin: 632
 SizeMax: 632
 StableVer: 2.3
 LastRelease: 2003-07-14
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 56
+Number: 056
 Name: Crash Recovery Kit for Linux
 Homepage: http://crashrecovery.org/
 Download: http://crashrecovery.org/
@@ -1165,18 +1165,18 @@ SizeMin: 80
 SizeMax: 80
 StableVer: 2.4.37.5-rh73
 LastRelease: 2009-09-01
-Target:  4
-OS: 1
+Target: Rescue
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: MiniCD CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 57
+Number: 057
 Name: Crossfade GNU/Linux
 Homepage: http://www.nongnu.org/crossfade/
 Download: http://www.nongnu.org/crossfade/
@@ -1186,18 +1186,18 @@ SizeMin: 860
 SizeMax: 860
 StableVer: 0.90
 LastRelease: 2015-01-06
-Target:  14
-OS: 1
+Target: Media Production
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4 6
-Architecture:  1
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 58
+Number: 058
 Name: CrunchBang Linux
 Homepage: http://crunchbanglinux.org/
 Download: http://crunchbanglinux.org/downloads/
@@ -1207,18 +1207,18 @@ SizeMin: 739
 SizeMax: 771
 StableVer: 11
 LastRelease: 2013-05-06
-Target:  2 1
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 6
-Architecture:  1 2
+State: Active
+Media: CD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 59
+Number: 059
 Name: CruxEX
 Homepage: http://cruxex.exton.net/
 Download: http://sourceforge.net/projects/cruxex/files/
@@ -1228,18 +1228,18 @@ SizeMin: 295
 SizeMax: 307
 StableVer: 3
 LastRelease: 2013-01-28
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 6
-Architecture:  1 2
+State: Active
+Media: CD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 60
+Number: 060
 Name: Càtix
 Homepage: http://www.catix.cat/
 Download: http://www.catix.cat/
@@ -1249,18 +1249,18 @@ SizeMin: 2652
 SizeMax: 2669
 StableVer: 2
 LastRelease: 2012-02-29
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: Catalan
-State: 4
-Media:  4
-Architecture:  1 2
+State: Active
+Media: DVD
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 61
+Number: 061
 Name: Damn Small Linux
 Homepage: http://www.damnsmalllinux.org/
 Download: http://www.damnsmalllinux.org/download.html
@@ -1270,18 +1270,18 @@ SizeMin: 51
 SizeMax: 51
 StableVer: 4.4.11 rc1
 LastRelease: 2012-08-03
-Target:  1 2
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: business card CD MiniCD CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 62
+Number: 062
 Name: Dappix
 Homepage: http://tyge.sslug.dk/knoppix/
 Download: http://tyge.sslug.dk/knoppix/
@@ -1291,18 +1291,18 @@ SizeMin: 700
 SizeMax: 700
 StableVer: 5.0.1
 LastRelease: 2006-09-25
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: Danish
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 63
+Number: 063
 Name: Darik's Boot And Nuke (DBAN)
 Homepage: http://www.dban.org/
 Download: http://www.dban.org/download
@@ -1312,18 +1312,18 @@ SizeMin: 16
 SizeMax: 16
 StableVer: 2.2.8
 LastRelease: 2013-11-22
-Target:  0
-OS: 1
+Target: System Administration
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 6
-Architecture:  1
+State: Active
+Media: CD USB Flash Drive
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 64
+Number: 064
 Name: ddblank
 Homepage: http://easy.open.and.free.fr/ddblank/index.html
 Download: http://easy.open.and.free.fr/ddblank/index.html
@@ -1333,18 +1333,18 @@ SizeMin: 14
 SizeMax: 14
 StableVer: 3.14.1-6
 LastRelease: 2014-04-16
-Target:  0
-OS: 1
+Target: System Administration
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: French
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 65
+Number: 065
 Name: Debian
 Homepage: http://www.debian.org/
 Download: http://www.debian.org/distrib/
@@ -1354,18 +1354,18 @@ SizeMin: 417
 SizeMax: 1463
 StableVer: 8.4
 LastRelease: 2016-04-02
-Target:  1 4 2
-OS: 1
+Target: Desktop OS Installation Rescue
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4 6 3
-Architecture:  1 2
+State: Active
+Media: CD DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: Debian Live images are avilable for multiple desktop environments, including Gnome, KDE, XFCE, LXDE, MATE, and Cinnamon. The “standard” image does not contain a desktop, its interface is command line only.
-Rating: 0
+Rating: 
 
-Number: 66
+Number: 066
 Name: Debox Live CD
 Homepage: http://deboxlive.sourceforge.net/
 Download: http://sourceforge.net/projects/deboxlive/files/
@@ -1375,18 +1375,18 @@ SizeMin: 680
 SizeMax: 680
 StableVer: 1.7
 LastRelease: 2015-02-02
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  6 3
-Architecture:  1
+State: Active
+Media: CD USB Flash Drive
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 67
+Number: 067
 Name: DEFT Linux
 Homepage: http://www.deftlinux.net/
 Download: http://www.deftlinux.net/download/
@@ -1396,18 +1396,18 @@ SizeMin: 2218
 SizeMax: 2218
 StableVer: 7
 LastRelease: 2012-01-31
-Target:  6
-OS: 1
+Target: Security
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4
-Architecture:  1 2
+State: Active
+Media: DVD
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 68
+Number: 068
 Name: DemoLinux
 Homepage: http://www.demolinux.org/
 Download: http://www.demolinux.org/en/distribution/obtenir-demolinux.html#ftp
@@ -1417,18 +1417,18 @@ SizeMin: 650
 SizeMax: 650
 StableVer: 3.01pl5
 LastRelease: 2002-07-28
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 69
+Number: 069
 Name: Devil-Linux
 Homepage: http://www.devil-linux.org/
 Download: http://www.devil-linux.org/downloads/index.php
@@ -1438,18 +1438,18 @@ SizeMin: 364
 SizeMax: 371
 StableVer: 1.6.4
 LastRelease: 2013-10-19
-Target:  11
-OS: 1
+Target: Firewall
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 70
+Number: 070
 Name: DidJiX
 Homepage: http://didjix.blogspot.com/
 Download: http://easy.open.and.free.fr/didjix/
@@ -1459,18 +1459,18 @@ SizeMin: 400
 SizeMax: 400
 StableVer: 2
 LastRelease: 2014-06-29
-Target:  14
-OS: 1
+Target: Media Production
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  6
-Architecture:  1
+State: Active
+Media: USB Flash Drive
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 71
+Number: 071
 Name: Doscore
 Homepage: http://doscore.net/
 Download: http://doscore.net/downloads.php
@@ -1480,18 +1480,18 @@ SizeMin: 13
 SizeMax: 13
 StableVer: M2
 LastRelease: 2011-02-07
-Target:  1
-OS: 7
+Target: Desktop
+OS: DOS
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 72
+Number: 072
 Name: DoudouLinux
 Homepage: http://www.doudoulinux.org/web/english/index.html
 Download: http://download.doudoulinux.org/?lang=en
@@ -1501,18 +1501,18 @@ SizeMin: 1057
 SizeMax: 1057
 StableVer: 2
 LastRelease: 2013-06-28
-Target:  3
-OS: 1
+Target: Education
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English French
-State: 4
-Media:  6 4
-Architecture:  1
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 73
+Number: 073
 Name: Dr.Web LiveCD
 Homepage: http://www.freedrweb.com/livecd/
 Download: http://www.freedrweb.com/livecd/
@@ -1522,18 +1522,18 @@ SizeMin: 265
 SizeMax: 266
 StableVer: 6.0.2
 LastRelease: 2014-03-09
-Target:  19
-OS: 1
+Target: Windows Antivirus
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 6
-Architecture:  1
+State: Active
+Media: CD USB Flash Drive
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 74
+Number: 074
 Name: DragonFly BSD
 Homepage: http://www.dragonflybsd.org/
 Download: http://www.dragonflybsd.org/download/
@@ -1543,18 +1543,18 @@ SizeMin: 565
 SizeMax: 1906
 StableVer: 4.0.1
 LastRelease: 2014-11-25
-Target:  2 1
-OS: 0
+Target: Desktop OS Installation
+OS: BSD
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 6
-Architecture:  2 1
+State: Active
+Media: CD USB Flash Drive
+Architecture: x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 75
+Number: 075
 Name: Dreamlinux
 Homepage: http://www.dreamlinux.info/
 Download: http://www.dreamlinux.info/
@@ -1564,18 +1564,18 @@ SizeMin: 956
 SizeMax: 956
 StableVer: 5
 LastRelease: 2012-01-01
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  4 6
-Architecture:  1
+State: Inactive
+Media: DVD USB Flash Drive
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 76
+Number: 076
 Name: dyne:bolic
 Homepage: http://www.dynebolic.org/
 Download: http://www.dynebolic.org/download/
@@ -1585,18 +1585,18 @@ SizeMin: 1671
 SizeMax: 1671
 StableVer: 3.0.0
 LastRelease: 2011-09-08
-Target:  14 1
-OS: 1
+Target: Desktop Media Production
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4
-Architecture:  1
+State: Active
+Media: DVD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 77
+Number: 077
 Name: EBOS Speed Edition
 Homepage: http://emmett31.wix.com/cubeos
 Download: http://emmett31.wix.com/ebossedownload
@@ -1606,18 +1606,18 @@ SizeMin: 927
 SizeMax: 927
 StableVer: 1.9.2
 LastRelease: 2015-05-29
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4
-Architecture:  1
+State: Active
+Media: DVD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 78
+Number: 078
 Name: Edubuntu
 Homepage: http://www.edubuntu.org/
 Download: http://www.edubuntu.org/download
@@ -1627,18 +1627,18 @@ SizeMin: 3015
 SizeMax: 3034
 StableVer: 14.04.4
 LastRelease: 2016-02-18
-Target:  2 3
-OS: 1
+Target: Education OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4 6
-Architecture:  1 2
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 79
+Number: 079
 Name: eLearnix
 Homepage: http://freeloaderlinux.sourceforge.net/
 Download: http://sourceforge.net/project/showfiles.php?group_id=57501&release_id=99164
@@ -1648,18 +1648,18 @@ SizeMin: 90
 SizeMax: 90
 StableVer: 2.6.6
 LastRelease: 2004-05-17
-Target:  3
-OS: 1
+Target: Education
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: MiniCD CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 80
+Number: 080
 Name: Elive
 Homepage: http://www.elivecd.org/
 Download: http://www.elivecd.org/Download/Stable
@@ -1669,18 +1669,18 @@ SizeMin: 200
 SizeMax: 700
 StableVer: 2
 LastRelease: 2010-03-04
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: 
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 81
+Number: 081
 Name: Emergency CD
 Homepage: http://sourceforge.net/projects/emergencycd2/
 Download: http://sourceforge.net/project/showfiles.php?group_id=55396&package_id=99421&release_id=194120
@@ -1690,18 +1690,18 @@ SizeMin: 174
 SizeMax: 174
 StableVer: 3
 LastRelease: 2003-10-31
-Target:  4
-OS: 1
+Target: Rescue
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: MiniCD CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 82
+Number: 082
 Name: Emmabuntüs
 Homepage: http://emmabuntus.sourceforge.net/mediawiki/
 Download: http://emmabuntus.sourceforge.net/mediawiki/index.php/Main_Page#Which_version_to_choose.3F
@@ -1711,18 +1711,18 @@ SizeMin: 3609
 SizeMax: 3779
 StableVer: 3 1.01
 LastRelease: 2015-03-11
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4 6
-Architecture:  1
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86
 Note: Emmabuntüs 2 and 3 are out simultaneously.
-Rating: 0
+Rating: 
 
-Number: 83
+Number: 083
 Name: eMoviX
 Homepage: http://movix.sourceforge.net/
 Download: http://sourceforge.net/project/showfiles.php?group_id=61561&package_id=67132
@@ -1732,18 +1732,18 @@ SizeMin: 10
 SizeMax: 10
 StableVer: 0.9
 LastRelease: 2005-07-01
-Target:  7
-OS: 1
+Target: Home Entertainment
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: business card CD MiniCD CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 84
+Number: 084
 Name: F-Secure Rescue CD
 Homepage: http://www.f-secure.com/en/web/labs_global/removal-tools/-/carousel/view/142
 Download: http://www.f-secure.com/en_EMEA/security/tools/rescue-cd/
@@ -1753,18 +1753,18 @@ SizeMin: 140
 SizeMax: 140
 StableVer: 3.16
 LastRelease: 2012-06-06
-Target:  19
-OS: 1
+Target: Windows Antivirus
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 85
+Number: 085
 Name: FCCU GNU/Linux Forensic Boot CD
 Homepage: http://d-fence.be/
 Download: http://d-fence.be/
@@ -1774,18 +1774,18 @@ SizeMin: 519
 SizeMax: 563
 StableVer: 10
 LastRelease: 2006-01-30
-Target:  12
-OS: 1
+Target: Forensics
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 86
+Number: 086
 Name: Feather Linux
 Homepage: http://featherlinux.berlios.de/
 Download: http://featherlinux.berlios.de/download.htm
@@ -1795,18 +1795,18 @@ SizeMin: 63
 SizeMax: 63
 StableVer: 0.7.5
 LastRelease: 2005-07-04
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: MiniCD CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 87
+Number: 087
 Name: Fedora Design Suite
 Homepage: https://labs.fedoraproject.org/en/design-suite/
 Download: https://labs.fedoraproject.org/design-suite/download/index.html
@@ -1816,18 +1816,18 @@ SizeMin: 1859
 SizeMax: 1915
 StableVer: 23
 LastRelease: 2015-11-03
-Target:  14
-OS: 1
+Target: Media Production
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 6
-Architecture:  2 1
+State: Active
+Media: CD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 88
+Number: 088
 Name: Fedora Games Spin
 Homepage: https://labs.fedoraproject.org/en/games/
 Download: https://labs.fedoraproject.org/games/download/index.html
@@ -1837,18 +1837,18 @@ SizeMin: 3806
 SizeMax: 3955
 StableVer: 23
 LastRelease: 2015-11-03
-Target:  8 2
-OS: 1
+Target: Gaming OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4 6
-Architecture:  1 2
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 89
+Number: 089
 Name: Fedora Jam
 Homepage: https://labs.fedoraproject.org/en/jam/
 Download: https://labs.fedoraproject.org/jam/download/index.html
@@ -1858,18 +1858,18 @@ SizeMin: 1565
 SizeMax: 1580
 StableVer: 23
 LastRelease: 2015-11-03
-Target:  14
-OS: 1
+Target: Media Production
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4 6
-Architecture:  2 1
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 90
+Number: 090
 Name: Fedora KDE Plasma Desktop Edition
 Homepage: http://spins.fedoraproject.org/kde/
 Download: https://spins.fedoraproject.org/kde/download/index.html
@@ -1879,18 +1879,18 @@ SizeMin: 1200
 SizeMax: 1232
 StableVer: 23
 LastRelease: 2015-11-03
-Target:  1 2
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4 6
-Architecture:  1 2
+State: Active
+Media: DVD USB Flash Drive
+Architecture: ARM x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 91
+Number: 091
 Name: Fedora LXDE Desktop
 Homepage: http://spins.fedoraproject.org/lxde/
 Download: https://spins.fedoraproject.org/lxde/download/index.html
@@ -1900,18 +1900,18 @@ SizeMin: 787
 SizeMax: 964
 StableVer: 23
 LastRelease: 2015-11-03
-Target:  1 2
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 6
-Architecture:  2 1
+State: Active
+Media: CD USB Flash Drive
+Architecture: ARM x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 92
+Number: 092
 Name: Fedora MATE Compiz spin
 Homepage: http://spins.fedoraproject.org/mate-compiz/
 Download: https://spins.fedoraproject.org/mate-compiz/download/index.html
@@ -1921,18 +1921,18 @@ SizeMin: 1141
 SizeMax: 1295
 StableVer: 23
 LastRelease: 2015-11-03
-Target:  1 2
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 6
-Architecture:  2 1
+State: Active
+Media: CD USB Flash Drive
+Architecture: ARM x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 93
+Number: 093
 Name: Fedora Robotics Suite
 Homepage: https://labs.fedoraproject.org/en/robotics/
 Download: https://labs.fedoraproject.org/robotics/download/index.html
@@ -1942,18 +1942,18 @@ SizeMin: 2509
 SizeMax: 2522
 StableVer: 23
 LastRelease: 2015-11-03
-Target:  16
-OS: 1
+Target: Robotics
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4 6
-Architecture:  1 2
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 94
+Number: 094
 Name: Fedora Scientific
 Homepage: https://labs.fedoraproject.org/en/scientific/
 Download: https://labs.fedoraproject.org/scientific/download/index.html
@@ -1963,18 +1963,18 @@ SizeMin: 2706
 SizeMax: 2716
 StableVer: 23
 LastRelease: 2015-11-03
-Target:  17
-OS: 1
+Target: Science
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4 6
-Architecture:  1 2
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 95
+Number: 095
 Name: Fedora Security Lab
 Homepage: https://labs.fedoraproject.org/en/security/
 Download: https://labs.fedoraproject.org/security/download/index.html
@@ -1984,18 +1984,18 @@ SizeMin: 916
 SizeMax: 940
 StableVer: 23
 LastRelease: 2015-11-03
-Target:  6
-OS: 1
+Target: Security
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4 6
-Architecture:  1 2
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 96
+Number: 096
 Name: Fedora Workstation
 Homepage: http://fedoraproject.org
 Download: https://getfedora.org/en/workstation/download/
@@ -2005,18 +2005,18 @@ SizeMin: 1124
 SizeMax: 1401
 StableVer: 23
 LastRelease: 2015-11-03
-Target:  2 1
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4 6
-Architecture:  1 2
+State: Active
+Media: DVD USB Flash Drive
+Architecture: ARM x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 97
+Number: 097
 Name: Fedora Xfce Spin
 Homepage: http://spins.fedoraproject.org/xfce/
 Download: https://spins.fedoraproject.org/xfce/download/index.html
@@ -2026,18 +2026,18 @@ SizeMin: 844
 SizeMax: 916
 StableVer: 23
 LastRelease: 2015-11-03
-Target:  1 2
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4 6
-Architecture:  1 2
+State: Active
+Media: DVD USB Flash Drive
+Architecture: ARM x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
-Number: 98
+Number: 098
 Name: ffsearch-LiveCD
 Homepage: http://ffsearch.packetstorm.ch/
 Download: http://ffsearch.packetstorm.ch/
@@ -2047,18 +2047,18 @@ SizeMin: 194
 SizeMax: 194
 StableVer: 0.3
 LastRelease: 2005-10-10
-Target:  13
-OS: 1
+Target: Server
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: MiniCD CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
-Number: 99
+Number: 099
 Name: Finnix
 Homepage: http://www.finnix.org/
 Download: http://www.finnix.org/Download
@@ -2068,16 +2068,16 @@ SizeMin: 109
 SizeMax: 160
 StableVer: 111
 LastRelease: 2015-06-04
-Target:  0
-OS: 1
+Target: System Administration
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  3 1 2
+State: Active
+Media: MiniCD CD
+Architecture: PPC x86 x86-64 ARM
 Note: 
-Rating: 0
+Rating: 
 
 Number: 100
 Name: FIRE
@@ -2089,16 +2089,16 @@ SizeMin: 579
 SizeMax: 579
 StableVer: 0.4a
 LastRelease: 2003-05-14
-Target:  12
-OS: 1
+Target: Forensics
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 101
 Name: Flash Linux
@@ -2110,16 +2110,16 @@ SizeMin: 362
 SizeMax: 362
 StableVer: 0.3.4
 LastRelease: 2005-03-09
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3 6
-Architecture:  1
+State: Inactive
+Media: CD USB Flash Drive
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 102
 Name: FlashMob ISO
@@ -2131,16 +2131,16 @@ SizeMin: 63
 SizeMax: 63
 StableVer: 
 LastRelease: 2004-05-07
-Target:  5
-OS: 1
+Target: Clustering
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: MiniCD CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 103
 Name: floppyfw
@@ -2152,16 +2152,16 @@ SizeMin: 10
 SizeMax: 10
 StableVer: 3.0.15
 LastRelease: 2011-06-21
-Target:  11
-OS: 1
+Target: Firewall
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: business card CD MiniCD CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 104
 Name: Forensic Hard Copy
@@ -2173,16 +2173,16 @@ SizeMin: 65
 SizeMax: 65
 StableVer: 5.3 Beta
 LastRelease: 2012-11-14
-Target:  12
-OS: 1
+Target: Forensics
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: Italian
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: business card CD MiniCD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 105
 Name: Formilux
@@ -2194,16 +2194,16 @@ SizeMin: 38
 SizeMax: 160
 StableVer: 
 LastRelease: 2006-10-15
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 106
 Name: FreeBSD LiveCD
@@ -2215,16 +2215,16 @@ SizeMin: 413
 SizeMax: 413
 StableVer: 4.6
 LastRelease: 2003-11-24
-Target:  2 1 4
-OS: 0
+Target: Desktop OS Installation Rescue
+OS: BSD
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 107
 Name: Freeduc
@@ -2236,16 +2236,16 @@ SizeMin: 699
 SizeMax: 699
 StableVer: 1.7
 LastRelease: 2007-07-19
-Target:  23 1 3
-OS: 1
+Target: Desktop Education GIS
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 108
 Name: FreeSBIE
@@ -2257,16 +2257,16 @@ SizeMin: 596
 SizeMax: 596
 StableVer: 2.0.1
 LastRelease: 2007-02-11
-Target:  1
-OS: 0
+Target: Desktop
+OS: BSD
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 109
 Name: Frenzy
@@ -2278,16 +2278,16 @@ SizeMin: 90
 SizeMax: 635
 StableVer: 1.3
 LastRelease: 2010-07-26
-Target:  4 6
-OS: 0
+Target: Rescue Security
+OS: BSD
 BasedOS: 
-License: 0
+License: 
 Language: English Russian
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 110
 Name: Fuduntu
@@ -2299,16 +2299,16 @@ SizeMin: 819
 SizeMax: 1009
 StableVer: 2013.2
 LastRelease: 2013-04-08
-Target:  1 2
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4 6
-Architecture:  1 2
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 111
 Name: FuguIta
@@ -2320,16 +2320,16 @@ SizeMin: 287
 SizeMax: 287
 StableVer: 4.9
 LastRelease: 2011-05-07
-Target:  1
-OS: 0
+Target: Desktop
+OS: BSD
 BasedOS: 
-License: 0
+License: 
 Language: Japanese
-State: 4
-Media:  3 6
-Architecture:  1
+State: Active
+Media: CD USB Flash Drive
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 112
 Name: Gears on Gallium
@@ -2341,16 +2341,16 @@ SizeMin: 910
 SizeMax: 910
 StableVer: 2015.02.28
 LastRelease: 2015-02-28
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English Russian
-State: 4
-Media:  6 4
-Architecture:  1 2
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 113
 Name: GeeXboX
@@ -2362,16 +2362,16 @@ SizeMin: 136
 SizeMax: 138
 StableVer: 3
 LastRelease: 2012-09-18
-Target:  7
-OS: 1
+Target: Home Entertainment
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1 2
+State: Active
+Media: business card CD MiniCD CD
+Architecture: ARM x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 114
 Name: Gentoo
@@ -2383,16 +2383,16 @@ SizeMin: 2808
 SizeMax: 2823
 StableVer: 20140826
 LastRelease: 2014-08-26
-Target:  4 2
-OS: 1
+Target: OS Installation Rescue
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4 6
-Architecture:  2 1
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 115
 Name: Gentoox
@@ -2404,16 +2404,16 @@ SizeMin: 543
 SizeMax: 543
 StableVer: 7.1
 LastRelease: 2003-08-23
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  6
+State: Inactive
+Media: CD
+Architecture: Xbox
 Note: 
-Rating: 0
+Rating: 
 
 Number: 116
 Name: GhostBSD
@@ -2425,16 +2425,16 @@ SizeMin: 655
 SizeMax: 1500
 StableVer: 2.5
 LastRelease: 2012-01-24
-Target:  1
-OS: 0
+Target: Desktop
+OS: BSD
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 4 6
-Architecture:  1 2
+State: Active
+Media: CD DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 117
 Name: Ging
@@ -2446,16 +2446,16 @@ SizeMin: 164
 SizeMax: 164
 StableVer: 0.1.0
 LastRelease: 2005-11-03
-Target:  1
-OS: 0
+Target: Desktop
+OS: BSD
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: MiniCD CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 118
 Name: GIS-Knoppix
@@ -2467,16 +2467,16 @@ SizeMin: 700
 SizeMax: 700
 StableVer: 1.2
 LastRelease: 2006-04-01
-Target:  23
-OS: 1
+Target: GIS
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 119
 Name: GNOME Live Media
@@ -2488,16 +2488,16 @@ SizeMin: 663
 SizeMax: 663
 StableVer: 3.4
 LastRelease: 2012-03-30
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4
-Architecture:  1 2
+State: Active
+Media: DVD
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 120
 Name: GNU/Linux Kinneret
@@ -2509,16 +2509,16 @@ SizeMin: 701
 SizeMax: 701
 StableVer: 0.7.3
 LastRelease: 2004-08-08
-Target:  3
-OS: 1
+Target: Education
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 121
 Name: GNUstep live CD
@@ -2530,16 +2530,16 @@ SizeMin: 420
 SizeMax: 420
 StableVer: 2
 LastRelease: 2009-12-10
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  2 7 1 3
+State: Inactive
+Media: CD
+Architecture: PPC Sparc64 x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 122
 Name: GoboLinux
@@ -2551,16 +2551,16 @@ SizeMin: 634
 SizeMax: 634
 StableVer: 14.01
 LastRelease: 2008-04-02
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 123
 Name: GParted LiveCD
@@ -2572,16 +2572,16 @@ SizeMin: 219
 SizeMax: 219
 StableVer: 0.23.0-1
 LastRelease: 2015-08-07
-Target:  0
-OS: 1
+Target: System Administration
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 6
-Architecture:  1
+State: Active
+Media: MiniCD CD USB Flash Drive
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 124
 Name: Grml
@@ -2593,16 +2593,16 @@ SizeMin: 230
 SizeMax: 913
 StableVer: 2014.11
 LastRelease: 2014-11-17
-Target:  4 0
-OS: 1
+Target: Rescue System Administration
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 6
-Architecture:  1 2
+State: Active
+Media: CD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 125
 Name: Guadalinex
@@ -2614,16 +2614,16 @@ SizeMin: 938
 SizeMax: 938
 StableVer: 8
 LastRelease: 2012-10-30
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: Spanish
-State: 4
-Media:  4
-Architecture:  1
+State: Active
+Media: DVD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 126
 Name: HandyLinux
@@ -2635,16 +2635,16 @@ SizeMin: 1192
 SizeMax: 1194
 StableVer: 1.8
 LastRelease: 2015-01-17
-Target:  1 2
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English French
-State: 4
-Media:  4 6
-Architecture:  1
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 127
 Name: Helix
@@ -2656,16 +2656,16 @@ SizeMin: 701
 SizeMax: 701
 StableVer: 2009R1
 LastRelease: 2009-12-23
-Target:  12
-OS: 1
+Target: Forensics
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 128
 Name: Hikarunix
@@ -2677,16 +2677,16 @@ SizeMin: 182
 SizeMax: 203
 StableVer: 0.4
 LastRelease: 2005-08-20
-Target:  8
-OS: 1
+Target: Gaming
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: MiniCD CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 129
 Name: Hiren's BootCD
@@ -2698,16 +2698,16 @@ SizeMin: 525
 SizeMax: 525
 StableVer: 15.1
 LastRelease: 2011-10-26
-Target:  10 19 4 0
-OS: 1
+Target: Diagnostics Rescue System Administration Windows Antivirus
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  6 3
-Architecture:  1
+State: Active
+Media: CD USB Flash Drive
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 130
 Name: Icaros Desktop
@@ -2719,16 +2719,16 @@ SizeMin: 140
 SizeMax: 1133
 StableVer: 1.5
 LastRelease: 2013-01-03
-Target:  1
-OS: 0
+Target: Desktop
+OS: 
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 4 6
+State: Active
+Media: CD DVD USB Flash Drive
 Architecture: 
 Note: 
-Rating: 0
+Rating: 
 
 Number: 131
 Name: INSERT
@@ -2740,16 +2740,16 @@ SizeMin: 60
 SizeMax: 60
 StableVer: 1.3.9b
 LastRelease: 2007-02-27
-Target:  4 6
-OS: 1
+Target: Rescue Security
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English German
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: business card CD MiniCD CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 132
 Name: jggimi
@@ -2761,16 +2761,16 @@ SizeMin: 407
 SizeMax: 3184
 StableVer: 5
 LastRelease: 2011-11-01
-Target:  1
-OS: 0
+Target: Desktop
+OS: BSD
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 4
-Architecture:  1 2
+State: Active
+Media: CD DVD
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 133
 Name: Jibbed
@@ -2782,16 +2782,16 @@ SizeMin: 695
 SizeMax: 695
 StableVer: 6
 LastRelease: 2012-12-23
-Target:  1
-OS: 0
+Target: Desktop
+OS: BSD
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  2 1
+State: Active
+Media: CD
+Architecture: x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 134
 Name: jollix
@@ -2803,16 +2803,16 @@ SizeMin: 506
 SizeMax: 506
 StableVer: 0.3
 LastRelease: 2004-07-05
-Target:  8 7
-OS: 1
+Target: Gaming Home Entertainment
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 135
 Name: Jondo Live-CD
@@ -2824,16 +2824,16 @@ SizeMin: 695
 SizeMax: 994
 StableVer: 0.9.49
 LastRelease: 2013-12-16
-Target:  15 1
-OS: 1
+Target: Secure Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 4 6
-Architecture:  1
+State: Active
+Media: CD DVD USB Flash Drive
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 136
 Name: Julex
@@ -2845,16 +2845,16 @@ SizeMin: 216
 SizeMax: 216
 StableVer: 0.5.2.26
 LastRelease: 2005-06-06
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 137
 Name: JustBrowsing
@@ -2866,16 +2866,16 @@ SizeMin: 473
 SizeMax: 661
 StableVer: 2014-08-08
 LastRelease: 2014-08-08
-Target:  18
-OS: 1
+Target: Kiosk
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 6
-Architecture:  1
+State: Active
+Media: CD USB Flash Drive
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 138
 Name: Kaboot
@@ -2887,16 +2887,16 @@ SizeMin: 87
 SizeMax: 349
 StableVer: 0.1.1.1
 LastRelease: 2006-02-11
-Target:  1 17 4
-OS: 1
+Target: Desktop Rescue Science
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 139
 Name: Kaella
@@ -2908,16 +2908,16 @@ SizeMin: 700
 SizeMax: 700
 StableVer: 3.2
 LastRelease: 2007-09-19
-Target:  3
-OS: 1
+Target: Education
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: French
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 140
 Name: KahelOS
@@ -2929,16 +2929,16 @@ SizeMin: 2867
 SizeMax: 2867
 StableVer: 20212
 LastRelease: 2012-02-04
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4
-Architecture:  1
+State: Active
+Media: DVD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 141
 Name: Kali Linux
@@ -2950,16 +2950,16 @@ SizeMin: 1093
 SizeMax: 2934
 StableVer: 2016.2
 LastRelease: 2016-08-31
-Target:  6 2
-OS: 1
+Target: OS Installation Security
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4 6
-Architecture:  1 2
+State: Active
+Media: DVD USB Flash Drive
+Architecture: ARM x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 142
 Name: Kanotix
@@ -2971,16 +2971,16 @@ SizeMin: 836
 SizeMax: 3075
 StableVer: 2012-05
 LastRelease: 2012-05-24
-Target:  2 1
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4 6
-Architecture:  2 1
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 143
 Name: KANOTIX CPX-MINI
@@ -2992,16 +2992,16 @@ SizeMin: 230
 SizeMax: 230
 StableVer: 2005.04
 LastRelease: 2005-09-05
-Target:  2 1
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: German
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 144
 Name: Kaspersky Rescue Disk
@@ -3013,16 +3013,16 @@ SizeMin: 295
 SizeMax: 295
 StableVer: 10.0.32.17
 LastRelease: 2013-03-20
-Target:  19
-OS: 1
+Target: Windows Antivirus
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 6
-Architecture:  2 1
+State: Active
+Media: CD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 145
 Name: Kate OS LIVE
@@ -3034,16 +3034,16 @@ SizeMin: 681
 SizeMax: 681
 StableVer: 3.6
 LastRelease: 2007-09-17
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 146
 Name: Kazit
@@ -3055,16 +3055,16 @@ SizeMin: 633
 SizeMax: 633
 StableVer: 3
 LastRelease: 2006-11-11
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: Hebrew
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 147
 Name: KCPenTrix
@@ -3076,16 +3076,16 @@ SizeMin: 979
 SizeMax: 979
 StableVer: 2
 LastRelease: 2007-04-01
-Target:  6
-OS: 1
+Target: Security
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 148
 Name: KibZiLLa
@@ -3097,16 +3097,16 @@ SizeMin: 288
 SizeMax: 288
 StableVer: 0.95
 LastRelease: 2003-10-20
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: Slovenian
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 149
 Name: Kleo
@@ -3118,16 +3118,16 @@ SizeMin: 542
 SizeMax: 542
 StableVer: 2010-02-20
 LastRelease: 2010-02-20
-Target:  0
-OS: 1
+Target: System Administration
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 150
 Name: Knoppel
@@ -3139,16 +3139,16 @@ SizeMin: 648
 SizeMax: 648
 StableVer: 0.9beta4
 LastRelease: 2011-02-26
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: Greek
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 151
 Name: Knoppix
@@ -3160,16 +3160,16 @@ SizeMin: 701
 SizeMax: 4029
 StableVer: 7.4.1
 LastRelease: 2014-09-14
-Target:  1 2
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English German
-State: 4
-Media:  4
-Architecture:  1
+State: Active
+Media: DVD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 152
 Name: Knoppix Japanese Edition
@@ -3181,16 +3181,16 @@ SizeMin: 694
 SizeMax: 3838
 StableVer: 6.7.1
 LastRelease: 2011-10-19
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: Japanese
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 153
 Name: Knoppix STD
@@ -3202,16 +3202,16 @@ SizeMin: 497
 SizeMax: 497
 StableVer: 0.1
 LastRelease: 2004-01-21
-Target:  6
-OS: 1
+Target: Security
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 154
 Name: KnoppiXMAME
@@ -3223,16 +3223,16 @@ SizeMin: 120
 SizeMax: 120
 StableVer: 1.3b19
 LastRelease: 2004-05-11
-Target:  8
-OS: 1
+Target: Gaming
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: MiniCD CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 155
 Name: KnoppixQuake
@@ -3244,16 +3244,16 @@ SizeMin: 130
 SizeMax: 130
 StableVer: 
 LastRelease: 2003-12-27
-Target:  13
-OS: 1
+Target: Server
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: MiniCD CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 156
 Name: KnoppMyth
@@ -3265,16 +3265,16 @@ SizeMin: 689
 SizeMax: 689
 StableVer: 5.5
 LastRelease: 2008-07-06
-Target:  7
-OS: 1
+Target: Home Entertainment
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 157
 Name: KnoSciences
@@ -3286,16 +3286,16 @@ SizeMin: 661
 SizeMax: 661
 StableVer: 1
 LastRelease: 2006-02-06
-Target:  3
-OS: 1
+Target: Education
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: 
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 158
 Name: Kororaa
@@ -3307,16 +3307,16 @@ SizeMin: 1636
 SizeMax: 2375
 StableVer: 20
 LastRelease: 2014-01-10
-Target:  1 2
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4 6
-Architecture:  1 2
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 159
 Name: Kubuntu
@@ -3328,16 +3328,16 @@ SizeMin: 1450
 SizeMax: 1469
 StableVer: 16.04
 LastRelease: 2016-04-21
-Target:  2 1
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4 6
-Architecture:  2 1 3
+State: Active
+Media: DVD USB Flash Drive
+Architecture: ARM PPC x86 x86-64
 Note: Multiple versions are available concurrently, including 14.04 LTS, 15.10, and 16.04 LTS.
-Rating: 0
+Rating: 
 
 Number: 160
 Name: LAMPPIX
@@ -3349,16 +3349,16 @@ SizeMin: 157
 SizeMax: 207
 StableVer: 1.1
 LastRelease: 2004-08-31
-Target:  13
-OS: 1
+Target: Server
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 161
 Name: Legnoppix
@@ -3370,16 +3370,16 @@ SizeMin: 380
 SizeMax: 380
 StableVer: 0.3
 LastRelease: 2006-05-10
-Target:  16
-OS: 1
+Target: Robotics
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 162
 Name: LFS LiveCD
@@ -3391,16 +3391,16 @@ SizeMin: 218
 SizeMax: 633
 StableVer: 6.3
 LastRelease: 2007-11-30
-Target:  4 2
-OS: 1
+Target: OS Installation Rescue
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  2 1
+State: Inactive
+Media: CD
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 163
 Name: LG3D LiveCD
@@ -3412,16 +3412,16 @@ SizeMin: 606
 SizeMax: 606
 StableVer: 3
 LastRelease: 2007-01-04
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 164
 Name: Liberté Linux
@@ -3433,16 +3433,16 @@ SizeMin: 213
 SizeMax: 213
 StableVer: 2012.3
 LastRelease: 2012-09-01
-Target:  15 1
-OS: 1
+Target: Secure Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 6
-Architecture:  1
+State: Active
+Media: CD USB Flash Drive
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 165
 Name: Lightweight Portable Security
@@ -3454,16 +3454,16 @@ SizeMin: 282
 SizeMax: 440
 StableVer: 1.5.1
 LastRelease: 2014-04-11
-Target:  15 1
-OS: 1
+Target: Secure Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 166
 Name: Lin4Astro
@@ -3475,16 +3475,16 @@ SizeMin: 595
 SizeMax: 595
 StableVer: 1
 LastRelease: 2003-08-27
-Target:  26
-OS: 1
+Target: Astronomy
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 167
 Name: Linux Mint
@@ -3496,16 +3496,16 @@ SizeMin: 1347
 SizeMax: 1557
 StableVer: 17.1
 LastRelease: 2014-11-29
-Target:  2 1
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4 6
-Architecture:  2 1
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 168
 Name: Linux-EduCD
@@ -3517,16 +3517,16 @@ SizeMin: 653
 SizeMax: 653
 StableVer: 1
 LastRelease: 2009-06-12
-Target:  3
-OS: 1
+Target: Education
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: Polish
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 169
 Name: linuX-gamers.net live
@@ -3538,16 +3538,16 @@ SizeMin: 700
 SizeMax: 4290
 StableVer: 
 LastRelease: 2011-05-09
-Target:  8
-OS: 1
+Target: Gaming
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4
-Architecture:  1
+State: Active
+Media: DVD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 170
 Name: LinuxConsole
@@ -3559,16 +3559,16 @@ SizeMin: 677
 SizeMax: 3485
 StableVer: 2.4
 LastRelease: 2015-06-10
-Target:  8
-OS: 1
+Target: Gaming
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 4
-Architecture:  1
+State: Active
+Media: CD DVD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 171
 Name: Lisp Resource Kit
@@ -3580,16 +3580,16 @@ SizeMin: 612
 SizeMax: 612
 StableVer: 2004-12-23
 LastRelease: 2004-12-23
-Target:  20 3
-OS: 1
+Target: Development Education
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 172
 Name: LiveCD-OpenBSD
@@ -3601,16 +3601,16 @@ SizeMin: 923
 SizeMax: 1654
 StableVer: 5.2
 LastRelease: 2012-12-06
-Target:  0
-OS: 0
+Target: System Administration
+OS: BSD
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 4
-Architecture:  1
+State: Active
+Media: CD DVD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 173
 Name: LiveOIO
@@ -3622,16 +3622,16 @@ SizeMin: 672
 SizeMax: 672
 StableVer: 1.0.9
 LastRelease: 2004-03-27
-Target:  9
-OS: 1
+Target: Medical
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 174
 Name: LiveUSB-OpenBSD
@@ -3643,16 +3643,16 @@ SizeMin: 512
 SizeMax: 3817
 StableVer: 5.4
 LastRelease: 2014-06-11
-Target:  0
-OS: 0
+Target: System Administration
+OS: BSD
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  6
-Architecture:  1
+State: Active
+Media: USB Flash Drive
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 175
 Name: LLGP
@@ -3664,16 +3664,16 @@ SizeMin: 695
 SizeMax: 695
 StableVer: 0.1pre0
 LastRelease: 2005-01-13
-Target:  8
-OS: 1
+Target: Gaming
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 176
 Name: LNX-BBC
@@ -3685,16 +3685,16 @@ SizeMin: 48
 SizeMax: 48
 StableVer: 2.1
 LastRelease: 2003-05-01
-Target:  1 4
-OS: 1
+Target: Desktop Rescue
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 177
 Name: Local Area Security Linux
@@ -3706,16 +3706,16 @@ SizeMin: 185
 SizeMax: 210
 StableVer: 0.5
 LastRelease: 2004-03-06
-Target:  1 6
-OS: 1
+Target: Desktop Security
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 178
 Name: Lonix
@@ -3727,16 +3727,16 @@ SizeMin: 149
 SizeMax: 149
 StableVer: 1.0rc5
 LastRelease: 2002-10-27
-Target:  4
-OS: 1
+Target: Rescue
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 179
 Name: loonix-live
@@ -3748,16 +3748,16 @@ SizeMin: 495
 SizeMax: 495
 StableVer: 2.0beta1
 LastRelease: 2005-09-30
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 180
 Name: Lubuntu
@@ -3769,16 +3769,16 @@ SizeMin: 840
 SizeMax: 908
 StableVer: 16.04
 LastRelease: 2016-04-21
-Target:  2 1
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 4 6
-Architecture:  1 3 2
+State: Active
+Media: CD DVD USB Flash Drive
+Architecture: PPC x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 181
 Name: LUC3M
@@ -3790,16 +3790,16 @@ SizeMin: 700
 SizeMax: 700
 StableVer: 
 LastRelease: 2008-07-17
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: Spanish
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 182
 Name: Luit Linux
@@ -3811,16 +3811,16 @@ SizeMin: 50
 SizeMax: 74
 StableVer: 
 LastRelease: 2004-07-27
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: 
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 183
 Name: m0n0wall
@@ -3832,16 +3832,16 @@ SizeMin: 18
 SizeMax: 18
 StableVer: 1.34
 LastRelease: 2012-11-12
-Target:  11
-OS: 1
+Target: Firewall
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 184
 Name: Mageia
@@ -3853,16 +3853,16 @@ SizeMin: 654
 SizeMax: 1534
 StableVer: 4
 LastRelease: 2014-02-01
-Target:  1 2
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4 6
-Architecture:  2 1
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 185
 Name: MarBSD
@@ -3874,16 +3874,16 @@ SizeMin: 82
 SizeMax: 92
 StableVer: 5.2
 LastRelease: 2013-01-01
-Target:  1
-OS: 0
+Target: Desktop
+OS: BSD
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1 3 2 4
+State: Active
+Media: CD
+Architecture: PPC64 x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 186
 Name: MEPIS
@@ -3895,16 +3895,16 @@ SizeMin: 683
 SizeMax: 1337
 StableVer: 11
 LastRelease: 2011-05-05
-Target:  1 2
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 4 6
-Architecture:  2 1
+State: Active
+Media: CD DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 187
 Name: MiniKazit
@@ -3916,16 +3916,16 @@ SizeMin: 180
 SizeMax: 180
 StableVer: 1
 LastRelease: 2004-07-22
-Target:  2 1
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: 
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 188
 Name: MIOLUX
@@ -3937,16 +3937,16 @@ SizeMin: 678
 SizeMax: 678
 StableVer: 1-beta
 LastRelease: 2003-01-24
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: Portuguese
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 189
 Name: MirOS BSD
@@ -3958,16 +3958,16 @@ SizeMin: 656
 SizeMax: 656
 StableVer: #10
 LastRelease: 2008-03-16
-Target:  13
-OS: 0
+Target: Server
+OS: BSD
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: Sparc x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 190
 Name: MitraX
@@ -3979,16 +3979,16 @@ SizeMin: 50
 SizeMax: 50
 StableVer: 1.0.1
 LastRelease: 2007-10-17
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: Dutch
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 191
 Name: Morphix-NLP
@@ -4000,16 +4000,16 @@ SizeMin: 448
 SizeMax: 448
 StableVer: 1.1
 LastRelease: 2003-12-17
-Target:  17
-OS: 1
+Target: Science
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 192
 Name: MoviX
@@ -4021,16 +4021,16 @@ SizeMin: 27
 SizeMax: 42
 StableVer: 0.8.3
 LastRelease: 2004-04-03
-Target:  7
-OS: 1
+Target: Home Entertainment
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 193
 Name: MoviX2
@@ -4042,16 +4042,16 @@ SizeMin: 49
 SizeMax: 49
 StableVer: 0.3.1rc2
 LastRelease: 2004-08-13
-Target:  7
-OS: 1
+Target: Home Entertainment
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 194
 Name: muLinux
@@ -4063,16 +4063,16 @@ SizeMin: 68
 SizeMax: 68
 StableVer: 0.5
 LastRelease: 2004-06-01
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 195
 Name: Musix GNU+Linux
@@ -4084,16 +4084,16 @@ SizeMin: 700
 SizeMax: 700
 StableVer: 2.1
 LastRelease: 2010-04-27
-Target:  14
-OS: 1
+Target: Media Production
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 196
 Name: Mutagenix
@@ -4105,16 +4105,16 @@ SizeMin: 142
 SizeMax: 686
 StableVer: 2.6.18.6-2
 LastRelease: 2007-08-16
-Target:  10 4 2 1
-OS: 1
+Target: Desktop Diagnostics OS Installation Rescue
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 197
 Name: Mythbuntu
@@ -4126,16 +4126,16 @@ SizeMin: 958
 SizeMax: 1012
 StableVer: 14.04
 LastRelease: 2014-04-17
-Target:  2 7
-OS: 1
+Target: Home Entertainment OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  6 4
-Architecture:  1 2
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 198
 Name: Nanolinux
@@ -4147,16 +4147,16 @@ SizeMin: 14
 SizeMax: 14
 StableVer: 1.2
 LastRelease: 2014-01-14
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 6
-Architecture:  1
+State: Active
+Media: CD USB Flash Drive
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 199
 Name: Network Security Toolkit
@@ -4168,16 +4168,16 @@ SizeMin: 1762
 SizeMax: 1762
 StableVer: 18 SVN:4509
 LastRelease: 2013-04-13
-Target:  6
-OS: 1
+Target: Security
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4
-Architecture:  1
+State: Active
+Media: DVD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 200
 Name: NimbleX
@@ -4189,16 +4189,16 @@ SizeMin: 200
 SizeMax: 200
 StableVer: 2008
 LastRelease: 2008-07-22
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: 
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: MiniCD
+Architecture: x86
 Note: A later unstable version is available at http://node3.nimblex.net/Download/NimbleX-2012-Beta.iso.
-Rating: 0
+Rating: 
 
 Number: 201
 Name: NIOde
@@ -4210,16 +4210,16 @@ SizeMin: 550
 SizeMax: 550
 StableVer: 20040930
 LastRelease: 2004-09-30
-Target:  20
-OS: 1
+Target: Development
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: Dutch
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 202
 Name: OpenDiagnostics Live CD
@@ -4231,16 +4231,16 @@ SizeMin: 392
 SizeMax: 392
 StableVer: 2011-05-21
 LastRelease: 2011-05-21
-Target:  10 19
-OS: 1
+Target: Diagnostics Windows Antivirus
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 203
 Name: OpenGroupware Knoppix CD
@@ -4252,16 +4252,16 @@ SizeMin: 546
 SizeMax: 546
 StableVer: 1
 LastRelease: 2003-07-22
-Target:  13
-OS: 1
+Target: Server
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 204
 Name: OpenIndiana
@@ -4273,16 +4273,16 @@ SizeMin: 1369
 SizeMax: 1643
 StableVer: 2016.04
 LastRelease: 2016-04-21
-Target:  1 2 13
-OS: 0
+Target: Desktop OS Installation Server
+OS: Solaris
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4 6
-Architecture:  2 1
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 205
 Name: OpenMandriva Lx
@@ -4294,16 +4294,16 @@ SizeMin: 1562
 SizeMax: 1582
 StableVer: 2014.1
 LastRelease: 2014-09-26
-Target:  2 1
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  6 4
-Architecture:  2 1
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 206
 Name: openSUSE
@@ -4315,16 +4315,16 @@ SizeMin: 525
 SizeMax: 909
 StableVer: 13.2
 LastRelease: 2014-11-04
-Target:  4 2 1
-OS: 1
+Target: Desktop OS Installation Rescue
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 6
-Architecture:  1 2
+State: Active
+Media: CD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 207
 Name: Openwall GNU/*/Linux
@@ -4336,16 +4336,16 @@ SizeMin: 447
 SizeMax: 452
 StableVer: 3
 LastRelease: 2010-12-16
-Target:  13
-OS: 1
+Target: Server
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1 2
+State: Active
+Media: CD
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 208
 Name: Operator
@@ -4357,16 +4357,16 @@ SizeMin: 588
 SizeMax: 588
 StableVer: 3.3.20
 LastRelease: 2005-12-25
-Target:  6
-OS: 1
+Target: Security
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 209
 Name: Ophcrack LiveCD
@@ -4378,16 +4378,16 @@ SizeMin: 48
 SizeMax: 681
 StableVer: 3.6.0
 LastRelease: 2013-06-05
-Target:  6
-OS: 1
+Target: Security
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 210
 Name: Overclockix
@@ -4399,16 +4399,16 @@ SizeMin: 621
 SizeMax: 621
 StableVer: 0.018
 LastRelease: 2013-10-12
-Target:  0
-OS: 1
+Target: System Administration
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 6
-Architecture:  2 1
+State: Active
+Media: CD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 211
 Name: PaiPix
@@ -4420,16 +4420,16 @@ SizeMin: 3930
 SizeMax: 3980
 StableVer: 10.2.19
 LastRelease: 2010-02-19
-Target:  17
-OS: 1
+Target: Science
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  4
-Architecture:  2 1
+State: Inactive
+Media: DVD
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 212
 Name: paldo
@@ -4441,16 +4441,16 @@ SizeMin: 666
 SizeMax: 677
 StableVer: rolling
 LastRelease: 2012-02-07
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  2 1
+State: Active
+Media: CD
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 213
 Name: Panda SafeCD
@@ -4462,16 +4462,16 @@ SizeMin: 165
 SizeMax: 165
 StableVer: 4.4.3.0
 LastRelease: 2010-06-07
-Target:  19
-OS: 1
+Target: Windows Antivirus
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 214
 Name: Pardus Live CD
@@ -4483,16 +4483,16 @@ SizeMin: 1472
 SizeMax: 1708
 StableVer: 2013
 LastRelease: 2013-03-25
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English Turkish
-State: 4
-Media:  4
-Architecture:  2 1
+State: Active
+Media: DVD
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 215
 Name: Parsix
@@ -4504,16 +4504,16 @@ SizeMin: 389
 SizeMax: 961
 StableVer: 3.7r2
 LastRelease: 2012-02-21
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 4
-Architecture:  2 1
+State: Active
+Media: CD DVD
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 216
 Name: Parted Magic
@@ -4525,16 +4525,16 @@ SizeMin: 273
 SizeMax: 273
 StableVer: 2013_09_26
 LastRelease: 2013-09-26
-Target:  0
-OS: 1
+Target: System Administration
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 6
-Architecture:  1 2
+State: Active
+Media: CD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 217
 Name: PC Tools Alternate Operating System Scanner
@@ -4546,16 +4546,16 @@ SizeMin: 81
 SizeMax: 81
 StableVer: 2.0.5
 LastRelease: 2010-12-09
-Target:  19
-OS: 1
+Target: Windows Antivirus
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 218
 Name: PC-BSD
@@ -4567,16 +4567,16 @@ SizeMin: 3706
 SizeMax: 3706
 StableVer: 10.0.2
 LastRelease: 2014-06-24
-Target:  1 2
-OS: 0
+Target: Desktop OS Installation
+OS: BSD
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4 6
-Architecture:  2 1
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 219
 Name: PCG-C1VN Live CD
@@ -4588,16 +4588,16 @@ SizeMin: 457
 SizeMax: 457
 StableVer: 0.01
 LastRelease: 2002-10-19
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 220
 Name: PCLinuxOS
@@ -4609,16 +4609,16 @@ SizeMin: 574
 SizeMax: 4052
 StableVer: 2014.12
 LastRelease: 2014-12-19
-Target:  1 2
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  6 3 4
-Architecture:  1
+State: Active
+Media: CD DVD USB Flash Drive
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 221
 Name: PelicanHPC
@@ -4630,16 +4630,16 @@ SizeMin: 727
 SizeMax: 727
 StableVer: 2.9
 LastRelease: 2013-01-09
-Target:  5
-OS: 1
+Target: Clustering
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  2 1
+State: Active
+Media: CD
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 222
 Name: Pentoo
@@ -4651,16 +4651,16 @@ SizeMin: 666
 SizeMax: 698
 StableVer: 2009
 LastRelease: 2009-12-04
-Target:  6
-OS: 1
+Target: Security
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1 2
+State: Inactive
+Media: CD
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 223
 Name: Peppermint
@@ -4672,16 +4672,16 @@ SizeMin: 587
 SizeMax: 596
 StableVer: Five
 LastRelease: 2014-06-23
-Target:  1 2
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4 6
-Architecture:  2 1
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 224
 Name: PHLAK
@@ -4693,16 +4693,16 @@ SizeMin: 471
 SizeMax: 471
 StableVer: 
 LastRelease: 2005-05-07
-Target:  6
-OS: 1
+Target: Security
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 225
 Name: Phrealon
@@ -4714,16 +4714,16 @@ SizeMin: 34
 SizeMax: 34
 StableVer: 0.96
 LastRelease: 2004-01-29
-Target:  0
-OS: 1
+Target: System Administration
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 226
 Name: PLAC
@@ -4735,16 +4735,16 @@ SizeMin: 48
 SizeMax: 48
 StableVer: 2.9.5
 LastRelease: 2001-10-10
-Target:  4 12
-OS: 1
+Target: Forensics Rescue
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 227
 Name: PLD Live CD
@@ -4756,16 +4756,16 @@ SizeMin: 519
 SizeMax: 519
 StableVer: 0.95
 LastRelease: 2004-11-11
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 228
 Name: PLD RescueCD
@@ -4777,16 +4777,16 @@ SizeMin: 79
 SizeMax: 166
 StableVer: 11.02
 LastRelease: 2011-02-12
-Target:  4
-OS: 1
+Target: Rescue
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  6 3
-Architecture:  1 2
+State: Active
+Media: CD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 229
 Name: Plop Linux
@@ -4798,16 +4798,16 @@ SizeMin: 75
 SizeMax: 637
 StableVer: 4.1.2
 LastRelease: 2011-08-16
-Target:  4
-OS: 1
+Target: Rescue
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  2 1
+State: Active
+Media: CD
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 230
 Name: PlumpOS
@@ -4819,16 +4819,16 @@ SizeMin: 51
 SizeMax: 51
 StableVer: 7.0pre2
 LastRelease: 2004-03-09
-Target:  5
-OS: 1
+Target: Clustering
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: 
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 231
 Name: Pollix
@@ -4840,16 +4840,16 @@ SizeMin: 695
 SizeMax: 695
 StableVer: 
 LastRelease: 2004-02-24
-Target:  20
-OS: 1
+Target: Development
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 232
 Name: Porteus
@@ -4861,16 +4861,16 @@ SizeMin: 207
 SizeMax: 262
 StableVer: 1.2
 LastRelease: 2012-07-04
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  6 3
-Architecture:  1 2
+State: Active
+Media: CD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 233
 Name: PrimTux
@@ -4882,16 +4882,16 @@ SizeMin: 3052
 SizeMax: 3052
 StableVer: 2015-10-20
 LastRelease: 2015-10-20
-Target:  2 3
-OS: 1
+Target: Education OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: French
-State: 4
-Media:  4 6
-Architecture:  2 1
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 234
 Name: PTS Desktop Live
@@ -4903,16 +4903,16 @@ SizeMin: 1390
 SizeMax: 1390
 StableVer: 2010.1
 LastRelease: 2010-02-25
-Target:  10
-OS: 1
+Target: Diagnostics
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4 6
-Architecture:  2 1
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 235
 Name: Puppy Arcade
@@ -4924,16 +4924,16 @@ SizeMin: 109
 SizeMax: 109
 StableVer: 10
 LastRelease: 2010-12-02
-Target:  8
-OS: 1
+Target: Gaming
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 236
 Name: Puppy Linux
@@ -4945,16 +4945,16 @@ SizeMin: 124
 SizeMax: 165
 StableVer: 5.7
 LastRelease: 2014-03-09
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: MiniCD CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 237
 Name: puredyne
@@ -4966,16 +4966,16 @@ SizeMin: 693
 SizeMax: 1157
 StableVer: 9.11
 LastRelease: 2010-03-26
-Target:  14
-OS: 1
+Target: Media Production
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 4
-Architecture:  1 2
+State: Active
+Media: CD DVD
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 238
 Name: PXES
@@ -4987,16 +4987,16 @@ SizeMin: 13
 SizeMax: 13
 StableVer: 1.0-15
 LastRelease: 2005-09-19
-Target:  21
-OS: 1
+Target: Thin Client
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 239
 Name: Quantian
@@ -5008,16 +5008,16 @@ SizeMin: 691
 SizeMax: 1961
 StableVer: 0.7.9.2
 LastRelease: 2006-02-26
-Target:  23 17
-OS: 1
+Target: GIS Science
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  4 3
-Architecture:  1
+State: Inactive
+Media: CD DVD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 240
 Name: ReactOS
@@ -5029,16 +5029,16 @@ SizeMin: 143
 SizeMax: 143
 StableVer: 0.3.14
 LastRelease: 2012-02-07
-Target:  1
-OS: 0
+Target: Desktop
+OS: ReactOS
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 241
 Name: Redo Backup and Recovery
@@ -5050,16 +5050,16 @@ SizeMin: 249
 SizeMax: 249
 StableVer: 1.0.4
 LastRelease: 2012-11-20
-Target:  0
-OS: 1
+Target: System Administration
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 242
 Name: redWall Firewall
@@ -5071,16 +5071,16 @@ SizeMin: 942
 SizeMax: 942
 StableVer: 2.6.2
 LastRelease: 2011-02-02
-Target:  11
-OS: 1
+Target: Firewall
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: 
-State: 4
-Media:  4 6
-Architecture:  1
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 243
 Name: REMnux
@@ -5092,16 +5092,16 @@ SizeMin: 791
 SizeMax: 791
 StableVer: 3
 LastRelease: 2011-12-15
-Target:  6
-OS: 1
+Target: Security
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4
-Architecture:  1
+State: Active
+Media: DVD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 244
 Name: Repairlix
@@ -5113,16 +5113,16 @@ SizeMin: 11
 SizeMax: 11
 StableVer: 20000924
 LastRelease: 2000-09-25
-Target:  4
-OS: 1
+Target: Rescue
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 245
 Name: Rescatux
@@ -5134,16 +5134,16 @@ SizeMin: 390
 SizeMax: 390
 StableVer: 0.30.2
 LastRelease: 2012-11-20
-Target:  4
-OS: 1
+Target: Rescue
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 6
-Architecture:  2 1
+State: Active
+Media: CD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 246
 Name: RIPLinuX
@@ -5155,16 +5155,16 @@ SizeMin: 102
 SizeMax: 154
 StableVer: 13.5
 LastRelease: 2011-06-24
-Target:  4
-OS: 1
+Target: Rescue
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 247
 Name: ROCK Linux
@@ -5176,16 +5176,16 @@ SizeMin: 411
 SizeMax: 458
 StableVer: rev6454
 LastRelease: 2008-10-31
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1 3
+State: Inactive
+Media: CD
+Architecture: PPC x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 248
 Name: Sabayon
@@ -5197,16 +5197,16 @@ SizeMin: 912
 SizeMax: 2396
 StableVer: 16.02
 LastRelease: 2016-01-29
-Target:  2 1 8
-OS: 1
+Target: Desktop Gaming OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 4 6
-Architecture:  2 1
+State: Active
+Media: CD DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 249
 Name: Name: Salvare
@@ -5218,16 +5218,16 @@ SizeMin: 34
 SizeMax: 34
 StableVer: 0.1.5
 LastRelease: 2004-10-31
-Target:  4
-OS: 1
+Target: Rescue
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: 
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 250
 Name: SchilliX
@@ -5239,16 +5239,16 @@ SizeMin: 407
 SizeMax: 407
 StableVer: 0.8
 LastRelease: 2012-08-25
-Target:  2
-OS: 0
+Target: OS Installation
+OS: Solaris
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 251
 Name: Scientific Linux
@@ -5260,16 +5260,16 @@ SizeMin: 487
 SizeMax: 2499
 StableVer: 6.5
 LastRelease: 2014-02-03
-Target:  1 4 2
-OS: 1
+Target: Desktop OS Installation Rescue
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 4 6
-Architecture:  2 1
+State: Active
+Media: CD DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 252
 Name: Sentry Firewall CD
@@ -5281,16 +5281,16 @@ SizeMin: 288
 SizeMax: 288
 StableVer: 1.5.0-rc16
 LastRelease: 2005-01-13
-Target:  11
-OS: 1
+Target: Firewall
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 253
 Name: Shabdix
@@ -5302,16 +5302,16 @@ SizeMin: 680
 SizeMax: 680
 StableVer: 0.9
 LastRelease: 2005-02-26
-Target:  3
-OS: 1
+Target: Education
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: Persian
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 254
 Name: Siduction
@@ -5323,16 +5323,16 @@ SizeMin: 619
 SizeMax: 1004
 StableVer: 2013.1
 LastRelease: 2013-05-20
-Target:  1 2
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English German
-State: 4
-Media:  3 4 6
-Architecture:  2 1
+State: Active
+Media: CD DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 255
 Name: Skolelinux
@@ -5344,16 +5344,16 @@ SizeMin: 610
 SizeMax: 4480
 StableVer: 5
 LastRelease: 2010-02-10
-Target:  1 3
-OS: 1
+Target: Desktop Education
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 256
 Name: Slackware (Disc 1)
@@ -5365,16 +5365,16 @@ SizeMin: 667
 SizeMax: 2345
 StableVer: 14
 LastRelease: 2012-09-19
-Target:  4
-OS: 1
+Target: Rescue
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4 3
-Architecture:  2 1
+State: Active
+Media: CD DVD
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 257
 Name: SLAMPP
@@ -5386,16 +5386,16 @@ SizeMin: 1805
 SizeMax: 1805
 StableVer: 2.0.2
 LastRelease: 2009-10-30
-Target:  13
-OS: 1
+Target: Server
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 258
 Name: Slast Linux
@@ -5407,16 +5407,16 @@ SizeMin: 287
 SizeMax: 287
 StableVer: 1.4.18.1-2
 LastRelease: 2008-03-26
-Target:  22
-OS: 1
+Target: VoIP
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 259
 Name: Slax
@@ -5428,16 +5428,16 @@ SizeMin: 212
 SizeMax: 219
 StableVer: 7.0.8
 LastRelease: 2013-03-16
-Target:  2 1
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 6
-Architecture:  1 2
+State: Active
+Media: MiniCD CD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 260
 Name: SliTaz
@@ -5449,16 +5449,16 @@ SizeMin: 35
 SizeMax: 35
 StableVer: 4
 LastRelease: 2012-04-10
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  6 3
-Architecture:  1
+State: Active
+Media: business card CD MiniCD CD USB Flash Drive
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 261
 Name: SNAPPIX
@@ -5470,16 +5470,16 @@ SizeMin: 553
 SizeMax: 553
 StableVer: 0.8
 LastRelease: 2005-06-29
-Target:  20
-OS: 1
+Target: Development
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 262
 Name: Snowlinux
@@ -5491,16 +5491,16 @@ SizeMin: 637
 SizeMax: 702
 StableVer: 2
 LastRelease: 2012-04-21
-Target:  2 1
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  2 1
+State: Active
+Media: CD
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 263
 Name: Snøfrix
@@ -5512,16 +5512,16 @@ SizeMin: 695
 SizeMax: 695
 StableVer: 2005-06-19
 LastRelease: 2005-06-19
-Target:  3
-OS: 1
+Target: Education
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: Catalan English French German Italian
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 264
 Name: SolusOS
@@ -5533,16 +5533,16 @@ SizeMin: 988
 SizeMax: 995
 StableVer: 1.2
 LastRelease: 2012-08-15
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4 6
-Architecture:  2 1
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 265
 Name: sposkpat
@@ -5554,16 +5554,16 @@ SizeMin: 294
 SizeMax: 294
 StableVer: 1.05
 LastRelease: 2012-11-27
-Target:  8
-OS: 1
+Target: Gaming
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3 6
-Architecture:  1
+State: Inactive
+Media: CD USB Flash Drive
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 266
 Name: Stanix Professional
@@ -5575,16 +5575,16 @@ SizeMin: 660
 SizeMax: 660
 StableVer: RC4
 LastRelease: 2007-03-15
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: Chinese
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 267
 Name: StreamBOX-LiveCD
@@ -5596,16 +5596,16 @@ SizeMin: 698
 SizeMax: 698
 StableVer: v1.3.10
 LastRelease: 2004-04-05
-Target:  14
-OS: 1
+Target: Media Production
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 268
 Name: stresslinux
@@ -5617,16 +5617,16 @@ SizeMin: 106
 SizeMax: 227
 StableVer: 0.7.106
 LastRelease: 2011-07-31
-Target:  10
-OS: 1
+Target: Diagnostics
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1 2
+State: Active
+Media: CD
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 269
 Name: STUX
@@ -5638,16 +5638,16 @@ SizeMin: 255
 SizeMax: 650
 StableVer: 2
 LastRelease: 2008-09-07
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 270
 Name: Sugar on a Stick
@@ -5659,16 +5659,16 @@ SizeMin: 713
 SizeMax: 755
 StableVer: 21
 LastRelease: 2014-12-09
-Target:  3
-OS: 1
+Target: Education
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  6
-Architecture:  2 1
+State: Active
+Media: USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 271
 Name: SuliX
@@ -5680,16 +5680,16 @@ SizeMin: 2728
 SizeMax: 2728
 StableVer: 7
 LastRelease: 2012-12-07
-Target:  3 2
-OS: 1
+Target: Education OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: Hungarian
-State: 4
-Media:  4
-Architecture:  1
+State: Active
+Media: DVD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 272
 Name: SuperRescue
@@ -5701,16 +5701,16 @@ SizeMin: 701
 SizeMax: 701
 StableVer: v2
 LastRelease: 2002-11-09
-Target:  4
-OS: 1
+Target: Rescue
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 273
 Name: Swift Linux
@@ -5722,16 +5722,16 @@ SizeMin: 615
 SizeMax: 683
 StableVer: 0.2.0
 LastRelease: 2012-04-24
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 274
 Name: Symphony OS
@@ -5743,16 +5743,16 @@ SizeMin: 568
 SizeMax: 568
 StableVer: 2011.7511
 LastRelease: 2011-07-05
-Target:  1 2
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 275
 Name: Synergy Linux
@@ -5764,16 +5764,16 @@ SizeMin: 645
 SizeMax: 645
 StableVer: 3
 LastRelease: 2012-08-08
-Target:  2 1
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1 2
+State: Active
+Media: CD
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 276
 Name: SystemRescueCD
@@ -5785,16 +5785,16 @@ SizeMin: 83
 SizeMax: 466
 StableVer: 4.8.0
 LastRelease: 2016-07-01
-Target:  4 0
-OS: 1
+Target: Rescue System Administration
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  2 1
+State: Active
+Media: MiniCD CD
+Architecture: Sparc x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 277
 Name: T2 @Live
@@ -5806,16 +5806,16 @@ SizeMin: 200
 SizeMax: 242
 StableVer: 8
 LastRelease: 2010-07-14
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  2 4 1 3
+State: Inactive
+Media: CD
+Architecture: PPC PPC64 x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 278
 Name: Tails
@@ -5827,16 +5827,16 @@ SizeMin: 1153
 SizeMax: 1153
 StableVer: 3.0.1
 LastRelease: 2017-07-05
-Target:  15 1
-OS: 1
+Target: Secure Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  6 4
-Architecture:  1
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 279
 Name: Thinstation
@@ -5848,16 +5848,16 @@ SizeMin: 9
 SizeMax: 9
 StableVer: 2.2.2
 LastRelease: 2011-05-10
-Target:  21
-OS: 1
+Target: Thin Client
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 280
 Name: Timo's Rescue CD
@@ -5869,16 +5869,16 @@ SizeMin: 55
 SizeMax: 55
 StableVer: 0.9.12r2
 LastRelease: 2004-12-30
-Target:  4
-OS: 1
+Target: Rescue
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 281
 Name: TiNA Knoppix
@@ -5890,16 +5890,16 @@ SizeMin: 659
 SizeMax: 659
 StableVer: 3.0.0
 LastRelease: 2011-02-09
-Target:  17
-OS: 1
+Target: Science
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 282
 Name: Tiny Core Linux
@@ -5911,16 +5911,16 @@ SizeMin: 9
 SizeMax: 72
 StableVer: 6
 LastRelease: 2015-01-05
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: business card CD MiniCD CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 283
 Name: tlf-morphix
@@ -5932,16 +5932,16 @@ SizeMin: 404
 SizeMax: 404
 StableVer: 0.9.21
 LastRelease: 2004-01-17
-Target:  27
-OS: 1
+Target: Hobby
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: 
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 284
 Name: tomsrtbt
@@ -5953,16 +5953,16 @@ SizeMin: 3
 SizeMax: 3
 StableVer: 2.0.103
 LastRelease: 2002-05-04
-Target:  4
-OS: 1
+Target: Rescue
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 285
 Name: Toorox
@@ -5974,16 +5974,16 @@ SizeMin: 768
 SizeMax: 1507
 StableVer: 8.2011
 LastRelease: 2011-08-10
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: German
-State: 4
-Media:  6 4
-Architecture:  2 1
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 286
 Name: Toothpix
@@ -5995,16 +5995,16 @@ SizeMin: 717
 SizeMax: 717
 StableVer: 412
 LastRelease: 2004-12-01
-Target:  9
-OS: 1
+Target: Medical
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 287
 Name: TPM Security Server
@@ -6016,16 +6016,16 @@ SizeMin: 294
 SizeMax: 294
 StableVer: 1.2.1
 LastRelease: 2004-01-30
-Target:  12 6
-OS: 1
+Target: Forensics Security
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 288
 Name: Trinity Rescue Kit
@@ -6037,16 +6037,16 @@ SizeMin: 151
 SizeMax: 151
 StableVer: 3.4 build 372
 LastRelease: 2011-04-29
-Target:  4
-OS: 1
+Target: Rescue
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: Dutch English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: MiniCD CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 289
 Name: Trinux
@@ -6058,16 +6058,16 @@ SizeMin: 10
 SizeMax: 10
 StableVer: 0.1
 LastRelease: 2007-04-19
-Target:  6
-OS: 1
+Target: Security
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 290
 Name: Trisquel
@@ -6079,16 +6079,16 @@ SizeMin: 514
 SizeMax: 1521
 StableVer: 7
 LastRelease: 2014-11-03
-Target:  2 1
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 4 6
-Architecture:  1 2
+State: Active
+Media: CD DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 291
 Name: TurnKey Linux
@@ -6100,16 +6100,16 @@ SizeMin: 156
 SizeMax: 514
 StableVer: 11.3
 LastRelease: 2011-12-06
-Target:  13 0 20
-OS: 1
+Target: Development Server System Administration
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 292
 Name: Ubuntu
@@ -6121,16 +6121,16 @@ SizeMin: 1417
 SizeMax: 1434
 StableVer: 16.04
 LastRelease: 2016-04-21
-Target:  1 2
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4 6
-Architecture:  2 1 3
+State: Active
+Media: DVD USB Flash Drive
+Architecture: ARM PPC x86 x86-64
 Note: Multiple stable versions of Ubuntu are out concurrently. Versions 12.04 LTS, 14.04 LTS, 15.10, and 16.04 LTS are curently available.
-Rating: 0
+Rating: 
 
 Number: 293
 Name: Ubuntu Cloud Live
@@ -6142,16 +6142,16 @@ SizeMin: 573
 SizeMax: 573
 StableVer: 12.04
 LastRelease: 2012-04-26
-Target:  0
-OS: 1
+Target: System Administration
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  6
-Architecture:  2 1
+State: Inactive
+Media: USB Flash Drive
+Architecture: x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 294
 Name: Ubuntu GNOME
@@ -6163,16 +6163,16 @@ SizeMin: 1208
 SizeMax: 1240
 StableVer: 16.04
 LastRelease: 2016-04-21
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4 6
-Architecture:  2 1
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 295
 Name: Ubuntu Mate
@@ -6184,16 +6184,16 @@ SizeMin: 1560
 SizeMax: 1647
 StableVer: 16.04
 LastRelease: 2016-04-21
-Target:  2
-OS: 1
+Target: OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4 6
-Architecture:  2 1 3
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86 x86-64 PPC
 Note: 
-Rating: 0
+Rating: 
 
 Number: 296
 Name: Ubuntu Mini Remix
@@ -6205,16 +6205,16 @@ SizeMin: 290
 SizeMax: 290
 StableVer: 15.10
 LastRelease: 2015-10-25
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1 2
+State: Active
+Media: CD
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 297
 Name: Ubuntu Privacy Remix
@@ -6226,16 +6226,16 @@ SizeMin: 1370
 SizeMax: 1370
 StableVer: 12.04r1
 LastRelease: 2014-05-07
-Target:  15 1
-OS: 1
+Target: Secure Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English German
-State: 4
-Media:  6 4
-Architecture:  1
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 298
 Name: Ubuntu Studio
@@ -6247,16 +6247,16 @@ SizeMin: 2624
 SizeMax: 2645
 StableVer: 16.04
 LastRelease: 2016-04-21
-Target:  14
-OS: 1
+Target: Media Production
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  6 4
-Architecture:  2 1
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 299
 Name: ULTILEX
@@ -6268,16 +6268,16 @@ SizeMin: 697
 SizeMax: 697
 StableVer: 10.8
 LastRelease: 2010-08-07
-Target:  1 4 0
-OS: 1
+Target: Desktop Rescue System Administration
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 300
 Name: Ultimate Boot CD
@@ -6289,16 +6289,16 @@ SizeMin: 598
 SizeMax: 598
 StableVer: 5.3.5
 LastRelease: 2015-05-24
-Target:  4 0 10
-OS: 1
+Target: Diagnostics Rescue System Administration
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 301
 Name: Ultimate Edition
@@ -6310,16 +6310,16 @@ SizeMin: 3323
 SizeMax: 3323
 StableVer: 3
 LastRelease: 2011-12-06
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4
-Architecture:  1
+State: Active
+Media: DVD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 302
 Name: VectorLinux
@@ -6331,16 +6331,16 @@ SizeMin: 699
 SizeMax: 699
 StableVer: 7
 LastRelease: 2012-05-31
-Target:  1 2
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 303
 Name: VigyaanCD
@@ -6352,16 +6352,16 @@ SizeMin: 647
 SizeMax: 647
 StableVer: 1
 LastRelease: 2005-09-07
-Target:  3 25
-OS: 1
+Target: Bioinformatics Education
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 304
 Name: Virtual Linux
@@ -6373,16 +6373,16 @@ SizeMin: 628
 SizeMax: 628
 StableVer: 1
 LastRelease: 2002-05-03
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 305
 Name: Vyatta Core
@@ -6394,16 +6394,16 @@ SizeMin: 213
 SizeMax: 213
 StableVer: 6.5
 LastRelease: 2012-10-01
-Target:  11
-OS: 1
+Target: Firewall
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 306
 Name: WarLinux
@@ -6415,16 +6415,16 @@ SizeMin: 53
 SizeMax: 53
 StableVer: 0.5
 LastRelease: 2002-09-18
-Target:  6
-OS: 1
+Target: Security
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 307
 Name: Webconverger
@@ -6436,16 +6436,16 @@ SizeMin: 346
 SizeMax: 346
 StableVer: 21
 LastRelease: 2013-07-16
-Target:  18
-OS: 1
+Target: Kiosk
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 6
-Architecture:  1
+State: Active
+Media: CD USB Flash Drive
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 308
 Name: Wifislax
@@ -6457,16 +6457,16 @@ SizeMin: 630
 SizeMax: 630
 StableVer: 4.4
 LastRelease: 2013-05-16
-Target:  6
-OS: 1
+Target: Security
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: Spanish
-State: 4
-Media:  3 6
-Architecture:  2 1
+State: Active
+Media: CD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 309
 Name: Windows PE
@@ -6478,16 +6478,16 @@ SizeMin: 700
 SizeMax: 2048
 StableVer: 4
 LastRelease: 2012-07-31
-Target:  4 2 0
-OS: 0
+Target: OS Installation Rescue System Administration
+OS: Windows
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 4
-Architecture:  2 1
+State: Active
+Media: CD DVD
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 310
 Name: Windows To Go
@@ -6499,16 +6499,16 @@ SizeMin: 20000
 SizeMax: 20000
 StableVer: 8.1
 LastRelease: 2013-10-17
-Target:  1
-OS: 0
+Target: Desktop
+OS: Windows
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  6
-Architecture:  1 2
+State: Active
+Media: USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 311
 Name: WOMP!
@@ -6520,16 +6520,16 @@ SizeMin: 13
 SizeMax: 30
 StableVer: 0.6beta3
 LastRelease: 2005-03-21
-Target:  7
-OS: 1
+Target: Home Entertainment
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: 
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 312
 Name: X-Evian
@@ -6541,16 +6541,16 @@ SizeMin: 633
 SizeMax: 633
 StableVer: 2
 LastRelease: 2007-07-11
-Target:  14
-OS: 1
+Target: Media Production
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 313
 Name: XBMCbuntu
@@ -6562,16 +6562,16 @@ SizeMin: 669
 SizeMax: 677
 StableVer: 13
 LastRelease: 2014-05-04
-Target:  7
-OS: 1
+Target: Home Entertainment
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3 6
-Architecture:  1
+State: Active
+Media: CD USB Flash Drive
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 314
 Name: Xebian
@@ -6583,16 +6583,16 @@ SizeMin: 54
 SizeMax: 54
 StableVer: 
 LastRelease: 2005-06-28
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  6
+State: Inactive
+Media: CD
+Architecture: Xbox
 Note: 
-Rating: 0
+Rating: 
 
 Number: 315
 Name: Xfld
@@ -6604,16 +6604,16 @@ SizeMin: 650
 SizeMax: 650
 StableVer: 0.3
 LastRelease: 2006-10-29
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  3
-Architecture:  1
+State: Inactive
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 316
 Name: xPUD
@@ -6625,16 +6625,16 @@ SizeMin: 64
 SizeMax: 64
 StableVer: 0.9.2
 LastRelease: 2010-01-18
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 3
-Media:  6 3
-Architecture:  1
+State: Inactive
+Media: MiniCD CD USB Flash Drive
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 317
 Name: Xubuntu
@@ -6646,16 +6646,16 @@ SizeMin: 1184
 SizeMax: 1187
 StableVer: 16.04
 LastRelease: 2016-04-21
-Target:  2 1
-OS: 1
+Target: Desktop OS Installation
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  4 6
-Architecture:  1 2
+State: Active
+Media: DVD USB Flash Drive
+Architecture: x86 x86-64
 Note: 
-Rating: 0
+Rating: 
 
 Number: 318
 Name: Zenwalk Live
@@ -6667,16 +6667,16 @@ SizeMin: 687
 SizeMax: 687
 StableVer: 7.2
 LastRelease: 2012-10-11
-Target:  1
-OS: 1
+Target: Desktop
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
 Number: 319
 Name: Zeroshell
@@ -6688,14 +6688,14 @@ SizeMin: 187
 SizeMax: 187
 StableVer: 2.0.RC1
 LastRelease: 2012-07-25
-Target:  11
-OS: 1
+Target: Firewall
+OS: Linux
 BasedOS: 
-License: 0
+License: 
 Language: English
-State: 4
-Media:  3
-Architecture:  1
+State: Active
+Media: CD
+Architecture: x86
 Note: 
-Rating: 0
+Rating: 
 
