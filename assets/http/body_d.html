@@ -3,22 +3,17 @@
   {{template "nav" .}}
       <br>
         <main>
-        	<div align="center">
-        		<div> Distributiv </div>
-        		<div> {{.Number}} </div>
-        		<div> {{.Name}} </div>
-        		<div> {{.Homepage}} </div>
-        		<div> {{.Download}} </div> 
-        		<div> {{.Wikipedia}} </div>
-        		<div> {{.Distrowatch}} </div>
-        		<div> {{.SizeMin}} </div>
-        		<div> {{.SizeMax}} </div>
-        		<div> {{.StableVer}} </div>
-        		<div> {{.LastRelease}} </div>
+						{{ $ss := .}}
+						{{ range $i , $v := index . 1}}
 
-        		<div> {{.OS }} </div>
-        		<div> {{.BasedOS }} </div>
-        	</div>		
+						<div class="row" style="background-color: #f0f0f0;">
+								<div class="col-lg-1" align="left"></div>
+								<div class="col-lg-2">{{index $ss 0 $i}}</div>
+								<div class="col-lg-7" align="left">{{$v}}</div>
+								<div class="col-lg-2" align="left"></div>
+						</div>
+
+						{{end}}
         </main>
 </body>
 {{end}}

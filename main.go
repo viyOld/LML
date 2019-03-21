@@ -16,89 +16,42 @@ import (
 	"github.com/go-chi/chi/middleware"
 )
 
-type listMediaLive struct {
-	Number       int
-	Name         string
-	Homepage     string
-	Download     string
-	Wikipedia    string
-	Distrowatch  string
-	SizeMin      int
-	SizeMax      int
-	StableVer    string
-	LastRelease  string
-	Target       []int
-	OS           byte
-	BasedOS      string
-	License      byte
-	Language     string // Primary Language(s):
-	State        byte
-	Media        []int
-	Architecture []int
-	Note         string
-	Rating       int
-}
-
 var (
-	lmlDB []listMediaLive
-
 	lml struct {
-		Field        []string // is slice Fields database
-		State        []string // State is slice livecikle distrib
-		Target       []string // Target is slice pupose distrib
-		OS           []string // OS is slice OS
-		Media        []string // Media is slice units for distribution
-		Architecture []string // Architecture is slice processor architecture
-		License      []string // License is slice licenses
-		DB           [][]string
+		Field        []string   // is slice Fields database
+		State        []string   // State is slice livecikle distrib
+		Target       []string   // Target is slice pupose distrib
+		OS           []string   // OS is slice OS
+		Media        []string   // Media is slice units for distribution
+		Architecture []string   // Architecture is slice processor architecture
+		License      []string   // License is slice licenses
+		DB           [][]string // Data base
 	}
 )
 
 func init() {
-	fmt.Println(" ")
-	fmt.Println("Start Init func: ")
-	fmt.Println(" ")
+	fmt.Print("\n \n ***** Start Init func ***** \n")
 
-	// readConf() читає конфігурацію з файлу //**************************
-	readValueDb() // читає з файлу можливі значення полей в мапи
-	// -----------------------------------------------------------------------
-	// for ind, vol := range lml.License {
-	// 	println("index = ", ind, " volume = ", vol)
-	// }
-	// fmt.Println(" ")
-	// -----------------------------------------------------------------------
-	//filename := "./db/DB.txt"
-	//readStartDb() // читає з файлу БД яка була на http://livecdlist.com/
+	//***** readConf() читає конфігурацію з файлу
 
-	// for i, v := range lml.db[1] {
-	// 	println("number = ", i, "volume = ", v)
-	// }
-	// -----------------------------------------------------------------------
+	readValueDb() // читає з файлу можливі значення полей в слайси
+
 	if _, err := os.Stat("./db/DB.txt"); os.IsNotExist(err) {
 		readStartDb() // читає з файлу БД яка була на http://livecdlist.com/
 	} else {
 		readDB() // читає БД з файла
 	}
 
-	for _, v := range lml.DB {
-		for j, vv := range v {
-			println("number = ", j, "volume = ", vv)
-		}
-		fmt.Println(" ")
-	}
-	fmt.Println(" ")
-
 	writeLMLdb() // пише БД в файл та робить копію попередньої
 
 	// checkLMLdb()  //перевірка посилань дистрибутивів
 
+	fmt.Print("\n \n ***** Init func succseful finish ***** \n")
 }
 
 func main() {
 
-	fmt.Println(" ")
-	fmt.Println("Start Main func: ")
-	fmt.Println(" ")
+	fmt.Print("\n \n ***** Start Main func ***** \n")
 
 	// для отдачи сервером статичных файлов из папки public/static
 	// fcss := http.FileServer(http.Dir("./assets/css"))
@@ -176,13 +129,21 @@ func serveHTTP() {
 	log.Fatal(http.ListenAndServe("127.0.0.1:8080", r))
 }
 
-// GetLML is
+// GetLML is create array for one distributiv
 func GetLML(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("DistribPage GET page ****")
 	ID := chi.URLParam(r, "id")
-	// ctx := r.Context()
-	// key := ctx.Value("key").(string)
-	fmt.Println(ID)
+	id, err := strconv.Atoi(ID)
+	if err != nil {
+		panic(err)
+	}
+	DistInfo := make([][]string, 2)
+	for i, v := range lml.Field {
+		DistInfo[0] = append(DistInfo[0], v)
+		DistInfo[1] = append(DistInfo[1], lml.DB[id-1][i])
+	}
+	// fmt.Println(ID)
+
 	parsedTemplate, err := template.ParseFiles(
 		"assets/http/index.html",
 		"assets/http/nav.html",
@@ -193,17 +154,11 @@ func GetLML(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		panic(err)
 	}
-	x, err := strconv.Atoi(ID)
-	if err != nil {
-		panic(err)
-	}
-	err = parsedTemplate.Execute(w, lmlDB[x])
-	if err != nil {
-		panic(err)
-	}
 
-	//w.Write([]byte("get lml " + val + id + " " + key + "\n"))
-	//w.Write([]byte("get lml " + " " + id + "\n"))
+	err = parsedTemplate.Execute(w, DistInfo)
+	if err != nil {
+		panic(err)
+	}
 }
 
 func httpHandler(w http.ResponseWriter, r *http.Request) {
@@ -227,85 +182,60 @@ func httpHandler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-func lmHandler(w http.ResponseWriter, r *http.Request) {
-	var htmlPage string
-	htmlPage = htmlPage + "<!DOCTYPE html> <html> <head> <meta charset=\"utf-8\" />"
-	htmlPage = htmlPage + "<meta name=\"Live Media List\" content=\"width=device-width, initial-scale=1.0\">"
-	htmlPage = htmlPage + "<title>LML</title>"
-	htmlPage = htmlPage + "<link href=\"/assets/css/bootstrap.min.css\" rel=\"stylesheet\">"
-	htmlPage = htmlPage + "<link rel=\"shortcut icon\" href=\"/assets/img/home36.png\" type=\"image\">"
-	htmlPage = htmlPage + "<script src=\"./assets/js/bootstrap.min.js\"></script></head>"
-	htmlPage = htmlPage + "<body>"
-	htmlPage = htmlPage + "<nav class=\"navbar navbar-expand-lg navbar-light bg-light\">"
-	htmlPage = htmlPage + "<a class=\"navbar-brand\" href=\"#\"> &nbsp LML</a>"
-	htmlPage = htmlPage + "<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavAltMarkup\" "
-	htmlPage = htmlPage + "aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\"> "
-	htmlPage = htmlPage + "<span class=\"navbar-toggler-icon\"></span></button> "
-	htmlPage = htmlPage + "<div class=\"collapse navbar-collapse\" id=\"navbarNavAltMarkup\">"
-	htmlPage = htmlPage + "<div class=\"navbar-nav\">"
-	htmlPage = htmlPage + "<a class=\"nav-item nav-link active\" href=\"/\">Home <span class=\"sr-only\">(current)</span></a>"
-	htmlPage = htmlPage + "<a class=\"nav-item nav-link\" href=\"#\">News</a>"
-	htmlPage = htmlPage + "<a class=\"nav-item nav-link\" href=\"#\">Info</a>"
-	htmlPage = htmlPage + "<a class=\"nav-item nav-link\" href=\"#\">Tests</a>"
-	htmlPage = htmlPage + "<a class=\"nav-item nav-link\" href=\"#\">About</a>"
-	htmlPage = htmlPage + "<a class=\"nav-item nav-link\" href=\"#\">Profile</a>"
-	htmlPage = htmlPage + "<a class=\"nav-item nav-link\" href=\"../auth/sign-up\">Sign Up</a>"
-	htmlPage = htmlPage + "<a class=\"nav-item nav-link\" href=\"../auth/login\">Login</a>"
-	htmlPage = htmlPage + "<a class=\"nav-item nav-link disabled\" alifn=\"left\" href=\"#\">Disabled</a>"
-	htmlPage = htmlPage + "</div> </div> </nav>"
-	htmlPage = htmlPage + "<h1 class=\"display-3\">" + lmlDB[0].Name + "</h1>"
-	htmlPage = htmlPage + "<div class=\"card\" >" //style=\"width: 18rem;\"
-	htmlPage = htmlPage + "<ul class=\"list-group list-group-flush\">"
-	htmlPage = htmlPage + "<li class=\"list-group-item\">" + "Homepage: " + lmlDB[0].Homepage + "</li>"
-	htmlPage = htmlPage + "<li class=\"list-group-item\">" + "Download: " + lmlDB[0].Download + "</li>"
-	htmlPage = htmlPage + "<li class=\"list-group-item\">" + "Wikipedia: " + lmlDB[0].Wikipedia + "</li>"
-	htmlPage = htmlPage + "<li class=\"list-group-item\">" + "Distrowatch: " + lmlDB[0].Distrowatch + "</li>"
-	htmlPage = htmlPage + "</ul> </div>"
-	//htmlPage = htmlPage +
-
-	//htmlPage = htmlPage + "<p>Привет, мир</p>"
-	htmlPage = htmlPage + "</body>"
-	htmlPage = htmlPage + "<footer class=\"footer footer-fixed-bottom font-small gray pt-4\">"
-	//footer mt-auto py-3 page-   navbar-fixed-bottom
-	htmlPage = htmlPage + "<div class=\"footer-copyright text-center py-3\">© 2019 Copyright:"
-	htmlPage = htmlPage + "<a href=\"https://www.orbis.com.ua/\"> Trident</a>"
-	htmlPage = htmlPage + "</div> </footer> </html>"
-
-	//</html>"
-	fmt.Fprintf(w, htmlPage)
-}
-
 func checkLMLdb() {
-	for ii, v := range lmlDB {
-		if v.State == 0 { // Dead is dead
-			continue
-		}
-		// if v.Homepage == "" {
-		// 	fmt.Println("For distributiva: " + v.Name + " homepage = nill")
-		// 	continue
-		// }
-		go checkURL(ii)
-	}
+	// for ii, v := range lmlDB {
+	// 	if v.State == 0 { // Dead is dead
+	// 		continue
+	// 	}
+	// 	// if v.Homepage == "" {
+	// 	// 	fmt.Println("For distributiva: " + v.Name + " homepage = nill")
+	// 	// 	continue
+	// 	// }
+	// 	go checkURL(ii)
+	// }
 
 }
 
 func checkURL(ii int) {
-	fmt.Println("Check: " + lmlDB[ii].Name)
-	resp, err := http.Get(lmlDB[ii].Homepage)
+	fmt.Println("Check: " + "lmlDB[ii].Name")
+	// resp, err := http.Get(lmlDB[ii].Homepage)
 
-	if err != nil {
-		fmt.Println("For distributiva: "+lmlDB[ii].Name+" error connect with homepage", err)
-		//continue
-		return
-	}
-	defer resp.Body.Close()
+	// if err != nil {
+	// 	fmt.Println("For distributiva: "+lmlDB[ii].Name+" error connect with homepage", err)
+	// 	//continue
+	// 	return
+	// }
+	// defer resp.Body.Close()
 
-	if resp.StatusCode != 200 {
-		fmt.Println("For distributiva: "+lmlDB[ii].Name+" error. http-статус: ", resp.StatusCode)
-		//continue
-		return
-	}
+	// if resp.StatusCode != 200 {
+	// 	fmt.Println("For distributiva: "+lmlDB[ii].Name+" error. http-статус: ", resp.StatusCode)
+	// 	//continue
+	// 	return
+	// }
 
-	fmt.Println("For distributiva: "+lmlDB[ii].Name+" homepage online. http-статус: ", resp.StatusCode)
+	// fmt.Println("For distributiva: "+lmlDB[ii].Name+" homepage online. http-статус: ", resp.StatusCode)
 
 }
+
+// type listMediaLive struct {
+// 	Number       int
+// 	Name         string
+// 	Homepage     string
+// 	Download     string
+// 	Wikipedia    string
+// 	Distrowatch  string
+// 	SizeMin      int
+// 	SizeMax      int
+// 	StableVer    string
+// 	LastRelease  string
+// 	Target       []int
+// 	OS           byte
+// 	BasedOS      string
+// 	License      byte
+// 	Language     string // Primary Language(s):
+// 	State        byte
+// 	Media        []int
+// 	Architecture []int
+// 	Note         string
+// 	Rating       int
+// }
